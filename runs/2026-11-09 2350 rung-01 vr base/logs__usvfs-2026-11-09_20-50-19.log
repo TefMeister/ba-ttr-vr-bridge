@@ -1,0 +1,758 @@
+usvfs dll 0.5.6.1 initialized in process 16164
+remove from process 16164
+create config in 16164
+0 processes
+mod_organizer_instance_1 created in process 16164
+attached to mod_organizer_instance_1 with 1 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 created in process 16164
+attached to inv_mod_organizer_instance_1 with 1 nodes, size 131,072 B
+context current shm: mod_organizer_instance (now 2 connections)
+clearing blacklist
+blacklisting 'Chrome.exe'
+blacklisting 'Firefox.exe'
+blacklisting 'TSVNCache.exe'
+blacklisting 'TGitCache.exe'
+blacklisting 'Steam.exe'
+blacklisting 'GameOverlayUI.exe'
+blacklisting 'Discord.exe'
+blacklisting 'GalaxyClient.exe'
+blacklisting 'Spotify.exe'
+blacklisting 'Brave.exe'
+clearing skip file suffixes
+added skip file suffix '.mohidden'
+clearing skip directories
+added skip directory '.git'
+clearing forced libraries
+file 'wastelandnv.level4.x20.y0.nif.mohidden' should be skipped, matches file suffix '.mohidden'
+file 'wastelandnv.level4.x24.y16.nif.mohidden' should be skipped, matches file suffix '.mohidden'
+file 'nvlucky38elevatordoor_n.dds.mohidden' should be skipped, matches file suffix '.mohidden'
+file 'vdoorslidingr01_n.dds.mohidden' should be skipped, matches file suffix '.mohidden'
+file 'vgeardoorr003_n.dds.mohidden' should be skipped, matches file suffix '.mohidden'
+file 'wastelandnv.buildings.dds.mohidden' should be skipped, matches file suffix '.mohidden'
+clearing forced libraries
+injecting to process 10492 with different bitness
+using usvfs proxy: C:\Modlists\Begin Again\usvfs_proxy_x86.exe
+instance: mod_organizer_instance
+exe: 
+pid: 10492
+size: 65536
+addr: 0x17b0000
+objs: 1
+injecting to process 10492 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x86.dll
+injection to same bitness process 10492 successful
+proxy run successful
+usvfs dll 0.5.6.1 initialized in process 10492
+inithooks called mod_organizer_instance in process C:\Steam\steamapps\common\Fallout New Vegas\FalloutNV.exe:10492 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 10492
+0 processes
+mod_organizer_instance_1 opened in process 10492
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 10492
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 10492
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x76ee0a50) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x76ecffb0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetFileAttributesW (0x76fd4e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateDirectoryW (0x76ebda40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x76fd1430) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x76eeccb0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x76fd8790) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x76fd8960) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x76fd8b30) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x76fd8bd0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x777322c0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x76ee1820) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x76a50860) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x76a50a00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x76a50890) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x76f759e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x76a50a30) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x76f763e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x76f74220) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x76f74060) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x76a4d830) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x76a4d980) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x76a4d6a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x76a4d790) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x76a4df10) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x76a4df60) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x76fd8980) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x76eea280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x76ed0000) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x77779760) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x77778610) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x77778590) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x77779720) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x77778570) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x77778790) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x77778310) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x77778500) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x76ed0450) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x76edf9a0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 10492 successful
+injecting to process 14980 with different bitness
+using usvfs proxy: C:\Modlists\Begin Again\usvfs_proxy_x64.exe
+instance: mod_organizer_instance
+exe: 
+pid: 14980
+size: 65536
+addr: 0x1f35def0000
+objs: 1
+injecting to process 14980 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 14980 successful
+injecting to process 8728 with different bitness
+using usvfs proxy: C:\Modlists\Begin Again\usvfs_proxy_x64.exe
+instance: mod_organizer_instance
+exe: 
+pid: 8728
+size: 65536
+addr: 0x21ce9fd0000
+objs: 1
+injecting to process 8728 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 8728 successful
+usvfs dll 0.5.6.1 initialized in process 8728
+inithooks called mod_organizer_instance in process C:\Steam\bin\x64launcher.exe:8728 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 8728
+1 processes
+mod_organizer_instance_1 opened in process 8728
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 8728
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 8728
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 8728 successful
+releasing hook context
+3 users left
+injecting to process 5356 with different bitness
+using usvfs proxy: C:\Modlists\Begin Again\usvfs_proxy_x64.exe
+instance: mod_organizer_instance
+exe: 
+pid: 5356
+size: 65536
+addr: 0x1a4d0cd0000
+objs: 1
+injecting to process 5356 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 5356 successful
+usvfs dll 0.5.6.1 initialized in process 5356
+inithooks called mod_organizer_instance in process C:\Steam\bin\x64launcher.exe:5356 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 5356
+1 processes
+mod_organizer_instance_1 opened in process 5356
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 5356
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 5356
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 5356 successful
+releasing hook context
+3 users left
+usvfs dll 0.5.6.1 initialized in process 14980
+inithooks called mod_organizer_instance in process C:\Modlists\Begin Again\mods\TTWVR 1.0.0\NVSE\Plugins\TTWVR\ttwvr_dlss_host.exe:14980 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 14980
+1 processes
+mod_organizer_instance_1 opened in process 14980
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 14980
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 14980
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+existing hook to 7ff9350a000a in unknown
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type chained patch
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 14980 successful
+injecting to process 15504 with different bitness
+using usvfs proxy: C:\Modlists\Begin Again\usvfs_proxy_x64.exe
+instance: mod_organizer_instance
+exe: 
+pid: 15504
+size: 65536
+addr: 0x2c17c4d0000
+objs: 1
+injecting to process 15504 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 15504 successful
+injecting to process 5088 with different bitness
+using usvfs proxy: C:\Modlists\Begin Again\usvfs_proxy_x64.exe
+instance: mod_organizer_instance
+exe: 
+pid: 5088
+size: 65536
+addr: 0x21df38c0000
+objs: 1
+injecting to process 5088 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 5088 successful
+usvfs dll 0.5.6.1 initialized in process 5088
+inithooks called mod_organizer_instance in process C:\Steam\bin\x64launcher.exe:5088 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 5088
+2 processes
+mod_organizer_instance_1 opened in process 5088
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 5088
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 5088
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 5088 successful
+releasing hook context
+4 users left
+injecting to process 7992 with different bitness
+using usvfs proxy: C:\Modlists\Begin Again\usvfs_proxy_x64.exe
+instance: mod_organizer_instance
+exe: 
+pid: 7992
+size: 65536
+addr: 0x20f933e0000
+objs: 1
+injecting to process 7992 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 7992 successful
+usvfs dll 0.5.6.1 initialized in process 7992
+inithooks called mod_organizer_instance in process C:\Steam\bin\x64launcher.exe:7992 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 7992
+2 processes
+mod_organizer_instance_1 opened in process 7992
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 7992
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 7992
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+injecting to process 2612 with same bitness
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 7992 successful
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+releasing hook context
+4 users left
+injection to same bitness process 2612 successful
+injecting to process 19156 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 19156 successful
+injecting to process 19660 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 19660 successful
+usvfs dll 0.5.6.1 initialized in process 2612
+inithooks called mod_organizer_instance in process C:\WINDOWS\System32\DriverStore\FileRepository\nvmdi.inf_amd64_c8fe3aa22cae8673\nvngx_update.exe:2612 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 2612
+2 processes
+mod_organizer_instance_1 opened in process 2612
+injecting to process 7420 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 2612
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 2612
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+injection to same bitness process 7420 successful
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 2612 successful
+usvfs dll 0.5.6.1 initialized in process 19156
+inithooks called mod_organizer_instance in process C:\WINDOWS\System32\DriverStore\FileRepository\nvmdi.inf_amd64_c8fe3aa22cae8673\nvngx_update.exe:19156 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 19156
+3 processes
+mod_organizer_instance_1 opened in process 19156
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 19156
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 19156
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 19156 successful
+usvfs dll 0.5.6.1 initialized in process 15504
+inithooks called mod_organizer_instance in process C:\Modlists\Begin Again\mods\TTWVR 1.0.0\NVSE\Plugins\TTWVR\ttwvr_voice_host.exe:15504 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 15504
+4 processes
+mod_organizer_instance_1 opened in process 15504
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 15504
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 15504
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+usvfs dll 0.5.6.1 initialized in process 19660
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+inithooks called mod_organizer_instance in process C:\WINDOWS\System32\DriverStore\FileRepository\nvmdi.inf_amd64_c8fe3aa22cae8673\nvngx_update.exe:19660 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+access existing config in 19660
+5 processes
+mod_organizer_instance_1 opened in process 19660
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inv_mod_organizer_instance_1 opened in process 19660
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+Process registered in shared process list : 19660
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff9350a000a in unknown
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type chained patch
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 15504 successful
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 19660 successful
+usvfs dll 0.5.6.1 initialized in process 7420
+inithooks called mod_organizer_instance in process C:\WINDOWS\System32\DriverStore\FileRepository\nvmdi.inf_amd64_c8fe3aa22cae8673\nvngx_update.exe:7420 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 7420
+6 processes
+mod_organizer_instance_1 opened in process 7420
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 7420
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 7420
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 7420 successful
+injecting to process 12352 with same bitness
+dll path: C:\Modlists\Begin Again\usvfs_x64.dll
+injection to same bitness process 12352 successful
+usvfs dll 0.5.6.1 initialized in process 12352
+inithooks called mod_organizer_instance in process C:\WINDOWS\System32\DriverStore\FileRepository\nvmdi.inf_amd64_c8fe3aa22cae8673\nvngx_update.exe:12352 (log level 1, dump type 1, dump path C:/Modlists/Begin Again/crashDumps)
+access existing config in 12352
+7 processes
+mod_organizer_instance_1 opened in process 12352
+attached to mod_organizer_instance_1 with 6367 nodes, size 4,194,304 B
+inv_mod_organizer_instance_1 opened in process 12352
+attached to inv_mod_organizer_instance_1 with 213 nodes, size 131,072 B
+Process registered in shared process list : 12352
+Windows version 10.0.26200 sp 0 platform 2 (26100.1.amd64fre.ge_release.240331-1435)
+hooked GetFileAttributesExW (0x7ff935233f40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFileAttributesW (0x7ff93527d320) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+existing hook to 7ff93528cd00 in C:\WINDOWS\System32\KERNELBASE.dll
+hooked SetFileAttributesW (0x7ff936c274a0) in C:\WINDOWS\System32\KERNEL32.DLL type chained patch
+hooked CreateDirectoryW (0x7ff93528b270) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked RemoveDirectoryW (0x7ff935311690) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked DeleteFileW (0x7ff9352e3e00) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryA (0x7ff935316280) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetCurrentDirectoryW (0x7ff9352fa2d0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryA (0x7ff93531fff0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked SetCurrentDirectoryW (0x7ff935215920) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked ExitProcess (0x7ff937f3eef0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CreateProcessInternalW (0x7ff93528d6e0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileA (0x7ff936c3ec00) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileW (0x7ff936c0e3e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExA (0x7ff936bdacf0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileExW (0x7ff9352fcaf0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked MoveFileWithProgressA (0x7ff936c226a0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked MoveFileWithProgressW (0x7ff9352fcb40) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFileExW (0x7ff9352dde20) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked CopyFile2 (0x7ff9352dd6f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetPrivateProfileStringA (0x7ff936c0ff40) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileStringW (0x7ff936c0afc0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionA (0x7ff936c13610) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetPrivateProfileSectionW (0x7ff936bdf0b0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringA (0x7ff936c131e0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked WritePrivateProfileStringW (0x7ff936bdd2f0) in C:\WINDOWS\System32\KERNEL32.DLL type overwrite
+hooked GetFullPathNameA (0x7ff9352fe670) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetFullPathNameW (0x7ff935232e90) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked FindFirstFileExW (0x7ff93527c9f0) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked NtQueryFullAttributesFile (0x7ff938024770) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryAttributesFile (0x7ff9380224e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFile (0x7ff9380223e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtQueryDirectoryFileEx (0x7ff9380246f0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtOpenFile (0x7ff9380223a0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtCreateFile (0x7ff9380227e0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtClose (0x7ff938021f20) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked NtTerminateProcess (0x7ff9380222c0) in C:\WINDOWS\SYSTEM32\ntdll.dll type overwrite
+hooked LoadLibraryExW (0x7ff935231150) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+hooked GetModuleFileNameW (0x7ff9352c4020) in C:\WINDOWS\System32\KERNELBASE.dll type overwrite
+inithooks in process 12352 successful
+releasing hook context
+9 users left
+releasing hook context
+8 users left
+releasing hook context
+7 users left
+releasing hook context
+6 users left
+releasing hook context
+5 users left
+releasing hook context
+4 users left

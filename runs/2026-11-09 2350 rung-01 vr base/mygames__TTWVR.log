@@ -1,0 +1,109 @@
+[22:50:21.379] INFO  TTWVR 1.0.0 loading (xNVSE 06040070), build 6AF014A8
+[22:50:21.381] INFO  Settings: built in + the VR menu's choices in C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\TTWVR\TTWVR.ini
+[22:50:27.961] INFO  [input] the game's control read hooked: keys count with the pad connected
+[22:50:28.929] WARN  OpenXR: 32-bit layer 'XR_APILAYER_NOVENDOR_OBSMirror' (~\AppData\Local\OpenXR-OBSMirror\.\XR_APILAYER_NOVENDOR_OBSMirror.292629488385.dll): its library is 64-bit - switched off for this game
+[22:50:28.955] WARN  OpenXR: 32-bit layer 'XR_APILAYER_ELLIOTTTATE_xrfps' (~\AppData\Local\xrFPS\.\XrApiLayer_xrfps.7070ca21200.dll): its library is 64-bit - switched off for this game
+[22:50:28.979] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_hand_freeze' (~\AppData\Local\Programs\HandFreeze\hand_freeze_layer.dll): its library is 64-bit - switched off for this game
+[22:50:29.036] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_window_view' (~\AppData\Local\Programs\WindowView\window_view_layer.dll): its library is 64-bit - switched off for this game
+[22:50:29.157] INFO  OpenXR: runtime 'VirtualDesktopXR' 1.1.0
+[22:50:29.204] INFO  OpenXR: system 'Meta Quest 3' (swapchains up to 16384x16384)
+[22:50:29.206] INFO  OpenXR: DXGI adapter 0: NVIDIA GeForce <pc> 5080 (3072 MB VRAM) = THE HEADSET RUNTIME'S
+[22:50:29.426] INFO  VR backend: OpenXR
+[22:50:35.465] INFO  OpenXR: the runtime displays a frame every 13.89 ms (72 Hz)
+[22:50:35.465] INFO  [camtrack] no body tracking and no Virtual Desktop body: the body is solved from the headset and the controllers (floor from the play space); body follow radius 0.050 m, pouch accept 0.150 m
+[22:50:35.465] INFO  Head tracking active (OpenXR)
+[22:50:42.249] WARN  [aim] no 'ProjectileNode' in this weapon mesh; firing from 0.25 m ahead of the grip, held in the standard mesh frame (barrel +X, up +Y)
+[22:50:52.932] WARN  [hang] the game's main loop has not turned for 8.2 s (a long load screen looks the same). Main thread 3780:
+[22:50:52.932] WARN  [hang]   at EIP 85CB206E = nvwgf2um.dll+0xD8206E | ESP 001AB418 EBP 001AB7B0
+[22:50:52.932] WARN  [hang]   ESP+0x8: return to nvwgf2um.dll+0x5C3564 (854F3564)
+[22:50:52.933] WARN  [hang]   ESP+0x38C: return to ntdll.dll+0x41CF2 (77741CF2)
+[22:50:52.933] WARN  [hang]   ESP+0x39C: return to nvwgf2um.dll+0x5794DF (854A94DF)
+[22:50:52.933] WARN  [hang]   ESP+0x3DC: return to ntdll.dll+0x95F9E (77795F9E)
+[22:50:52.933] WARN  [hang]   ESP+0x3F8: return to virtualdesktop-openxr-32.dll+0xAB31D (38A6B31D)
+[22:50:52.933] WARN  [hang]   ESP+0x408: return to virtualdesktop-openxr-32.dll+0xA18E8 (38A618E8)
+[22:50:52.933] WARN  [hang]   ESP+0x414: return to virtualdesktop-openxr-32.dll+0xA18F9 (38A618F9)
+[22:50:52.933] WARN  [hang]   ESP+0x428: return to nvwgf2um.dll+0x56B2FF (8549B2FF)
+[22:50:52.933] WARN  [hang]   ESP+0x458: return to virtualdesktop-openxr-32.dll+0x4CEE6 (38A0CEE6)
+[22:50:52.933] WARN  [hang]   ESP+0x478: return to d3d11.dll+0x1B0A11 (702B0A11)
+[22:50:52.933] WARN  [hang]   ESP+0x4B0: return to ntdll.dll+0x51719 (77751719)
+[22:50:52.933] WARN  [hang]   ESP+0x4C0: return to d3d11.dll+0x313D2 (701313D2)
+[22:50:52.933] WARN  [hang]   ESP+0x4CC: return to d3d11.dll+0x30BEC (70130BEC)
+[22:50:52.933] WARN  [hang]   ESP+0x4F4: return to d3d11.dll+0x30AB7 (70130AB7)
+[22:50:52.934] WARN  [hang]   ESP+0x524: return to d3d11.dll+0x19C066 (7029C066)
+[22:50:52.934] WARN  [hang]   ESP+0x574: return to TTWVR.dll+0x551F5F (54441F5F)
+[22:50:52.934] WARN  [hang]   ESP+0x60C: return to TTWVR.dll+0x550C1A (54440C1A)
+[22:50:52.934] WARN  [hang]   ESP+0x628: return to TTWVR.dll+0x5663FB (544563FB)
+[22:50:52.934] WARN  [hang]   ESP+0x6D4: return to TTWVR.dll+0x56CED1 (5445CED1)
+[22:50:52.935] WARN  [hang]   ESP+0x7E0: return to dcomp.dll+0x12E893 (3FD2E893)
+[22:50:52.935] WARN  [hang]   ESP+0x1164: return to TTWVR.dll+0x56ACAD (5445ACAD)
+[22:50:52.935] WARN  [hang]   ESP+0x11D0: return to ttwvr_dxvk_d3d9.dll+0x29D1AD (53D7D1AD)
+[22:50:52.935] WARN  [hang]   ESP+0x11F0: return to ttwvr_dxvk_d3d9.dll+0x49D12 (53B29D12)
+[22:50:52.935] WARN  [hang]   ESP+0x1204: return to ttwvr_dxvk_d3d9.dll+0x37C6A (53B17C6A)
+[22:50:52.935] WARN  [hang]   ESP+0x1214: return to ttwvr_dxvk_d3d9.dll+0x3818F (53B1818F)
+[22:50:52.935] WARN  [hang]   ESP+0x123C: return to USER32.dll+0x74775 (75854775)
+[22:50:52.935] WARN  [hang]   ESP+0x1264: return to USER32.dll+0x2702C (7580702C)
+[22:50:52.935] WARN  [hang]   ESP+0x1284: return to ttwvr_dxvk_d3d9.dll+0x27F7F (53B07F7F)
+[22:50:52.935] WARN  [hang]   ESP+0x12B4: return to ttwvr_dxvk_d3d9.dll+0x2C41A (53B0C41A)
+[22:50:52.935] WARN  [hang]   ESP+0x12D8: return to TTWVR.dll+0x51A509 (5440A509)
+[22:50:52.935] WARN  [hang]   ESP+0x12E0: return to TTWVR.dll+0x456196 (54346196)
+[22:50:52.936] WARN  [hang]   ESP+0x12EC: return to GameOverlayRenderer.dll+0x7911A (5226911A)
+[22:50:52.936] WARN  [hang]   ESP+0x1360: return to FalloutNV.exe+0xAC13F6 (00EC13F6)
+[22:50:52.936] WARN  [hang]   ESP+0x1390: return to ntdll.dll+0x61451 (77761451)
+[22:50:52.936] WARN  [hang]   ESP+0x13BC: return to ttwvr_dxvk_d3d9.dll+0x29E03D (53D7E03D)
+[22:50:52.936] WARN  [hang]   ESP+0x13C8: return to ntdll.dll+0x61160 (77761160)
+[22:50:52.936] WARN  [hang]   ESP+0x13F8: return to FalloutNV.exe+0x3A84E3 (007A84E3)
+[22:50:52.936] WARN  [hang]   ESP+0x1434: return to FalloutNV.exe+0x3EB8B6 (007EB8B6)
+[22:50:52.936] WARN  [hang]   ESP+0x1448: return to FalloutNV.exe+0xAC0F6E (00EC0F6E)
+[22:50:52.937] WARN  [hang]   ESP+0x1498: return to FalloutNV.exe+0xAC2445 (00EC2445)
+[22:50:52.937] WARN  [hang]   ESP+0x14D4: return to FalloutNV.exe+0x42522 (00442522)
+[22:50:52.937] WARN  [hang]   ESP+0x14E0: return to FalloutNV.exe+0x46F87 (00446F87)
+[22:50:52.937] WARN  [hang]   ESP+0x14EC: return to FalloutNV.exe+0xB34BCA (00F34BCA)
+[22:50:52.937] WARN  [hang]   ESP+0x14F8: return to FalloutNV.exe+0x1D16D9 (005D16D9)
+[22:50:52.937] WARN  [hang]   ESP+0x173C: return to FalloutNV.exe+0x1E234B (005E234B)
+[22:50:52.937] WARN  [hang]   ESP+0x1C64: return to VirtualDesktop.LibOVRRT32_1.dll+0x74AB (378B74AB)
+[22:50:52.937] WARN  [hang]   ESP+0x1CFC: return to VirtualDesktop.LibOVRRT32_1.dll+0x6B7C (378B6B7C)
+[22:50:52.937] WARN  [hang]   ESP+0x1D04: return to VirtualDesktop.LibOVRRT32_1.dll+0x6BFC (378B6BFC)
+[22:50:52.937] WARN  [hang] the game's GPU device: alive (the freeze is not a lost device)
+[22:50:52.937] WARN  [hang] the last GPU work NVVR gave the game's device (oldest first):
+[22:50:52.937] WARN  [hang]   8.391 s ago: upscaler copy: frame 133 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.391 s ago: upscaler copy: frame 133 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.375 s ago: upscaler copy: frame 134 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.375 s ago: upscaler copy: frame 134 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.360 s ago: upscaler copy: frame 135 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.360 s ago: upscaler copy: frame 135 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.344 s ago: upscaler copy: frame 136 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.344 s ago: upscaler copy: frame 136 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.328 s ago: upscaler copy: frame 137 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.328 s ago: upscaler copy: frame 137 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.313 s ago: upscaler copy: frame 138 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.313 s ago: upscaler copy: frame 138 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.297 s ago: upscaler copy: frame 139 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.297 s ago: upscaler copy: frame 139 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.297 s ago: upscaler copy: frame 140 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.297 s ago: upscaler copy: frame 140 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.282 s ago: upscaler copy: frame 141 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.282 s ago: upscaler copy: frame 141 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.266 s ago: upscaler copy: frame 142 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.266 s ago: upscaler copy: frame 142 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.250 s ago: upscaler copy: frame 143 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.250 s ago: upscaler copy: frame 143 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.235 s ago: upscaler copy: frame 144 eye 0 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:52.937] WARN  [hang]   8.235 s ago: upscaler copy: frame 144 eye 1 of 3, 2944x2208 (depth D24, velocity no)
+[22:50:53.416] WARN  [hang] minidump of the frozen game (8 s): ~\Documents\My Games\FalloutNV\TTWVR-hang-3059578.dmp (written)
+[22:52:45.994] WARN  [hang] the main loop is turning again (it had stopped for 121.3 s)
+[22:58:07.931] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[22:58:41.203] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[22:58:47.383] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:12:07.208] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:18:07.982] WARN  [armmap] an image (32x32, format 861165636, pool 0) could not be read
+[23:20:14.235] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:22:40.419] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:23:11.797] WARN  [aim] no 'ProjectileNode' in this weapon mesh; firing from 0.25 m ahead of the grip, held in the standard mesh frame (barrel +X, up +Y)
+[23:24:05.062] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:24:05.464] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:24:48.138] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:25:17.756] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:26:31.493] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:26:38.361] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[23:37:55.026] WARN  [armmap] an image (32x32, format 861165636, pool 0) could not be read
+[23:44:13.584] INFO  The game is exiting: asked to by the player (a log that ends here is no crash)

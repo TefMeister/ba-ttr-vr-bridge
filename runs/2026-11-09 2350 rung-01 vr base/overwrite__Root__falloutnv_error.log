@@ -1,0 +1,365 @@
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackright.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackright_a.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackright_b.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackrightis.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mm_uniq\_1stperson\1hpattackright.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mm_uniq\_1stperson\1hpattackright_additive.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mm_uniq\_1stperson\1hpattackrightis.kf'.
+MENUS: Action link defined outside of any trait.
+ANIMATION: (AttackLoop) too many blend values in "Characters\_1stPerson\2hlattackloop.kf". Blend 1, BlendIn 1, BlendOut 0
+ANIMATION: Animation group note problem. See ~\Documents\My Games\FalloutNV\Warnings.txt file.
+MODELS: Could not get file for texture textures\characters\bodymods\taleoftwowastelands.esm\00000007modbodymale.dds.
+MODELS: Could not get file for texture textures\characters\facemods\taleoftwowastelands.esm\00000007_0.dds.
+MODELS: LoadFile retrieved model Characters\Hair\HairBuzzCut.NIF with a zero ref count
+MODELS: Could not get file for Meshes\Armor\Chargen\SurgicalMask.egm.
+MODELS: LoadFile retrieved model Characters\Hair\HairDefaultFacegen.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairMessy02.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairMessy03.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairRaiderSide.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairRaiderSpike.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairBase.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairDefaultFacegen.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairChildF03.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairChildMCurly.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairChildMBase.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairChildMShort02.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairFemaleBOld.NIF with a zero ref count
+AI: Missing Holster animation for 'CG02AndyREF' (0609D1BB) weapon 'Buzzsaw'.
+MODELS: LoadFile retrieved model Characters\Hair\HairFemaleD.NIF with a zero ref count
+LoadedFile Meshes\Characters\Hair\HairFemaleDNoHat.egm was loaded at 532475868 and added to the map, but is being thrown away without being used
+MODELS: LoadFile retrieved model Characters\Hair\HairBun.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairDA.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairPompadour.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairFemaleA.NIF with a zero ref count
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\h2hfastbackward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\h2hbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\h2hfastbackward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\h2hbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\h2hfastbackward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\h2hbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\h2hfastbackward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\h2hbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 controllers and
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hpbackward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 controllers and
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 controllers and
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 controllers and
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hpbackward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hpbackward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 on 'Scene Root'.
+LoadedFile Meshes\Characters\Hair\HairBaseNoHat.egm was loaded at 551818372 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Hair\HairBaseHat.egm was loaded at 506352812 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\HeadHuman.egm was loaded at 552115932 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\MouthHuman.egm was loaded at 532349652 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\TeethLowerHuman.egm was loaded at 542333756 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\TeethUpperHuman.egm was loaded at 530939260 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\TongueHuman.egm was loaded at 542822556 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\EyeLeftHuman.egm was loaded at 492107460 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\EyeRightHuman.egm was loaded at 530908064 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Hair\BeardMustache.egm was loaded at 548223808 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Hair\BeardMustache.tri was loaded at 547491960 and added to the map, but is being thrown away without being used
+MODELS: LoadFile retrieved model Characters\Hair\HairBun.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairCurly.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairFemaleD.NIF with a zero ref count
+FalloutAudioMedia Synch: 42457 = abs(-/+ 42457 +/- 0)
+COMBAT: Officer Richards is in conversation so will not go into combat. Do not put startcombat in the dialogue results
+ANIMATION: Trying to SpecialIdleFree an animation 'Meshes\Characters\_Male\IdleAnims\MT_HitTorsoC.kf' that just started.
+MODELS: LoadFile retrieved model Weapons\2HandMelee\BaseballBat.NIF with a zero ref count
+MODELS: LoadFile retrieved model Weapons\1HandMelee\Baton.NIF with a zero ref count
+ANIMATION: Trying to SpecialIdleFree an animation 'Meshes\Characters\_Male\IdleAnims\MT_HitHeadB.kf' that just started.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpbackward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\1hpfastbackward.kf' has 60 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\2hmfastforward.kf' has 60 on 'Scene Root'.
+FalloutAudioMedia Synch: 33697 = abs(-/+ 33697 +/- 0)
+FalloutAudioMedia Synch: 74730 = abs(-/+ 74730 +/- 0)
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\1hmright.kf' has 61 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 controllers and
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 on 'Scene Root'.
+ANIMATION: Animation 'Characters\_Male\1hmattackleft_a.kf' doesn't have a 'prn: ...' to reparent the weapon bone.
+FalloutAudioMedia Synch: 93762 = abs(-/+ 93762 +/- 0)
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 controllers and
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hmbackward.kf' has 46 on 'Scene Root'.
+AI: Missing Holster animation for 'CG04Vault101Security03REF' (06064913) weapon 'NONE'.
+FalloutAudioMedia Synch: 111741 = abs(-/+ 111741 +/- 0)
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hmfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\1hpfastforward.kf' has 63 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hpbackward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hpbackward.kf' has 59 on 'Scene Root'.
+FalloutAudioMedia Synch: 84484 = abs(-/+ 84484 +/- 0)
+FalloutAudioMedia Synch: 118373 = abs(-/+ 118373 +/- 0)
+Not all texture swaps were performed.
+FalloutAudioMedia Synch: 49039 = abs(-/+ 49039 +/- 0)
+FalloutAudioMedia Synch: 506 = abs(-/+ 49595 +/- 49089)
+FalloutAudioMedia Synch: 505 = abs(-/+ 50150 +/- 49645)
+FalloutAudioMedia Synch: 505 = abs(-/+ 50705 +/- 50200)
+FalloutAudioMedia Synch: 506 = abs(-/+ 51261 +/- 50755)
+FalloutAudioMedia Synch: 513 = abs(-/+ 51824 +/- 51311)
+FalloutAudioMedia Synch: 510 = abs(-/+ 52384 +/- 51874)
+FalloutAudioMedia Synch: 503 = abs(-/+ 52937 +/- 52434)
+FalloutAudioMedia Synch: 506 = abs(-/+ 53493 +/- 52987)
+FalloutAudioMedia Synch: 505 = abs(-/+ 54048 +/- 53543)
+FalloutAudioMedia Synch: 506 = abs(-/+ 54604 +/- 54098)
+FalloutAudioMedia Synch: 506 = abs(-/+ 55160 +/- 54654)
+FalloutAudioMedia Synch: 505 = abs(-/+ 55715 +/- 55210)
+FalloutAudioMedia Synch: 506 = abs(-/+ 56271 +/- 55765)
+FalloutAudioMedia Synch: 506 = abs(-/+ 56827 +/- 56321)
+FalloutAudioMedia Synch: 504 = abs(-/+ 57381 +/- 56877)
+FalloutAudioMedia Synch: 506 = abs(-/+ 57937 +/- 57431)
+FalloutAudioMedia Synch: 505 = abs(-/+ 58492 +/- 57987)
+FalloutAudioMedia Synch: 507 = abs(-/+ 59049 +/- 58542)
+FalloutAudioMedia Synch: 505 = abs(-/+ 59604 +/- 59099)
+FalloutAudioMedia Synch: 507 = abs(-/+ 60161 +/- 59654)
+FalloutAudioMedia Synch: 506 = abs(-/+ 60717 +/- 60211)
+FalloutAudioMedia Synch: 506 = abs(-/+ 61273 +/- 60767)
+FalloutAudioMedia Synch: 505 = abs(-/+ 61828 +/- 61323)
+FalloutAudioMedia Synch: 505 = abs(-/+ 62383 +/- 61878)
+FalloutAudioMedia Synch: 505 = abs(-/+ 62938 +/- 62433)
+FalloutAudioMedia Synch: 510 = abs(-/+ 63498 +/- 62988)
+FalloutAudioMedia Synch: 509 = abs(-/+ 64057 +/- 63548)
+FalloutAudioMedia Synch: 506 = abs(-/+ 64613 +/- 64107)
+FalloutAudioMedia Synch: 506 = abs(-/+ 65169 +/- 64663)
+FalloutAudioMedia Synch: 506 = abs(-/+ 65724 +/- 65218)
+FalloutAudioMedia Synch: 506 = abs(-/+ 66280 +/- 65774)
+FalloutAudioMedia Synch: 506 = abs(-/+ 66836 +/- 66330)
+FalloutAudioMedia Synch: 505 = abs(-/+ 67391 +/- 66886)
+FalloutAudioMedia Synch: 505 = abs(-/+ 67946 +/- 67441)
+FalloutAudioMedia Synch: 506 = abs(-/+ 68502 +/- 67996)
+FalloutAudioMedia Synch: 506 = abs(-/+ 69058 +/- 68552)
+FalloutAudioMedia Synch: 504 = abs(-/+ 69612 +/- 69108)
+FalloutAudioMedia Synch: 507 = abs(-/+ 70169 +/- 69662)
+FalloutAudioMedia Synch: 506 = abs(-/+ 70725 +/- 70219)
+FalloutAudioMedia Synch: 506 = abs(-/+ 71281 +/- 70775)
+FalloutAudioMedia Synch: 504 = abs(-/+ 71835 +/- 71331)
+FalloutAudioMedia Synch: 506 = abs(-/+ 72391 +/- 71885)
+FalloutAudioMedia Synch: 506 = abs(-/+ 72947 +/- 72441)
+FalloutAudioMedia Synch: 510 = abs(-/+ 73507 +/- 72997)
+FalloutAudioMedia Synch: 506 = abs(-/+ 74063 +/- 73557)
+FalloutAudioMedia Synch: 505 = abs(-/+ 74618 +/- 74113)
+FalloutAudioMedia Synch: 505 = abs(-/+ 75173 +/- 74668)
+FalloutAudioMedia Synch: 507 = abs(-/+ 75730 +/- 75223)
+FalloutAudioMedia Synch: 511 = abs(-/+ 76291 +/- 75780)
+FalloutAudioMedia Synch: 511 = abs(-/+ 76852 +/- 76341)
+FalloutAudioMedia Synch: 506 = abs(-/+ 77408 +/- 76902)
+FalloutAudioMedia Synch: 505 = abs(-/+ 77963 +/- 77458)
+FalloutAudioMedia Synch: 506 = abs(-/+ 78519 +/- 78013)
+FalloutAudioMedia Synch: 506 = abs(-/+ 79075 +/- 78569)
+FalloutAudioMedia Synch: 505 = abs(-/+ 79630 +/- 79125)
+FalloutAudioMedia Synch: 511 = abs(-/+ 80191 +/- 79680)
+FalloutAudioMedia Synch: 506 = abs(-/+ 80747 +/- 80241)
+FalloutAudioMedia Synch: 504 = abs(-/+ 81301 +/- 80797)
+FalloutAudioMedia Synch: 506 = abs(-/+ 81857 +/- 81351)
+FalloutAudioMedia Synch: 511 = abs(-/+ 82418 +/- 81907)
+FalloutAudioMedia Synch: 507 = abs(-/+ 82975 +/- 82468)
+FalloutAudioMedia Synch: 506 = abs(-/+ 83531 +/- 83025)
+FalloutAudioMedia Synch: 506 = abs(-/+ 84087 +/- 83581)
+FalloutAudioMedia Synch: 505 = abs(-/+ 84642 +/- 84137)
+FalloutAudioMedia Synch: 505 = abs(-/+ 85197 +/- 84692)
+FalloutAudioMedia Synch: 506 = abs(-/+ 85753 +/- 85247)
+FalloutAudioMedia Synch: 506 = abs(-/+ 86309 +/- 85803)
+FalloutAudioMedia Synch: 506 = abs(-/+ 86865 +/- 86359)
+FalloutAudioMedia Synch: 505 = abs(-/+ 87420 +/- 86915)
+FalloutAudioMedia Synch: 506 = abs(-/+ 87976 +/- 87470)
+FalloutAudioMedia Synch: 505 = abs(-/+ 88531 +/- 88026)
+FalloutAudioMedia Synch: 503 = abs(-/+ 89084 +/- 88581)
+FalloutAudioMedia Synch: 505 = abs(-/+ 89639 +/- 89134)
+FalloutAudioMedia Synch: 506 = abs(-/+ 90195 +/- 89689)
+FalloutAudioMedia Synch: 506 = abs(-/+ 90751 +/- 90245)
+FalloutAudioMedia Synch: 505 = abs(-/+ 91306 +/- 90801)
+FalloutAudioMedia Synch: 505 = abs(-/+ 91861 +/- 91356)
+FalloutAudioMedia Synch: 506 = abs(-/+ 92417 +/- 91911)
+FalloutAudioMedia Synch: 505 = abs(-/+ 92972 +/- 92467)
+FalloutAudioMedia Synch: 507 = abs(-/+ 93529 +/- 93022)
+FalloutAudioMedia Synch: 505 = abs(-/+ 94084 +/- 93579)
+FalloutAudioMedia Synch: 506 = abs(-/+ 94640 +/- 94134)
+FalloutAudioMedia Synch: 506 = abs(-/+ 95196 +/- 94690)
+FalloutAudioMedia Synch: 505 = abs(-/+ 95751 +/- 95246)
+FalloutAudioMedia Synch: 505 = abs(-/+ 96306 +/- 95801)
+FalloutAudioMedia Synch: 505 = abs(-/+ 96861 +/- 96356)
+FalloutAudioMedia Synch: 506 = abs(-/+ 97417 +/- 96911)
+FalloutAudioMedia Synch: 506 = abs(-/+ 97973 +/- 97467)
+FalloutAudioMedia Synch: 506 = abs(-/+ 98529 +/- 98023)
+FalloutAudioMedia Synch: 505 = abs(-/+ 99084 +/- 98579)
+FalloutAudioMedia Synch: 506 = abs(-/+ 99640 +/- 99134)
+FalloutAudioMedia Synch: 506 = abs(-/+ 100196 +/- 99690)
+FalloutAudioMedia Synch: 505 = abs(-/+ 100751 +/- 100246)
+FalloutAudioMedia Synch: 505 = abs(-/+ 101306 +/- 100801)
+FalloutAudioMedia Synch: 506 = abs(-/+ 101862 +/- 101356)
+FalloutAudioMedia Synch: 505 = abs(-/+ 102417 +/- 101912)
+FalloutAudioMedia Synch: 505 = abs(-/+ 102972 +/- 102467)
+FalloutAudioMedia Synch: 508 = abs(-/+ 103530 +/- 103022)
+FalloutAudioMedia Synch: 504 = abs(-/+ 104084 +/- 103580)
+FalloutAudioMedia Synch: 506 = abs(-/+ 104640 +/- 104134)
+FalloutAudioMedia Synch: 505 = abs(-/+ 105195 +/- 104690)
+FalloutAudioMedia Synch: 506 = abs(-/+ 105751 +/- 105245)
+FalloutAudioMedia Synch: 507 = abs(-/+ 106308 +/- 105801)
+FalloutAudioMedia Synch: 504 = abs(-/+ 106862 +/- 106358)
+FalloutAudioMedia Synch: 506 = abs(-/+ 107418 +/- 106912)
+FalloutAudioMedia Synch: 505 = abs(-/+ 107973 +/- 107468)
+FalloutAudioMedia Synch: 506 = abs(-/+ 108529 +/- 108023)
+FalloutAudioMedia Synch: 505 = abs(-/+ 109084 +/- 108579)
+FalloutAudioMedia Synch: 507 = abs(-/+ 109641 +/- 109134)
+FalloutAudioMedia Synch: 505 = abs(-/+ 110196 +/- 109691)
+FalloutAudioMedia Synch: 505 = abs(-/+ 110751 +/- 110246)
+FalloutAudioMedia Synch: 507 = abs(-/+ 111308 +/- 110801)
+FalloutAudioMedia Synch: 504 = abs(-/+ 111862 +/- 111358)
+FalloutAudioMedia Synch: 506 = abs(-/+ 112418 +/- 111912)
+FalloutAudioMedia Synch: 506 = abs(-/+ 112974 +/- 112468)
+FalloutAudioMedia Synch: 505 = abs(-/+ 113529 +/- 113024)
+FalloutAudioMedia Synch: 505 = abs(-/+ 114084 +/- 113579)
+FalloutAudioMedia Synch: 506 = abs(-/+ 114640 +/- 114134)
+FalloutAudioMedia Synch: 506 = abs(-/+ 115196 +/- 114690)
+FalloutAudioMedia Synch: 506 = abs(-/+ 115752 +/- 115246)
+FalloutAudioMedia Synch: 505 = abs(-/+ 116307 +/- 115802)
+FalloutAudioMedia Synch: 505 = abs(-/+ 116862 +/- 116357)
+FalloutAudioMedia Synch: 506 = abs(-/+ 117418 +/- 116912)
+FalloutAudioMedia Synch: 506 = abs(-/+ 117974 +/- 117468)
+FalloutAudioMedia Synch: 506 = abs(-/+ 118530 +/- 118024)
+FalloutAudioMedia Synch: 505 = abs(-/+ 119085 +/- 118580)
+FalloutAudioMedia Synch: 506 = abs(-/+ 119641 +/- 119135)
+FalloutAudioMedia Synch: 505 = abs(-/+ 120196 +/- 119691)
+FalloutAudioMedia Synch: 507 = abs(-/+ 120753 +/- 120246)
+FalloutAudioMedia Synch: 503 = abs(-/+ 121306 +/- 120803)
+FalloutAudioMedia Synch: 507 = abs(-/+ 121863 +/- 121356)
+FalloutAudioMedia Synch: 506 = abs(-/+ 122419 +/- 121913)
+FalloutAudioMedia Synch: 505 = abs(-/+ 122974 +/- 122469)
+FalloutAudioMedia Synch: 505 = abs(-/+ 123529 +/- 123024)
+FalloutAudioMedia Synch: 506 = abs(-/+ 124085 +/- 123579)
+FalloutAudioMedia Synch: 505 = abs(-/+ 124640 +/- 124135)
+FalloutAudioMedia Synch: 507 = abs(-/+ 125197 +/- 124690)
+FalloutAudioMedia Synch: 504 = abs(-/+ 125751 +/- 125247)
+FalloutAudioMedia Synch: 506 = abs(-/+ 126307 +/- 125801)
+FalloutAudioMedia Synch: 505 = abs(-/+ 126862 +/- 126357)
+FalloutAudioMedia Synch: 506 = abs(-/+ 127418 +/- 126912)
+FalloutAudioMedia Synch: 507 = abs(-/+ 127975 +/- 127468)
+FalloutAudioMedia Synch: 507 = abs(-/+ 128532 +/- 128025)
+FalloutAudioMedia Synch: 505 = abs(-/+ 129087 +/- 128582)
+FalloutAudioMedia Synch: 506 = abs(-/+ 129643 +/- 129137)
+FalloutAudioMedia Synch: 505 = abs(-/+ 130198 +/- 129693)
+FalloutAudioMedia Synch: 508 = abs(-/+ 130755 +/- 130247)
+FalloutAudioMedia Synch: 503 = abs(-/+ 131308 +/- 130805)
+FalloutAudioMedia Synch: 507 = abs(-/+ 131865 +/- 131358)
+FalloutAudioMedia Synch: 505 = abs(-/+ 132420 +/- 131915)
+FalloutAudioMedia Synch: 505 = abs(-/+ 132975 +/- 132470)
+FalloutAudioMedia Synch: 508 = abs(-/+ 133533 +/- 133025)
+FalloutAudioMedia Synch: 503 = abs(-/+ 134086 +/- 133583)
+FalloutAudioMedia Synch: 507 = abs(-/+ 134643 +/- 134136)
+FalloutAudioMedia Synch: 506 = abs(-/+ 135199 +/- 134693)
+FalloutAudioMedia Synch: 504 = abs(-/+ 135753 +/- 135249)
+FalloutAudioMedia Synch: 507 = abs(-/+ 136310 +/- 135803)
+FalloutAudioMedia Synch: 505 = abs(-/+ 136865 +/- 136360)
+FalloutAudioMedia Synch: 506 = abs(-/+ 137421 +/- 136915)
+FalloutAudioMedia Synch: 504 = abs(-/+ 137975 +/- 137471)
+FalloutAudioMedia Synch: 506 = abs(-/+ 138531 +/- 138025)
+FalloutAudioMedia Synch: 507 = abs(-/+ 139088 +/- 138581)
+FalloutAudioMedia Synch: 505 = abs(-/+ 139643 +/- 139138)
+FalloutAudioMedia Synch: 505 = abs(-/+ 140198 +/- 139693)
+FalloutAudioMedia Synch: 506 = abs(-/+ 140754 +/- 140248)
+FalloutAudioMedia Synch: 506 = abs(-/+ 141310 +/- 140804)
+FalloutAudioMedia Synch: 141388 = abs(-/+ 141388 +/- 0)
+MODELS: LoadFile retrieved model Characters\Hair\HairBun.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairMessy01.NIF with a zero ref count
+LoadedFile Meshes\Characters\Hair\HairMessy01NoHat.egm was loaded at 599670560 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Hair\HairMessy01Hat.egm was loaded at 571621280 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Hair\BeardFull.egm was loaded at 439075308 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Hair\BeardFull.tri was loaded at 600544276 and added to the map, but is being thrown away without being used
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 on 'Scene Root'.
+FalloutAudioMedia Synch: 32177 = abs(-/+ 32177 +/- 0)
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastforward.kf' has 63 controllers and
+'Characters\_Male\Locomotion\Male\mtfastforward.kf' has 59 on 'Scene Root'.
+MODELS: LoadFile retrieved model Characters\Hair\HairRaiderF02.NIF with a zero ref count
+FalloutAudioMedia Synch: 111798 = abs(-/+ 111798 +/- 0)
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\h2hfastbackward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\h2hbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\h2hfastbackward.kf' has 59 controllers and
+'Characters\_Male\Locomotion\h2hbackward.kf' has 46 on 'Scene Root'.
+ANIMATION: Morph Error - Controller count not the same.
+'Characters\_Male\Locomotion\1hpfastbackward.kf' has 60 controllers and
+'Characters\_Male\Locomotion\1hpbackward.kf' has 59 on 'Scene Root'.
+ANIMATION: (SpecialIdle) End frame is less than or equal to Start frame in "Meshes\Creatures\Dog\IdleAnims\MTSpecialIdle_LookLeft.kf".
+ANIMATION: Animation group note problem. See ~\Documents\My Games\FalloutNV\Warnings.txt file.
+ANIMATION: (SpecialIdle) End frame is less than or equal to Start frame in "Meshes\Creatures\Dog\IdleAnims\MTSpecialIdle_LookLeft.kf".
+ANIMATION: Animation group note problem. See C:\Users

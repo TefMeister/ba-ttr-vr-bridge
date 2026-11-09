@@ -113,7 +113,7 @@ def main():
         print(f"kept {label}/{rel} ({size:,} bytes)")
     ev = win_errors(since)
     with open(os.path.join(dst, "windows-application-errors.txt"), "w", encoding="utf-8") as f:
-        f.write(ev or "(none)\n")
+        f.write(scrub((ev or "(none)\n").encode("utf-8")).decode("utf-8"))
     with open(os.path.join(dst, "INDEX.md"), "w", encoding="utf-8") as f:
         f.write(f"# {a.rung}, launched after {a.since}\n\n| where | file | bytes |\n| --- | --- | --- |\n")
         for l, r, s in rows:
