@@ -12,11 +12,20 @@ their last 2 MB. Prints one line per file and writes INDEX.md in the run folder.
 import argparse
 import datetime as dt
 import os
+import re
 import subprocess
 import sys
 
 KEEP = (".log", ".txt")
 MAX = 2 * 1024 * 1024
+
+
+SEP = '[/' + re.escape(chr(92)) + ']+'
+OTHER_HOME = re.compile('(?i)([A-Z]:' + SEP + 'Users' + SEP + ')[^/' + re.escape(chr(92)) + ' \t"|]+')
+
+
+def is_binary(p):
+    return os.path.splitext(p)[1].lower() in (".dmp", ".bin", ".fos", ".pdb", ".dll", ".exe", ".png", ".jpg", ".dds")
 
 
 def scrubber():
@@ -34,6 +43,8 @@ def scrubber():
         t = b.decode("utf-8", errors="replace")
         for a, r in pairs:
             t = t.replace(a, r).replace(a.lower(), r).replace(a.upper(), r)
+        # anyone else's home folder too (a plugin author's build path, say): the privacy guard refuses any of them
+        t = OTHER_HOME.sub(lambda m: m.group(1) + '<user>', t)
         return t.encode("utf-8")
     return scrub
 
@@ -75,7 +86,7 @@ def main():
     ap.add_argument("--since", required=True, help='"YYYY-MM-DD HH:MM" local time, just before the launch')
     ap.add_argument("--out", default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "runs"))
     a = ap.parse_args()
-    since = dt.datetime.strptime(a.since, "%Y-%m-%d %H:%M")
+    since = dt.datetime.fromisoformat(a.since.strip())  # "YYYY-MM-DD HH:MM" or with seconds
     stamp = dt.datetime.now().strftime("%Y-%m-%d %H%M")
     dst = os.path.join(a.out, f"{stamp} {a.rung}")
     os.makedirs(dst, exist_ok=True)
@@ -92,10 +103,12 @@ def main():
             with open(p, "rb") as f:
                 f.seek(-MAX, os.SEEK_END)
                 data = f.read()
-            with open(out, "wb") as f:
-                f.write(b"(only the last 2 MB kept)\n" + data)
+            data = b"(only the last 2 MB kept)\n" + data
         else:
-            shutil.copy2(p, out)
+            with open(p, "rb") as f:
+                data = f.read()
+        with open(out, "wb") as f:
+            f.write(data if is_binary(p) else scrub(data))
         rows.append((label, rel, size))
         print(f"kept {label}/{rel} ({size:,} bytes)")
     ev = win_errors(since)
@@ -111,3 +124,20 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+def rescrub(folder):
+    """Scrub an already-kept run folder in place (runs kept before the scrub was wired in)."""
+    scrub = scrubber()
+    for root, _, files in os.walk(folder):
+        for n in files:
+            p = os.path.join(root, n)
+            if is_binary(p):
+                continue
+            with open(p, "rb") as f:
+                b = f.read()
+            c = scrub(b)
+            if c != b:
+                with open(p, "wb") as f:
+                    f.write(c)
+                print("scrubbed", os.path.relpath(p, folder))

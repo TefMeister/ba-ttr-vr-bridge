@@ -1,0 +1,46 @@
+---- 11/09/2026 22:07:26 Windows Error Reporting 1001
+Fault bucket -1753334165, type 1
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: FalloutNV.exe
+P2: 1.4.0.525
+P3: 4e0d50ed
+P4: FalloutNV.exe
+P5: 1.4.0.525
+P6: 4e0d50ed
+P7: c0000005
+P8: 00282303
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.ba31ea96-fc93-432b-9f88-4cdab029e992.tmp.dmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.9a1a9fbd-5d90-4c04-a135-9593899c5279.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.5369b602-4c44-4723-a65b-fdb796c9e809.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.90d983de-b52a-4bbc-b40e-c82acbbb75d0.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0d5af65b-c677-4923-b568-7df0ddbd2437.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_FalloutNV.exe_9db8efd5db82fbcced87cc33a9343c9755cd60fe_aac2e720_a06c1b10-2ad5-4eb8-8e9f-ae30c95a176c
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: cffb0f45-0754-4fc3-a383-a3ef08fa3f0d
+Report Status: 268435456
+Hashed bucket: c9e48ef5261666812345d71031585efe
+Cab Guid: 0
+---- 11/09/2026 22:07:24 Application Error 1000
+Faulting application name: FalloutNV.exe, version: 1.4.0.525, time stamp: 0x4e0d50ed
+Faulting module name: FalloutNV.exe, version: 1.4.0.525, time stamp: 0x4e0d50ed
+Exception code: 0xc0000005
+Fault offset: 0x00282303
+Faulting process id: 0x320C
+Faulting application start time: 0x1DD7085B5241C47
+Faulting application path: C:\Steam\steamapps\common\Fallout New Vegas\FalloutNV.exe
+Faulting module path: C:\Steam\steamapps\common\Fallout New Vegas\FalloutNV.exe
+Report Id: cffb0f45-0754-4fc3-a383-a3ef08fa3f0d
+Faulting package full name: 
+Faulting package-relative application ID: 

@@ -36,3 +36,23 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
 - **The log collector** (`tools/collect_run.py`): after every launch, every log written since it (game, xNVSE and its
   plugins, crash logger, Root Builder, MO2, TTWVR) and the Windows error events, into `runs/`. The home folder,
   login and PC name are scrubbed out (this repo is public).
+
+**First runs (evening, Tefa at the PC).**
+
+- Rung 0 as built (TTW + TTWVR's five requirements) failed three ways: Stewie's Tweaks disabled without its INI, then
+  a crash loading (`ttw_nvse.dll` missing, from `ROOGNVSE Plugin`), then TTW's own self-check (ShowOff, JohnnyGuitar,
+  `falloutcustom.ini`) with a new game dropped in the Mojave. TTWVR's guide lists less than TTW 3.4 needs. `[measured]`
+- **Rung 0b `rung-00b debug base` = the list author's Debug Mode profile** (its 28 mods, its `falloutcustom.ini`,
+  windowed; rung 0's `fallout.ini` / `falloutprefs.ini`, since the author's opened the launcher). 20 NVSE plugins
+  loaded, no TTW boxes, a new game asks Capital Wasteland or Mojave (Tefa). PASS `[verified-live 2026-11-09, n=1]`
+- MO2 unticked the three GECK mods in rung 0b on its own (editor only, no effect on the game).
+- **Rung 1 `rung-01 vr base` = rung 0b + TTWVR 1.0.0 at the top (wins every clash). PASS in the headset**
+  (Quest 3, Virtual Desktop): Tefa: *"this mod is just insanely well done, it's like playing the game just within
+  it ... i don't think i encountered anything that is wrong right now, it just plays with the usual Bethesda jank"*.
+  TTWVR's DLSS and voice helpers start beside the game. `[verified-live 2026-11-09, n=1]`
+- The game reads its own cursor: a Menu-o-matiC click does nothing, Down moves the menu highlight, Enter / E sent the
+  same way do not select (control profile `routes/tale-of-two-wastelands/KNOWN.md`).
+- The Lanes collector skipped runs 1-4 (the project had no game set); set to Steam 22380 during run 4.
+  `tools/collect_run.py` kept all of them (two bugs fixed in it: `shutil` not imported, seconds in `--since`).
+- Next: rung 2, Begin Again's groups back one at a time on top of rung 1, weapons and animations last.
+

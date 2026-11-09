@@ -1,0 +1,11 @@
+NVSE version:	6.47
+JIP LN version:	57.30
+
+[SCRIPT RUNNER] Errors were found while compiling the following script files:
+
+Script 'gr_Dri10MMVanillaROF.txt', line 30:
+Script command "SetAnimTextKeys" not found.
+
+================================================================
+
+> JIP MemoryPool session total allocations: 512 KB

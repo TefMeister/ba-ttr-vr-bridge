@@ -1,0 +1,1182 @@
+fallout root = C:\Steam\steamapps\common\Fallout New Vegas\
+config path = C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\nvse_config.ini
+NVSE runtime: initialize (version = 6.4.7 040020D0 01DD70875D96DB84)
+imagebase = 00400000
+plugin directory = C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\
+checking plugin C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\CrashLogger.dll
+checking plugin C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\EngineOptimizations.dll
+checking plugin C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\jip_nvse.dll
+checking plugin C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\nvse_stewie_tweaks.dll
+registering plugin listener for NVSE at 1 of 2
+SetOpcodeBase 00002200
+RegisterCommand  [2200]  GetLNVersion (GetJIPLNVersion)
+RegisterCommand  [2201]  FileExists
+RegTypedCommand  [2202]  GetTimeStamp
+RegisterCommand  [2203]  GetController
+RegisterCommand  [2204]  IsButtonPressed
+RegisterCommand  [2205]  GetLeftStickX (GetLSX)
+RegisterCommand  [2206]  GetLeftStickY (GetLSY)
+RegisterCommand  [2207]  GetRightStickX (GetRSX)
+RegisterCommand  [2208]  GetRightStickY (GetRSY)
+RegisterCommand  [2209]  GetLeftTrigger (GetLTr)
+RegisterCommand  [220A]  GetRightTrigger (GetRTr)
+RegisterCommand  [220B]  GetDeadZoneLS
+RegisterCommand  [220C]  GetDeadZoneRS
+RegisterCommand  [220D]  SetDeadZoneLS
+RegisterCommand  [220E]  SetDeadZoneRS
+RegisterCommand  [220F]  GetPressedButtons (GetButtons)
+RegisterCommand  [2210]  GetNVSEVersionFull
+RegisterCommand  [2211]  GetLoadedType (GLT)
+RegTypedCommand  [2212]  ListToArray
+RegisterCommand  [2213]  NONE
+RegTypedCommand  [2214]  GetCombatStyle
+RegisterCommand  [2215]  NONE
+RegTypedCommand  [2216]  SaveHotkeys
+RegisterCommand  [2217]  RestoreHotkeys
+RegTypedCommand  [2218]  GetBipedModelList (GetBMList)
+RegisterCommand  [2219]  SetBipedModelList (SetBMList)
+RegTypedCommand  [221A]  GetModName
+RegisterCommand  [221B]  HasPerkRank
+RegisterCommand  [221C]  SetGlobalValue (SGV)
+RegisterCommand  [221D]  GetSelfModIndex
+RegisterCommand  [221E]  LeveledListAddForm (LListAddForm)
+RegisterCommand  [221F]  LeveledListRemoveForm (LListRemoveForm)
+RegisterCommand  [2220]  GetLevItemIndexByForm (LListGetFormIndex)
+RegisterCommand  [2221]  GetLevItemIndexByLevel (LListGetLevelIndex)
+RegisterCommand  [2222]  GetChanceNone
+RegisterCommand  [2223]  SetChanceNone
+RegisterCommand  [2224]  GetNumLevItems (LListGetCount)
+RegTypedCommand  [2225]  GetNthLevItem (LListGetNthForm)
+RegisterCommand  [2226]  GetNthLevItemLevel (LListGetNthLevel)
+RegisterCommand  [2227]  GetNthLevItemCount (LListGetNthCount)
+RegisterCommand  [2228]  RemoveNthLevItem (LListRemoveNthForm)
+RegisterCommand  [2229]  LeveledListClear (LListClear)
+RegisterCommand  [222A]  DumpLevList (LListDump)
+RegisterCommand  [222B]  GetChanceNoneGlobal
+RegisterCommand  [222C]  ClearAllHotkeys
+RegTypedCommand  [222D]  GetMapMarkerRep
+RegisterCommand  [222E]  SetMapMarkerRep
+RegTypedCommand  [222F]  GetMapMarkerName
+RegisterCommand  [2230]  SetMapMarkerName
+RegisterCommand  [2231]  GetMapMarkerType
+RegisterCommand  [2232]  SetMapMarkerType
+RegisterCommand  [2233]  NONE
+RegisterCommand  [2234]  SetMapMarkerVisible
+RegisterCommand  [2235]  GetMapMarkerHidden
+RegisterCommand  [2236]  SetMapMarkerHidden
+RegisterCommand  [2237]  GetMapMarkerTravel
+RegisterCommand  [2238]  SetMapMarkerTravel
+RegTypedCommand  [2239]  GetFormMods
+RegisterCommand  [223A]  IsFormOverridden
+RegisterCommand  [223B]  SetPerkRank
+RegTypedCommand  [223C]  GetMerchantContainer
+RegisterCommand  [223D]  GetRadioBroadcastType
+RegisterCommand  [223E]  SetRadioBroadcastType
+RegisterCommand  [223F]  GetRadioRadius
+RegisterCommand  [2240]  SetRadioRadius
+RegisterCommand  [2241]  GetRadioStatic
+RegisterCommand  [2242]  SetRadioStatic
+RegisterCommand  [2243]  GetRadioPosRef
+RegisterCommand  [2244]  SetRadioPosRef
+RegisterCommand  [2245]  IsRadioRef
+RegisterCommand  [2246]  Search
+RegisterCommand  [2247]  LNGetAggroRadius
+RegisterCommand  [2248]  LNSetAggroRadius
+RegisterCommand  [2249]  IsMapMarker
+RegTypedCommand  [224A]  GetCellCoords
+RegisterCommand  [224B]  GetLockedOut
+RegisterCommand  [224C]  SetLockedOut
+RegisterCommand  [224D]  GetCreatureType
+RegTypedCommand  [224E]  GetLoadedTypeArray (GLTA)
+RegTypedCommand  [224F]  GetPasswordNote
+RegisterCommand  [2250]  SetPasswordNote
+RegTypedCommand  [2251]  GetFormRefs
+RegTypedCommand  [2252]  GetCellLightingTemplate
+RegisterCommand  [2253]  SetCellLightingTemplate
+RegTypedCommand  [2254]  GetRecipeInputForms
+RegTypedCommand  [2255]  GetRecipeOutputForms
+RegisterCommand  [2256]  GetRecipeInputCount
+RegisterCommand  [2257]  SetRecipeInputCount
+RegisterCommand  [2258]  GetRecipeOutputCount
+RegisterCommand  [2259]  SetRecipeOutputCount
+RegisterCommand  [225A]  GetRecipeRequiredSkill
+RegisterCommand  [225B]  SetRecipeRequiredSkill
+RegisterCommand  [225C]  GetRecipeRequiredSkillLevel
+RegisterCommand  [225D]  SetRecipeRequiredSkillLevel
+RegisterCommand  [225E]  ReplaceRecipeInputForm
+RegisterCommand  [225F]  ReplaceRecipeOutputForm
+RegTypedCommand  [2260]  GetFormRecipes
+RegTypedCommand  [2261]  GetFormRecipeOutputs
+RegTypedCommand  [2262]  GetWorldspaceParentWorldspace (GetWorldParentWorld)
+RegisterCommand  [2263]  GetTerminalLock
+RegisterCommand  [2264]  GetArmorClass (GetAC)
+RegisterCommand  [2265]  IsRaceInList
+RegTypedCommand  [2266]  GetFormFromMod (GFFM)
+RegisterCommand  [2267]  GetPerkEntryCount
+RegisterCommand  [2268]  GetNthPerkEntryType
+RegisterCommand  [2269]  GetNthPerkEntryFunction
+RegisterCommand  [226A]  SetNthPerkEntryFunction
+RegTypedCommand  [226B]  GetNthPerkEntryForm
+RegisterCommand  [226C]  SetNthPerkEntryForm
+RegisterCommand  [226D]  GetNthPerkEntryValue1
+RegisterCommand  [226E]  SetNthPerkEntryValue1
+RegisterCommand  [226F]  GetNthPerkEntryValue2
+RegisterCommand  [2270]  SetNthPerkEntryValue2
+RegTypedCommand  [2271]  GetNthPerkEntryString
+RegisterCommand  [2272]  SetNthPerkEntryString
+RegTypedCommand  [2273]  GetActivatorRadioStation
+RegisterCommand  [2274]  SetActivatorRadioStation
+RegTypedCommand  [2275]  GetActivatorPrompt
+RegisterCommand  [2276]  SetActivatorPrompt
+RegTypedCommand  [2277]  GetActivatorWaterType
+RegisterCommand  [2278]  SetActivatorWaterType
+RegTypedCommand  [2279]  GetActiveQuest
+RegisterCommand  [227A]  GetINIFloat
+RegTypedCommand  [227B]  GetINIString
+RegisterCommand  [227C]  SetINIFloat
+RegisterCommand  [227D]  SetINIString
+RegTypedCommand  [227E]  GetINISection
+RegisterCommand  [227F]  SetINISection
+RegisterCommand  [2280]  IsParentActivateOnly
+RegisterCommand  [2281]  SetLinkedReference (SetLinkedRef)
+RegisterCommand  [2282]  SetBaseForm
+RegTypedCommand  [2283]  GetStringSetting
+RegisterCommand  [2284]  SetStringSetting
+RegTypedCommand  [2285]  GetINISectionNames
+RegisterCommand  [2286]  GetRaceVoice
+RegisterCommand  [2287]  SetRaceVoice
+RegisterCommand  [2288]  GetRaceAgeRace
+RegisterCommand  [2289]  SetRaceAgeRace
+RegTypedCommand  [228A]  GetFilesInFolder (GetFiles)
+RegisterCommand  [228B]  NONE
+RegisterCommand  [228C]  NONE
+RegisterCommand  [228D]  NONE
+RegisterCommand  [228E]  GetLeveledListFlags (LListGetFlags)
+RegisterCommand  [228F]  SetLeveledListFlags (LListSetFlags)
+RegTypedCommand  [2290]  GetActivatorSoundLooping
+RegisterCommand  [2291]  SetActivatorSoundLooping
+RegTypedCommand  [2292]  GetActivatorSoundActivate
+RegisterCommand  [2293]  SetActivatorSoundActivate
+RegisterCommand  [2294]  EnableButton
+RegisterCommand  [2295]  DisableButton
+RegisterCommand  [2296]  IsButtonDisabled
+RegisterCommand  [2297]  HoldButton
+RegisterCommand  [2298]  ReleaseButton
+RegisterCommand  [2299]  IsButtonHeld
+RegisterCommand  [229A]  IsTrait
+RegTypedCommand  [229B]  GetLoadScreenTexture
+RegisterCommand  [229C]  SetLoadScreenTexture
+RegTypedCommand  [229D]  GetLoadScreenType
+RegisterCommand  [229E]  SetLoadScreenType
+RegTypedCommand  [229F]  GetLoadScreenTypeTextRGB
+RegisterCommand  [22A0]  SetLoadScreenTypeTextRGB
+RegisterCommand  [22A1]  CopyFaceGenFrom
+RegisterCommand  [22A2]  SetRace
+RegTypedCommand  [22A3]  GetFoldersInFolder (GetFolders)
+RegisterCommand  [22A4]  EnableTrigger
+RegisterCommand  [22A5]  DisableTrigger
+RegisterCommand  [22A6]  IsTriggerDisabled
+RegisterCommand  [22A7]  HoldTrigger
+RegisterCommand  [22A8]  ReleaseTrigger
+RegisterCommand  [22A9]  IsTriggerHeld
+RegisterCommand  [22AA]  GetPCCanUsePowerArmor
+RegTypedCommand  [22AB]  GetIdleAnimPath
+RegisterCommand  [22AC]  SetIdleAnimPath
+RegTypedCommand  [22AD]  LNGetName
+RegisterCommand  [22AE]  RemoveINIKey
+RegisterCommand  [22AF]  RemoveINISection
+RegisterCommand  [22B0]  GetGlobalTimeMultiplier (ggtm)
+RegisterCommand  [22B1]  GetCasinoMaxWinnings
+RegisterCommand  [22B2]  SetCasinoMaxWinnings
+RegisterCommand  [22B3]  GetCasinoBJPayout
+RegisterCommand  [22B4]  SetCasinoBJPayout
+RegisterCommand  [22B5]  GetCasinoBJ17Stand
+RegisterCommand  [22B6]  SetCasinoBJ17Stand
+RegisterCommand  [22B7]  GetCasinoNumDecks
+RegisterCommand  [22B8]  SetCasinoNumDecks
+RegisterCommand  [22B9]  GetCasinoShufflePercent
+RegisterCommand  [22BA]  SetCasinoShufflePercent
+RegisterCommand  [22BB]  GetCasinoReelStops
+RegisterCommand  [22BC]  SetCasinoReelStops
+RegisterCommand  [22BD]  AddNoteNS
+RegTypedCommand  [22BE]  GetCellWaterForm
+RegTypedCommand  [22BF]  GetWaterFormEffect
+RegisterCommand  [22C0]  ar_Cat (pinto_Cat)
+Patched Ar_Cat
+RegisterCommand  [22C1]  GetInventoryWeight (GetInvWeight)
+RegisterCommand  [22C2]  GetChallengeType
+RegisterCommand  [22C3]  GetChallengeThreshold
+RegisterCommand  [22C4]  SetChallengeThreshold
+RegisterCommand  [22C5]  GetChallengeInterval
+RegisterCommand  [22C6]  SetChallengeInterval
+RegisterCommand  [22C7]  GetChallengeValue1
+RegisterCommand  [22C8]  SetChallengeValue1
+RegisterCommand  [22C9]  GetChallengeValue2
+RegisterCommand  [22CA]  SetChallengeValue2
+RegisterCommand  [22CB]  GetChallengeValue3
+RegisterCommand  [22CC]  SetChallengeValue3
+RegTypedCommand  [22CD]  GetChallengeForm1
+RegisterCommand  [22CE]  SetChallengeForm1
+RegTypedCommand  [22CF]  GetChallengeForm2
+RegisterCommand  [22D0]  SetChallengeForm2
+RegTypedCommand  [22D1]  GetRecipeCategory
+RegisterCommand  [22D2]  SetRecipeCategory
+RegTypedCommand  [22D3]  GetRecipeSubcategory
+RegisterCommand  [22D4]  SetRecipeSubcategory
+RegisterCommand  [22D5]  NONE
+RegisterCommand  [22D6]  GetReferenceFlag (GetRefFlag)
+RegisterCommand  [22D7]  SetReferenceFlag (SetRefFlag)
+RegisterCommand  [22D8]  AddRecipeInputForm
+RegisterCommand  [22D9]  AddRecipeOutputForm
+RegisterCommand  [22DA]  RemoveRecipeInputForm
+RegisterCommand  [22DB]  RemoveRecipeOutputForm
+RegisterCommand  [22DC]  AddRecipeCondition
+RegisterCommand  [22DD]  NONE
+RegisterCommand  [22DE]  GetFormFlag
+RegisterCommand  [22DF]  SetFormFlag
+RegisterCommand  [22E0]  GetDistance2D
+RegisterCommand  [22E1]  GetDistance3D
+RegisterCommand  [22E2]  GetIngestibleFlag
+RegisterCommand  [22E3]  SetIngestibleFlag
+RegisterCommand  [22E4]  IsSkillMagazine
+RegisterCommand  [22E5]  NONE
+RegisterCommand  [22E6]  GetServiceFlag
+RegisterCommand  [22E7]  SetServiceFlag
+RegisterCommand  [22E8]  LeveledListReplaceForm (LListReplaceForm)
+RegisterCommand  [22E9]  NONE
+RegTypedCommand  [22EA]  GetCellImageSpace
+RegisterCommand  [22EB]  PlayerHasKey
+RegisterCommand  [22EC]  GetCellFlag
+RegisterCommand  [22ED]  SetCellFlag
+RegisterCommand  [22EE]  NONE
+RegisterCommand  [22EF]  NONE
+RegisterCommand  [22F0]  fsqrt
+RegisterCommand  [22F1]  GetCellWaterHeight
+RegisterCommand  [22F2]  SetCellWaterHeight
+RegTypedCommand  [22F3]  GetAnimObjectIdle (GetANIOIdle)
+RegisterCommand  [22F4]  SetAnimObjectIdle (SetANIOIdle)
+RegisterCommand  [22F5]  GetActorTemplateFlag
+RegisterCommand  [22F6]  SetActorTemplateFlag
+RegisterCommand  [22F7]  BaseGetItemCount
+RegisterCommand  [22F8]  BaseAddItem
+RegisterCommand  [22F9]  BaseRemoveItem
+RegisterCommand  [22FA]  LNSetActorTemplate
+RegisterCommand  [22FB]  BaseAddItemHealth
+RegisterCommand  [22FC]  LNSetName
+RegisterCommand  [22FD]  fSin
+RegisterCommand  [22FE]  fCos
+RegTypedCommand  [22FF]  SortFormsByType
+RegisterCommand  [2300]  GetFormCountType
+RegTypedCommand  [2301]  GetPickupSound
+RegisterCommand  [2302]  SetPickupSound
+RegTypedCommand  [2303]  GetPutdownSound
+RegisterCommand  [2304]  SetPutdownSound
+RegTypedCommand  [2305]  GetContainerOpenSound
+RegisterCommand  [2306]  SetContainerOpenSound
+RegTypedCommand  [2307]  GetContainerCloseSound
+RegisterCommand  [2308]  SetContainerCloseSound
+RegisterCommand  [2309]  NONE
+RegTypedCommand  [230A]  GetPlayerRegions
+RegisterCommand  [230B]  fAtan
+RegisterCommand  [230C]  GetPerkLevel
+RegisterCommand  [230D]  GetZoneFlag
+RegisterCommand  [230E]  SetZoneFlag
+RegisterCommand  [230F]  fAsin
+RegisterCommand  [2310]  fAcos
+RegisterCommand  [2311]  SetNthLevItem (LListsetNthForm)
+RegisterCommand  [2312]  SetNthLevItemLevel (LListSetNthLevel)
+RegisterCommand  [2313]  SetNthLevItemCount (LListSetNthCount)
+RegisterCommand  [2314]  GetBaseFactionRank
+RegisterCommand  [2315]  SetBaseFactionRank
+RegTypedCommand  [2316]  GetImpactDataSet
+RegisterCommand  [2317]  SetImpactDataSet
+RegisterCommand  [2318]  HasActionRef
+RegisterCommand  [2319]  SetHotkey
+RegisterCommand  [231A]  GetChallengeFlags
+RegisterCommand  [231B]  SetChallengeFlags
+RegisterCommand  [231C]  LNIsPlayable
+RegisterCommand  [231D]  LNSetIsPlayable
+RegisterCommand  [231E]  GetZone
+RegisterCommand  [231F]  GetBaseKarma
+RegisterCommand  [2320]  SetBaseKarma
+RegisterCommand  [2321]  ActorHasEffect
+RegisterCommand  [2322]  NONE
+RegTypedCommand  [2323]  GetEquippedData (GetEqData)
+RegisterCommand  [2324]  SetEquippedData (SetEqData)
+RegisterCommand  [2325]  EquipItemData
+RegisterCommand  [2326]  Console
+RegisterCommand  [2327]  GetDefaultMessageTime (GetDMT)
+RegisterCommand  [2328]  SetDefaultMessageTime (SetDMT)
+RegisterCommand  [2329]  NONE
+RegisterCommand  [232A]  NONE
+RegisterCommand  [232B]  GetWeaponKillImpulse
+RegisterCommand  [232C]  SetWeaponKillImpulse
+RegisterCommand  [232D]  GetWeaponImpulseDistance
+RegisterCommand  [232E]  SetWeaponImpulseDistance
+RegTypedCommand  [232F]  GetWeaponVATSEffect
+RegisterCommand  [2330]  SetWeaponVATSEffect
+RegisterCommand  [2331]  GetWeaponCritFlags
+RegisterCommand  [2332]  SetWeaponCritFlags
+RegTypedCommand  [2333]  GetBodyPartData
+RegisterCommand  [2334]  GetRadius
+RegisterCommand  [2335]  SetRadius
+RegisterCommand  [2336]  CrosshairRefInList
+RegTypedCommand  [2337]  GetGameSettings
+RegisterCommand  [2338]  GetShowQuestItems
+RegisterCommand  [2339]  GetWaterTrait
+RegisterCommand  [233A]  SetWaterTrait
+SetOpcodeBase 00002600
+RegisterCommand  [2600]  SetPersistent
+RegTypedCommand  [2601]  GetActorTemplate
+RegTypedCommand  [2602]  GetLeveledActorBase
+RegisterCommand  [2603]  GetCreatureDamage
+RegisterCommand  [2604]  SetCreatureDamage
+RegisterCommand  [2605]  GetIsPoisoned
+RegisterCommand  [2606]  AddItemAlt
+RegisterCommand  [2607]  GetValueAlt
+RegisterCommand  [2608]  IsComponentLoaded
+RegisterCommand  [2609]  InjectUIXML
+RegisterCommand  [260A]  InjectUIComponent
+RegisterCommand  [260B]  GetAmmoTraitNumeric
+RegisterCommand  [260C]  SetAmmoTraitNumeric
+RegTypedCommand  [260D]  GetAmmoProjectile
+RegisterCommand  [260E]  SetAmmoProjectile
+RegisterCommand  [260F]  GetNumAmmoEffects
+RegTypedCommand  [2610]  GetNthAmmoEffect
+RegisterCommand  [2611]  AddAmmoEffect
+RegisterCommand  [2612]  RemoveAmmoEffect
+RegisterCommand  [2613]  GetAmmoEffectTraitNumeric
+RegisterCommand  [2614]  SetAmmoEffectTraitNumeric
+RegisterCommand  [2615]  GetProjectileTraitNumeric
+RegisterCommand  [2616]  SetProjectileTraitNumeric
+RegisterCommand  [2617]  GetProjectileFlag
+RegisterCommand  [2618]  SetProjectileFlag
+RegTypedCommand  [2619]  GetProjectileExplosion
+RegisterCommand  [261A]  SetProjectileExplosion
+RegisterCommand  [261B]  GetExplosionTraitNumeric
+RegisterCommand  [261C]  SetExplosionTraitNumeric
+RegTypedCommand  [261D]  GetExplosionTraitForm
+RegisterCommand  [261E]  SetExplosionTraitForm
+RegisterCommand  [261F]  GetExplosionFlag
+RegisterCommand  [2620]  SetExplosionFlag
+RegisterCommand  [2621]  AddScriptVariable
+RegisterCommand  [2622]  GetDelayElapsed
+RegisterCommand  [2623]  SetDelayElapsed
+RegisterCommand  [2624]  GetPackageFlag
+RegisterCommand  [2625]  SetPackageFlag
+RegisterCommand  [2626]  GetGlobalVariable
+RegisterCommand  [2627]  SetGlobalVariable
+RegTypedCommand  [2628]  GetFactionReputationType
+RegisterCommand  [2629]  SetFactionReputationType
+RegTypedCommand  [262A]  RefToString
+RegTypedCommand  [262B]  StringToRef
+RegisterCommand  [262C]  GetObjectDimensions (GetObjDim)
+RegisterCommand  [262D]  GetIsItem
+RegisterCommand  [262E]  GetMinOf
+RegisterCommand  [262F]  GetMaxOf
+RegisterCommand  [2630]  GetCombatStyleTraitNumeric
+RegisterCommand  [2631]  SetCombatStyleTraitNumeric
+RegisterCommand  [2632]  GetCombatStyleFlag
+RegisterCommand  [2633]  SetCombatStyleFlag
+RegisterCommand  [2634]  SetLinkedReference (SetLinkedRef)
+RegTypedCommand  [2635]  GetEnableChildren
+RegTypedCommand  [2636]  GetLinkedChildren
+RegTypedCommand  [2637]  GetFollowers
+RegisterCommand  [2638]  GetCursorPos
+RegTypedCommand  [2639]  GetUIString
+RegTypedCommand  [263A]  ReadArrayFromFile
+RegTypedCommand  [263B]  ReadStringFromFile
+RegisterCommand  [263C]  WriteArrayToFile
+RegisterCommand  [263D]  WriteStringToFile
+RegisterCommand  [263E]  GetClassTraitNumeric
+RegisterCommand  [263F]  SetClassTraitNumeric
+RegisterCommand  [2640]  GetClassFlag
+RegisterCommand  [2641]  SetClassFlag
+RegisterCommand  [2642]  GetLightTraitNumeric
+RegisterCommand  [2643]  SetLightTraitNumeric
+RegisterCommand  [2644]  GetLightFlag
+RegisterCommand  [2645]  SetLightFlag
+RegisterCommand  [2646]  GetSoundTraitNumeric
+RegisterCommand  [2647]  SetSoundTraitNumeric
+RegisterCommand  [2648]  GetSoundFlag
+RegisterCommand  [2649]  SetSoundFlag
+RegisterCommand  [264A]  GetWeaponDetectionSoundLevel
+RegisterCommand  [264B]  SetWeaponDetectionSoundLevel
+RegisterCommand  [264C]  IsEquippedWeaponSilenced
+RegisterCommand  [264D]  IsEquippedWeaponScoped
+RegTypedCommand  [264E]  GetWeaponSound
+RegisterCommand  [264F]  SetWeaponSound
+RegisterCommand  [2650]  SetWeaponItemMod
+RegisterCommand  [2651]  SetWeaponItemModEffect
+RegisterCommand  [2652]  SetWeaponItemModValue
+RegTypedCommand  [2653]  GetWeatherImageSpaceMod
+RegisterCommand  [2654]  SetWeatherImageSpaceMod
+RegTypedCommand  [2655]  GetWeatherTexture
+RegisterCommand  [2656]  SetWeatherTexture
+RegTypedCommand  [2657]  GetWeatherPrecipitationModel
+RegisterCommand  [2658]  SetWeatherPrecipitationModel
+RegisterCommand  [2659]  GetWeatherTraitNumeric
+RegisterCommand  [265A]  SetWeatherTraitNumeric
+RegisterCommand  [265B]  GetWeatherRGBColor
+RegisterCommand  [265C]  SetWeatherRGBColor
+RegTypedCommand  [265D]  GetLandTextureTextureSet
+RegisterCommand  [265E]  SetLandTextureTextureSet
+RegisterCommand  [265F]  GetLandTextureTraitNumeric
+RegisterCommand  [2660]  SetLandTextureTraitNumeric
+RegisterCommand  [2661]  GetLandTextureNumGrasses
+RegTypedCommand  [2662]  GetLandTextureNthGrass
+RegisterCommand  [2663]  LandTextureAddGrass
+RegisterCommand  [2664]  LandTextureRemoveGrass
+RegTypedCommand  [2665]  GetTextureSetTexture
+RegisterCommand  [2666]  SetTextureSetTexture
+RegisterCommand  [2667]  GetTextureSetTraitNumeric
+RegisterCommand  [2668]  SetTextureSetTraitNumeric
+RegisterCommand  [2669]  GetTextureSetFlag
+RegisterCommand  [266A]  SetTextureSetFlag
+RegTypedCommand  [266B]  GetClimateSunTexture
+RegisterCommand  [266C]  SetClimateSunTexture
+RegTypedCommand  [266D]  GetClimateSunGlareTexture
+RegisterCommand  [266E]  SetClimateSunGlareTexture
+RegTypedCommand  [266F]  GetClimateNightSkyModel
+RegisterCommand  [2670]  SetClimateNightSkyModel
+RegisterCommand  [2671]  GetClimateTraitNumeric
+RegisterCommand  [2672]  SetClimateTraitNumeric
+RegisterCommand  [2673]  GetClimateNumWeatherTypes
+RegTypedCommand  [2674]  GetClimateNthWeatherType
+RegisterCommand  [2675]  GetClimateNthWeatherChance
+RegTypedCommand  [2676]  GetClimateNthWeatherGlobal
+RegisterCommand  [2677]  ClimateAddWeatherType
+RegisterCommand  [2678]  ClimateRemoveWeatherType
+RegisterCommand  [2679]  GetPrimitiveBound
+RegisterCommand  [267A]  SetPrimitiveBound
+RegisterCommand  [267B]  GetNumEffects
+RegTypedCommand  [267C]  GetNthEffectBase
+RegisterCommand  [267D]  GetNthEffectTraitNumeric
+RegisterCommand  [267E]  SetNthEffectTraitNumeric
+RegisterCommand  [267F]  GetNumActorEffects
+RegisterCommand  [2680]  GetNthActorEffect
+RegisterCommand  [2681]  GetActiveMenuMode
+RegTypedCommand  [2682]  GetActiveUIComponentName
+RegTypedCommand  [2683]  GetActiveUIComponentFullName
+RegisterCommand  [2684]  GetActiveUIComponentID
+RegTypedCommand  [2685]  GetMenuTargetRef
+RegisterCommand  [2686]  GetMenuItemFilter
+RegisterCommand  [2687]  ClickMenuButton
+RegisterCommand  [2688]  RemoveItemTarget
+RegisterCommand  [2689]  GetActorLevelingData
+RegisterCommand  [268A]  SetActorLevelingData
+RegisterCommand  [268B]  SetNthEffectBase
+RegisterCommand  [268C]  HasVariableAdded
+RegisterCommand  [268D]  RemoveScriptVariable
+RegisterCommand  [268E]  GetLoadOrderChanged
+RegisterCommand  [268F]  ValidateModIndex
+RegisterCommand  [2690]  RemoveAllAddedVariables
+RegisterCommand  [2691]  AuxiliaryVariableGetSize (AuxVarSize)
+RegisterCommand  [2692]  AuxiliaryVariableGetType (AuxVarType)
+RegisterCommand  [2693]  AuxiliaryVariableGetFloat (AuxVarGetFlt)
+RegisterCommand  [2694]  AuxiliaryVariableSetFloat (AuxVarSetFlt)
+RegTypedCommand  [2695]  AuxiliaryVariableGetRef (AuxVarGetRef)
+RegisterCommand  [2696]  AuxiliaryVariableSetRef (AuxVarSetRef)
+RegTypedCommand  [2697]  AuxiliaryVariableGetString (AuxVarGetStr)
+RegisterCommand  [2698]  AuxiliaryVariableSetString (AuxVarSetStr)
+RegTypedCommand  [2699]  AuxiliaryVariableGetAll (AuxVarGetAll)
+RegisterCommand  [269A]  AuxiliaryVariableErase (AuxVarErase)
+RegisterCommand  [269B]  AuxiliaryVariableEraseAll (AuxVarEraseAll)
+RegisterCommand  [269C]  RefMapArrayGetSize (RefMapSize)
+RegisterCommand  [269D]  RefMapArrayGetType (RefMapGetType)
+RegTypedCommand  [269E]  RefMapArrayGetFirst (RefMapFirst)
+RegTypedCommand  [269F]  RefMapArrayGetNext (RefMapNext)
+RegTypedCommand  [26A0]  RefMapArrayGetKeys (RefMapKeys)
+RegTypedCommand  [26A1]  RefMapArrayGetAll (RefMapGetAll)
+RegisterCommand  [26A2]  RefMapArrayErase (RefMapErase)
+RegisterCommand  [26A3]  RefMapArrayDestroy (RefMapDestroy)
+RegisterCommand  [26A4]  RefMapArrayGetFloat (RefMapGetFlt)
+RegisterCommand  [26A5]  RefMapArraySetFloat (RefMapSetFlt)
+RegTypedCommand  [26A6]  RefMapArrayGetRef (RefMapGetRef)
+RegisterCommand  [26A7]  RefMapArraySetRef (RefMapSetRef)
+RegTypedCommand  [26A8]  RefMapArrayGetString (RefMapGetStr)
+RegisterCommand  [26A9]  RefMapArraySetString (RefMapSetStr)
+RegisterCommand  [26AA]  ClearJIPSavedData
+RegisterCommand  [26AB]  SetValueAlt
+RegTypedCommand  [26AC]  GetBodyPartDataSkeleton
+RegisterCommand  [26AD]  SetBodyPartDataSkeleton
+RegTypedCommand  [26AE]  GetBodyPartDataRagdoll
+RegisterCommand  [26AF]  SetBodyPartDataRagdoll
+RegisterCommand  [26B0]  GetBodyPartDataHasPart
+RegisterCommand  [26B1]  GetBodyPartTraitNumeric
+RegisterCommand  [26B2]  SetBodyPartTraitNumeric
+RegTypedCommand  [26B3]  GetBodyPartTraitForm
+RegisterCommand  [26B4]  SetBodyPartTraitForm
+RegTypedCommand  [26B5]  GetBodyPartName
+RegisterCommand  [26B6]  SetBodyPartName
+RegTypedCommand  [26B7]  GetBodyPartReplacementModel
+RegisterCommand  [26B8]  SetBodyPartReplacementModel
+RegisterCommand  [26B9]  GetBodyPartFlag
+RegisterCommand  [26BA]  SetBodyPartFlag
+RegisterCommand  [26BB]  GetWeaponModReloadAnim
+RegisterCommand  [26BC]  SetWeaponModReloadAnim
+RegTypedCommand  [26BD]  AuxiliaryVariableGetAsArray (AuxVarGetAsArr)
+RegisterCommand  [26BE]  AuxiliaryVariableSetFromArray (AuxVarSetFromArr)
+RegTypedCommand  [26BF]  GetSoundSourceFile
+RegisterCommand  [26C0]  SetSoundSourceFile
+RegisterCommand  [26C1]  GetDestructionDataHealth
+RegisterCommand  [26C2]  SetDestructionDataHealth
+RegisterCommand  [26C3]  GetDestructionDataTargetable
+RegisterCommand  [26C4]  SetDestructionDataTargetable
+RegisterCommand  [26C5]  GetDestructionDataNumStages
+RegisterCommand  [26C6]  GetNthDestructionStageTrait
+RegisterCommand  [26C7]  SetNthDestructionStageTrait
+RegTypedCommand  [26C8]  GetNthDestructionStageExplosion
+RegisterCommand  [26C9]  SetNthDestructionStageExplosion
+RegTypedCommand  [26CA]  GetNthDestructionStageDebris
+RegisterCommand  [26CB]  SetNthDestructionStageDebris
+RegTypedCommand  [26CC]  GetNthDestructionStageReplacement
+RegisterCommand  [26CD]  SetNthDestructionStageReplacement
+RegTypedCommand  [26CE]  GetTeammates
+RegTypedCommand  [26CF]  GetCurrentWeather
+RegTypedCommand  [26D0]  GetCurrentClimate
+RegisterCommand  [26D1]  SetCurrentClimate
+RegisterCommand  [26D2]  RefreshCurrentClimate
+RegTypedCommand  [26D3]  GetWorldspaceClimate
+RegisterCommand  [26D4]  SetWorldspaceClimate
+RegTypedCommand  [26D5]  GetActorVoiceType
+RegisterCommand  [26D6]  SetActorVoiceType
+RegisterCommand  [26D7]  GetCreatureReach
+RegisterCommand  [26D8]  GetIsImmobile
+RegisterCommand  [26D9]  PickFromList
+RegisterCommand  [26DA]  SetStageAlt
+RegisterCommand  [26DB]  ToggleNoZPosReset
+RegTypedCommand  [26DC]  GetProjectileRefSource
+RegisterCommand  [26DD]  SetProjectileRefSource
+RegTypedCommand  [26DE]  GetProjectileRefWeapon
+RegisterCommand  [26DF]  SetProjectileRefWeapon
+RegisterCommand  [26E0]  GetProjectileRefLifeTime
+RegisterCommand  [26E1]  GetProjectileRefDistanceTraveled
+RegisterCommand  [26E2]  GetProjectileRefDamage
+RegisterCommand  [26E3]  SetProjectileRefDamage
+RegisterCommand  [26E4]  GetProjectileRefSpeedMult
+RegisterCommand  [26E5]  SetProjectileRefSpeedMult
+RegisterCommand  [26E6]  NONE
+RegisterCommand  [26E7]  GetWorldspaceFlag
+RegisterCommand  [26E8]  SetWorldspaceFlag
+RegisterCommand  [26E9]  GetIdleLoopTimes
+RegisterCommand  [26EA]  ToggleCreatureModel
+RegisterCommand  [26EB]  CreatureHasModel
+RegTypedCommand  [26EC]  GetCreatureModels
+RegisterCommand  [26ED]  DisableNavMeshAlt
+RegisterCommand  [26EE]  EnableNavMeshAlt
+RegisterCommand  [26EF]  GetTerrainHeight
+RegisterCommand  [26F0]  RefMapArrayValidate (RefMapValidate)
+RegisterCommand  [26F1]  HasPrimitive
+RegisterCommand  [26F2]  AddPrimitive
+RegisterCommand  [26F3]  AddDestructionStage
+RegisterCommand  [26F4]  RemoveDestructionStage
+RegTypedCommand  [26F5]  GetWeaponShellCasingModel
+RegisterCommand  [26F6]  SetWeaponShellCasingModel
+RegisterCommand  [26F7]  AddNewEffect
+RegisterCommand  [26F8]  RemoveNthEffect
+RegisterCommand  [26F9]  SetObjectEffect
+RegTypedCommand  [26FA]  GetActorUnarmedEffect
+RegisterCommand  [26FB]  SetActorUnarmedEffect
+RegisterCommand  [26FC]  IsPCInCombat
+RegisterCommand  [26FD]  CCCOnLoad
+RegisterCommand  [26FE]  CCCSetFloat
+RegisterCommand  [26FF]  CCCSetString
+RegisterCommand  [2700]  CCCSetTrait
+RegisterCommand  [2701]  CCCGetDistance
+RegisterCommand  [2702]  CCCTaskPackageFlags
+RegisterCommand  [2703]  CCCSetEquipped
+RegisterCommand  [2704]  CCCInFaction
+RegisterCommand  [2705]  CCCSetNCCS
+RegisterCommand  [2706]  GetEncumbranceRate
+RegisterCommand  [2707]  CCCLoadNCCS
+RegTypedCommand  [2708]  CCCSavedForm
+RegTypedCommand  [2709]  CCCLocationName
+RegTypedCommand  [270A]  CCCGetReputation
+RegTypedCommand  [270B]  GetSelectedItemRef
+RegisterCommand  [270C]  GetWeaponRefModFlags
+RegisterCommand  [270D]  SetWeaponRefModFlags
+RegTypedCommand  [270E]  GetBarterItems
+RegisterCommand  [270F]  GetItemRefCurrentHealth
+RegisterCommand  [2710]  SetItemRefCurrentHealth
+RegisterCommand  [2711]  GetBarterGoldAlt
+RegTypedCommand  [2712]  GetRecipeMenuSelection
+RegTypedCommand  [2713]  GetRecipeMenuCategory
+RegisterCommand  [2714]  UnlockRecipeMenuQuantity
+RegisterCommand  [2715]  GetRecipeMenuNumSubcategories
+RegisterCommand  [2716]  SetHotkeyItemRef
+RegisterCommand  [2717]  EquipItemAlt
+RegisterCommand  [2718]  UnequipItemAlt
+RegisterCommand  [2719]  DropAlt
+RegisterCommand  [271A]  DropMeAlt
+RegTypedCommand  [271B]  GetFormDescription
+RegTypedCommand  [271C]  GetAddictionEffect
+RegisterCommand  [271D]  SetAddictionEffect
+RegisterCommand  [271E]  GetAddictionChance
+RegisterCommand  [271F]  SetAddictionChance
+RegisterCommand  [2720]  GetIsPoison
+RegisterCommand  [2721]  GetContainerRespawns
+RegisterCommand  [2722]  SetContainerRespawns
+RegisterCommand  [2723]  ModBaseActorValue (ModBaseAV)
+RegisterCommand  [2724]  GetGrassTraitNumeric
+RegisterCommand  [2725]  SetGrassTraitNumeric
+RegTypedCommand  [2726]  GetGrassModel
+RegisterCommand  [2727]  SetGrassModel
+RegisterCommand  [2728]  GetWheelDisabled
+RegisterCommand  [2729]  SetWheelDisabled
+RegTypedCommand  [272A]  GetInterruptPackage
+RegisterCommand  [272B]  EnableImprovedRecipeMenu
+RegisterCommand  [272C]  InitItemFilter
+RegisterCommand  [272D]  SetItemFilter
+RegisterCommand  [272E]  GetSessionTime
+RegisterCommand  [272F]  GetQuestTargetsChanged
+RegisterCommand  [2730]  GetWorldMapPosMults
+RegisterCommand  [2731]  NONE
+RegisterCommand  [2732]  NONE
+RegTypedCommand  [2733]  GetActiveEffects
+RegisterCommand  [2734]  GetActorProcessingLevel
+RegTypedCommand  [2735]  GetActorsByProcessingLevel
+RegTypedCommand  [2736]  GetExteriorCell
+RegisterCommand  [2737]  GetCellBuffered
+RegisterCommand  [2738]  MessageExAlt
+RegTypedCommand  [2739]  GetTempEffects
+RegisterCommand  [273A]  RemoveNthTempEffect
+RegisterCommand  [273B]  GetActorLightAmount
+RegisterCommand  [273C]  GetActorAlpha
+RegisterCommand  [273D]  GetActorDiveBreath
+RegisterCommand  [273E]  SetActorDiveBreath
+RegisterCommand  [273F]  GetGameDifficulty
+RegisterCommand  [2740]  ToggleFirstPerson
+RegisterCommand  [2741]  StopIdle
+RegTypedCommand  [2742]  GetCombatTargets
+RegTypedCommand  [2743]  GetCombatAllies
+RegTypedCommand  [2744]  GetDetectedActors
+RegTypedCommand  [2745]  GetDetectingActors
+RegisterCommand  [2746]  ClearActiveQuest
+RegisterCommand  [2747]  SetFormDescription
+RegisterCommand  [2748]  GetPCFastTravelled
+RegisterCommand  [2749]  GetPCMovedCell
+RegisterCommand  [274A]  GetPCDetectionState
+RegTypedCommand  [274B]  GetFontFile
+RegisterCommand  [274C]  SetFontFile
+RegisterCommand  [274D]  ShowTextInputMenu
+RegisterCommand  [274E]  NONE
+RegisterCommand  [274F]  NONE
+RegisterCommand  [2750]  NONE
+RegTypedCommand  [2751]  GetPipboyRadio
+RegisterCommand  [2752]  CCCSayTo
+RegisterCommand  [2753]  CCCRunResultScripts
+RegisterCommand  [2754]  GetCombatDisabled
+RegisterCommand  [2755]  SetCombatDisabled
+RegisterCommand  [2756]  ToggleNoHealthReset
+RegTypedCommand  [2757]  GetCurrentStablePackage
+RegisterCommand  [2758]  MoveToCell
+RegisterCommand  [2759]  MoveToEditorPosition
+RegisterCommand  [275A]  GetTeammateUsingAmmo
+RegisterCommand  [275B]  SetTeammateUsingAmmo
+RegisterCommand  [275C]  ToggleDetectionFix
+RegisterCommand  [275D]  NONE
+RegisterCommand  [275E]  NONE
+RegisterCommand  [275F]  ToggleIgnoreLockedDoors
+RegisterCommand  [2760]  CCCSetFollowState
+RegisterCommand  [2761]  IsInCombatWith
+RegTypedCommand  [2762]  RefToPosStr
+RegisterCommand  [2763]  MoveToPosStr
+RegTypedCommand  [2764]  RefMapArrayGetValue (RefMapGetVal)
+RegisterCommand  [2765]  RefMapArraySetValue (RefMapSetVal)
+RegTypedCommand  [2766]  GetAllItems
+RegTypedCommand  [2767]  GetAllItemRefs
+RegisterCommand  [2768]  LockEquipment
+RegisterCommand  [2769]  IsAttacking
+RegisterCommand  [276A]  GetPCUsingScope
+RegisterCommand  [276B]  HolsterWeapon
+RegisterCommand  [276C]  GetFallTimeElapsed
+RegisterCommand  [276D]  GetFallTimeRemaining
+RegisterCommand  [276E]  ResetFallTime
+RegisterCommand  [276F]  GetCenterPos
+RegisterCommand  [2770]  SetIdleLoopTimes
+RegisterCommand  [2771]  CCCSMS
+RegisterCommand  [2772]  GetDetonationTimer
+RegisterCommand  [2773]  SetDetonationTimer
+RegisterCommand  [2774]  GetMineArmed
+RegisterCommand  [2775]  GetRefType
+RegisterCommand  [2776]  GetEffectFlag
+RegisterCommand  [2777]  SetEffectFlag
+RegisterCommand  [2778]  GetBaseEffectFlag
+RegisterCommand  [2779]  SetBaseEffectFlag
+RegisterCommand  [277A]  GetPCUsingIronSights
+RegTypedCommand  [277B]  GetPCLastExteriorDoor
+RegisterCommand  [277C]  GetRadiationLevelAlt
+RegisterCommand  [277D]  IsInWater
+RegisterCommand  [277E]  SetEmbeddedWeaponNode
+RegisterCommand  [277F]  SetEmbeddedWeaponAV
+RegTypedCommand  [2780]  GetDroppedRefs
+RegisterCommand  [2781]  MoveAwayFromPlayer
+RegisterCommand  [2782]  FaceObject
+RegisterCommand  [2783]  Turn
+RegisterCommand  [2784]  SetMessageDisabled
+RegisterCommand  [2785]  GetMessageDisabled
+RegTypedCommand  [2786]  GetAshPileSource
+RegisterCommand  [2787]  GetMessageFlags
+RegisterCommand  [2788]  SetMessageFlags
+RegisterCommand  [2789]  ToggleObjectCollision (TOC)
+RegisterCommand  [278A]  IsSoundPlaying
+RegisterCommand  [278B]  SwapTextureEx
+RegisterCommand  [278C]  GetMaterialPropertyValue (GetMatrPropVal)
+RegisterCommand  [278D]  SetMaterialPropertyValue (SetMatrPropVal)
+RegTypedCommand  [278E]  GetSoundPlayers
+RegisterCommand  [278F]  SetMessageDisplayTime
+RegTypedCommand  [2790]  GetImpactDataModel
+RegisterCommand  [2791]  SetImpactDataModel
+RegTypedCommand  [2792]  GetImpactDataTrait
+RegisterCommand  [2793]  SetImpactDataTraitNumeric
+RegisterCommand  [2794]  SetImpactDataTraitForm
+RegisterCommand  [2795]  sv_RegexMatch
+RegTypedCommand  [2796]  sv_RegexSearch
+RegTypedCommand  [2797]  sv_RegexReplace
+RegisterCommand  [2798]  SetOnMenuClickEventHandler
+RegisterCommand  [2799]  SetOnFastTravelEventHandler
+RegisterCommand  [279A]  SetOnMenuOpenEventHandler
+RegisterCommand  [279B]  SetOnMenuCloseEventHandler
+RegisterCommand  [279C]  SetOnAnimActionEventHandler
+RegisterCommand  [279D]  SetOnPlayGroupEventHandler
+RegisterCommand  [279E]  SetOnHealthDamageEventHandler
+RegisterCommand  [279F]  SetOnCrippledLimbEventHandler
+RegisterCommand  [27A0]  SetOnFireWeaponEventHandler
+RegTypedCommand  [27A1]  GetCurrentAmmo
+RegisterCommand  [27A2]  GetCurrentAmmoRounds
+RegTypedCommand  [27A3]  GetMoonTexture
+RegisterCommand  [27A4]  SetMoonTexture
+RegisterCommand  [27A5]  SetFullNameAlt (SetActorFullNameAlt)
+RegisterCommand  [27A6]  SetWeatherTransitionTimeOverride
+RegisterCommand  [27A7]  GetDetectionValue
+RegisterCommand  [27A8]  GetBaseActorValueAlt (GetBaseAVAlt)
+RegisterCommand  [27A9]  SetOnMouseoverChangeEventHandler
+RegisterCommand  [27AA]  GetAlwaysRun
+RegisterCommand  [27AB]  GetAutoMove
+RegisterCommand  [27AC]  SetSpeedMult
+RegisterCommand  [27AD]  GetIsRagdolled
+RegisterCommand  [27AE]  ForceActorDetectionValue
+RegisterCommand  [27AF]  SetOnPCTargetChangeEventHandler
+RegisterCommand  [27B0]  FreePlayer (GoodbyeWorldspace)
+RegisterCommand  [27B1]  AuxVarGetFltCond
+RegisterCommand  [27B2]  GetLocalGravity
+RegisterCommand  [27B3]  SetLocalGravityVector
+RegisterCommand  [27B4]  GetActorVelocity
+RegisterCommand  [27B5]  IsInAir
+RegisterCommand  [27B6]  GetHasContact
+RegTypedCommand  [27B7]  GetContactRefs
+RegisterCommand  [27B8]  GetHasContactBase
+RegisterCommand  [27B9]  GetHasContactType
+RegTypedCommand  [27BA]  GetObjectUnderFeet
+RegisterCommand  [27BB]  GetHasPhantom
+RegTypedCommand  [27BC]  GetArmorRCT
+RegisterCommand  [27BD]  SetArmorRCT
+RegisterCommand  [27BE]  GetPerkFlag
+RegisterCommand  [27BF]  SetPerkFlag
+RegisterCommand  [27C0]  ModLogPrint
+RegTypedCommand  [27C1]  GetBaseEffectScript
+RegisterCommand  [27C2]  SetBaseEffectScript
+RegTypedCommand  [27C3]  GetWaterNoiseTexture
+RegisterCommand  [27C4]  SetWaterNoiseTexture
+RegTypedCommand  [27C5]  SetWaterFormEffect
+RegTypedCommand  [27C6]  GetWaterSound
+RegisterCommand  [27C7]  SetWaterSound
+RegisterCommand  [27C8]  GetInteractionDisabled
+RegisterCommand  [27C9]  SetInteractionDisabled
+RegisterCommand  [27CA]  GetInteractionDisabledType
+RegisterCommand  [27CB]  SetInteractionDisabledType
+RegisterCommand  [27CC]  GetImageSpaceTrait
+RegisterCommand  [27CD]  SetImageSpaceTrait
+RegisterCommand  [27CE]  GetImageSpaceModTrait
+RegisterCommand  [27CF]  SetImageSpaceModTrait
+RegisterCommand  [27D0]  SetOnKeyDownEventHandler
+RegisterCommand  [27D1]  SetOnKeyUpEventHandler
+RegisterCommand  [27D2]  SetOnControlDownEventHandler
+RegisterCommand  [27D3]  SetOnControlUpEventHandler
+RegisterCommand  [27D4]  SetGameMainLoopCallback (SGMLC)
+RegTypedCommand  [27D5]  GetGlobalRef
+RegisterCommand  [27D6]  SetGlobalRef
+RegTypedCommand  [27D7]  GetWorldspaceNoiseTexture
+RegisterCommand  [27D8]  SetWorldspaceNoiseTexture
+RegTypedCommand  [27D9]  GetWorldspaceWaterType
+RegisterCommand  [27DA]  SetWorldspaceWaterType
+RegTypedCommand  [27DB]  GetWorldspaceImagespace
+RegisterCommand  [27DC]  SetWorldspaceImagespace
+RegisterCommand  [27DD]  SetCellWaterForm
+RegTypedCommand  [27DE]  GetCellClimate
+RegisterCommand  [27DF]  SetCellClimate
+RegTypedCommand  [27E0]  GetCellNoiseTexture
+RegisterCommand  [27E1]  SetCellNoiseTexture
+RegisterCommand  [27E2]  RemoveMeIRAlt
+RegisterCommand  [27E3]  GetScriptDisabled
+RegisterCommand  [27E4]  SetScriptDisabled
+RegisterCommand  [27E5]  GetScriptEventDisabled
+RegisterCommand  [27E6]  SetScriptEventDisabled
+RegisterCommand  [27E7]  FakeScriptEvent
+RegisterCommand  [27E8]  RefreshItemsList
+RegisterCommand  [27E9]  AddRefMapMarker
+RegisterCommand  [27EA]  RemoveRefMapMarker
+RegisterCommand  [27EB]  RefHasMapMarker
+RegisterCommand  [27EC]  IsSpellTargetAlt
+RegisterCommand  [27ED]  GetCalculatedWeaponDamage
+RegisterCommand  [27EE]  GetOptionalPatch
+RegisterCommand  [27EF]  SetOptionalPatch
+RegisterCommand  [27F0]  SetPosEx
+RegTypedCommand  [27F1]  GetReticlePos
+RegisterCommand  [27F2]  GetReticleRange
+RegisterCommand  [27F3]  MoveToReticle
+RegisterCommand  [27F4]  SetRefName
+RegisterCommand  [27F5]  GetActorValueModifier (GetAVMod)
+RegisterCommand  [27F6]  GetPerkModifier
+RegisterCommand  [27F7]  SetOnQuestStageEventHandler
+RegisterCommand  [27F8]  SetAngleEx
+RegTypedCommand  [27F9]  GetTeleportDoor
+RegisterCommand  [27FA]  GetBarterPriceMult
+RegisterCommand  [27FB]  SetBarterPriceMult
+RegisterCommand  [27FC]  SetOnDialogTopicEventHandler
+RegisterCommand  [27FD]  TapButton
+RegisterCommand  [27FE]  TapTrigger
+RegisterCommand  [27FF]  SetOnTriggerDownEventHandler
+RegisterCommand  [2800]  SetOnTriggerUpEventHandler
+RegisterCommand  [2801]  SetOnCriticalHitEventHandler
+RegisterCommand  [2802]  GetHitHealthDamage
+RegisterCommand  [2803]  GetHitLimbDamage
+RegisterCommand  [2804]  CrippleLimb
+RegisterCommand  [2805]  HoldControl
+RegisterCommand  [2806]  ReleaseControl
+RegisterCommand  [2807]  PlayIdleEx
+RegisterCommand  [2808]  SetBipedModelPathAlt
+RegisterCommand  [2809]  GetKillXP
+RegisterCommand  [280A]  NONE
+RegTypedCommand  [280B]  GetKiller
+RegisterCommand  [280C]  KillActorAlt
+RegisterCommand  [280D]  ReloadEquippedModels (ReloadModels)
+RegisterCommand  [280E]  MoveToFadeDelay
+RegisterCommand  [280F]  RunScriptSnippet
+RegisterCommand  [2810]  ScriptWait
+RegisterCommand  [2811]  IsScriptWaiting
+RegisterCommand  [2812]  StopScriptWaiting
+RegTypedCommand  [2813]  GetCrosshairWater
+RegisterCommand  [2814]  GetScriptBlockDisabled
+RegisterCommand  [2815]  SetScriptBlockDisabled
+RegTypedCommand  [2816]  GetPlayedIdle
+RegisterCommand  [2817]  IsIdlePlayingEx
+RegTypedCommand  [2818]  GetObjectiveTargets
+RegisterCommand  [2819]  SetObjectiveNthTarget
+RegisterCommand  [281A]  GetObjectiveHasTarget
+RegisterCommand  [281B]  AddObjectiveTarget
+RegisterCommand  [281C]  RemoveObjectiveTarget
+RegTypedCommand  [281D]  GetObjectiveText
+RegisterCommand  [281E]  SetObjectiveText
+RegTypedCommand  [281F]  GetArmorAudioTemplate
+RegisterCommand  [2820]  SetArmorAudioTemplate
+RegisterCommand  [2821]  SetWeaponOut
+RegisterCommand  [2822]  SetTerminalUIModel
+RegisterCommand  [2823]  AddBaseEffectListEffect
+RegisterCommand  [2824]  RemoveBaseEffectListEffect
+RegisterCommand  [2825]  ShowQuantityMenu
+RegisterCommand  [2826]  MessageBoxExAlt
+RegTypedCommand  [2827]  GetVATSTargets
+RegisterCommand  [2828]  HasScriptBlock
+RegisterCommand  [2829]  CastImmediate
+RegisterCommand  [282A]  IsInCharGen
+RegisterCommand  [282B]  DisableScriptedActivate
+RegTypedCommand  [282C]  GetHitAttacker
+RegTypedCommand  [282D]  GetHitProjectile
+RegTypedCommand  [282E]  GetHitWeapon
+RegisterCommand  [282F]  GetGameDaysPassed
+RegisterCommand  [2830]  GetWaterImmersionPerc
+RegTypedCommand  [2831]  GetProjectileMuzzleFlash
+RegisterCommand  [2832]  SetProjectileMuzzleFlash
+RegisterCommand  [2833]  DismemberLimb
+RegisterCommand  [2834]  RunBatchScript
+RegisterCommand  [2835]  IsArmorAddon
+RegisterCommand  [2836]  ToggleCraftingMessages
+RegisterCommand  [2837]  ToggleHardcoreTracking
+RegisterCommand  [2838]  SetGameDifficulty
+RegTypedCommand  [2839]  GetEquippedItemRef
+RegisterCommand  [283A]  ExecuteScript
+RegisterCommand  [283B]  NONE
+RegisterCommand  [283C]  IsFleeing
+RegTypedCommand  [283D]  GetEnemyHealthTarget
+RegisterCommand  [283E]  SetCurrentAmmoRounds
+RegisterCommand  [283F]  IsAnimPlayingEx
+RegisterCommand  [2840]  AttachAshPileEx
+RegisterCommand  [2841]  MarkActivatorAshPile
+RegisterCommand  [2842]  SetActorVelocity
+RegisterCommand  [2843]  GetRigidBodyMass
+RegisterCommand  [2844]  PushObject
+RegTypedCommand  [2845]  GetSkeletonModel
+RegisterCommand  [2846]  SetNPCSkeletonModel
+RegisterCommand  [2847]  SetCRESkeletonModel
+RegisterCommand  [2848]  SetBodyPartData
+RegisterCommand  [2849]  GetTargetUnreachable
+RegisterCommand  [284A]  MoveToContainer
+RegTypedCommand  [284B]  GetNifBlockTranslation (GetNifTrans)
+RegisterCommand  [284C]  SetNifBlockTranslation (SetNifTrans)
+RegTypedCommand  [284D]  GetNifBlockRotation (GetNifRot)
+RegisterCommand  [284E]  SetNifBlockRotation (SetNifRot)
+RegisterCommand  [284F]  GetNifBlockScale (GetNifScale)
+RegisterCommand  [2850]  SetNifBlockScale (SetNifScale)
+RegisterCommand  [2851]  GetNifBlockFlag (GetNifFlag)
+RegisterCommand  [2852]  SetNifBlockFlag (SetNifFlag)
+RegTypedCommand  [2853]  GetBufferedCells
+RegisterCommand  [2854]  SetVATSTargetable
+RegisterCommand  [2855]  GetWindDirection
+RegisterCommand  [2856]  SetWindDirection
+RegTypedCommand  [2857]  GetCreatureWeaponList
+RegisterCommand  [2858]  SetWindSpeedMult
+RegisterCommand  [2859]  TriggerLightningFX
+RegisterCommand  [285A]  GetObjectVelocity
+RegisterCommand  [285B]  GetAngularVelocity (GetAngVel)
+RegisterCommand  [285C]  SetAngularVelocity (SetAngVel)
+RegisterCommand  [285D]  PlaceAtCell
+RegisterCommand  [285E]  GetRayCastPos
+RegisterCommand  [285F]  GetAnimSequenceFrequency (GetAnimSeqFreq)
+RegisterCommand  [2860]  SetAnimSequenceFrequency (SetAnimSeqFreq)
+RegisterCommand  [2861]  StopSound
+RegisterCommand  [2862]  IsMusicPlaying
+RegisterCommand  [2863]  SetMusicState
+RegisterCommand  [2864]  GetNoUnequip
+RegisterCommand  [2865]  SetNoUnequip
+RegisterCommand  [2866]  SetCursorPos
+RegisterCommand  [2867]  MoveToNode
+RegTypedCommand  [2868]  GetDeathItem
+RegisterCommand  [2869]  SetDeathItem
+RegTypedCommand  [286A]  GetActorLeveledList
+RegTypedCommand  [286B]  GetPlayerPerks
+RegisterCommand  [286C]  UnloadUIComponent
+RegTypedCommand  [286D]  GetQuests
+RegTypedCommand  [286E]  GetQuestObjectives
+RegTypedCommand  [286F]  GetActiveObjectives
+RegTypedCommand  [2870]  GetObjectiveTeleportLinks
+RegTypedCommand  [2871]  GetNifBlockParentNodes (GetNifParents)
+RegisterCommand  [2872]  ClearMessageQueue
+RegisterCommand  [2873]  InitMiniMap
+RegisterCommand  [2874]  UpdateMiniMap
+RegTypedCommand  [2875]  GetCrosshairRefEx
+RegisterCommand  [2876]  IsMobile
+RegisterCommand  [2877]  IsGrabbable
+RegisterCommand  [2878]  SetOnLocationDiscoverEventHandler
+RegisterCommand  [2879]  AttachLight
+RegisterCommand  [287A]  RemoveLight
+RegisterCommand  [287B]  SetOnCraftingEventHandler
+RegisterCommand  [287C]  IsInKillCam
+RegisterCommand  [287D]  SwapObjectLOD
+RegisterCommand  [287E]  ResetClouds
+RegisterCommand  [287F]  GetPluginHeaderVersion
+RegisterCommand  [2880]  SetOnHitEventHandler
+RegisterCommand  [2881]  SetSystemColor
+RegisterCommand  [2882]  NONE
+RegisterCommand  [2883]  GetArmourPenetrated
+RegisterCommand  [2884]  GetImpactMaterialType
+RegisterCommand  [2885]  SetImpactMaterialType
+RegTypedCommand  [2886]  GetImpactDataSetForm
+RegisterCommand  [2887]  SetImpactDataSetForm
+RegisterCommand  [2888]  SetQuestFlag
+RegisterCommand  [2889]  GetQuestFlag
+RegisterCommand  [288A]  PushActorAwayAlt
+RegisterCommand  [288B]  SetGameHour
+RegisterCommand  [288C]  GetGameVolume
+RegisterCommand  [288D]  SetGameVolume
+RegisterCommand  [288E]  MoveAwayFrom
+RegTypedCommand  [288F]  GetEquippedWeaponPoison
+RegisterCommand  [2890]  SuppressQuestMessages
+RegisterCommand  [2891]  TravelToRef
+RegisterCommand  [2892]  GetIsLAA
+RegisterCommand  [2893]  fTan
+RegisterCommand  [2894]  fAtan2
+RegisterCommand  [2895]  DonnerReedKuruParty (TheOtherOtherWhiteMeat)
+RegisterCommand  [2896]  SetArmorClass
+RegTypedCommand  [2897]  GetEquippedEx
+RegisterCommand  [2898]  TestEquippedSlots
+RegisterCommand  [2899]  GetWeaponOnHitSetting
+RegisterCommand  [289A]  SetWeaponOnHitSetting
+RegisterCommand  [289B]  GetWeaponSemiAutoFireDelay
+RegisterCommand  [289C]  SetWeaponSemiAutoFireDelay
+RegisterCommand  [289D]  IsStickDisabled
+RegisterCommand  [289E]  SetStickDisabled
+RegisterCommand  [289F]  NONE
+RegTypedCommand  [28A0]  GetActiveIMODs
+RegisterCommand  [28A1]  ToggleItemUnique
+RegisterCommand  [28A2]  SetTextInputExtendedProps
+RegisterCommand  [28A3]  SetTextInputString
+RegisterCommand  [28A4]  ClickMenuTile
+RegisterCommand  [28A5]  StringToActorValue
+RegTypedCommand  [28A6]  GetFactions
+RegTypedCommand  [28A7]  GetBaseItems
+RegTypedCommand  [28A8]  GetHit3DData
+RegTypedCommand  [28A9]  GetWeaponModel
+RegisterCommand  [28AA]  SetWeaponModel
+RegTypedCommand  [28AB]  GetOwnerOfCell
+RegisterCommand  [28AC]  TogglePipBoyLight
+RegisterCommand  [28AD]  GetHardcoreTracking
+RegisterCommand  [28AE]  SetPerkLevel
+RegTypedCommand  [28AF]  GetProjectileRefImpactRef
+RegisterCommand  [28B0]  SetOnProjectileImpactEventHandler
+RegisterCommand  [28B1]  GetNoteRead
+RegisterCommand  [28B2]  SetOnNoteAddedEventHandler
+RegisterCommand  [28B3]  SetOnUseAidItemEventHandler
+RegisterCommand  [28B4]  ToggleVanityWheel
+RegisterCommand  [28B5]  ToggleHUDCursor
+RegisterCommand  [28B6]  GetHardcoreStageThreshold
+RegisterCommand  [28B7]  SetHardcoreStageThreshold
+RegTypedCommand  [28B8]  GetHardcoreStageEffect
+RegisterCommand  [28B9]  SetHardcoreStageEffect
+RegisterCommand  [28BA]  ClearModelAltTextures
+RegTypedCommand  [28BB]  GetCreatureSoundsTemplate
+RegisterCommand  [28BC]  SetCreatureSoundsTemplate
+RegisterCommand  [28BD]  GetDebugModeState
+RegisterCommand  [28BE]  GetProjectileRefImpactMaterial
+RegisterCommand  [28BF]  FreezeTime
+RegisterCommand  [28C0]  GetConditionDamagePenalty
+RegisterCommand  [28C1]  SetConditionDamagePenalty
+RegisterCommand  [28C2]  NONE
+RegisterCommand  [28C3]  NONE
+RegisterCommand  [28C4]  ToggleBipedSlotVisibility
+RegisterCommand  [28C5]  SetOnReloadWeaponEventHandler
+RegisterCommand  [28C6]  AddTileFromTemplate
+RegisterCommand  [28C7]  UpdatePlayer3D
+RegTypedCommand  [28C8]  GetArrayValue
+RegisterCommand  [28C9]  SetOnRagdollEventHandler
+RegisterCommand  [28CA]  PushActorNoRagdoll
+RegisterCommand  [28CB]  SetUIFloatGradual
+RegisterCommand  [28CC]  CloseActiveMenu
+RegisterCommand  [28CD]  ReloadCloudTextures
+RegisterCommand  [28CE]  ToggleImmortalMode (TIMM)
+RegTypedCommand  [28CF]  GetBodyPartVATSTarget
+RegisterCommand  [28D0]  SetLinearVelocity
+RegTypedCommand  [28D1]  GetEquippedArmorRefs
+RegTypedCommand  [28D2]  GetHitNode
+RegisterCommand  [28D3]  InsertNode
+RegisterCommand  [28D4]  AttachModel
+RegisterCommand  [28D5]  SynchronizePosition (SyncPos)
+RegisterCommand  [28D6]  ToggleCameraCollision
+RegisterCommand  [28D7]  InitRockItLauncher
+RegisterCommand  [28D8]  ForceClimate
+RegisterCommand  [28D9]  GetInFactionList
+RegisterCommand  [28DA]  LeveledListHasFormDeep (LListHasFormDeep)
+RegisterCommand  [28DB]  GetActorTiltAngle
+RegisterCommand  [28DC]  SetActorTiltAngle
+RegisterCommand  [28DD]  ReloadCharController
+RegisterCommand  [28DE]  GetRandomInRange
+RegisterCommand  [28DF]  ModelHasBlock
+RegisterCommand  [28E0]  GetGroundMaterial
+RegisterCommand  [28E1]  ShowLevelUpMenuEx
+RegTypedCommand  [28E2]  GetRayCastRef
+RegisterCommand  [28E3]  GetRayCastMaterial
+RegisterCommand  [28E4]  FireWeaponEx
+RegisterCommand  [28E5]  GetArmorEffectiveDT
+RegisterCommand  [28E6]  GetArmorEffectiveDR
+RegisterCommand  [28E7]  GetActorGravityMult
+RegisterCommand  [28E8]  SetActorGravityMult
+RegisterCommand  [28E9]  ToggleHitEffects
+RegisterCommand  [28EA]  ToggleNoMovementCombat
+RegisterCommand  [28EB]  ToggleTeammateKillable (SetTeammateKillable)
+RegisterCommand  [28EC]  ToggleNoGunWobble (SetNoGunWobble)
+RegisterCommand  [28ED]  RewardXPExact
+RegisterCommand  [28EE]  GetHitExtendedFlag
+RegisterCommand  [28EF]  ClearDeadActors
+RegisterCommand  [28F0]  GetCameraMovement
+RegTypedCommand  [28F1]  GetHotkeyItemRef
+RegTypedCommand  [28F2]  GetCollisionNodes
+RegTypedCommand  [28F3]  GetChildBlocks
+RegTypedCommand  [28F4]  GetBlockTextureSet
+RegTypedCommand  [28F5]  GetReticleNode
+RegisterCommand  [28F6]  NONE
+RegisterCommand  [28F7]  EquippedWeaponHasModType
+RegisterCommand  [28F8]  GetPosEx
+RegisterCommand  [28F9]  GetAngleEx
+RegisterCommand  [28FA]  ToggleMouseMovement
+RegisterCommand  [28FB]  SetTextureTransformKey (SetTexTransKey)
+RegisterCommand  [28FC]  AttachExtraCamera (AttachCam)
+RegisterCommand  [28FD]  ProjectExtraCamera (ProjCam)
+RegisterCommand  [28FE]  AttachUIXML
+RegisterCommand  [28FF]  AttachUIComponent
+RegisterCommand  [2900]  RenameNifBlock
+RegisterCommand  [2901]  RemoveNifBlock
+RegisterCommand  [2902]  SetInternalMarker
+RegisterCommand  [2903]  FailQuest
+RegisterCommand  [2904]  PlayAnimSequence
+RegisterCommand  [2905]  RemoveAllPerks
+RegisterCommand  [2906]  GetPointRayCastPos
+RegisterCommand  [2907]  TogglePlayerSneaking
+RegisterCommand  [2908]  GetActorMovementFlags
+RegisterCommand  [2909]  GetTranslatedPos
+RegisterCommand  [290A]  GetHitBaseWeaponDamage
+RegisterCommand  [290B]  GetHitFatigueDamage
+RegisterCommand  [290C]  RefreshAnimData
+RegisterCommand  [290D]  GetNifBlockTranslationAlt (GetNifTransAlt)
+RegisterCommand  [290E]  GetNifBlockRotationAlt (GetNifRotAlt)
+RegisterCommand  [290F]  GetLinearVelocityAlt (GetLinVelAlt)
+RegisterCommand  [2910]  GetAngularVelocityAlt (GetAngVelAlt)
+RegisterCommand  [2911]  SetAngularVelocityEx (SetAngVelEx)
+RegisterCommand  [2912]  GetActorVelocityAlt
+RegisterCommand  [2913]  GetCollisionObjProperty (GetCollProp)
+RegisterCommand  [2914]  SetCollisionObjProperty (SetCollProp)
+RegisterCommand  [2915]  GetCollisionObjLayerType (GetCollLayer)
+RegisterCommand  [2916]  SetCollisionObjLayerType (SetCollLayer)
+RegisterCommand  [2917]  SetRefrModelPath (SetRefModel)
+RegisterCommand  [2918]  NONE
+RegisterCommand  [2919]  AttachLine
+RegisterCommand  [291A]  IsSpellTargetList
+RegisterCommand  [291B]  GetExcludedCombatActions
+RegisterCommand  [291C]  SetExcludedCombatActions
+RegisterCommand  [291D]  SetArmorConditionPenalty
+RegisterCommand  [291E]  PlaySound3DNode
+RegisterCommand  [291F]  GetReticlePosAlt
+RegisterCommand  [2920]  GetLightAmountAtPoint
+RegisterCommand  [2921]  TransformWorldToLocal
+RegisterCommand  [2922]  GetAnglesBetweenPoints
+RegisterCommand  [2923]  GetP2PRayCastRange
+RegisterCommand  [2924]  WeaponHasModType
+RegisterCommand  [2925]  ProjectUITile
+RegisterCommand  [2926]  RotateAroundPoint
+RegisterCommand  [2927]  GetStringUIDimensions
+RegisterCommand  [2928]  ToggleNodeCollision
+RegTypedCommand  [2929]  GetAllPerks
+RegTypedCommand  [292A]  GetEditorPosition
+RegTypedCommand  [292B]  GetWorldspacePersistentCell
+RegisterCommand  [292C]  ScrollMouseWheel
+RegisterCommand  [292D]  GetCellNorthRotation
+RegisterCommand  [292E]  RefHasExtraData
+RegTypedCommand  [292F]  GetRefExtraData
+RegisterCommand  [2930]  SetRefExtraData
+RegisterCommand  [2931]  TogglePurgeOnUnload (TPOU)
+RegTypedCommand  [2932]  GetProjectileLight
+RegisterCommand  [2933]  SetProjectileLight
+RegisterCommand  [2934]  IsItemUnique
+RegTypedCommand  [2935]  GetMenuItemListRefs
+RegTypedCommand  [2936]  GetSelfAsInventoryRef
+RegisterCommand  [2937]  SetDamageToArmorMaxPercent (DTAMP)
+RegisterCommand  [2938]  RegisterSRScript
+RegisterCommand  [2939]  SetAmmoCasing
+RegisterCommand  [293A]  AssignKeyword
+RegisterCommand  [293B]  HasKeyword
+RegTypedCommand  [293C]  GetKeywordForms
+RegisterCommand  [293D]  ToggleDepthClear
+RegisterCommand  [293E]  HasKeywordCond
+RegisterCommand  [293F]  GetStringHash (GetHash)
+RegisterCommand  [2940]  CalculateShotsPerSec
+RegisterCommand  [2941]  IsAttackQueued
+RegisterCommand  [2942]  GetReticleTargetLimb
+registering plugin listener for NVSE at 3 of 4
+SetOpcodeBase 00002132
+RegisterCommand  [2132]  GetMoveFlags
+RegisterCommand  [2133]  SetSneaking
+RegisterCommand  [2134]  OverridePlayerMovementAnimMult
+RegisterCommand  [2135]  SetControllerRunThreshold
+RegisterCommand  [2136]  GetSmoothIronsightsValue (GSIV)
+RegisterCommand  [2137]  SetSmoothIronsightsValue
+RegisterCommand  [2138]  SetAlwaysForward
+RegTypedCommand  [2139]  StewieGetValue (StewVal)
+registering plugin listener for NVSE at 4 of 5
+plugin C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\CrashLogger.dll (CrashLogger; version 517; infoVersion 1) loaded correctly
+plugin C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\EngineOptimizations.dll (Engine Optimizations; version 100; infoVersion 1) loaded correctly
+plugin C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\jip_nvse.dll (JIP LN NVSE; version 5730; infoVersion 1) loaded correctly
+plugin C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\nvse_stewie_tweaks.dll (lStewieAl's Tweaks; version 987; infoVersion 1) loaded correctly
+max id = 00002943
+patched
+init complete
+Hook_DirectInput8Create_Execute

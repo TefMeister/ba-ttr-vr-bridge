@@ -1,0 +1,302 @@
+Program with useless data in it version 5.17 at 2026-11-09 22:05:47
+If this file is empty, then your game didn't crash or something went so wrong even crash logger was useless! :snig:
+Topmost stack module is NOT ALWAYS the crash reason! Exercise caution when speculating!
+
+When asking for help, please send the whole log file!
+
+
+Exception: EXCEPTION_ACCESS_VIOLATION (C0000005)
+
+Thread: [FNV] Main
+
+Calltrace:
+     ebp    |                   Address                 |                 Function                 |  Source
+ 0x001AEAF8 |                    FalloutNV (0x00682303) |                                          | 
+ 0x001AEB48 |                    FalloutNV (0x00682045) |                                          | 
+ 0x001AF3E0 |                    FalloutNV (0x00681A26) |                                          | 
+ 0x001AF3F4 |                    FalloutNV (0x00680A5C) |                                          | 
+ 0x001AF408 |                    FalloutNV (0x005EA36C) |                                          | 
+ 0x001AF420 |                    FalloutNV (0x005EAD7C) |                                          | 
+ 0x001AFA98 |                    FalloutNV (0x0046418D) |                                          | 
+ 0x001AFB3C |                    FalloutNV (0x0086D2A9) |                                          | 
+ 0x001AFEC4 |                    FalloutNV (0x0086B0ED) |                                          | 
+ 0x001AFEE4 |            nvse_steam_loader (0x100026D4) | OnHook+0x64                              | C:\Users\<user>\source\repos\xNVSE\NVSE\nvse\steam_loader\main.cpp:62
+ 0x001AFF74 |                    FalloutNV (0x00ECC470) |                                          | 
+ 0x001AFF84 |                     KERNEL32 (0x10015D49) | BaseThreadInitThunk+0x19                 | 
+ 0x001AFFDC |                        ntdll (0x1006C75B) | RtlInitializeExceptionChain+0x6B         | 
+ 0x001AFFEC |                        ntdll (0x1006C6E1) | RtlGetAppContainerNamedObjectPath+0x231  | 
+
+Registry:
+ REG |    Value   | DEREFERENCE INFO
+ ebp | 0x001AEAF8 |
+ ebx | 0x00000001 |
+ eax | 0x00064118 |
+ edx | 0x00000000 |
+ ecx | 0x00000000 |
+ esi | 0x00000000 |
+ edi | 0xFFFFFFFE |
+ eip | 0x00682303 |
+
+Stack:
+  # |    Value   | DEREFERENCE INFO
+ 01 | 0x001AEB48 |
+ 02 | 0x00682045 |
+ 03 | 0x1128C9FC |
+ 07 | 0x006821AB |
+ 08 | 0x113E17B0 |
+ 0C | 0xFFFFFFFE |
+ 0D | 0x00EC4415 |
+ 0E | 0x060CAFA7 |
+ 17 | 0x3C071230 | 0x01046EC4 => Class: BGSPerk
+					Full Name: "Gun Nut"
+					FormID: 0604494E
+					Flags: MASTER
+					Plugin: "Fallout3.esm"
+					Last modified by: "TaleOfTwoWastelands.esm"
+ 25 | 0x06C48FD8 | 0x010A28FC => Class: MemoryHeap
+					Default Heap:  46.01 MiB / 500.00 MiB (9.20%)
+ 26 | 0x120E1580 | 0x01015CE4 => Class: ExtraActivateRef
+ 2E | 0x0D0F7D50 | 0x0101589C => Class: ExtraLock
+ 30 | 0x120E12A0 | 0x01015CE4 => Class: ExtraActivateRef
+ 32 | 0x0D14D630 | 0x01015C48 => Class: ExtraRagDollData
+ 35 | 0x4117D58C | 0x010143E8 => Class: ExtraDataList
+ 38 | 0x0D0D7E00 | 0x0101589C => Class: ExtraLock
+ 3B | 0x411858CC | 0x010143E8 => Class: ExtraDataList
+ 3D | 0x195465F8 | 0x010143E8 => Class: ExtraDataList
+ 41 | 0x1954A914 | 0x010143E8 => Class: ExtraDataList
+ 50 | 0x190C30AC | 0x00000001
+ 5A | 0x190C4174 | 0x00000001
+ 5C | 0x120B2A00 | 0x01015CE4 => Class: ExtraActivateRef
+ 61 | 0x0D0BD2A0 | 0x01015C48 => Class: ExtraRagDollData
+ 69 | 0x0E0A0438 | 0x01011D54 => Class: TESFullName
+ 71 | 0x0D10C4C0 | 0x0101589C => Class: ExtraLock
+ B1 | 0x001AEE78 | 0x011F6238 => Global: MemoryManager
+ E0 | 0x06C5A024 | 0x00000001
+ E9 | 0x184CC1C4 | 0x010A4764 => Class: BSFile
+					File Path: "DATA\YUPTTW.esm"
+
+--------------------------------------------------------------------------------
+
+Device:
+ OS:  "Windows 11 Enterprise - 26200 (25H2)"
+ CPU: "Intel(R) Core(TM) i5-14600K"
+ GPU: "NVIDIA GeForce <pc> 5080"
+ RAM: "32.00 GB"
+
+--------------------------------------------------------------------------------
+
+Process' Memory:
+ Physical Usage: 255.99 MiB /  31.78 GiB (0.79%)
+ Virtual  Usage:   1.38 GiB /   4.00 GiB (34.59%)
+
+Graphics Memory:
+ GPU 0 - NVIDIA GeForce <pc> 5080
+  Local Memory:      20.95 MiB /  14.85 GiB (0.14%) 
+  Non-Local Memory:   7.25 MiB /  15.14 GiB (0.05%) 
+ GPU 1 - Intel(R) UHD Graphics 770
+  Local Memory:          0 B /  15.14 GiB (0.00%)   
+ GPU 2 - NVIDIA GeForce <pc> 5080
+  Local Memory:      20.95 MiB /  14.85 GiB (0.14%) 
+  Non-Local Memory:   7.25 MiB /  15.14 GiB (0.05%) 
+
+--------------------------------------------------------------------------------
+
+Game's Heaps:
+ Default Heap      46.01 MiB / 500.00 MiB (9.20%)  (18070000 - 37470000)
+ Static Heap      606.88 KiB /   1.51 MiB (39.15%)  (06C5A020 - 06DDD820)
+ File Heap        932.46 KiB /  64.00 MiB (1.42%)  (06DE0000 - 0ADE0000)
+
+Game's Total Memory:
+ Total Heap Memory:    47.51 MiB / 565.51 MiB (8.40%)
+ Total Pool Memory:    60.58 MiB / 132.00 MiB (45.89%)
+ Total Memory:        108.09 MiB / 697.51 MiB (15.50%)
+ Malloc Memory:        16.55 KiB
+
+WARNING: New Vegas Tick Fix not found! This will cause performance issues, and crashes if using texture mods!
+
+
+--------------------------------------------------------------------------------
+
+Playtime: 00:01:36
+
+Player Data:
+ Cell:       None
+ World:      None
+ Position:   X: 0.00 Y: 0.00 Z: 0.00
+ Rotation:   X: 0.00 Y: 0.00 Z: 0.00
+
+Currently running script:
+  None
+
+Loaded assets:
+ Textures:       50
+   <= 128:  22
+   <= 256:  11
+   <= 512:  3
+   <= 1024: 7
+   <= 2048: 7
+   <= 4096: 0
+   <= 8192: 0
+ Models:         7
+ FaceGen Models: 0
+ Animations:     0
+
+Process Lists:
+ High:        0
+ Middle High: 0
+ Middle Low:  0
+ Low:         15462
+Total: 15462
+
+--------------------------------------------------------------------------------
+
+Mods:
+  # |                                        Mod                                       |                            Author                           
+ 00 | FalloutNV.esm                                                                    | ipely                                                       
+ 01 | DeadMoney.esm                                                                    | jfader                                                      
+ 02 | HonestHearts.esm                                                                 | jfader                                                      
+ 03 | OldWorldBlues.esm                                                                | jfader                                                      
+ 04 | LonesomeRoad.esm                                                                 | jfader                                                      
+ 05 | GunRunnersArsenal.esm                                                            | jfader                                                      
+ 06 | Fallout3.esm                                                                     | ipely                                                       
+ 07 | Anchorage.esm                                                                    | jduvall                                                     
+ 08 | ThePitt.esm                                                                      | jduvall                                                     
+ 09 | BrokenSteel.esm                                                                  | bchapin                                                     
+ 0A | PointLookout.esm                                                                 | jburgess                                                    
+ 0B | Zeta.esm                                                                         | ipely                                                       
+ 0C | CaravanPack.esm                                                                  | jfader                                                      
+ 0D | ClassicPack.esm                                                                  | jfader                                                      
+ 0E | MercenaryPack.esm                                                                | jfader                                                      
+ 0F | TribalPack.esm                                                                   | jfader                                                      
+ 10 | TaleOfTwoWastelands.esm                                                          | Tale of Two Wastelands Team                                 
+ 11 | YUPTTW.esm                                                                       | Yukichigai - sandbox6 - miguick - Roy Batty - Kazopert      
+
+--------------------------------------------------------------------------------
+
+Module bases:
+      Address Range      |    Size    |                  Module                  |        Version       |                                 Filepath
+ 0x03820000 - 0x03850000 | 192.00 KiB | CrashLogger                              | 517                  | C:/Modlists/Begin Again/mods/Yvile's Crash Logger/nvse/plugins/CrashLogger.dll
+ 0x06AB0000 - 0x06BBA000 |   1.04 MiB | nvse_stewie_tweaks                       | 9.8.7.0              | C:/Modlists/Begin Again/mods/lStewieAl's Tweaks and Engine Fixes/NVSE/plugins/nvse_stewie_tweaks.dll
+ 0x55730000 - 0x558B7000 |   1.53 MiB | usvfs_x86                                | 0.5.6.1              | C:/Modlists/Begin Again/usvfs_x86.dll
+ 0x5A070000 - 0x5A091000 | 132.00 KiB | CSERHelper                               | 4.50.0.0             | C:/Steam/CSERHelper.dll
+ 0x53CD0000 - 0x53E5C000 |   1.55 MiB | GameOverlayRenderer                      | 11.15.70.27          | C:/Steam/GameOverlayRenderer.dll
+ 0x53E60000 - 0x53F69000 |   1.04 MiB | steam                                    | Unknown              | C:/Steam/steam.dll
+ 0x0AFE0000 - 0x0AFF9000 | 100.00 KiB | Engine Optimizations                     | 100                  | C:/Steam/steamapps/common/Fallout New Vegas/Data/NVSE/Plugins/EngineOptimizations.dll
+ 0x0BEA0000 - 0x0BF20000 | 512.00 KiB | JIP LN NVSE                              | 5730                 | C:/Steam/steamapps/common/Fallout New Vegas/Data/NVSE/Plugins/jip_nvse.dll
+ 0x00400000 - 0x0147B000 |  16.48 MiB | FalloutNV                                | 1.4.0.525            | C:/Steam/steamapps/common/Fallout New Vegas/FalloutNV.exe
+ 0x18000000 - 0x18068000 | 416.00 KiB | binkw32                                  | 1.7.3.0              | C:/Steam/steamapps/common/Fallout New Vegas/binkw32.dll
+ 0x5A5D0000 - 0x5A691000 | 772.00 KiB | libvorbis                                | 1.3.7.0              | C:/Steam/steamapps/common/Fallout New Vegas/libvorbis.dll
+ 0x5A6A0000 - 0x5A6C1000 | 132.00 KiB | libvorbisfile                            | 1.3.7.0              | C:/Steam/steamapps/common/Fallout New Vegas/libvorbisfile.dll
+ 0x0BD40000 - 0x0BE9B000 |   1.36 MiB | nvse_1_4                                 | 0.6.4.7              | C:/Steam/steamapps/common/Fallout New Vegas/nvse_1_4.dll
+ 0x5A530000 - 0x5A540000 |  64.00 KiB | nvse_steam_loader                        | 0.6.4.7              | C:/Steam/steamapps/common/Fallout New Vegas/nvse_steam_loader.dll
+ 0x3B400000 - 0x3B41D000 | 116.00 KiB | steam_api                                | 7.9.87.40            | C:/Steam/steamapps/common/Fallout New Vegas/steam_api.dll
+ 0x540B0000 - 0x5558A000 |  20.85 MiB | steamclient                              | 11.15.70.27          | C:/Steam/steamclient.dll
+ 0x54010000 - 0x540AE000 | 632.00 KiB | tier0_s                                  | 11.15.70.27          | C:/Steam/tier0_s.dll
+ 0x53F70000 - 0x54008000 | 608.00 KiB | vstdlib_s                                | 11.15.70.27          | C:/Steam/vstdlib_s.dll
+ 0x53180000 - 0x53368000 |   1.91 MiB | nvse_dbghelp                             | 10.0.26100.9549      | <user>/AppData/Local/Temp/nvse_dbghelp.dll
+ 0x5AC90000 - 0x5AE03000 |   1.45 MiB | AUDIOSES                                 | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/AUDIOSES.DLL
+ 0x733C0000 - 0x733CA000 |  40.00 KiB | CRYPTBASE                                | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/CRYPTBASE.DLL
+ 0x63800000 - 0x638E0000 | 896.00 KiB | CoreMessaging                            | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/CoreMessaging.dll
+ 0x5A810000 - 0x5AAA5000 |   2.58 MiB | CoreUIComponents                         | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/CoreUIComponents.dll
+ 0x0DF20000 - 0x0DF88000 | 416.00 KiB | D3DREF9                                  | 10.0.26100.7705      | C:/WINDOWS/SYSTEM32/D3DREF9.DLL
+ 0x63330000 - 0x63355000 | 148.00 KiB | DEVOBJ                                   | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/DEVOBJ.dll
+ 0x71650000 - 0x71688000 | 224.00 KiB | DINPUT8                                  | 6.2.26100.8521       | C:/WINDOWS/SYSTEM32/DINPUT8.dll
+ 0x5A550000 - 0x5A5C6000 | 472.00 KiB | DSOUND                                   | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/DSOUND.dll
+ 0x64580000 - 0x6458B000 |  44.00 KiB | HID                                      | 6.2.26100.1          | C:/WINDOWS/SYSTEM32/HID.DLL
+ 0x73A10000 - 0x73A36000 | 152.00 KiB | IPHLPAPI                                 | 6.2.26100.8875       | C:/WINDOWS/SYSTEM32/IPHLPAPI.DLL
+ 0x55690000 - 0x55726000 | 600.00 KiB | MSVCP140                                 | 14.51.36247.0        | C:/WINDOWS/SYSTEM32/MSVCP140.dll
+ 0x74930000 - 0x74984000 | 336.00 KiB | MSWSOCK                                  | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/MSWSOCK.dll
+ 0x558C0000 - 0x5595F000 | 636.00 KiB | ResampleDmo                              | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/ResampleDmo.DLL
+ 0x645C0000 - 0x645CA000 |  40.00 KiB | Secur32                                  | 6.2.26100.7705       | C:/WINDOWS/SYSTEM32/Secur32.dll
+ 0x74230000 - 0x7425C000 | 176.00 KiB | SspiCli                                  | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/SspiCli.dll
+ 0x55590000 - 0x5567C000 | 944.00 KiB | TextShaping                              | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/TextShaping.dll
+ 0x63AA0000 - 0x63AAF000 |  60.00 KiB | UMPDC                                    | 6.2.26100.8972       | C:/WINDOWS/SYSTEM32/UMPDC.dll
+ 0x6FB60000 - 0x6FB89000 | 164.00 KiB | USERENV                                  | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/USERENV.dll
+ 0x5A3B0000 - 0x5A3CD000 | 116.00 KiB | VCRUNTIME140                             | 14.51.36247.0        | C:/WINDOWS/SYSTEM32/VCRUNTIME140.dll
+ 0x73BC0000 - 0x73BC8000 |  32.00 KiB | VERSION                                  | 6.2.26100.1          | C:/WINDOWS/SYSTEM32/VERSION.dll
+ 0x6FB00000 - 0x6FB34000 | 208.00 KiB | WINMM                                    | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/WINMM.dll
+ 0x750E0000 - 0x750E8000 |  32.00 KiB | WSOCK32                                  | 6.2.26100.1          | C:/WINDOWS/SYSTEM32/WSOCK32.dll
+ 0x01D30000 - 0x01D46000 |  88.00 KiB | XINPUT1_3                                | 9.18.944.0           | C:/WINDOWS/SYSTEM32/XINPUT1_3.dll
+ 0x750F0000 - 0x7519F000 | 700.00 KiB | apphelp                                  | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/apphelp.dll
+ 0x73EC0000 - 0x73EDC000 | 112.00 KiB | bcrypt                                   | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/bcrypt.dll
+ 0x74190000 - 0x741D0000 | 256.00 KiB | cfgmgr32                                 | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/cfgmgr32.dll
+ 0x73360000 - 0x7338B000 | 172.00 KiB | cryptnet                                 | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/cryptnet.dll
+ 0x64100000 - 0x64279000 |   1.47 MiB | d3d9                                     | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/d3d9.dll
+ 0x55970000 - 0x55D38000 |   3.78 MiB | d3dx9_38                                 | 9.23.949.2378        | C:/WINDOWS/SYSTEM32/d3dx9_38.dll
+ 0x631B0000 - 0x631E0000 | 192.00 KiB | dbgcore                                  | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/dbgcore.DLL
+ 0x64BC0000 - 0x64DA8000 |   1.91 MiB | dbghelp                                  | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/dbghelp.dll
+ 0x5A140000 - 0x5A18E000 | 312.00 KiB | directxdatabasehelper                    | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/directxdatabasehelper.dll
+ 0x60F80000 - 0x610AB000 |   1.17 MiB | drvstore                                 | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/drvstore.dll
+ 0x6F9C0000 - 0x6F9E5000 | 148.00 KiB | dwmapi                                   | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/dwmapi.dll
+ 0x73430000 - 0x73466000 | 216.00 KiB | dxcore                                   | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/dxcore.dll
+ 0x6F9F0000 - 0x6FAF9000 |   1.04 MiB | dxgi                                     | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/dxgi.dll
+ 0x73390000 - 0x733AF000 | 124.00 KiB | gpapi                                    | 6.2.26100.8972       | C:/WINDOWS/SYSTEM32/gpapi.dll
+ 0x638F0000 - 0x63A64000 |   1.45 MiB | inputhost                                | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/inputhost.dll
+ 0x74910000 - 0x74925000 |  84.00 KiB | kernel.appcore                           | 6.2.26100.9278       | C:/WINDOWS/SYSTEM32/kernel.appcore.dll
+ 0x750C0000 - 0x750CE000 |  56.00 KiB | msasn1                                   | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/msasn1.dll
+ 0x5A540000 - 0x5A549000 |  36.00 KiB | msdmo                                    | 6.2.26100.1          | C:/WINDOWS/SYSTEM32/msdmo.dll
+ 0x77700000 - 0x778C0000 |   1.75 MiB | ntdll                                    | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/ntdll.dll
+ 0x73B90000 - 0x73BB9000 | 164.00 KiB | ntmarta                                  | 6.2.26100.7019       | C:/WINDOWS/SYSTEM32/ntmarta.dll
+ 0x539B0000 - 0x53A18000 | 416.00 KiB | nvapi                                    | 32.0.16.2114         | C:/WINDOWS/SYSTEM32/nvapi.dll
+ 0x6F8C0000 - 0x6F915000 | 340.00 KiB | powrprof                                 | 6.2.26100.3912       | C:/WINDOWS/SYSTEM32/powrprof.dll
+ 0x741E0000 - 0x741FE000 | 120.00 KiB | profapi                                  | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/profapi.dll
+ 0x53CB0000 - 0x53CC0000 |  64.00 KiB | resourcepolicyclient                     | 6.2.26100.8115       | C:/WINDOWS/SYSTEM32/resourcepolicyclient.dll
+ 0x62D10000 - 0x62E12000 |   1.01 MiB | textinputframework                       | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/textinputframework.dll
+ 0x74990000 - 0x750AE000 |   7.12 MiB | windows.storage                          | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/windows.storage.dll
+ 0x5AEA0000 - 0x5AEC5000 | 148.00 KiB | winmmbase                                | 6.2.26100.9549       | C:/WINDOWS/SYSTEM32/winmmbase.dll
+ 0x746A0000 - 0x74799000 | 996.00 KiB | wintypes                                 | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/wintypes.dll
+ 0x74020000 - 0x74084000 | 400.00 KiB | wldp                                     | 6.2.26100.9711       | C:/WINDOWS/SYSTEM32/wldp.dll
+ 0x774B0000 - 0x77535000 | 532.00 KiB | ADVAPI32                                 | 6.2.26100.9711       | C:/WINDOWS/System32/ADVAPI32.dll
+ 0x775C0000 - 0x776CF000 |   1.06 MiB | CRYPT32                                  | 6.2.26100.9549       | C:/WINDOWS/System32/CRYPT32.dll
+ 0x73410000 - 0x73424000 |  80.00 KiB | CRYPTSP                                  | 6.2.26100.9711       | C:/WINDOWS/System32/CRYPTSP.dll
+ 0x5B580000 - 0x5B694000 |   1.08 MiB | NvMemMapStorage                          | Unknown              | C:/WINDOWS/System32/DriverStore/FileRepository/nvmdi.inf_amd64_c8fe3aa22cae8673/NvMemMapStorage.dll
+ 0x788B0000 - 0x7B558000 |  44.66 MiB | nvd3dum                                  | 32.0.16.2114         | C:/WINDOWS/System32/DriverStore/FileRepository/nvmdi.inf_amd64_c8fe3aa22cae8673/nvd3dum.dll
+ 0x5B6B0000 - 0x60F72000 |  88.76 MiB | nvgpucomp32                              | 32.0.16.2114         | C:/WINDOWS/System32/DriverStore/FileRepository/nvmdi.inf_amd64_c8fe3aa22cae8673/nvgpucomp32.dll
+ 0x610B0000 - 0x61154000 | 656.00 KiB | nvldumd                                  | 32.0.16.2114         | C:/WINDOWS/System32/DriverStore/FileRepository/nvmdi.inf_amd64_c8fe3aa22cae8673/nvldumd.dll
+ 0x53A20000 - 0x53B65000 |   1.27 MiB | nvppe                                    | 32.0.16.2114         | C:/WINDOWS/System32/DriverStore/FileRepository/nvmdi.inf_amd64_c8fe3aa22cae8673/nvppe.dll
+ 0x76BA0000 - 0x76BC2000 | 136.00 KiB | GDI32                                    | 6.2.26100.8521       | C:/WINDOWS/System32/GDI32.dll
+ 0x76D40000 - 0x76D65000 | 148.00 KiB | IMM32                                    | 6.2.26100.9278       | C:/WINDOWS/System32/IMM32.DLL
+ 0x769F0000 - 0x76AE0000 | 960.00 KiB | KERNEL32                                 | 6.2.26100.9711       | C:/WINDOWS/System32/KERNEL32.DLL
+ 0x76D80000 - 0x77059000 |   2.85 MiB | KERNELBASE                               | 6.2.26100.9711       | C:/WINDOWS/System32/KERNELBASE.dll
+ 0x632A0000 - 0x63328000 | 544.00 KiB | MMDevApi                                 | 6.2.26100.9711       | C:/WINDOWS/System32/MMDevApi.dll
+ 0x752A0000 - 0x753B7000 |   1.09 MiB | MSCTF                                    | 6.2.26100.9549       | C:/WINDOWS/System32/MSCTF.dll
+ 0x76AF0000 - 0x76B90000 | 640.00 KiB | OLEAUT32                                 | 6.2.26100.9711       | C:/WINDOWS/System32/OLEAUT32.dll
+ 0x771F0000 - 0x772AC000 | 752.00 KiB | RPCRT4                                   | 6.2.26100.9711       | C:/WINDOWS/System32/RPCRT4.dll
+ 0x762B0000 - 0x76701000 |   4.32 MiB | SETUPAPI                                 | 6.2.26100.9549       | C:/WINDOWS/System32/SETUPAPI.dll
+ 0x75C40000 - 0x762AB000 |   6.42 MiB | SHELL32                                  | 6.2.26100.9711       | C:/WINDOWS/System32/SHELL32.dll
+ 0x77540000 - 0x77592000 | 328.00 KiB | SHLWAPI                                  | 6.2.26100.9711       | C:/WINDOWS/System32/SHLWAPI.dll
+ 0x757E0000 - 0x759CD000 |   1.93 MiB | USER32                                   | 6.2.26100.9711       | C:/WINDOWS/System32/USER32.dll
+ 0x76980000 - 0x769EA000 | 424.00 KiB | WS2_32                                   | 6.2.26100.9711       | C:/WINDOWS/System32/WS2_32.dll
+ 0x76710000 - 0x7678A000 | 488.00 KiB | bcryptPrimitives                         | 6.2.26100.9711       | C:/WINDOWS/System32/bcryptPrimitives.dll
+ 0x75480000 - 0x75509000 | 548.00 KiB | clbcatq                                  | 2001.12.10941.16384  | C:/WINDOWS/System32/clbcatq.dll
+ 0x75540000 - 0x757D8000 |   2.59 MiB | combase                                  | 6.2.26100.9711       | C:/WINDOWS/System32/combase.dll
+ 0x751B0000 - 0x7529B000 | 940.00 KiB | gdi32full                                | 6.2.26100.9711       | C:/WINDOWS/System32/gdi32full.dll
+ 0x775A0000 - 0x775BB000 | 108.00 KiB | imagehlp                                 | 6.2.26100.4202       | C:/WINDOWS/System32/imagehlp.dll
+ 0x768F0000 - 0x76975000 | 532.00 KiB | msvcp_win                                | 6.2.26100.9711       | C:/WINDOWS/System32/msvcp_win.dll
+ 0x773E0000 - 0x774A7000 | 796.00 KiB | msvcrt                                   | 7.0.26100.9711       | C:/WINDOWS/System32/msvcrt.dll
+ 0x76790000 - 0x768E7000 |   1.34 MiB | ole32                                    | 6.2.26100.9549       | C:/WINDOWS/System32/ole32.dll
+ 0x76D70000 - 0x76D76000 |  24.00 KiB | psapi                                    | 6.2.26100.8521       | C:/WINDOWS/System32/psapi.dll
+ 0x76BD0000 - 0x76C55000 | 532.00 KiB | sechost                                  | 6.2.26100.9711       | C:/WINDOWS/System32/sechost.dll
+ 0x76C60000 - 0x76D35000 | 852.00 KiB | shcore                                   | 6.2.26100.9711       | C:/WINDOWS/System32/shcore.dll
+ 0x770D0000 - 0x771E0000 |   1.06 MiB | ucrtbase                                 | 6.2.26100.9711       | C:/WINDOWS/System32/ucrtbase.dll
+ 0x75510000 - 0x7552C000 | 112.00 KiB | win32u                                   | 6.2.26100.9711       | C:/WINDOWS/System32/win32u.dll
+ 0x0CF30000 - 0x0CF98000 | 416.00 KiB | wintrust                                 | 6.2.26100.9549       | C:/WINDOWS/System32/wintrust.dll
+ 0x5A6D0000 - 0x5A761000 | 580.00 KiB | COMCTL32                                 | 5.82.26100.8521      | C:/WINDOWS/WinSxS/x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8521_none_cf9e08b68ea73d80/COMCTL32.dll
+ 0x62F80000 - 0x630FF000 |   1.50 MiB | gdiplus                                  | 6.2.26100.9711       | C:/WINDOWS/WinSxS/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.9711_none_b69fe26d52438af9/gdiplus.dll
+ 0x53490000 - 0x539AC000 |   5.11 MiB | nvapi_impl                               | 32.0.16.2114         | C:/WINDOWS/system32/DriverStore/FileRepository/nvmdi.inf_amd64_c8fe3aa22cae8673/nvapi_impl.dll
+ 0x645D0000 - 0x64629000 | 356.00 KiB | Oleacc                                   | 7.2.26100.9549       | C:/WINDOWS/system32/Oleacc.dll
+ 0x53B70000 - 0x53CAB000 |   1.23 MiB | nvspcap                                  | 11.0.9.585           | C:/WINDOWS/system32/nvspcap.dll
+ 0x733D0000 - 0x73402000 | 200.00 KiB | rsaenh                                   | 6.2.26100.7705       | C:/WINDOWS/system32/rsaenh.dll
+ 0x6F920000 - 0x6F99E000 | 504.00 KiB | uxtheme                                  | 6.2.26100.9711       | C:/WINDOWS/system32/uxtheme.dll
+ 0x53370000 - 0x53481000 |   1.07 MiB | Windows.UI                               | 6.2.26100.9549       | C:/Windows/System32/Windows.UI.dll
+
+Total memory allocated to all modules:  263.90 MiB
+Total memory allocated to NVSE plugins: 804.00 KiB
+
+--------------------------------------------------------------------------------
+
+Install: C:\Steam\steamapps\common\Fallout New Vegas
+
+--------------------------------------------------------------------------------
+
+Processed in 333 ms

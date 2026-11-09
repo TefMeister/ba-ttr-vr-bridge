@@ -1,0 +1,14 @@
+Yvile's Crash Logger version 5.17 at 2026-11-09 22:26:34
+If this file is empty, then your game didn't crash or something went so wrong even crash logger was useless! :snig:
+Topmost stack module is NOT ALWAYS the crash reason! Exercise caution when speculating!
+
+When asking for help, please send the whole log file!
+
+
+Exception: EXCEPTION_ACCESS_VIOLATION (C0000005)
+Last Error: The system could not find the environment option that was entered.   (000000CB)
+
+Thread: [FNV] Main
+
+Calltrace:
+     ebp    |                   Address                 |                 Function                 |  Source
