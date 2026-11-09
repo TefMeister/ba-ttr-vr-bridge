@@ -48,5 +48,10 @@ Again's groups back one at a time, weapons and animations last.
 
 ## Files
 
+- `NOTEBOOK.md`: the dated log of everything done and what came of it.
+- `FAULTS.md`: the fault ledger, in the order faults must be sorted, and questions only a mod's author can answer.
+- `tools/ladder.py`: builds each test rung as an MO2 profile and checks its masters before a launch.
+- `tools/collect_run.py`: keeps every log a launch wrote (scrubbed), in `runs/`.
+- `docs/rung-00-plan.md`: the first launch, what we expect and what each failure would mean.
 - `external-research/README.md`: where the outside facts come from (links), and what we take from them.
 - `tools/conflict_report.py`, `reports/`: which files TTWVR and the list both supply, and who wins.
