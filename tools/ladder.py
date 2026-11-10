@@ -142,6 +142,52 @@ def make(a):
     return check_profile(a.mo2, a.name)
 
 
+# xNVSE plugins Tale of Two Wastelands 3.4 itself asks for (its own self-check names them at the main menu, or the
+# game falls over loading: seen 2026-11-09)
+TTW_NEEDS = ("ttw_nvse.dll", "showoffnvse.dll", "johnnyguitar.dll")
+
+
+def nvse_files(mods_dir, mod):
+    """lower-case file names in a mod's NVSE/Plugins folder (any spelling of the folder names)."""
+    root = os.path.join(mods_dir, mod)
+    try:
+        for a in os.listdir(root):
+            if a.lower() == "nvse":
+                for b in os.listdir(os.path.join(root, a)):
+                    if b.lower() == "plugins":
+                        return {x.lower() for x in os.listdir(os.path.join(root, a, b))}
+    except OSError:
+        pass
+    return set()
+
+
+def check_nvse(mods_dir, dst, on, active):
+    """What the game's own start-up would complain about, said before the launch:
+    an xNVSE plugin that is on while its settings file (<same name>.ini) sits in a mod that is off, and the plugins
+    TTW asks for when its master is active."""
+    every = [l[1:] for l in read_lines(os.path.join(dst, "modlist.txt")) if l[:1] in "+-" and not l.endswith("_separator")]
+    on_files, off_files = set(), {}
+    for m in every:
+        fs = nvse_files(mods_dir, m)
+        if m in on:
+            on_files |= fs
+        else:
+            for f in fs:
+                off_files.setdefault(f, m)
+    problems = 0
+    for f in sorted(on_files):
+        if f.endswith(".dll"):
+            ini = f[:-4] + ".ini"
+            if ini not in on_files and ini in off_files:
+                print(f"  SETTINGS FILE OFF: {f} is on, its {ini} is in '{off_files[ini]}', which is off"); problems += 1
+    if "taleoftwowastelands.esm" in active:
+        for need in TTW_NEEDS:
+            if need not in on_files:
+                where = off_files.get(need)
+                print(f"  TTW NEEDS: {need}" + (f" (it is in '{where}', which is off)" if where else " (no mod in the list carries it)")); problems += 1
+    return problems
+
+
 def check_profile(mo2, name):
     dst = profile_dir(mo2, name)
     mods_dir = os.path.join(mo2, "mods")
@@ -166,6 +212,7 @@ def check_profile(mo2, name):
                 print(f"  MISSING MASTER: {p} needs {m}"); problems += 1
             elif j > i:
                 print(f"  ORDER: {p} loads before its master {m}"); problems += 1
+    problems += check_nvse(mods_dir, dst, on, {p.lower() for p in active})
     print(f"check '{name}': {len(on)} mods on, {len(active)} plugins active, "
           + ("all masters present and in order" if problems == 0 else f"{problems} PROBLEM(S): do not launch"))
     return 1 if problems else 0

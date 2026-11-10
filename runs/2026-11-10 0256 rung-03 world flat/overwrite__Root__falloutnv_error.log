@@ -1,0 +1,56 @@
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Audio: Attempted to play multi-channel sound (data\sound\fx\ui\pipboy\ui_pipboy_mode.wav) in 3D. Forcing 2D playback.
+Audio: Attempted to play multi-channel sound (data\sound\fx\ui\menu\ui_menu_focus.wav) in 3D. Forcing 2D playback.
+FORMS: Chunk size 32 too big in chunk WNAM_ID in form IMAD_ID (00058677).
+Max size is 16, data truncated to "".
+
+MASTERFILE: Unable to find enable state parent 3B002DCA. Enable state parent data will be removed.
+MASTERFILE: Unable to find enable state parent 3B002DCA. Enable state parent data will be removed.
+MASTERFILE: Unable to find enable state parent 3B002DCA. Enable state parent data will be removed.
+MASTERFILE: Unable to find enable state parent 3B002DCA. Enable state parent data will be removed.
+MASTERFILE: Unable to find enable state parent 3B002DCA. Enable state parent data will be removed.
+DEFAULT: (Faction Reaction Error) Faction 'TTTRoryStealthFaction' (1605F6E6) is a Friend or Ally of Faction 'MQ07RoryMaclarenFaction' (000B4023), but Faction 'MQ07RoryMaclarenFaction' (000B4023) is not a Friend or Ally of Faction 'TTTRoryStealthFaction' (1605F6E6). Faction 'MQ07RoryMaclarenFaction'(6A24DED8) will be forced to be a Friend of Faction 'TTTRoryStealthFaction' (1605F6E6) 
+DEFAULT: (Faction Reaction Error) Faction 'TTTMegatonSlaveFaction' (1603537B) is a Friend or Ally of Faction 'MegatonSettlerFaction' (000173EA), but Faction 'MegatonSettlerFaction' (000173EA) is not a Friend or Ally of Faction 'TTTMegatonSlaveFaction' (1603537B). Faction 'MegatonSettlerFaction'(6A24DEB8) will be forced to be a Friend of Faction 'TTTMegatonSlaveFaction' (1603537B) 
+DEFAULT: (Faction Reaction Error) Faction 'TTTMegatonSlaveFaction' (1603537B) is a Friend or Ally of Faction 'MegatonCrimeFaction' (0004BB91), but Faction 'MegatonCrimeFaction' (0004BB91) is not a Friend or Ally of Faction 'TTTMegatonSlaveFaction' (1603537B). Faction 'MegatonCrimeFaction'(6A24DEB8) will be forced to be a Friend of Faction 'TTTMegatonSlaveFaction' (1603537B) 
+DEFAULT: (Faction Reaction Error) Faction 'TTTCanterburySlaveFaction' (1603537A) is a Friend or Ally of Faction 'CantCommonsFaction' (00059410), but Faction 'CantCommonsFaction' (00059410) is not a Friend or Ally of Faction 'TTTCanterburySlaveFaction' (1603537A). Faction 'CantCommonsFaction'(6A2500D8) will be forced to be a Friend of Faction 'TTTCanterburySlaveFaction' (1603537A) 
+AI:  is assigned a linked reference and has none for a package
+
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackright.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperso
