@@ -85,3 +85,50 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
 - `fDefaultMusicVolume=0` and `fMainMenuMusicVolume=0` added under `[Audio]` in each rung profile's own
   `falloutcustom.ini` (17 profiles; a `.bak-2026-11-10-music` copy beside each; the list's own two profiles untouched).
   Effects and voices unchanged. `[hypothesis]`: not yet heard in the game; an existing save may carry its own slider value.
+
+**Day (home PC, Fable, nobody in the headset): the game runs in the OpenXR Simulator; all eight rungs desk-checked WITH the VR mod.**
+
+- **TTWVR takes the OpenXR Simulator as its headset.** It has two ways to the headset (OpenXR first, OpenVR as the
+  fallback) and reads `XR_RUNTIME_JSON`; pointed at the simulator's 32-bit manifest for the one start, its log says
+  `VR backend: OpenXR`, runtime `OpenXR Simulator Runtime`, `Head tracking active`. `[verified-live 2026-11-10, n=12]`
+- **Nobody presses Continue:** our own MO2 mod `Bridge desk test - continue on start` (one small settings file for
+  Stewie's Tweaks, read through its multi-file support): `bAutoContinueGame`, `bNoAltTabPause`, `bNoPipboyOnAltTab`.
+  Only the `<rung> sim` profiles have it on; the rung profiles Tefa plays are untouched. The flat base with it goes
+  straight into the save with the HUD up. `[verified-live 2026-11-10, n=1]`
+- **The robot hands work:** with the VR Bench layer on (32-bit), Y opens the game's pause menu and B closes it; on the
+  main menu A presses the highlighted Continue; the mod's two small hand panels follow the hand positions set.
+  `[verified-live 2026-11-10, n=10]`
+- **What does NOT work in the simulator: the 3D world never refreshes.** After the save loads the picture is the frame
+  the save was made on (auto-load) or black (Continue pressed by hand); head turns, the walk stick, the turn stick, a
+  raised hand, the height-calibration pose all change nothing (picture difference exactly 0.0), while the menus draw
+  and follow the head. Not the cause: the window not being in front, the pause-on-lost-focus, the upscaler (off), the
+  eye size (50%), the auto-load (Continue by hand does the same). The one difference in the mod's log against last
+  night's headset run: the line `[camtrack] no body tracking and no Virtual Desktop body: the body is solved from the
+  headset and the controllers` never appears in the simulator. `[hypothesis]`: the mod's body solve waits for
+  something the simulator does not give, and the world view hangs on it. Its hidden switches (`bDiagnostics` ...) are
+  not read from `TTWVR.ini`.
+- **`tools/rung_simcheck.py`**: one rung, one command: makes `<rung> sim`, starts it in the simulator, waits for the
+  save, presses pause and back, turns the head, closes politely, keeps the logs. All eight:
+
+  | Rung | Started | Save loaded | Pause menu answers | New crash logs | New complaints in the mod's log |
+  | --- | --- | --- | --- | --- | --- |
+  | 01 vr base | yes | yes | yes | 0 | none |
+  | 02 fixes | yes | yes | yes | 0 | none |
+  | 03 world | yes | yes | yes | 0 | none |
+  | 04 gameplay | yes | yes | yes | 0 | none (one long-load warning) |
+  | 05 interface | yes | yes | yes | 0 | none |
+  | 06 armor and people | yes | yes | yes | 0 | none |
+  | 07 weapons | yes | yes | yes | 0 | none |
+  | 08 animations and the rest | yes | yes | yes | 0 | `[camera] Camera1st's parents are not Bip01 Looking / NonAccum / Bip01 in this skeleton: only Camera1st itself` |
+
+  `[verified-live 2026-11-10, n=1 each]`. What this says: with the VR mod on top, every rung starts, loads a save made
+  on rung 1 and keeps running for a minute. What it does not say: anything a player would see (the world is not drawn
+  in the simulator), so the headset ladder still stands.
+- **Rung 8's complaint has one source `[inferred-static]`:** of the mods on at rung 8, only `NVCS Vanilla Weights`
+  supplies `meshes/characters/_1stperson/skeleton.nif`, it is new at rung 8, and TTWVR ships no first-person skeleton
+  of its own (only `characters/_male`). The first thing to split when rung 8 is worn.
+- Housekeeping: the saves are byte-identical to the copy taken before (`Saves.bak-2026-11-10-before-sim` beside
+  them); MO2 opens on `rung-02 fixes` again; the VR Bench layer is switched off. The game ignored a polite close
+  twice while two copies ran (my own doing: started the next before the last had gone); no forced close was needed.
+- Tool faults met: the VR Bench tool's own picture command returns nothing with this simulator version (the
+  simulator's own screenshot works); the flat checker lists the simulator's window as a "box" (harmless).

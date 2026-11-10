@@ -1,0 +1,16 @@
+[08:25:14.682] INFO  TTWVR 1.0.0 loading (xNVSE 06040070), build 6AF014A8
+[08:25:14.684] INFO  Settings: built in + the VR menu's choices in C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\TTWVR\TTWVR.ini
+[08:25:19.949] INFO  [input] the game's control read hooked: keys count with the pad connected
+[08:25:20.744] WARN  OpenXR: 32-bit layer 'XR_APILAYER_NOVENDOR_OBSMirror' (~\AppData\Local\OpenXR-OBSMirror\.\XR_APILAYER_NOVENDOR_OBSMirror.292629488385.dll): its library is 64-bit - switched off for this game
+[08:25:20.744] WARN  OpenXR: 32-bit layer 'XR_APILAYER_ELLIOTTTATE_xrfps' (~\AppData\Local\xrFPS\.\XrApiLayer_xrfps.7070ca21200.dll): its library is 64-bit - switched off for this game
+[08:25:20.744] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_hand_freeze' (~\AppData\Local\Programs\HandFreeze\hand_freeze_layer.dll): its library is 64-bit - switched off for this game
+[08:25:20.744] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_window_view' (~\AppData\Local\Programs\WindowView\window_view_layer.dll): its library is 64-bit - switched off for this game
+[08:25:20.756] INFO  OpenXR: runtime 'OpenXR Simulator Runtime' 1.6.0
+[08:25:20.757] INFO  OpenXR: system 'OpenXR Simulator' (swapchains up to 4096x4096)
+[08:25:20.767] INFO  OpenXR: DXGI adapter 0: NVIDIA GeForce <pc> 5080 (3072 MB VRAM) = THE HEADSET RUNTIME'S
+[08:25:21.027] INFO  VR backend: OpenXR
+[08:25:27.173] INFO  OpenXR: the runtime displays a frame every 11.11 ms (90 Hz)
+[08:25:27.174] INFO  Head tracking active (OpenXR)
+[08:29:28.613] INFO  [window] the game's window was asked to close (message 0x10)
+[08:29:28.614] INFO  [window] the game's window was asked to go (message 0x2)
+[08:29:28.614] INFO  [window] the game's window was asked to go (message 0x2)

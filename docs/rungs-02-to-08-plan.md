@@ -37,3 +37,11 @@ first evening's failed starts.
 Rungs 2 to 4 play as rung 1 did. Rung 5 may change the Pip-Boy or the menus TTWVR draws in VR. Rungs 6 and 7 should
 look like rung 1 where TTWVR's own meshes win, with Begin Again's looks elsewhere. Rung 8 is the one expected to break
 hands, body or weapon handling; if it does, its three groups are split and tried one at a time.
+
+## A desk check with the VR mod on, nobody in the headset (2026-11-10)
+
+`tools/rung_simcheck.py` starts a rung in the OpenXR Simulator (TTWVR accepts it as a headset), loads the newest save
+by itself, presses pause with a pretend hand and closes the game. All eight rungs start, load and answer; only rung 8
+adds a complaint to the mod's log (the first-person skeleton, from `NVCS Vanilla Weights`). The simulator does not get
+the 3D world from the mod (menus only), so this check cannot say what a rung looks like: the headset ladder above
+still decides. Detail: `NOTEBOOK.md`, 2026-11-10.

@@ -1,0 +1,30 @@
+NVSEPlugin_Query
+NVSEPlugin_Load
+OneTweak version 2.1.0.4
+OneTweakHost::OneTweakHost
+OneTweakHost::SetDPIAware
+FalloutNVHost::FalloutNVHost
+OneTweakConfig::ReadConfig
+FalloutNVConfig::OnReadConfig
+OneTweakHost::Run
+OneTweakDriver::OneTweakDriver
+Setting "bAlwaysActive" = 0
+Setting "bFull Screen" = 0
+Setting "iSize H" = 1440
+Setting "iSize W" = 3440
+OneTweakDriver::HookCreateWindowExA
+OneTweakDriver::HookSetWindowPos
+Window 0x003F0948: ClassName "Fallout: New Vegas", WindowName: "Fallout: New Vegas"
+Found game window: 0x003F0948
+Window dwStyle: 0x14C00000
+Window dwExStyle: 0x00000100
+Borderless Window dwStyle: 0x14000000
+Borderless Window dwExStyle: 0x00000000
+Borderless fullscreen window mode active for window 0x003F0948
+OneTweakDriver::HookCreateWindowExA
+Window 0x006C142E: ClassName "Fallout: New Vegas", WindowName: ""
+OneTweakDriver::HookSetWindowPos
+Hooks disabled
+Show mouse cursor
+Hide mouse cursor
+Show mouse cursor
