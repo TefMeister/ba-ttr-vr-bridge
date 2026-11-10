@@ -18,6 +18,7 @@ people's support channels with our own problems).
 | 3 | `ttw_nvse.dll is missing` (TTW 3.4's own NVSE plugin, opcode 3807, the "Gun Nut" perk script): the real cause of the first crash | 2026-11-09 | it ships in Begin Again's `ROOGNVSE Plugin` mod; superseded by #4 |
 | 4 | TTW's own self-check at the main menu: ShowOff xNVSE missing (needs 1.80+), JohnnyGuitar NVSE missing (needs 5.01+), `falloutcustom.ini` misconfigured; a new game then started in the Mojave without asking | 2026-11-09 | rung 0 rebuilt as the list author's **Debug Mode (Base TTW and req mods)** profile (`rung-00b debug base`): its mods and its `falloutcustom.ini`, windowed. All 20 NVSE plugins load, no boxes, a new game asks which wasteland. Lesson: TTW needs more than TTWVR's guide lists; the author's debug profile is the real floor |
 | 5 | The debug profile's own `fallout.ini` / `falloutprefs.ini` made `FalloutNV.exe` open the launcher instead of the game | 2026-11-09 | rung 0's working two INIs used instead; cause not pinned down (`[hypothesis]`: the author's prefs come from another PC) |
+| 6 | The first `rung-02` left `Begin Again Configs` off (the author files it in a late group): the game stopped on "NVTF.ini not found" | 2026-11-10 | every rung's floor is rung 1's own mod set; `ladder.py check` now names a settings file whose mod is off before the launch |
 
 ## Questions for mod authors
 

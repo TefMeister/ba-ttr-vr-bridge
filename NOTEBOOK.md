@@ -56,3 +56,26 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
   `tools/collect_run.py` kept all of them (two bugs fixed in it: `shutil` not imported, seconds in `--since`).
 - Next: rung 2, Begin Again's groups back one at a time on top of rung 1, weapons and animations last.
 
+## 2026-11-10
+
+**The night after the first VR play: the rest of the ladder built and desk-checked (nobody in the headset).**
+
+- `tools/ladder_groups.py`: rungs 2 to 8 from the author's own groups, each as a VR profile (TTWVR on top) and a
+  flat twin; plan and table in `docs/rungs-02-to-08-plan.md`. No mod had to be held back for a missing master.
+- The first rung 2 stopped on a box, "NVTF.ini not found": the settings files are in `Begin Again Configs`, which
+  the author files in a late group. The floor of every rung is now rung 1's own mod set. `[measured]`
+- `tools/ladder.py check` now says before a launch what the game said after it on the first evening: an xNVSE
+  add-on that is on while its settings file is in a mod that is off, and the three add-ons TTW 3.4 asks for. It flags
+  the original rung 0 (ShowOff, JohnnyGuitar) and the first rung 2 (three settings files). `[measured]`
+- `tools/rung_flatcheck.py`: starts a flat rung through MO2, reads and answers any box by message, waits, says
+  whether the game is up, how many xNVSE plugins loaded, whether a crash log appeared, saves a small picture of the
+  game's own window, closes it, keeps the logs. **All seven flat twins: up after 60-110 s, no box, no plugin
+  disabled, no crash log, main menu in the picture** (rung 8 shows Begin Again's own menu).
+  `[verified-live 2026-11-10, n=1 each]` This says the list side loads; it says nothing about VR.
+- A near miss, mine: a tool was pointed at "the window with Fallout in its title" and took the chat program open on
+  the TTWVR thread; the quit keys were sent at it. Nothing was posted (checked on the thread). The checker now uses
+  only windows that belong to FalloutNV.exe and sends no keys at all. Control profile KNOWN.md, Hazards.
+- The main menu ignores its window's close message; a polite `taskkill /IM` (no /F) closes it.
+- MO2 opens on `rung-02 fixes` now: the next headset run.
+- Next: rung 2 in the headset, then up the ladder one rung per launch.
+
