@@ -79,3 +79,9 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
 - MO2 opens on `rung-02 fixes` now: the next headset run.
 - Next: rung 2 in the headset, then up the ladder one rung per launch.
 
+
+**Morning (home PC): music set to zero for every rung profile, before rung 2 in the headset.**
+
+- `fDefaultMusicVolume=0` and `fMainMenuMusicVolume=0` added under `[Audio]` in each rung profile's own
+  `falloutcustom.ini` (17 profiles; a `.bak-2026-11-10-music` copy beside each; the list's own two profiles untouched).
+  Effects and voices unchanged. `[hypothesis]`: not yet heard in the game; an existing save may carry its own slider value.
