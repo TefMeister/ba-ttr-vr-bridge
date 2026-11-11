@@ -17,8 +17,22 @@ somehow. we'll figure it out or fail spectacularily"*
   redone by hand.
 - A conflict report (which files TTWVR and the list both supply, and who wins) is regenerated after every update of
   either.
-- Credit: TTWVR is KUPOkinz's work; Begin Again is its author's; TTW is the TTW team's. Their support channels are not
+- Credit: TTWVR is KUPOkinz's work; Begin Again is Spring Heel John's; TTW is the TTW team's. Their support channels are not
   ours to fill with our problems.
+
+## Where it is going, and what we may do (Tefa 2026-11-11)
+
+- **The goal: Begin Again in VR, 1:1.** The whole list as its author built it, playable in TTWVR.
+- **Maybe, on the way, some of our own:** hand poses, how guns are held, and the like. Only as add-ons beside the VR
+  mod, never as a changed copy of it.
+- **KUPOkinz's permission** `[reported]` (Tefa, from KUPOkinz's public Discord thread; the message itself is not yet
+  saved here): anyone may do anything with the mod as long as nobody posts it as their own work. So: every file,
+  page and note that builds on TTWVR says it is KUPOkinz's work, first and plainly.
+- **It has to survive updates from both sides:** KUPOkinz keeps updating TTWVR and Spring Heel John keeps updating
+  Begin Again. That is why the middlemen rule above stays even with the permission: nothing of ours lives inside
+  their files, every step is a recipe, and after each update the conflict report and the ladder are run again.
+  Anything of ours that reaches into TTWVR (a pose, a grip) checks the mod's version first and switches itself off
+  on one it does not know, rather than breaking the game.
 
 ## Where it stands (2026-11-09)
 
