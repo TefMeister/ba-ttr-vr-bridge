@@ -212,3 +212,34 @@ Next: `[PD]` read in TTWVR.dll what the eye capture needs before it copies an ey
 "capturing the left eye", "eye staging texture", "[eyeres]") and where its lens angles come from. `[FLAT]` with the
 Streamer off: one run with the simulator's headset profile and lens set to match what the mod hands over, and one
 with the robot doing the mod's height pose, each judged by the same zero-brightness test.
+
+---
+
+# Reading the mod's stereo step (no game, the same night)
+
+All `[inferred-static]`, TTWVR 1.0.0 build 6AF014A8, read on disk only.
+
+- The mod keeps a **state number**; its stereo frame (the step that draws and captures the two eyes; its own log
+  texts: "stereo frame: before the left eye's draw", "after the one draw: capturing the left eye it made") runs
+  **only in state 4**. Other states (5, 1, 3) are its menu and loading kinds: there it shows the game's picture on a
+  panel, which is exactly what the pause menu showed on the desk run.
+- Even in state 4 the stereo frame leaves at once unless four switches are on: two that the mod's own world step
+  turns on once the player and the scene are ready, one "stereo allowed" flag (needs a setting, a game check and two
+  inner flags), and a pointer.
+- While playing on the desk run the mod does hand eye pictures over, so it believes it is in the stereo state or
+  close to it; the pictures are empty because the capture inside never ran or captured nothing. Which switch is off
+  cannot be read from the file: it depends on what the running game says.
+- Not found: any wait for a measured height in this path. The lens angles are the mod's own (it has settings for a
+  reference lens and an eye box); where they come from was not followed further.
+
+**New tool, `tools/ttwvr_gates.py`:** reads those switches and the state from the running game, read-only, and refuses
+on any other build of the mod. `[compile-verified]`, run once with no game (it says so and stops); not yet run
+against the game.
+
+**The next desk run** (Streamer off): start rung 1 in the simulator, wait for the save, then
+`python tools/ttwvr_gates.py --watch 20`, press pause and back during it.
+- state is not 4 while playing -> the mod thinks it is in a menu or loading: read what its state step waits for (one
+  place in the code, known).
+- state 4, a switch at 0 -> that switch names the missing piece; each has one or two places that set it.
+- state 4 and every switch on -> the stereo frame runs and still captures nothing: then it is the capture itself
+  (the mod's own renderer hand-over), and the place to look is what the eye capture copies from.
