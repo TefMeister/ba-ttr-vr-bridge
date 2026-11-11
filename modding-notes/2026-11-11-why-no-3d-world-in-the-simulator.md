@@ -68,3 +68,60 @@ path in any). Not yet run after a real game start.
   the next thing to read.
 
 If `[camtrack]` does appear and the world still stands still, the body solver is cleared for good.
+
+---
+
+# Later the same evening: two desk runs of rung 1 (Tefa's yes), and a strong suspect
+
+Runs kept: `runs/2026-11-11 2153 rung-01 vr base sim` (the script) and `runs/2026-11-11 2200 rung-01 vr base sim` (started
+the same way, left up to look at). The game was closed politely both times; the saves are byte-identical to the copy
+taken before; MO2 opens on `rung-02 fixes` again; the VR Bench layer is off.
+
+## What the simulator's own log settled
+
+- **No call is refused.** After the session starts the only errors in the log are the simulator's own preview window
+  (see the next point). Cause 1 above is out. `[verified-live 2026-11-11, n=2]`
+- **The session is healthy:** IDLE, READY, SYNCHRONIZED, VISIBLE, FOCUSED, and it stays FOCUSED. Cause 2 is out.
+  `[verified-live 2026-11-11, n=2]`
+- **The `the headset's session is gone` line is our own closing step.** A polite `taskkill /IM FalloutNV.exe` sends
+  the close message to every window of the game's process, and the simulator's preview window lives in that process:
+  the simulator takes it as "the user closed the headset view", stops the session, the mod connects again, and from
+  then on the simulator cannot make its preview picture (`Failed to create DX11 preview swapchain`, 3,350 times) while
+  the game takes up to 40 s more to go. Order in the log: head turned, then `STOPPING`, `WM_CLOSE`. `[measured, n=1]`
+  This also explains the two copies that would not close on 2026-11-10. Harmless to the question, but the desk check
+  should close the game some other way, or measure before it asks.
+- **Full Body is on** in the running game: read from the mod's settings in memory (read-only): enabled 1, not parked,
+  player scale 1.0. Cause 3 is out. `[measured, n=1]`
+- **The mod's frame loop tracks the head.** With the head turned 40 degrees the eye pose the mod hands over with its
+  pictures is turned the same. In the world it hands over two 4096x3648 pictures per frame (the upscaler's output; at
+  the menu it is one 2944x2208 picture for both eyes). **Both are pure black**, and so is the game's own window.
+  `[verified-live 2026-11-11, n=1]` So: tracking arrives, frames flow, the world is not in them.
+
+## The suspect: Virtual Desktop's body memory exists on this PC, empty, and the mod trusts it
+
+- `VirtualDesktop.BodyState` (the shared memory Virtual Desktop publishes body tracking in) **exists on this PC with
+  nobody in the headset**, as long as the Virtual Desktop Streamer runs; its content is empty (the value the mod tests
+  first is 0). `[measured 2026-11-11, n=1]`
+- In the mod's code, each frame: it opens that memory; **when it is there, its own body solver is skipped**; when the
+  memory's first value is not above zero the body is set to nothing and the step ends. `[inferred-static]` That is
+  exactly a run with no `[camtrack]` line: that line belongs to the solver, and the solver never runs.
+- On the headset evening (2026-11-09) the log says "no Virtual Desktop body": the memory was not there then, the
+  solver ran, the world was fine. Whether the memory was there during the 2026-11-10 desk runs was not recorded.
+- **Not established:** that an empty body is what blanks the world. It fits (the tag is "camtrack": the camera rides
+  on the body; `[aim]` is missing too), but the link from "body is nothing" to "black eye pictures" was not read in
+  the code and not tested. `[hypothesis]`
+
+## The test that decides it
+
+Quit the Virtual Desktop Streamer (tray icon, Quit), check `VirtualDesktop.BodyState` is gone, run
+`rung_simcheck.py` on `rung-01 vr base`, start the Streamer again.
+
+- `[camtrack] ... the body is solved from the headset and the controllers` appears and "world follows the head" says
+  yes: solved. Every desk run then needs the Streamer closed (the check can refuse to start while that memory exists),
+  and it is worth telling the mod's author: an empty Virtual Desktop body should fall back to the solver.
+- the line appears and the world is still black: the body was one fault, not the fault; next is the picture path (the
+  upscaler helper against the simulator's pictures).
+- the line still does not appear: the reading of the code is wrong somewhere; back to the note above.
+
+This session tried to close the Streamer itself and was refused by the session's own safety check (it is another
+program's process), so the step waits for Tefa or an explicit yes.

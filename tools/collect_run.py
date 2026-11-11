@@ -106,15 +106,17 @@ def main():
             continue  # its incident folders hold other sessions' pictures: top-level files only
         rel = os.path.relpath(p, root)
         out = os.path.join(dst, label + "__" + rel.replace(os.sep, "__"))
-        size = os.path.getsize(p)
-        if size > MAX:
+        try:
+            size = os.path.getsize(p)
             with open(p, "rb") as f:
-                f.seek(-MAX, os.SEEK_END)
-                data = f.read()
-            data = b"(only the last 2 MB kept)\n" + data
-        else:
-            with open(p, "rb") as f:
-                data = f.read()
+                if size > MAX:
+                    f.seek(-MAX, os.SEEK_END)
+                    data = b"(only the last 2 MB kept)\n" + f.read()
+                else:
+                    data = f.read()
+        except OSError as e:  # a file the game still holds open: say so and keep the rest
+            print(f"NOT kept {label}/{rel}: {e.strerror}")
+            continue
         with open(out, "wb") as f:
             f.write(data if is_binary(p) else scrub(data))
         rows.append((label, rel, size))

@@ -142,4 +142,10 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
 - `collect_run.py` now keeps the simulator's own log on every ` sim` run: that log names any refused call and every
   session state, and it was gone a day later. One desk run of rung 1 answers it.
 - Full note: `modding-notes/2026-11-11-why-no-3d-world-in-the-simulator.md`.
+- **Later, two desk runs of rung 1 (Tefa's yes).** The simulator's kept log: no call refused, session FOCUSED
+  throughout; "the headset's session is gone" is our own polite close reaching the simulator's window. Full Body is on
+  (read from memory). The mod's pictures follow the head but are black. **Suspect:** Virtual Desktop's body memory
+  exists here, empty, whenever its Streamer runs, and the mod skips its own body solver when that memory is there
+  `[measured]` + `[inferred-static]`; the link to the black world is `[hypothesis]`. Decider: quit the Streamer, run
+  rung 1 again. `collect_run.py` also no longer stops on a file the game still holds.
 
