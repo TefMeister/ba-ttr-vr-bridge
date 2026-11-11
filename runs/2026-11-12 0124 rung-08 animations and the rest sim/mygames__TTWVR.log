@@ -1,0 +1,19 @@
+[01:23:02.729] INFO  TTWVR 1.0.0 loading (xNVSE 06040070), build 6AF014A8
+[01:23:02.732] INFO  Settings: built in + the VR menu's choices in C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\TTWVR\TTWVR.ini
+[01:23:11.655] INFO  [input] the game's control read hooked: keys count with the pad connected
+[01:23:12.515] WARN  OpenXR: 32-bit layer 'XR_APILAYER_NOVENDOR_OBSMirror' (~\AppData\Local\OpenXR-OBSMirror\.\XR_APILAYER_NOVENDOR_OBSMirror.292629488385.dll): its library is 64-bit - switched off for this game
+[01:23:12.515] WARN  OpenXR: 32-bit layer 'XR_APILAYER_ELLIOTTTATE_xrfps' (~\AppData\Local\xrFPS\.\XrApiLayer_xrfps.7070ca21200.dll): its library is 64-bit - switched off for this game
+[01:23:12.515] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_hand_freeze' (~\AppData\Local\Programs\HandFreeze\hand_freeze_layer.dll): its library is 64-bit - switched off for this game
+[01:23:12.516] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_window_view' (~\AppData\Local\Programs\WindowView\window_view_layer.dll): its library is 64-bit - switched off for this game
+[01:23:12.534] INFO  OpenXR: runtime 'OpenXR Simulator Runtime' 1.6.0
+[01:23:12.535] INFO  OpenXR: system 'OpenXR Simulator' (swapchains up to 4096x4096)
+[01:23:12.551] INFO  OpenXR: DXGI adapter 0: NVIDIA GeForce <pc> 5080 (3072 MB VRAM) = THE HEADSET RUNTIME'S
+[01:23:12.832] INFO  VR backend: OpenXR
+[01:23:17.150] INFO  OpenXR: the runtime displays a frame every 11.11 ms (90 Hz)
+[01:23:17.151] WARN  [camtrack] SteamVR: Virtual Desktop's body memory is not there (Virtual Desktop not streaming, or the headset's Forward tracking data to PC is off) - looking again every 2 s
+[01:23:17.152] INFO  [camtrack] no body tracking and no Virtual Desktop body: the body is solved from the headset and the controllers (floor from the play space); body follow radius 0.050 m, pouch accept 0.150 m
+[01:23:17.152] INFO  Head tracking active (OpenXR)
+[01:23:22.856] WARN  [camera] Camera1st's parents are not Bip01 Looking / NonAccum / Bip01 in this skeleton: only Camera1st itself is held at rest
+[01:24:04.416] INFO  [window] the game's window was asked to close (message 0x10)
+[01:24:04.422] INFO  [window] the game's window was asked to go (message 0x2)
+[01:24:04.422] INFO  [window] the game's window was asked to go (message 0x2)

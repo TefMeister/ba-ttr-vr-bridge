@@ -367,3 +367,34 @@ profile it found, and keeps the two stills in the run's folder.
 `[compile-verified]`; its pieces were run without the game: the refusal (the Streamer was running: it refused and
 said why), the profile reader, the screenshot routine against our own probe in the simulator (a 669x697 picture,
 the same picture twice gives change 0.0), and "no picture" when no session is up. **Not yet run against the game.**
+
+---
+
+# The rewritten desk check run on all eight rungs (2026-11-12 01h10, the Streamer quit, nobody in the headset)
+
+`tools/rung_simcheck.py`, one run per rung, runs `runs/2026-11-12 0111 ...` to `0124 ...`. Every rung: up, body
+solved, save loaded (18 to 30 s), no crash log, no hang warning, closed politely at the first ask, MO2 left on the
+profile it was on. `[verified-live 2026-11-12, n=8 rungs, one run each]`
+
+| rung | add-ons | pause panel (change) | world drawn (grey level) | follows the head (change) |
+| --- | --- | --- | --- | --- |
+| 1 vr base | 21 | YES 13.31 | YES 6.94 | YES 4.06 |
+| 2 fixes | 45 | YES 13.32 | YES 6.87 | YES 4.04 |
+| 3 world | 49 | YES 13.48 | YES 7.60 | YES 3.97 |
+| 4 gameplay | 49 | YES 13.48 | YES 7.70 | YES 3.96 |
+| 5 interface | 55 | YES 3.59 | YES 7.64 | YES 3.97 |
+| 6 armor and people | 55 | YES 3.57 | YES 7.60 | YES 4.07 |
+| 7 weapons | 55 | YES 3.56 | YES 7.55 | YES 4.07 |
+| 8 animations and the rest | 57 | YES 4.55 | YES 7.61 | YES 4.05 |
+
+The stills, looked at by eye (two per rung, head straight and head turned 60): the same cell room on every rung,
+both arms with the Pip-Boy in place, nothing missing, nothing pink. From rung 3 the floor and wall textures are the
+world mods' own (the picture's level goes from 6.9 to 7.6). `[verified-live 2026-11-12, n=1 per rung]`
+
+Two things to follow, neither a failure:
+- **The pause panel changes the picture much less from rung 5 on** (13.4 down to 3.6): the interface mods give the
+  pause screen another look. Still far over the limit of 1.0, but the panel itself was not looked at by eye: the
+  check keeps no still of it. `[measured]`; what the panel looks like is `[hypothesis]` until a still is kept.
+- **Rung 8 alone has the mod's camera complaint** ("Camera1st's parents are not Bip01 Looking / NonAccum / Bip01 in
+  this skeleton: only Camera1st itself is held at rest"); rung 7 does not have it. The still shows no harm with the
+  body standing; the row about the rung 8 split already covers finding which mod brings that skeleton.

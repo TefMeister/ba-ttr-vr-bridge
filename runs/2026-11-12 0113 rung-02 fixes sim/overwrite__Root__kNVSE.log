@@ -1,0 +1,17 @@
+query
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+Loading file anims
+
+Reading from JSON file Data\Meshes\AnimGroupOverride\smim_anims.json
+JSON: Loading animations for global override in path smim_ProtectronUnconsciousDeath
+JSON: Loading animations for global override in path smim_MisterGutsyUnconsciousDeath
+JSON: Loading animations for global override in path smim_SentrybotUnconsciousDeath
+JSON: Loading animations for global override in path smim_CombatDroidUnconsciousDeath
+JSON: Loading animations for global override in path smim_MaintenanceRobotUnconsciousDeath
+Loaded AnimGroupOverride in 9 ms

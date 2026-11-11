@@ -1,0 +1,1199 @@
+UI Organizer v2.30
+Runtime version = 040020D0
+NVSE version = 06040070
+
+--------------------------------
+*** Checking supported files ***
+--------------------------------
+
+[ ] DarNified UI
+[x] Vanilla UI Plus (VUI+)
+[ ] One HUD (oHUD)
+
+>>>>> Processing file 'supported.txt'
+	> Checking 'advreconhud.xml'
+		! File not found > Skipping.
+	> Checking 'arwen\fatigue_hud.xml'
+		! File not found > Skipping.
+	> Checking 'arwen\strain_hud.xml'
+		! File not found > Skipping.
+	> Checking 'cyberiandawn\cyberiandawnhud.xml'
+		! File not found > Skipping.
+	> Checking 'directorschair\directorschair.xml'
+		! File not found > Skipping.
+	> Checking 'fairypack\fairypack_hud.xml'
+		! File not found > Skipping.
+	> Checking 'filmgraineffect.xml'
+		! File not found > Skipping.
+	> Checking 'flashlight_battery.xml'
+		! File not found > Skipping.
+	> Checking 'fww\weaponwheel.xml'
+		! File not found > Skipping.
+	> Checking 'grenadehotkeyhud.xml'
+		! File not found > Skipping.
+	> Checking 'hude\hud_e.xml'
+		! File not found > Skipping.
+	> Checking 'imcnnv\imp.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\ccchud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\firingmodehud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\ftahud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\heatmeterhud.xml'
+		! File not found > Skipping.
+	> Checking 'jetpack\b3jetpack_hud.xml'
+		! File not found > Skipping.
+	> Checking 'jetpack\b3jetpack_hud(darn).xml'
+		! File not found > Skipping.
+	> Checking 'meleehotkey\meleehotkey.xml'
+		! File not found > Skipping.
+	> Checking 'neotropic\neotropic_hud.xml'
+		! File not found > Skipping.
+	> Checking 'neotropic\neotropicweapondisplay_hud.xml'
+		! File not found > Skipping.
+	> Checking 'pelinor\quicktrade.xml'
+		! File not found > Skipping.
+	> Checking 'pelinor\selectivefire.xml'
+		! File not found > Skipping.
+	> Checking 'pnx\pnxeohud.xml'
+		! File not found > Skipping.
+	> Checking 'pnx\pnxhud.xml'
+		! File not found > Skipping.
+	> Checking 'ppa\ppa_hud.xml'
+		! File not found > Skipping.
+	> Checking 'primaryneedshud.xml'
+		! File not found > Skipping.
+	> Checking 'radar\radarhud.xml'
+		! File not found > Skipping.
+	> Checking 'rangefinder.xml'
+		! File not found > Skipping.
+	> Checking 'sc\sc_hud.xml'
+		! File not found > Skipping.
+	> Checking 'vera\vera.xml'
+		! File not found > Skipping.
+	> Checking 'wmm\wmmtrigger.xml'
+		! File not found > Skipping.
+	> Checking 'wmm\wmm.xml'
+		! File not found > Skipping.
+	> Checking 'mcm\mcm.xml'
+		+ Adding to 'Options\start_menu.xml' @ startmenu
+	> Checking 'pnx\pnximplants.xml'
+		! File not found > Skipping.
+
+>>>>> Processing file 'public\3DGrenadeIndicator.txt'
+	> Checking 'Stentorious\3DGrenadeIndicator.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\AssortedUITextures.txt'
+	> Checking 'Stentorious\AssortedUITextures\MM_LocalMapCursor.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\AssortedUITextures\MM_LocalMapCursor.xml'
+		! Conditions evaluated as FALSE > Skipping.
+
+>>>>> Processing file 'public\B42Bash.txt'
+	> Checking 'B42Bash\B42Bash.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ hudmainmenu
+
+>>>>> Processing file 'public\ConditionMeterIcons.txt'
+	> Checking 'ConditionMeterIcons\Settings.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'ConditionMeterIcons\IconPaths.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'ConditionMeterIcons\IconPaths.xml'
+		+ Adding to 'VATS_menu.xml' @ VATSMenu
+
+>>>>> Processing file 'public\ConsumablesWidget.txt'
+	> Checking 'ConsumablesWidget\widget.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\DarN_Fonts.txt'
+	> Checking 'DarN_Fonts\DarN_Fonts.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'DarN_Fonts\DarN_Fonts.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ InventoryMenu
+
+>>>>> Processing file 'public\DrowningVisuals.txt'
+	> Checking 'Stentorious\DrowningVisuals.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\EFOV.txt'
+	> Checking 'EFOV\EFOVScope.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\FAI.txt'
+	> Checking 'FAI\FAI.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\HUDInertia.txt'
+	> Checking 'Stentorious\HUDInertia\HUDMainMenu.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\JBT.txt'
+	> Checking 'JBT\JBT.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\JDC.txt'
+	> Checking 'JDC\JDC.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\JHC - Font Edits.txt'
+	> Checking 'JHCBugFixes\InjectTrait\RadialFont.xml'
+		+ Adding to 'companion_wheel_menu.xml' @ CWM_RadialLabel
+
+>>>>> Processing file 'public\JHCBugFix - Exit Fix.txt'
+	> Checking 'JHCBugFixes\InjectTrait\BackgroundFix.xml'
+		+ Adding to 'companion_wheel_menu.xml' @ VUI+ExitBackground
+
+>>>>> Processing file 'public\JHI.txt'
+	> Checking 'JHI\JHI.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\JHM.txt'
+	> Checking 'JHM\JHM.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\JLM.txt'
+	> Checking 'JLM\JLM.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ hudmainmenu
+
+>>>>> Processing file 'public\JVO.txt'
+	> Checking 'JVO\JVO.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\JWH.txt'
+	> Checking 'JWH\JWH.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\LocalMapOverhaul.txt'
+	> Checking 'Stentorious\LocalMapOverhaul\MapMenu.xml'
+		+ Adding to 'Main\map_menu.xml' @ MapMenu
+	> Checking 'Stentorious\LocalMapOverhaul\MM_HighlightLocationName.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_HighlightLocationName
+	> Checking 'Stentorious\LocalMapOverhaul\MM_LocalMapCursor.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_LocalMapCursor
+	> Checking 'Stentorious\LocalMapOverhaul\MM_LocalMapCursor.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_WorldMapCursor
+	> Checking 'Stentorious\LocalMapOverhaul\MM_Highlight_ClipWindow.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_Highlight_ClipWindow
+	> Checking 'Stentorious\LocalMapOverhaul\MM_HighlightIconName_VUI+.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_MapHighlightBox
+	> Checking 'Stentorious\LocalMapOverhaul\LocalMapQuestMarker.xml'
+		+ Adding to 'Main\map_menu.xml' @ LocalMapQuestMarker
+	> Checking 'Stentorious\LocalMapOverhaul\MM_HighlightIconName.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\LocalMapOverhaul\MapMarker.xml'
+		+ Adding to 'Main\map_menu.xml' @ MapMarker
+	> Checking 'Stentorious\LocalMapOverhaul\MapMarker_VUI+.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\LocalMapOverhaul\DepthOverlay.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_HeadlineRect
+	> Checking 'Stentorious\LocalMapOverhaul\DepthOverlay.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_Tabline
+	> Checking 'Stentorious\LocalMapOverhaul\MM_LocalMap_ParentImage.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_LocalMap_ParentImage
+
+>>>>> Processing file 'public\Main And Pause Menus Overhaul.txt'
+	> Checking 'MAPMO\hud_mapmo.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'MAPMO\start_mapmo.xml'
+		+ Adding to 'Options\start_menu.xml' @ StartMenu
+
+>>>>> Processing file 'public\MCMExtender.txt'
+	> Checking 'MCMExtender\HUDMainMenu.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'MCMExtender\StartMenu.xml'
+		+ Adding to 'Options\start_menu.xml' @ StartMenu
+	> Checking 'MCMExtender\ListRect\ListRect.xml'
+		+ Adding to 'Prefabs\MCM\ListRect.xml' @ EoF
+	> Checking 'MCMExtender\ListRect\text.xml'
+		+ Adding to 'Prefabs\MCM\ListRect.xml' @ text
+	> Checking 'MCMExtender\ListRect\highlight.xml'
+		+ Adding to 'Prefabs\MCM\ListRect.xml' @ highlight
+	> Checking 'MCMExtender\MCM\MCM.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM
+	> Checking 'MCMExtender\MCM\MCM_Back.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Back
+	> Checking 'MCMExtender\MCM\MCM_Version.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Version
+	> Checking 'MCMExtender\MCM\MCM_Defaults.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Defaults
+	> Checking 'MCMExtender\MCM\InputY.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ InputY
+	> Checking 'MCMExtender\MCM\MCM_Highlight.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Highlight
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Info
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h1
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h2
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h3
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h4
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h5
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h6
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v1
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v2
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v3
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v4
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v5
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v6
+	> Checking 'MCMExtender\MCM\MCM_Bracket_Bottom.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Bracket_Bottom
+	> Checking 'MCMExtender\MCM\MCM_Trigger.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Trigger
+	> Checking 'MCMExtender\MCM\MCM_TriggerText.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'MCMExtender\ModTitleRect\ModTitleRect.xml'
+		+ Adding to 'Prefabs\MCM\ModTitleRect.xml' @ EoF
+	> Checking 'MCMExtender\ModList\MCM_ModList.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ MCM_ModList
+	> Checking 'MCMExtender\ModList\ArrowDown.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ ArrowDown
+	> Checking 'MCMExtender\ModList\ArrowUp.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ ArrowUp
+	> Checking 'MCMExtender\ModList\Scrollbar.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ MCM_ModList
+	> Checking 'MCMExtender\ModListRect\ModListRect.xml'
+		+ Adding to 'Prefabs\MCM\ModListRect.xml' @ EoF
+	> Checking 'MCMExtender\ModListRect\highlight.xml'
+		+ Adding to 'Prefabs\MCM\ModListRect.xml' @ highlight
+	> Checking 'MCMExtender\ModListRect\text.xml'
+		+ Adding to 'Prefabs\MCM\ModListRect.xml' @ text
+	> Checking 'MCMExtender\Options\ArrowDown.xml'
+		+ Adding to 'Prefabs\MCM\Options.xml' @ ArrowDown
+	> Checking 'MCMExtender\Options\ArrowUp.xml'
+		+ Adding to 'Prefabs\MCM\Options.xml' @ ArrowUp
+	> Checking 'MCMExtender\Options\Scrollbar.xml'
+		+ Adding to 'Prefabs\MCM\Options.xml' @ MCM_Options
+	> Checking 'MCMExtender\OptionRect\OptionRect.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ EoF
+	> Checking 'MCMExtender\OptionRect\title.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ title
+	> Checking 'MCMExtender\OptionRect\value_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ text
+	> Checking 'MCMExtender\OptionRect\value_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ prefix
+	> Checking 'MCMExtender\OptionRect\value_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ suffix
+	> Checking 'MCMExtender\OptionRect\toggle.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ toggle
+	> Checking 'MCMExtender\OptionRect\toggle_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ toggle_off
+	> Checking 'MCMExtender\OptionRect\toggle_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ toggle_on
+	> Checking 'MCMExtender\OptionRect\toggle_check.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ toggle_check
+	> Checking 'MCMExtender\OptionRect\RGB.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ RGB
+	> Checking 'MCMExtender\OptionRect\RGBDarn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'MCMExtender\Scale\Scale_RGB.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_RGB
+	> Checking 'MCMExtender\Scale\MCM_Scale.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ MCM_Scale
+	> Checking 'MCMExtender\Scale\Scale_Title.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Title
+	> Checking 'MCMExtender\Scale\Meter1_Bar.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_Bar
+	> Checking 'MCMExtender\Scale\Meter2_Bar.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_Bar
+	> Checking 'MCMExtender\Scale\Meter3_Bar.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_Bar
+	> Checking 'MCMExtender\Scale\Scale_Accept.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Accept
+	> Checking 'MCMExtender\Scale\Scale_Cancel.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Cancel
+	> Checking 'MCMExtender\Scale\Scale_Default.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Default
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_Drag
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_Drag
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_Drag
+	> Checking 'MCMExtender\Scale\Meter_Image.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_Image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL2_image2
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR2_image2
+	> Checking 'MCMExtender\Scale\Meter_Image.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_Image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL2_image2
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR2_image2
+	> Checking 'MCMExtender\Scale\Meter_Image.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_Image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL2_image2
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR2_image2
+	> Checking 'MCMExtender\Scale\Prompt_Clone.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Accept
+	> Checking 'MCMExtender\Scale\Prompt_Clone.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Cancel
+	> Checking 'MCMExtender\Scale\Prompt_Clone.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Default
+	> Checking 'MCMExtender\VUI+\mouseover.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ ModList_Scroll
+	> Checking 'MCMExtender\VUI+\mouseover.xml'
+		+ Adding to 'Prefabs\MCM\Options.xml' @ Options_Scroll
+	> Checking 'MCMExtender\VUI+\systemcolor.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ image
+
+>>>>> Processing file 'public\MDRPipBoyLightIndicator.txt'
+	> Checking 'MDR\MDRPipBoyLightIndicatorHUD.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\MDRVATSResistances.txt'
+	> Checking 'MDR\MDRVATSResistances.xml'
+		+ Adding to 'VATS_menu.xml' @ VATSMenu
+
+>>>>> Processing file 'public\ModernNightVision.txt'
+	> Checking 'Stentorious\ModernNightVision_Preload.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'Stentorious\ModernNightVision_Overlay.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'Stentorious\ModernNightVision.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\PipBoyUITweaks.txt'
+	> Checking 'Stentorious\PipBoyUITweaks\HUDMainMenu\_Root.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'Stentorious\PipBoyUITweaks\MapMenu\_Root.xml'
+		+ Adding to 'Main\map_menu.xml' @ MapMenu
+	> Checking 'Stentorious\PipBoyUITweaks\MapMenu\ySIDataXButtonIcon.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_ButtonX
+	> Checking 'Stentorious\PipBoyUITweaks\MapMenu\ySIDataAButtonIcon.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_ButtonA
+	> Checking 'Stentorious\PipBoyUITweaks\MapMenu\ySIDataYButtonIcon.xml'
+		+ Adding to 'Main\map_menu.xml' @ MM_ButtonY
+	> Checking 'Stentorious\PipBoyUITweaks\ItemModMenu\_Root.xml'
+		+ Adding to 'item_mod_menu.xml' @ ItemModMenu
+	> Checking 'Stentorious\PipBoyUITweaks\ItemModMenu\WeapModCompare.xml'
+		+ Adding to 'item_mod_menu.xml' @ IMM_MainRect
+	> Checking 'Stentorious\PipBoyUITweaks\ItemModMenu\IMM_ModDesc.xml'
+		+ Adding to 'item_mod_menu.xml' @ IMM_ModDesc
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'item_mod_menu.xml' @ IMM_ItemModButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'item_mod_menu.xml' @ IMM_CancelButton
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\_Root.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ InventoryMenu
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerWGInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_Headline_PlayerWGInfo
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerDRInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_Headline_PlayerDRInfo
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerDTInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_Headline_PlayerDTInfo
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerCapsInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_Headline_PlayerCapsInfo
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerHPInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_Headline_PlayerHPInfo
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_ItemInfoRectVUI+.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ItemInfoRect
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\CritInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ItemInfoRect
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\SkillInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ItemInfoRect
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\AddictionInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ItemInfoRect
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ValWGInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ItemInfoRect
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_InventoryListTemplateRect.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_InventoryListTemplateRect
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_EquipItemMarker.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_EquipItemMarker
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_EquipItemMarkerVUI+.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_EquipItemMarker
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_HeadlineRect.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_HeadlineRect
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_StrReq.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_StrReq
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_ItemIconBadge.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ItemIconBadge
+	> Checking 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_h2.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_Headline_h2
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_EquipButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_DropButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_CancelButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_HotkeyButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_RepairButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ModButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\WGInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_Headline_PlayerWGInfo
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\CapsInfo.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_Headline_PlayerCapsInfo
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\_Root.xml'
+		+ Adding to 'Main\stats_menu.xml' @ StatsMenu
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ColorStatHP.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_hp_info
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ColorStatAP.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_ap_info
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_rads.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_rads
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_rads.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_rads_arrow
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_h20.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_h20
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_h20.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_h20_arrow
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_hunger.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_hunger
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_hunger.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_hunger_arrow
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_sleep.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_sleep
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_sleep.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_sleep_arrow
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_head.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_head
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_head.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_face
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_torso.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_torso
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_leftarm.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_leftarm
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_rightarm.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_rightarm
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_leftleg.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_leftleg
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_rightleg.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_rightleg
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_head_crippled
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_torso_crippled
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_leftarm_crippled
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_rightarm_crippled
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_leftleg_crippled
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_rightleg_crippled
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_list_template_extra.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_list_template_extra
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_head_pct
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_torso_pct
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_leftarm_pct
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_rightarm_pct
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_leftleg_pct
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_player_rightleg_pct
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_stimpak_button
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_drbag_button
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_radx_button
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_radaway_button
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_healing_mode
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\stats_rad_resist_label.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_rad_resist_label
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\ySIMiscIcon.xml'
+		+ Adding to 'Main\stats_menu.xml' @ VUI+EnergyResistLabel
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\ySIMiscIcon.xml'
+		+ Adding to 'Main\stats_menu.xml' @ VUI+FireResistLabel
+	> Checking 'Stentorious\PipBoyUITweaks\StatsMenu\ySIMiscIcon.xml'
+		+ Adding to 'Main\stats_menu.xml' @ VUI+PoisonResistLabel
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\_Root.xml'
+		+ Adding to 'container_menu.xml' @ ContainerMenu
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\CritDAMInfo.xml'
+		+ Adding to 'container_menu.xml' @ CM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\CritInfo.xml'
+		+ Adding to 'container_menu.xml' @ CM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\SkillInfo.xml'
+		+ Adding to 'container_menu.xml' @ CM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\AddictionInfo.xml'
+		+ Adding to 'container_menu.xml' @ CM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ValWGInfo.xml'
+		+ Adding to 'container_menu.xml' @ CM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'container_menu.xml' @ CM_TakeAllButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'container_menu.xml' @ CM_ExitButton
+	> Checking 'Stentorious\PipBoyUITweaks\ContainerMenu\CM_Items_CapsLabel_Clone.xml'
+		+ Adding to 'container_menu.xml' @ CM_ItemsRect
+	> Checking 'Stentorious\PipBoyUITweaks\ContainerMenu\CM_Container_CapsLabel_Clone.xml'
+		+ Adding to 'container_menu.xml' @ CM_ContainerRect
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml'
+		+ Adding to 'container_menu.xml' @ CM_Items_CapsLabel
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml'
+		+ Adding to 'container_menu.xml' @ _VUI+ContainerWeight
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\_Root.xml'
+		+ Adding to 'barter_menu.xml' @ BarterMenu
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\CritDAMInfo.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\CritInfo.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\SkillInfo.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\AddictionInfo.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ValWGInfo.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ButtonX
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ButtonB
+	> Checking 'Stentorious\PipBoyUITweaks\BarterMenu\BM_Items_CapsLabel_Clone.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ItemsRect
+	> Checking 'Stentorious\PipBoyUITweaks\BarterMenu\BM_Container_CapsLabel_Clone.xml'
+		+ Adding to 'barter_menu.xml' @ BM_ContainerRect
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml'
+		+ Adding to 'barter_menu.xml' @ BM_Items_CapsLabel
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml'
+		+ Adding to 'barter_menu.xml' @ BM_Container_CapsLabel
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\_Root.xml'
+		+ Adding to 'recipe_menu.xml' @ RecipeMenu
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\CritDAMInfo.xml'
+		+ Adding to 'recipe_menu.xml' @ RM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\CritInfo.xml'
+		+ Adding to 'recipe_menu.xml' @ RM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\SkillInfo.xml'
+		+ Adding to 'recipe_menu.xml' @ RM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\AddictionInfo.xml'
+		+ Adding to 'recipe_menu.xml' @ RM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ValWGInfo.xml'
+		+ Adding to 'recipe_menu.xml' @ RM_ItemData
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'recipe_menu.xml' @ RM_ButtonX
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'recipe_menu.xml' @ RM_ButtonB
+	> Checking 'Stentorious\PipBoyUITweaks\RepairMenu\_Root.xml'
+		+ Adding to 'repair_menu.xml' @ RepairMenu
+	> Checking 'Stentorious\PipBoyUITweaks\RepairMenu\RM_Template_Meter.xml'
+		+ Adding to 'repair_menu.xml' @ RM_Template_Meter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml'
+		+ Adding to 'repair_menu.xml' @ RM_FixedItemHealthMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml'
+		+ Adding to 'repair_menu.xml' @ RM_BrokenItemHealthMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml'
+		+ Adding to 'repair_menu.xml' @ RM_FixedItemHealthMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionDarn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionVUIE.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml'
+		+ Adding to 'repair_menu.xml' @ RM_BrokenItemHealthMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionDarn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionVUIE.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'repair_menu.xml' @ RM_RepairButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'repair_menu.xml' @ RM_CancelButton
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\_Root.xml'
+		+ Adding to 'repair_services_menu.xml' @ RepairServicesMenu
+	> Checking 'Stentorious\PipBoyUITweaks\RepairServicesMenu\RSM_RepairListTemplateRect.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_RepairListTemplateRect
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\MeterImage.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_Template_Meter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_FixedItemHealthMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_BrokenItemHealthMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_FixedItemHealthMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionDarn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionVUIE.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_BrokenItemHealthMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionDarn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionVUIE.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_RepairButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_RepairAllButton
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_DoneButton
+	> Checking 'Stentorious\PipBoyUITweaks\RepairServicesMenu\RSM_CapsLabel_Clone.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_MainRect
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml'
+		+ Adding to 'repair_services_menu.xml' @ RSM_CapsLabel
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\ValueText.xml'
+		+ Adding to 'Prefabs\card_info.xml' @ CI_ValueText
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\MeterImage.xml'
+		+ Adding to 'Prefabs\meter.xml' @ MeterImage
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\StrengthReqInfo.xml'
+		+ Adding to 'Prefabs\item_stats_display.xml' @ StrengthReqInfo
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml'
+		+ Adding to 'Prefabs\item_stats_display.xml' @ ConditionMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml'
+		+ Adding to 'Prefabs\item_stats_display.xml' @ ConditionMeter
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionDarn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionVUIE.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\VUI+VW.xml'
+		+ Adding to 'Prefabs\VUI+\settings.xml' @ EoF
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\button_text\Vanilla.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\button_text\VUI+.xml'
+		+ Adding to 'Prefabs\text_box.xml' @ button_text
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\button_text\Darn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\WeightInfo.xml'
+		+ Adding to 'Prefabs\item_stats_display.xml' @ WeightInfo
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ValueInfo.xml'
+		+ Adding to 'Prefabs\item_stats_display.xml' @ ValueInfo
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\AmmoInfo.xml'
+		+ Adding to 'Prefabs\item_stats_display.xml' @ AmmoInfo
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\CI_TitleText\Vanilla.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\CI_TitleText\VUI+.xml'
+		+ Adding to 'Prefabs\card_info.xml' @ CI_TitleText
+	> Checking 'Stentorious\PipBoyUITweaks\_Prefabs\CI_TitleText\Darn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\CapsInfo.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\WeightInfo.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ValueInfo.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\AmmoInfo.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeterIC.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionDarn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_Common\NumericConditionVUIE.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml'
+		+ Adding to 'Prefabs\UII\PerkBrowser.xml' @ PerkBrowser
+
+>>>>> Processing file 'public\RAD.txt'
+	> Checking 'RAD\RAD.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'RAD\RAD.xml'
+		+ Adding to 'VATS_menu.xml' @ VATSMenu
+	> Checking 'RAD\RADVisuals.xml'
+		+ Adding to 'Prefabs\hudtemplates.xml' @ meter
+	> Checking 'RAD\RADVisuals.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'RAD\RADVisuals.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'RAD\RADVisuals.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'RAD\RADVisuals.xml'
+		+ Adding to 'Prefabs\aHUD\hudtemplates.xml' @ meter_HP
+	> Checking 'RAD\RADVisuals.xml'
+		+ Adding to 'Prefabs\aHUD\hudtemplates.xml' @ meter_AP
+
+>>>>> Processing file 'public\Recipe Menu ySI.txt'
+	> Checking '..\ySI\ySI.xml'
+		+ Adding to 'recipe_menu.xml' @ RecipeMenu
+	> Checking 'RecipeMenu\ListItem.xml'
+		+ Adding to 'recipe_menu.xml' @ RM_list_template_container
+	> Checking 'RecipeMenu\ListItemText.xml'
+		+ Adding to 'recipe_menu.xml' @ ListItemText
+
+>>>>> Processing file 'public\SleepWaitHardcoreNeeds.txt'
+	> Checking 'Stentorious\SleepWaitHardcoreNeeds\HUDMainMenu\_Root.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'Stentorious\SleepWaitHardcoreNeeds\SleepWaitMenu\_Root.xml'
+		+ Adding to 'sleep_wait_menu.xml' @ SleepWaitMenu
+	> Checking 'Stentorious\SleepWaitHardcoreNeeds\SleepWaitMenu\SWM_WaitButton.xml'
+		+ Adding to 'sleep_wait_menu.xml' @ SWM_WaitButton
+	> Checking 'Stentorious\SleepWaitHardcoreNeeds\SleepWaitMenu\SWM_HardcoreNeeds.xml'
+		+ Adding to 'sleep_wait_menu.xml' @ SWM_MainRect
+
+>>>>> Processing file 'public\SneakVignette.txt'
+	> Checking 'Stentorious\SneakVignette.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'public\UII.txt'
+	> Checking 'UII\CharGenBox.xml'
+		+ Adding to 'CharGen\char_gen_menu.xml' @ TM_DescriptionBox
+	> Checking 'UII\PerkBrowser.xml'
+		+ Adding to 'Main\stats_menu.xml' @ stats_status_container
+
+>>>>> Processing file 'public\VNLA_Fonts.txt'
+	> Checking 'VNLA_Fonts\VNLA_Fonts.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'VNLA_Fonts\VNLA_Fonts.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ InventoryMenu
+
+>>>>> Processing file 'public\VUIPDiaBGRes.txt'
+	> Checking 'VUIPDiaBGRes\VUIPDiaBGRes.xml'
+		+ Adding to 'dialog\dialog_menu.xml' @ NOGLOW_BRANCH
+
+>>>>> Processing file 'public\ySIAssortedFixes.txt'
+	> Checking 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_ButtonRect.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ButtonRect
+	> Checking 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_EquipButton.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_EquipButton
+	> Checking 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_DropButton.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_DropButton
+	> Checking 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_RepairButton.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_RepairButton
+	> Checking 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_HotkeyButton.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_ModButton.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_ModButton
+	> Checking 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_CancelButton.xml'
+		+ Adding to 'Main\inventory_menu.xml' @ IM_CancelButton
+
+---------------------------
+*** Patching menu files ***
+---------------------------
+
+>>>>> Processing file 'Prefabs\MCM\ListRect.xml'
+	+ Injecting 'MCMExtender\ListRect\highlight.xml' @ highlight
+	+ Injecting 'MCMExtender\ListRect\text.xml' @ text
+	+ Injecting 'MCMExtender\ListRect\ListRect.xml' @ EoF
+
+>>>>> Processing file 'Prefabs\MCM\ModListRect.xml'
+	+ Injecting 'MCMExtender\ModListRect\highlight.xml' @ highlight
+	+ Injecting 'MCMExtender\ModListRect\text.xml' @ text
+	+ Injecting 'MCMExtender\ModListRect\ModListRect.xml' @ EoF
+
+>>>>> Processing file 'item_mod_menu.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\ItemModMenu\IMM_ModDesc.xml' @ IMM_ModDesc
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ IMM_ItemModButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ IMM_CancelButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\ItemModMenu\WeapModCompare.xml' @ IMM_MainRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\ItemModMenu\_Root.xml' @ ItemModMenu
+
+>>>>> Processing file 'Main\inventory_menu.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_h2.xml' @ IM_Headline_h2
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\WGInfo.xml' @ IM_Headline_PlayerWGInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerWGInfo.xml' @ IM_Headline_PlayerWGInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerDRInfo.xml' @ IM_Headline_PlayerDRInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerDTInfo.xml' @ IM_Headline_PlayerDTInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerCapsInfo.xml' @ IM_Headline_PlayerCapsInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\CapsInfo.xml' @ IM_Headline_PlayerCapsInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_Headline_PlayerHPInfo.xml' @ IM_Headline_PlayerHPInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_HeadlineRect.xml' @ IM_HeadlineRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_EquipItemMarkerVUI+.xml' @ IM_EquipItemMarker
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_EquipItemMarker.xml' @ IM_EquipItemMarker
+	+ Injecting 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_EquipButton.xml' @ IM_EquipButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ IM_EquipButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ IM_DropButton
+	+ Injecting 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_DropButton.xml' @ IM_DropButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ IM_RepairButton
+	+ Injecting 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_RepairButton.xml' @ IM_RepairButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ IM_HotkeyButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ IM_ModButton
+	+ Injecting 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_ModButton.xml' @ IM_ModButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ IM_CancelButton
+	+ Injecting 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_CancelButton.xml' @ IM_CancelButton
+	+ Injecting 'Stentorious\ySIAssortedFixes\InventoryMenu\IM_ButtonRect.xml' @ IM_ButtonRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_ItemIconBadge.xml' @ IM_ItemIconBadge
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_StrReq.xml' @ IM_StrReq
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\CritInfo.xml' @ IM_ItemInfoRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\AddictionInfo.xml' @ IM_ItemInfoRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ValWGInfo.xml' @ IM_ItemInfoRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\SkillInfo.xml' @ IM_ItemInfoRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_ItemInfoRectVUI+.xml' @ IM_ItemInfoRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\IM_InventoryListTemplateRect.xml' @ IM_InventoryListTemplateRect
+	+ Injecting 'VNLA_Fonts\VNLA_Fonts.xml' @ InventoryMenu
+	+ Injecting 'DarN_Fonts\DarN_Fonts.xml' @ InventoryMenu
+	+ Injecting 'Stentorious\PipBoyUITweaks\InventoryMenu\_Root.xml' @ InventoryMenu
+
+>>>>> Processing file 'Prefabs\card_info.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Prefabs\CI_TitleText\VUI+.xml' @ CI_TitleText
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Prefabs\ValueText.xml' @ CI_ValueText
+
+>>>>> Processing file 'Prefabs\MCM\Options.xml'
+	+ Injecting 'MCMExtender\Options\ArrowUp.xml' @ ArrowUp
+	+ Injecting 'MCMExtender\Options\ArrowDown.xml' @ ArrowDown
+	+ Injecting 'MCMExtender\VUI+\mouseover.xml' @ Options_Scroll
+	+ Injecting 'MCMExtender\Options\Scrollbar.xml' @ MCM_Options
+
+>>>>> Processing file 'Main\stats_menu.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ColorStatHP.xml' @ stats_hp_info
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ColorStatAP.xml' @ stats_ap_info
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ stats_stimpak_button
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ stats_drbag_button
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ stats_healing_mode
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ stats_radaway_button
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ stats_radx_button
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_head.xml' @ stats_player_face
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_leftarm.xml' @ stats_player_leftarm
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_rightarm.xml' @ stats_player_rightarm
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_leftleg.xml' @ stats_player_leftleg
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_rightleg.xml' @ stats_player_rightleg
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_torso.xml' @ stats_player_torso
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml' @ stats_player_head_pct
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml' @ stats_player_head_crippled
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml' @ stats_player_torso_pct
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml' @ stats_player_torso_crippled
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml' @ stats_player_leftarm_pct
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml' @ stats_player_leftarm_crippled
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml' @ stats_player_rightarm_pct
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml' @ stats_player_rightarm_crippled
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml' @ stats_player_leftleg_pct
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml' @ stats_player_leftleg_crippled
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_limb_pct.xml' @ stats_player_rightleg_pct
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_crippled.xml' @ stats_player_rightleg_crippled
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_player_head.xml' @ stats_player_head
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\ySIMiscIcon.xml' @ VUI+EnergyResistLabel
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\ySIMiscIcon.xml' @ VUI+FireResistLabel
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\ySIMiscIcon.xml' @ VUI+PoisonResistLabel
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_rad_resist_label.xml' @ stats_rad_resist_label
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_rads.xml' @ stats_rads_arrow
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_rads.xml' @ stats_player_rads
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_h20.xml' @ stats_h20_arrow
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_h20.xml' @ stats_player_h20
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_hunger.xml' @ stats_hunger_arrow
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_hunger.xml' @ stats_player_hunger
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_sleep.xml' @ stats_sleep_arrow
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_sleep.xml' @ stats_player_sleep
+	+ Injecting 'UII\PerkBrowser.xml' @ stats_status_container
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\stats_list_template_extra.xml' @ stats_list_template_extra
+	+ Injecting 'Stentorious\PipBoyUITweaks\StatsMenu\_Root.xml' @ StatsMenu
+
+>>>>> Processing file 'Prefabs\MCM\ModTitleRect.xml'
+	+ Injecting 'MCMExtender\ModTitleRect\ModTitleRect.xml' @ EoF
+
+>>>>> Processing file 'Options\start_menu.xml'
+	+ Injecting 'MAPMO\start_mapmo.xml' @ StartMenu
+	+ Injecting 'mcm\mcm.xml' @ StartMenu
+	+ Injecting 'MCMExtender\StartMenu.xml' @ StartMenu
+
+>>>>> Processing file 'Prefabs\VUI+\settings.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Prefabs\VUI+VW.xml' @ EoF
+
+>>>>> Processing file 'Prefabs\text_box.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Prefabs\button_text\VUI+.xml' @ button_text
+
+>>>>> Processing file 'recipe_menu.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ RM_ButtonX
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ RM_ButtonB
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\AddictionInfo.xml' @ RM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\SkillInfo.xml' @ RM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ValWGInfo.xml' @ RM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\CritInfo.xml' @ RM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\CritDAMInfo.xml' @ RM_ItemData
+	+ Injecting 'RecipeMenu\ListItemText.xml' @ ListItemText
+	+ Injecting 'RecipeMenu\ListItem.xml' @ RM_list_template_container
+	+ Injecting '..\ySI\ySI.xml' @ RecipeMenu
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\_Root.xml' @ RecipeMenu
+
+>>>>> Processing file 'companion_wheel_menu.xml'
+	+ Injecting 'JHCBugFixes\InjectTrait\RadialFont.xml' @ CWM_RadialLabel
+	+ Injecting 'JHCBugFixes\InjectTrait\BackgroundFix.xml' @ VUI+ExitBackground
+
+>>>>> Processing file 'Prefabs\aHUD\hudtemplates.xml'
+	+ Injecting 'RAD\RADVisuals.xml' @ meter_HP
+	+ Injecting 'RAD\RADVisuals.xml' @ meter_AP
+
+>>>>> Processing file 'Prefabs\hudtemplates.xml'
+	+ Injecting 'RAD\RADVisuals.xml' @ meter
+
+>>>>> Processing file 'dialog\dialog_menu.xml'
+	+ Injecting 'VUIPDiaBGRes\VUIPDiaBGRes.xml' @ NOGLOW_BRANCH
+
+>>>>> Processing file 'Prefabs\item_stats_display.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\WeightInfo.xml' @ WeightInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ValueInfo.xml' @ ValueInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml' @ ConditionMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml' @ ConditionMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\AmmoInfo.xml' @ AmmoInfo
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Prefabs\StrengthReqInfo.xml' @ StrengthReqInfo
+
+>>>>> Processing file 'VATS_menu.xml'
+	+ Injecting 'MDR\MDRVATSResistances.xml' @ VATSMenu
+	+ Injecting 'ConditionMeterIcons\IconPaths.xml' @ VATSMenu
+	+ Injecting 'RAD\RAD.xml' @ VATSMenu
+
+>>>>> Processing file 'Main\map_menu.xml'
+	+ Injecting 'Stentorious\LocalMapOverhaul\DepthOverlay.xml' @ MM_HeadlineRect
+	+ Injecting 'Stentorious\LocalMapOverhaul\MM_LocalMap_ParentImage.xml' @ MM_LocalMap_ParentImage
+	+ Injecting 'Stentorious\LocalMapOverhaul\MM_LocalMapCursor.xml' @ MM_LocalMapCursor
+	+ Injecting 'Stentorious\LocalMapOverhaul\MM_LocalMapCursor.xml' @ MM_WorldMapCursor
+	+ Injecting 'Stentorious\LocalMapOverhaul\MM_HighlightLocationName.xml' @ MM_HighlightLocationName
+	+ Injecting 'Stentorious\LocalMapOverhaul\MM_HighlightIconName_VUI+.xml' @ MM_MapHighlightBox
+	+ Injecting 'Stentorious\LocalMapOverhaul\MM_Highlight_ClipWindow.xml' @ MM_Highlight_ClipWindow
+	+ Injecting 'Stentorious\PipBoyUITweaks\MapMenu\ySIDataAButtonIcon.xml' @ MM_ButtonA
+	+ Injecting 'Stentorious\PipBoyUITweaks\MapMenu\ySIDataXButtonIcon.xml' @ MM_ButtonX
+	+ Injecting 'Stentorious\PipBoyUITweaks\MapMenu\ySIDataYButtonIcon.xml' @ MM_ButtonY
+	+ Injecting 'Stentorious\LocalMapOverhaul\DepthOverlay.xml' @ MM_Tabline
+	+ Injecting 'Stentorious\LocalMapOverhaul\MapMarker.xml' @ MapMarker
+	+ Injecting 'Stentorious\LocalMapOverhaul\LocalMapQuestMarker.xml' @ LocalMapQuestMarker
+	+ Injecting 'Stentorious\PipBoyUITweaks\MapMenu\_Root.xml' @ MapMenu
+	+ Injecting 'Stentorious\LocalMapOverhaul\MapMenu.xml' @ MapMenu
+
+>>>>> Processing file 'barter_menu.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml' @ BM_Items_CapsLabel
+	+ Injecting 'Stentorious\PipBoyUITweaks\BarterMenu\BM_Items_CapsLabel_Clone.xml' @ BM_ItemsRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml' @ BM_Container_CapsLabel
+	+ Injecting 'Stentorious\PipBoyUITweaks\BarterMenu\BM_Container_CapsLabel_Clone.xml' @ BM_ContainerRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ BM_ButtonX
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ BM_ButtonB
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\AddictionInfo.xml' @ BM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\SkillInfo.xml' @ BM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ValWGInfo.xml' @ BM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\CritInfo.xml' @ BM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\CritDAMInfo.xml' @ BM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\_Root.xml' @ BarterMenu
+
+>>>>> Processing file 'Prefabs\MCM\ModList.xml'
+	+ Injecting 'MCMExtender\ModList\ArrowUp.xml' @ ArrowUp
+	+ Injecting 'MCMExtender\ModList\ArrowDown.xml' @ ArrowDown
+	+ Injecting 'MCMExtender\VUI+\mouseover.xml' @ ModList_Scroll
+	+ Injecting 'MCMExtender\ModList\Scrollbar.xml' @ MCM_ModList
+	+ Injecting 'MCMExtender\ModList\MCM_ModList.xml' @ MCM_ModList
+
+>>>>> Processing file 'Prefabs\MCM\MCM.xml'
+	+ Injecting 'MCMExtender\MCM\MCM_Trigger.xml' @ MCM_Trigger
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v1
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h1
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h2
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h3
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h4
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v2
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v3
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v4
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v5
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v6
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h5
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h6
+	+ Injecting 'MCMExtender\MCM\MCM_Bracket_Bottom.xml' @ MCM_Bracket_Bottom
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ MCM_Info
+	+ Injecting 'MCMExtender\MCM\MCM_Back.xml' @ MCM_Back
+	+ Injecting 'MCMExtender\MCM\MCM_Defaults.xml' @ MCM_Defaults
+	+ Injecting 'MCMExtender\MCM\MCM_Highlight.xml' @ MCM_Highlight
+	+ Injecting 'MCMExtender\MCM\InputY.xml' @ InputY
+	+ Injecting 'MCMExtender\MCM\MCM_Version.xml' @ MCM_Version
+	+ Injecting 'MCMExtender\MCM\MCM.xml' @ MCM
+
+>>>>> Processing file 'repair_menu.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml' @ RM_BrokenItemHealthMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml' @ RM_BrokenItemHealthMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml' @ RM_FixedItemHealthMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml' @ RM_FixedItemHealthMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ RM_RepairButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ RM_CancelButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\RepairMenu\RM_Template_Meter.xml' @ RM_Template_Meter
+	+ Injecting 'Stentorious\PipBoyUITweaks\RepairMenu\_Root.xml' @ RepairMenu
+
+>>>>> Processing file 'container_menu.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml' @ CM_Items_CapsLabel
+	+ Injecting 'Stentorious\PipBoyUITweaks\ContainerMenu\CM_Items_CapsLabel_Clone.xml' @ CM_ItemsRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml' @ _VUI+ContainerWeight
+	+ Injecting 'Stentorious\PipBoyUITweaks\ContainerMenu\CM_Container_CapsLabel_Clone.xml' @ CM_ContainerRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ CM_TakeAllButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ CM_ExitButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\AddictionInfo.xml' @ CM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\SkillInfo.xml' @ CM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ValWGInfo.xml' @ CM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\CritInfo.xml' @ CM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\CritDAMInfo.xml' @ CM_ItemData
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\_Root.xml' @ ContainerMenu
+
+>>>>> Processing file 'Prefabs\UII\PerkBrowser.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ PerkBrowser
+
+>>>>> Processing file 'repair_services_menu.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\HideLabel.xml' @ RSM_CapsLabel
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml' @ RSM_BrokenItemHealthMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml' @ RSM_BrokenItemHealthMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\ColorCNDMeter.xml' @ RSM_FixedItemHealthMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\NumericCondition.xml' @ RSM_FixedItemHealthMeter
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ RSM_RepairButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ RSM_RepairAllButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\_ySI\ButtonIcon.xml' @ RSM_DoneButton
+	+ Injecting 'Stentorious\PipBoyUITweaks\RepairServicesMenu\RSM_CapsLabel_Clone.xml' @ RSM_MainRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Prefabs\MeterImage.xml' @ RSM_Template_Meter
+	+ Injecting 'Stentorious\PipBoyUITweaks\RepairServicesMenu\RSM_RepairListTemplateRect.xml' @ RSM_RepairListTemplateRect
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Common\_Root.xml' @ RepairServicesMenu
+
+>>>>> Processing file 'Main\hud_main_menu.xml'
+	+ Injecting 'FAI\FAI.xml' @ HUDMainMenu
+	+ Injecting 'JBT\JBT.xml' @ HUDMainMenu
+	+ Injecting 'JDC\JDC.xml' @ HUDMainMenu
+	+ Injecting 'ConsumablesWidget\widget.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\PipBoyUITweaks\HUDMainMenu\_Root.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\ModernNightVision.xml' @ HUDMainMenu
+	+ Injecting 'JLM\JLM.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\SneakVignette.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\ModernNightVision_Overlay.xml' @ HUDMainMenu
+	+ Injecting 'ConditionMeterIcons\IconPaths.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\SleepWaitHardcoreNeeds\HUDMainMenu\_Root.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\ModernNightVision_Preload.xml' @ HUDMainMenu
+	+ Injecting 'B42Bash\B42Bash.xml' @ HUDMainMenu
+	+ Injecting 'RAD\RAD.xml' @ HUDMainMenu
+	+ Injecting 'MDR\MDRPipBoyLightIndicatorHUD.xml' @ HUDMainMenu
+	+ Injecting 'ConditionMeterIcons\Settings.xml' @ HUDMainMenu
+	+ Injecting 'JWH\JWH.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\HUDInertia\HUDMainMenu.xml' @ HUDMainMenu
+	+ Injecting 'VNLA_Fonts\VNLA_Fonts.xml' @ HUDMainMenu
+	+ Injecting 'MAPMO\hud_mapmo.xml' @ HUDMainMenu
+	+ Injecting 'JHI\JHI.xml' @ HUDMainMenu
+	+ Injecting 'MCMExtender\HUDMainMenu.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\3DGrenadeIndicator.xml' @ HUDMainMenu
+	+ Injecting 'EFOV\EFOVScope.xml' @ HUDMainMenu
+	+ Injecting 'DarN_Fonts\DarN_Fonts.xml' @ HUDMainMenu
+	+ Injecting 'Stentorious\DrowningVisuals.xml' @ HUDMainMenu
+	+ Injecting 'JHM\JHM.xml' @ HUDMainMenu
+	+ Injecting 'JVO\JVO.xml' @ HUDMainMenu
+
+>>>>> Processing file 'Prefabs\meter.xml'
+	+ Injecting 'Stentorious\PipBoyUITweaks\_Prefabs\MeterImage.xml' @ MeterImage
+
+>>>>> Processing file 'CharGen\char_gen_menu.xml'
+	+ Injecting 'UII\CharGenBox.xml' @ TM_DescriptionBox
+
+>>>>> Processing file 'Prefabs\MCM\OptionRect.xml'
+	+ Injecting 'MCMExtender\OptionRect\title.xml' @ title
+	+ Injecting 'MCMExtender\VUI+\systemcolor.xml' @ image
+	+ Injecting 'MCMExtender\OptionRect\value_text.xml' @ text
+	+ Injecting 'MCMExtender\OptionRect\value_text.xml' @ prefix
+	+ Injecting 'MCMExtender\OptionRect\value_text.xml' @ suffix
+	+ Injecting 'MCMExtender\OptionRect\toggle_text.xml' @ toggle_off
+	+ Injecting 'MCMExtender\OptionRect\toggle_text.xml' @ toggle_on
+	+ Injecting 'MCMExtender\OptionRect\toggle.xml' @ toggle
+	+ Injecting 'MCMExtender\OptionRect\toggle_check.xml' @ toggle_check
+	+ Injecting 'MCMExtender\OptionRect\RGB.xml' @ RGB
+	+ Injecting 'MCMExtender\OptionRect\OptionRect.xml' @ EoF
+
+>>>>> Processing file 'Prefabs\MCM\Scale.xml'
+	+ Injecting 'MCMExtender\Scale\Scale_Title.xml' @ Scale_Title
+	+ Injecting 'MCMExtender\Scale\Scale_RGB.xml' @ Scale_RGB
+	+ Injecting 'MCMExtender\Scale\Prompt_Clone.xml' @ Scale_Accept
+	+ Injecting 'MCMExtender\Scale\Scale_Accept.xml' @ Scale_Accept
+	+ Injecting 'MCMExtender\Scale\Prompt_Clone.xml' @ Scale_Cancel
+	+ Injecting 'MCMExtender\Scale\Scale_Cancel.xml' @ Scale_Cancel
+	+ Injecting 'MCMExtender\Scale\Prompt_Clone.xml' @ Scale_Default
+	+ Injecting 'MCMExtender\Scale\Scale_Default.xml' @ Scale_Default
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_Drag
+	+ Injecting 'MCMExtender\Scale\Meter_Image.xml' @ Meter1_Image
+	+ Injecting 'MCMExtender\Scale\Meter1_Bar.xml' @ Meter1_Bar
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowL_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_ArrowL
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowL2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowL2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_ArrowL2
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowR_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_ArrowR
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowR2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowR2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_ArrowR2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_Drag
+	+ Injecting 'MCMExtender\Scale\Meter_Image.xml' @ Meter2_Image
+	+ Injecting 'MCMExtender\Scale\Meter2_Bar.xml' @ Meter2_Bar
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowL_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_ArrowL
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowL2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowL2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_ArrowL2
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowR_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_ArrowR
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowR2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowR2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_ArrowR2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_Drag
+	+ Injecting 'MCMExtender\Scale\Meter_Image.xml' @ Meter3_Image
+	+ Injecting 'MCMExtender\Scale\Meter3_Bar.xml' @ Meter3_Bar
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowL_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_ArrowL
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowL2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowL2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_ArrowL2
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowR_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_ArrowR
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowR2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowR2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_ArrowR2
+	+ Injecting 'MCMExtender\Scale\MCM_Scale.xml' @ MCM_Scale
+
+>>>>> Processing file 'sleep_wait_menu.xml'
+	+ Injecting 'Stentorious\SleepWaitHardcoreNeeds\SleepWaitMenu\SWM_WaitButton.xml' @ SWM_WaitButton
+	+ Injecting 'Stentorious\SleepWaitHardcoreNeeds\SleepWaitMenu\SWM_HardcoreNeeds.xml' @ SWM_MainRect
+	+ Injecting 'Stentorious\SleepWaitHardcoreNeeds\SleepWaitMenu\_Root.xml' @ SleepWaitMenu
