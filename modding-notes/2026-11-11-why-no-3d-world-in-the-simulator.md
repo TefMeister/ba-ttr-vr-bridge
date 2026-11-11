@@ -280,3 +280,34 @@ Next:
 3. If it is the shareable-picture difference: that is something we can supply from our side, a small layer of our own
    between the mod and the simulator that hands the mod shareable pictures. Our code, nothing of the mod's changed,
    and only ever loaded on desk runs.
+
+---
+
+# Reading the mod's eye hand-over (no game, later the same night)
+
+All `[inferred-static]`, TTWVR 1.0.0 build 6AF014A8, on disk only.
+
+- **How an eye travels, by the mod's own texts and code:** the game draws through DXVK (Vulkan). The mod makes its
+  own shareable Direct3D 11 pictures ("shared %s %ux%u", "shared handle for %s"), brings them into Vulkan, and has the
+  eye copied there by DXVK's worker ("deferred eye copy"), timed by a Direct3D 11 fence brought into Vulkan. With the
+  upscaler on, a second program (`ttwvr_dlss_host.exe`) turns that into the big picture, again in shared pictures.
+  Last, on the Direct3D 11 side, the mod takes the headset's picture, waits on the fence, copies its own shared
+  picture in and gives the headset's picture back.
+- **So the shareable pictures are the mod's own, not the headset's.** The headset's picture only receives an ordinary
+  copy at the end. The guess "the simulator's pictures are not shareable, that is the difference" is therefore
+  **dropped**: `[disproved 2026-11-11]` by this reading. No layer of ours is called for.
+- The last step has no hidden condition: frame begun, eye 0 or 1, a source picture, the headset's picture ready. If it
+  is called, the copy is made. So a frozen eye means **the copy runs with a stale source, or is not called**: the
+  fault sits before it, on the game's side of the chain (the Vulkan eye copy, or with the upscaler on the helper
+  program never producing a frame).
+- What the desk run showed fits "the helper never produces": the one picture that did arrive after the pause change
+  was the small, un-upscaled eye (2944x2208, top left of the big picture), which is the mod's stated fallback ("the
+  eyes go the old way") for a moment when the upscaler is reset. The mod has a warning for an eye left without an
+  upscaled frame for 2 s; it did not appear, so this is `[hypothesis]`, not a finding.
+
+**What decides it is the run already on the board:** rung 1 in the simulator with the VR menu's Upscaler off (then the
+helper is out of the chain), one pause and un-pause, head turned.
+- live picture that follows the head -> the helper program is the piece that does not work on a desk run; desk runs
+  use Upscaler off (in a desk-only settings copy, never Tefa's), solved for our purpose.
+- frozen or black again -> it is the Vulkan eye copy itself; next is DXVK's own log beside the mod's
+  (`FalloutNV_d3d9.log`), which the run collector should start keeping.
