@@ -148,4 +148,9 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
   exists here, empty, whenever its Streamer runs, and the mod skips its own body solver when that memory is there
   `[measured]` + `[inferred-static]`; the link to the black world is `[hypothesis]`. Decider: quit the Streamer, run
   rung 1 again. `collect_run.py` also no longer stops on a file the game still holds.
+- **The decider (Streamer quit by Tefa).** The `[camtrack]` lines appear: with the Virtual Desktop Streamer running
+  and nobody in the headset, TTWVR has no body (it trusts the empty memory). `[verified-live 2026-11-11]` But the
+  world is still black with the body solved: one fault found, not the fault. Left: the picture path (the two big eye
+  pictures, the 4096 cap, the upscaler helper). The 2026-11-10 "upscaler off / small eye: no change" was measured with
+  the dead body and has to be done again.
 

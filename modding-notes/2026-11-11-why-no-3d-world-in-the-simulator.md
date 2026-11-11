@@ -125,3 +125,41 @@ Quit the Virtual Desktop Streamer (tray icon, Quit), check `VirtualDesktop.BodyS
 
 This session tried to close the Streamer itself and was refused by the session's own safety check (it is another
 program's process), so the step waits for Tefa or an explicit yes.
+
+---
+
+# The decider, run the same night with the Streamer quit (Tefa quit it)
+
+Runs kept: `runs/2026-11-11 2211 rung-01 vr base sim` (the script) and `runs/2026-11-11 2213 rung-01 vr base sim` (left up
+to look at). `VirtualDesktop.BodyState` was checked gone before the start. Closed politely, saves identical, MO2 back
+on `rung-02 fixes`, VR Bench off.
+
+- **The reading of the code holds.** With the memory gone the mod logs, at the first frame, `[camtrack] ... Virtual
+  Desktop's body memory is not there` and then `[camtrack] no body tracking and no Virtual Desktop body: the body is
+  solved from the headset and the controllers (floor from the play space)`, exactly as on the headset evening.
+  `[verified-live 2026-11-11, n=3 session starts]` So: **while the Virtual Desktop Streamer runs with nobody in the
+  headset, TTWVR has no body at all** (the empty memory is trusted over the solver). That is a real fault for desk
+  runs and worth telling KUPOkinz; with a headset on and streaming it does not arise.
+- **It was one fault, not the fault.** The world's eye pictures are still pure black with the body solved (simulator
+  screenshot, 70 s in, session FOCUSED); the script's "world follows the head" still says no. `[verified-live
+  2026-11-11, n=2]` The pause menu now answers clearly (picture change 20.9 against 2.1 with the dead body).
+- Still no `[aim]` line after the save loads.
+
+## What is left: the picture path `[hypothesis]`
+
+What the simulator's log shows of it: in the world the mod hands over the two 4096x3648 pictures every frame, but
+the log records **no acquire of those two at all** (only of the 2944x2208 one used at the menu), where it lists the
+first few acquires of every picture set. If that holds (the log may simply stop listing after the first few of the
+session) the mod is handing over pictures it never took for drawing, which a strict runtime shows as black and
+Virtual Desktop may forgive. Two more things differ from the headset and are not ruled out: the simulator caps
+pictures at 4096 a side (the headset allowed 16384; 4096x3648 is not the shape of the 2944x2208 eye, so the upscaler
+is asked for an odd stretch), and the upscaler helper (`ttwvr_dlss_host.exe`, a separate program) has to write into
+pictures the simulator made.
+
+Next, in order of cost:
+1. `[PD]` read in the simulator's source or its log format whether acquires are listed for every picture set or only
+   the first few lines of a session; that turns the "never acquired" reading into a fact or drops it.
+2. `[FLAT]` one desk run with the VR menu's Upscaler off AND Resolution low enough that an eye fits in 4096 (both
+   together; on 2026-11-10 they were tried, but with the dead body, so that result does not count any more).
+3. If still black: the simulator's own frame tools (its per-eye freshness and D3D11 frame capture) on the two eye
+   pictures, to see whether anything is ever drawn into them.
