@@ -163,3 +163,11 @@ Next, in order of cost:
    together; on 2026-11-10 they were tried, but with the dead body, so that result does not count any more).
 3. If still black: the simulator's own frame tools (its per-eye freshness and D3D11 frame capture) on the two eye
    pictures, to see whether anything is ever drawn into them.
+
+**Step 1 answered the same night (no game): the "never acquired" reading is dropped.** Eleven simulator logs from
+three different games tonight (this one, a UEVR game, an RE Engine game) each list exactly 4 acquires and 10 releases,
+whatever the game did: the simulator lists only a session's first few. So the log cannot say whether the two big eye
+pictures are acquired. `[measured 2026-11-11, n=11 logs]`
+
+**Every "not the cause" of 2026-11-10 has to be tried again:** the window in front, Continue by hand, the upscaler
+off, the smaller eye were all measured while the body was dead, so none of them counts.
