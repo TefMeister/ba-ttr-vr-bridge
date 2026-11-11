@@ -132,3 +132,14 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
   twice while two copies ran (my own doing: started the next before the last had gone); no forced close was needed.
 - Tool faults met: the VR Bench tool's own picture command returns nothing with this simulator version (the
   simulator's own screenshot works); the flat checker lists the simulator's window as a "box" (harmless).
+
+**2026-11-11 evening (Developer PC, Fable, no game running): the hunt for the missing 3D world in the simulator.**
+
+- Not solved, narrowed. The simulator does give a valid head reading and a play space (our own probe, `[measured]`),
+  and its surviving per-frame record shows the mod handing over fresh eye pictures every frame: so it is not the body
+  solve waiting on the headset, and not refused frames. The `[camtrack]` line is only the solver's first success;
+  with `[aim]` missing too, the mod's in-world part seems never to start `[hypothesis]`.
+- `collect_run.py` now keeps the simulator's own log on every ` sim` run: that log names any refused call and every
+  session state, and it was gone a day later. One desk run of rung 1 answers it.
+- Full note: `modding-notes/2026-11-11-why-no-3d-world-in-the-simulator.md`.
+

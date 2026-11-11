@@ -58,7 +58,7 @@ def candidates(roots, since):
             if depth > 4:
                 continue
             for x in fn:
-                if not x.lower().endswith(KEEP):
+                if not x.lower().endswith(KEEP) and x.lower() != "projection_log.json":  # the simulator's per-frame record
                     continue
                 p = os.path.join(dp, x)
                 try:
@@ -92,10 +92,18 @@ def main():
     os.makedirs(dst, exist_ok=True)
     mygames = os.path.join(os.path.expanduser("~"), "Documents", "My Games", "FalloutNV")
     roots = [a.game, os.path.join(a.mo2, "logs"), os.path.join(a.mo2, "overwrite"), mygames]
+    # A desk run in the OpenXR Simulator: keep the simulator's own log too (every call the VR mod made, each refusal,
+    # the session's states, what was handed over per frame). It keeps only its newest few, so a day later it is gone:
+    # that is how the 2026-11-10 runs lost the one file that could say why no 3D world was drawn.
+    simdata = os.path.join(os.environ.get("LOCALAPPDATA", ""), "OpenXR-Simulator")
+    if a.rung.endswith(" sim"):
+        roots.append(simdata)
     rows = []
     scrub = scrubber()
     for root, p in candidates(roots, since):
-        label = {a.game: "game", mygames: "mygames"}.get(root, os.path.basename(root))
+        label = {a.game: "game", mygames: "mygames", simdata: "simulator"}.get(root, os.path.basename(root))
+        if root == simdata and os.path.dirname(p) != simdata:
+            continue  # its incident folders hold other sessions' pictures: top-level files only
         rel = os.path.relpath(p, root)
         out = os.path.join(dst, label + "__" + rel.replace(os.sep, "__"))
         size = os.path.getsize(p)
