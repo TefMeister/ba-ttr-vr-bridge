@@ -171,3 +171,44 @@ pictures are acquired. `[measured 2026-11-11, n=11 logs]`
 
 **Every "not the cause" of 2026-11-10 has to be tried again:** the window in front, Continue by hand, the upscaler
 off, the smaller eye were all measured while the body was dead, so none of them counts.
+
+---
+
+# Three more desk runs the same night (Streamer off, body solved): what is ruled out now, and one large clue
+
+Runs kept: `runs/2026-11-11 2232 ... upscaler off, window in front` and `runs/2026-11-11 2235 ... continue by hand,
+pause shows the world`. Every setting touched was put back and compared (the VR menu's settings file is byte-identical
+to before; our own helper's auto-load is on again; saves identical; MO2 on `rung-02 fixes`; VR Bench off).
+
+- **Not the upscaler, not the 4096 cap.** With `Upscaler=Off` and `Resolution=100%` the mod makes two 2944x2208 eye
+  pictures (no 4096 ones, no helper in the path) and they are still empty. `[verified-live 2026-11-11, n=1]`
+- **Not the game's window being covered.** With the game's own window brought to the front (checked: it was the front
+  window) the eye pictures stay empty 20 s later. `[verified-live 2026-11-11, n=1]`
+- **Not the auto-load.** With our auto-load off, the main menu shows in the simulator as a floating panel; Continue
+  pressed with the robot hand's A loads the save; the eye pictures are empty all the same. `[verified-live, n=1]`
+- **"Empty" is exact:** every in-world screenshot measures brightness 0 at every pixel (max 0), not "very dark".
+  `[measured, n=4 screenshots]`
+- **Not see-through pixels.** Our own probe handed the simulator eye pictures with colour but alpha 0: it shows the
+  colours. `[measured 2026-11-11, n=1; the OpenGL path of the 64-bit runtime, the game uses D3D11 on the 32-bit one]`
+
+## The clue: the game IS drawing the world
+
+With the pause menu open (robot hand's Y) the mod hands over no eye pictures at all and shows the game's own picture
+on a floating panel instead, and **in that panel the world is there**: the room of the save, the cages, the player's
+arm. `[verified-live 2026-11-11, n=1]` So the game renders, the picture crosses from the game's renderer to the
+headset session (the panel is the same size and kind of picture as an eye), and what stays empty is only **the mod's
+two stereo eye pictures while playing**.
+
+What that leaves `[hypothesis]`, most likely first:
+1. The world is drawn for the eyes but from a camera that sees nothing: the eye's place or lens worked out wrongly from
+   what the simulator reports. One thing seen: the mod hands its eye pictures over with a wider lens angle than the
+   simulator gave it (left eye -61.5 to +52.5 degrees against the simulator's -54 to +40), so it is not simply passing
+   the runtime's numbers through.
+2. The mod's own stereo step (it draws once and makes the second eye from it, by its log's own words) does not start
+   in the simulator: something it waits for after the body (a height it has not measured, a first both-eyes frame).
+3. A difference in how the simulator's eye pictures may be written to that only the eye path meets.
+
+Next: `[PD]` read in TTWVR.dll what the eye capture needs before it copies an eye (the strings around "stereo frame",
+"capturing the left eye", "eye staging texture", "[eyeres]") and where its lens angles come from. `[FLAT]` with the
+Streamer off: one run with the simulator's headset profile and lens set to match what the mod hands over, and one
+with the robot doing the mod's height pose, each judged by the same zero-brightness test.

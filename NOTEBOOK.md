@@ -153,4 +153,9 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
   world is still black with the body solved: one fault found, not the fault. Left: the picture path (the two big eye
   pictures, the 4096 cap, the upscaler helper). The 2026-11-10 "upscaler off / small eye: no change" was measured with
   the dead body and has to be done again.
+- **Three more desk runs (Streamer off).** Ruled out with the body solved: the upscaler and the 4096 cap, the game's
+  window being covered, the auto-load, see-through pixels. **The clue:** with the pause menu open the mod shows the
+  game's own picture on a panel and the world is in it, so the game draws and the picture reaches the headset; only
+  the mod's two stereo eye pictures stay exactly empty while playing. Next: what its eye capture waits for, and its
+  lens numbers.
 
