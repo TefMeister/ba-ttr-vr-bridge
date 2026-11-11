@@ -243,3 +243,40 @@ against the game.
 - state 4, a switch at 0 -> that switch names the missing piece; each has one or two places that set it.
 - state 4 and every switch on -> the stereo frame runs and still captures nothing: then it is the capture itself
   (the mod's own renderer hand-over), and the place to look is what the eye capture copies from.
+
+---
+
+# The reader's run (Streamer off): the stereo step is fully on, and the world DOES appear, as one frozen picture
+
+Run kept: `runs/2026-11-11 2250 ... gates all on, world appears frozen after pause`. Closed politely, saves identical,
+MO2 on `rung-02 fixes`, VR Bench off.
+
+- **`tools/ttwvr_gates.py` works against the game** and says: state 4, both stereo switches 1, "stereo allowed" 1,
+  Full Body 1 and not parked. (Its two "session" lines read nonsense: wrong places, to be taken out.)
+  `[verified-live 2026-11-11, n=2 readings]` So outcome three: the mod's stereo step runs and nothing comes of it.
+- **First sight of the world in the simulator:** after one pause and un-pause (robot hand's Y, then B) both eye
+  pictures show the room of the save, in stereo, with the player's arms. `[verified-live 2026-11-11, n=1]` Before
+  that pause they were exactly empty, as in every run before.
+- **But the picture is frozen.** With the head turned 50 degrees the mod hands its pictures over with the turned
+  pose, and the picture is pixel for pixel the same. `[verified-live, n=2 screenshots]` The game's own window is
+  frozen on the same picture too (change on a 90 degree turn: 0.00), in front or not. `[measured, n=2]` (The window
+  reading uses a Windows call that may return an old picture for this kind of window; the eye reading does not.)
+- The picture fills only the upper left 72% by 60% of each eye: the 2944x2208 eye inside the 4096x3648 picture the
+  simulator's size cap forces. With the upscaler off the eye is 2944x2208 and would fill it.
+- This is the 2026-11-10 symptom ("the picture stays on one frame, or black") seen properly: **the eye pictures are
+  written once, at a pause change, and never refreshed.** Black is "never written yet".
+
+What that means `[hypothesis]`: the per-frame copy of each eye into the headset's pictures is the piece that does not
+run in the simulator, while one other path (used at a pause change) does write them. The mod's own texts name two
+ways of copying an eye ("deferred eye copy ... the eyes are copied the old way (waiting for DXVK)", "eye staging
+texture") and the class that starts it (`VRSystem::StereoCopyBegin`). A headset runtime like Virtual Desktop makes its
+pictures shareable between programs and graphics systems; the simulator's are plain. If the mod's per-frame way
+needs a shareable picture, that is the whole difference.
+
+Next:
+1. `[PD]` read `StereoCopyBegin` and the two copy ways in the DLL: what each needs from the headset's picture, and
+   which is used at a pause change.
+2. `[FLAT]` the same run with the upscaler off: black, then frozen after a pause, or live?
+3. If it is the shareable-picture difference: that is something we can supply from our side, a small layer of our own
+   between the mod and the simulator that hands the mod shareable pictures. Our code, nothing of the mod's changed,
+   and only ever loaded on desk runs.

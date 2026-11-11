@@ -29,7 +29,6 @@ BYTES = [                                   # (name, where, offset, what it mean
     ("vr +0x148", "vr", 0x148, ""), ("vr +0x146", "vr", 0x146, ""),
     ("vr +0xb5c", "vr", 0xB5C, "must be 0"), ("vr +0xb68", "vr", 0xB68, ""), ("vr +0xb75", "vr", 0xB75, ""),
     ("vr +0xc6e", "vr", 0xC6E, ""), ("vr +0x1a58", "vr", 0x1A58, ""),
-    ("session running +0xe0", "vr", 0xE0, ""), ("session gone +0xe3", "vr", 0xE3, ""),
     ("settings +0x7c", "cfg", 0x7C, ""), ("settings +0x7d", "cfg", 0x7D, ""), ("settings +0x7e", "cfg", 0x7E, ""),
     ("settings +0x8d (one draw for both eyes)", "cfg", 0x8D, ""),
     ("Full Body", "cfg", 0x23C, "1 = on"), ("Full Body parked", "cfg", 0x38, "1 = parked off (player scale under 0.6)"),
