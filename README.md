@@ -33,6 +33,8 @@ somehow. we'll figure it out or fail spectacularily"*
   their files, every step is a recipe, and after each update the conflict report and the ladder are run again.
   Anything of ours that reaches into TTWVR (a pose, a grip) checks the mod's version first and switches itself off
   on one it does not know, rather than breaking the game.
+- **Nothing goes to KUPOkinz** (Tefa 2026-11-11: he is busy getting multiplayer to work): no bug reports, no
+  questions, no requests. What we find in the VR mod we work around on our side and write down here.
 
 ## Where it stands (2026-11-09)
 
