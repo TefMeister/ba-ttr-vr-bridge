@@ -96,7 +96,7 @@ def main():
     # the session's states, what was handed over per frame). It keeps only its newest few, so a day later it is gone:
     # that is how the 2026-11-10 runs lost the one file that could say why no 3D world was drawn.
     simdata = os.path.join(os.environ.get("LOCALAPPDATA", ""), "OpenXR-Simulator")
-    if a.rung.endswith(" sim"):
+    if " sim" in a.rung:
         roots.append(simdata)
     rows = []
     scrub = scrubber()

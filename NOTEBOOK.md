@@ -158,4 +158,9 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
   game's own picture on a panel and the world is in it, so the game draws and the picture reaches the headset; only
   the mod's two stereo eye pictures stay exactly empty while playing. Next: what its eye capture waits for, and its
   lens numbers.
+- **Late: the reader, the eye hand-over, the upscaler-off run.** The mod's stereo step is fully on (read live with
+  `tools/ttwvr_gates.py`). The world does reach the simulator: every pause and un-pause writes one fresh, correct,
+  head-tracked stereo picture, and then it stays frozen. Not the upscaler's helper, not the window, not the body.
+  Missing is only the refresh on ordinary frames (the mod's deferred eye copy is the suspect). A desk run can already
+  take head-tracked stills on demand. Everything in `modding-notes/2026-11-11-why-no-3d-world-in-the-simulator.md`.
 

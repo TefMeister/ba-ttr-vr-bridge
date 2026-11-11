@@ -311,3 +311,45 @@ helper is out of the chain), one pause and un-pause, head turned.
   use Upscaler off (in a desk-only settings copy, never Tefa's), solved for our purpose.
 - frozen or black again -> it is the Vulkan eye copy itself; next is DXVK's own log beside the mod's
   (`FalloutNV_d3d9.log`), which the run collector should start keeping.
+
+---
+
+# The upscaler-off run (Streamer off): not the helper; every pause change gives one fresh, correct still
+
+Run kept: `runs/2026-11-11 2306 ... upscaler off, a fresh still at each pause change`. The VR menu's settings file is
+byte-identical to before again; saves identical; MO2 on `rung-02 fixes`; VR Bench off.
+
+- **Not the upscaler's helper program.** With `Upscaler=Off` the picture behaves exactly as with it on: empty until a
+  pause change, then one frozen picture. `[verified-live 2026-11-11, n=1]`
+- **Not the game's window being covered,** tested properly this time: with the world showing and the game's window in
+  front, the picture stays frozen on a 100 degree head turn. `[verified-live, n=1]`
+- **Each pause and un-pause writes one new, correct picture.** Head turned 50 degrees left, pause, un-pause: the eye
+  now shows the room from that direction (the cages in the middle, the arms elsewhere). `[verified-live 2026-11-11,
+  n=2 pause changes]` So the game draws the world for the eye from the live head, the mod's body and stereo steps
+  work, and a picture can reach the headset. **What is missing is only the refresh on ordinary frames.**
+- With `Resolution=165%` the eye pictures are 4096x3648 even with the upscaler off, and the 2944x2208 eye sits in
+  their top left; that is the simulator's size cap at work (the headset's log had the same 2944x2208 eyes).
+
+Where that points `[hypothesis]`: the mod has two ways to copy an eye, by its own texts: an immediate one ("the old
+way (waiting for DXVK)") and a deferred one done by DXVK's worker and timed by a fence. A pause change plausibly
+resets the stereo frame and takes the immediate way once; ordinary frames take the deferred way, and in the simulator
+its result never lands. Why the deferred way would depend on the headset runtime is not known. One real difference:
+the simulator does its own drawing (its preview, its timing queries) on the game's Direct3D 11 device inside the
+frame calls, which Virtual Desktop does not.
+
+**What a desk run can do today, without solving it:** a head-tracked still on demand. Set the head and hands, pause,
+un-pause, take the simulator's screenshot. That is enough to check "does this rung draw the world, are the hands and
+the gun where they should be, is anything missing or pink".
+
+Next:
+1. `[PD]` `rung_simcheck.py`: judge "world is drawn" from a simulator screenshot after a pause change (brightness
+   above zero, and different after a head turn plus a second pause change), refuse to start while
+   `VirtualDesktop.BodyState` exists, put MO2 back on the rung it found.
+2. `[PD]` read what a pause change does to the mod's stereo frame (the "menu's stereo frames start / end" place) and
+   which copy way the first frame after it takes.
+3. `[FLAT]` with the Streamer off: the simulator's preview switched off or minimised for one run (does the picture go
+   live when the simulator stops drawing on the game's device?).
+
+Tool fix made on the way: the collector skipped the simulator's log whenever the run had a label after the word
+`sim`; fixed, and the eight simulator logs of the evening are rescued in
+`runs/2026-11-11 simulator logs of the labelled runs (rescued)`.
