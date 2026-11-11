@@ -353,3 +353,17 @@ Next:
 Tool fix made on the way: the collector skipped the simulator's log whenever the run had a label after the word
 `sim`; fixed, and the eight simulator logs of the evening are rescued in
 `runs/2026-11-11 simulator logs of the labelled runs (rescued)`.
+
+---
+
+# The desk check rewritten to use it (no game, the same night)
+
+`tools/rung_simcheck.py` now judges a rung by the picture the VR mod hands to the headset, taken with the simulator's
+own screenshot request (never the desktop): pause (the panel must show), un-pause (the world must be in the eye),
+turn the head, pause and un-pause again (the eye must show another view). It refuses to start while Virtual
+Desktop's body memory exists, says whether the body was solved, closes last and never by force, leaves MO2 on the
+profile it found, and keeps the two stills in the run's folder.
+
+`[compile-verified]`; its pieces were run without the game: the refusal (the Streamer was running: it refused and
+said why), the profile reader, the screenshot routine against our own probe in the simulator (a 669x697 picture,
+the same picture twice gives change 0.0), and "no picture" when no session is up. **Not yet run against the game.**
