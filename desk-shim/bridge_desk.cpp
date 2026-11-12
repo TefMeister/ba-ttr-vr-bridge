@@ -24,6 +24,10 @@ typedef HANDLE(WINAPI* OpenFileMappingW_t)(DWORD, BOOL, LPCWSTR);
 OpenFileMappingW_t g_real = nullptr;
 volatile LONG g_answered = 0;
 
+}  // namespace
+
+void start_d3d11_probe(HMODULE vr_mod);  // d3d11_probe.cpp; only when BRIDGE_DESK_D3D11_PROBE=1 is in the environment
+
 void log_line(const char* fmt, ...) {
     char path[MAX_PATH];
     DWORD n = GetEnvironmentVariableA("USERPROFILE", path, MAX_PATH);
@@ -42,6 +46,7 @@ void log_line(const char* fmt, ...) {
     fclose(f);
 }
 
+namespace {
 HANDLE WINAPI hook_OpenFileMappingW(DWORD access, BOOL inherit, LPCWSTR name) {
     if (name && wcsstr(name, kBodyMemory)) {
         if (InterlockedIncrement(&g_answered) == 1)
@@ -52,8 +57,10 @@ HANDLE WINAPI hook_OpenFileMappingW(DWORD access, BOOL inherit, LPCWSTR name) {
     return g_real(access, inherit, name);
 }
 
+}  // namespace
+
 // Replace one named import in a loaded module's import table. True when it was found and replaced.
-bool patch_import(HMODULE mod) {
+bool patch_named_import(HMODULE mod, const char* name, void* hook, void** real) {
     BYTE* base = reinterpret_cast<BYTE*>(mod);
     auto dos = reinterpret_cast<IMAGE_DOS_HEADER*>(base);
     auto nt = reinterpret_cast<IMAGE_NT_HEADERS*>(base + dos->e_lfanew);
@@ -66,11 +73,11 @@ bool patch_import(HMODULE mod) {
         for (; names->u1.AddressOfData; ++names, ++slots) {
             if (IMAGE_SNAP_BY_ORDINAL(names->u1.Ordinal)) continue;
             auto by_name = reinterpret_cast<IMAGE_IMPORT_BY_NAME*>(base + names->u1.AddressOfData);
-            if (strcmp(by_name->Name, kImportName) != 0) continue;
+            if (strcmp(by_name->Name, name) != 0) continue;
             DWORD old = 0;
             if (!VirtualProtect(&slots->u1.Function, sizeof(void*), PAGE_READWRITE, &old)) return false;
-            g_real = reinterpret_cast<OpenFileMappingW_t>(slots->u1.Function);
-            slots->u1.Function = reinterpret_cast<ULONG_PTR>(&hook_OpenFileMappingW);
+            *real = reinterpret_cast<void*>(slots->u1.Function);
+            slots->u1.Function = reinterpret_cast<ULONG_PTR>(hook);
             VirtualProtect(&slots->u1.Function, sizeof(void*), old, &old);
             return true;
         }
@@ -78,10 +85,14 @@ bool patch_import(HMODULE mod) {
     return false;
 }
 
+namespace {
+bool g_probe = false;
+
 DWORD WINAPI wait_and_patch(LPVOID) {
     for (DWORD waited = 0; waited < kWaitForModMs; waited += kPollMs) {
         if (HMODULE mod = GetModuleHandleA(kTargetModule)) {
-            bool ok = patch_import(mod);
+            bool ok = patch_named_import(mod, kImportName, &hook_OpenFileMappingW, reinterpret_cast<void**>(&g_real));
+            if (g_probe) start_d3d11_probe(mod);
             log_line(ok ? "%s found after %lu ms: its question about Virtual Desktop's body memory is now answered here"
                         : "%s found after %lu ms but it has no import named OpenFileMappingW: NOTHING CHANGED",
                      kTargetModule, waited);
@@ -114,6 +125,8 @@ __declspec(dllexport) bool NVSEPlugin_Load(const void*) {
     if (!started) {
         started = true;
         log_line("bridge_desk loaded");
+        char on[4] = {};
+        g_probe = GetEnvironmentVariableA("BRIDGE_DESK_D3D11_PROBE", on, sizeof(on)) && on[0] == '1';
         if (HANDLE t = CreateThread(nullptr, 0, wait_and_patch, nullptr, 0, nullptr)) CloseHandle(t);
     }
     return true;

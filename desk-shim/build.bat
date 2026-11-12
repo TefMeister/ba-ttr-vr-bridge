@@ -5,5 +5,5 @@ set "VSWHERE=%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe"
 for /f "usebackq delims=" %%i in (`"%VSWHERE%" -latest -products * -property installationPath`) do set "VS=%%i"
 call "%VS%\VC\Auxiliary\Build\vcvarsall.bat" x86 >nul || exit /b 1
 if not exist out mkdir out
-cl /nologo /O2 /MT /W4 /EHsc /LD bridge_desk.cpp /Fo:out\ /Fe:out\bridge_desk.dll /link /NOLOGO /NOIMPLIB /NOEXP /MACHINE:X86 || exit /b 1
+cl /nologo /O2 /MT /W4 /EHsc /LD bridge_desk.cpp d3d11_probe.cpp /Fo:out\ /Fe:out\bridge_desk.dll /link /NOLOGO /NOIMPLIB /NOEXP /MACHINE:X86 || exit /b 1
 echo built out\bridge_desk.dll
