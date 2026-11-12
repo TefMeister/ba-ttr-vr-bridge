@@ -21,7 +21,11 @@ So a still after a pause change is what a desk run can judge, and it is enough f
 Then it closes the game politely (never by force) and keeps the logs and the two stills in the run's folder.
 
 It refuses to start while Virtual Desktop's body memory exists (its Streamer is running): with it there and nobody
-in the headset the VR mod has no body at all, and the run says nothing. Quit the Streamer first.
+in the headset the VR mod has no body at all, and the run says nothing. Since 2026-11-12 our desk mod carries
+bridge_desk.dll (desk-shim/), which answers the VR mod's question about that memory with "not there" inside the game;
+with it in place the Streamer may stay up. Without it: quit the Streamer first.
+
+--stay leaves the game running after the checks (no close, no log collection), for a session that wants to look.
 
 It says: started or not, the VR system the mod chose, save loaded or not, pause panel shows or not, world drawn or
 not, world follows the head or not, add-ons loaded / disabled, new crash logs, hang warnings. The rung's own profile
@@ -46,6 +50,7 @@ sys.path.insert(0, HERE)
 from rung_flatcheck import running   # noqa: E402
 
 DESK_MOD = "Bridge desk test - continue on start"
+DESK_SHIM = "bridge_desk.dll"   # desk-shim/: makes TTWVR ignore Virtual Desktop's empty body memory on a desk run
 SETTLE_S = 20           # after the save has loaded, before the first press
 AFTER_PRESS_S = 3.5     # after a button, before the picture is taken
 PANEL_CHANGED = 1.0     # mean grey-level change of the eye picture that counts as "the pause panel came up"
@@ -174,10 +179,12 @@ def main():
     for k in ("--mo2", "--game", "--rung", "--sim", "--vrbench"):
         ap.add_argument(k, required=True)
     ap.add_argument("--wait", type=float, default=240.0)
+    ap.add_argument("--stay", action="store_true", help="leave the game running after the checks")
     a = ap.parse_args()
     if running("FalloutNV.exe") or running("ModOrganizer.exe"):
         sys.exit("the game or Mod Organizer is already running: close it first")
-    if body_memory_there():
+    shim = os.path.join(a.mo2, "mods", DESK_MOD, "NVSE", "Plugins", DESK_SHIM)
+    if body_memory_there() and not os.path.isfile(shim):
         sys.exit("Virtual Desktop's body memory is there (its Streamer is running): with it the VR mod has no body "
                  "on a desk run. Quit the Virtual Desktop Streamer, then start this again.")
     sys.path.insert(0, a.vrbench)
@@ -265,6 +272,12 @@ def main():
         ok_plugins, off_plugins = len(re.findall(r"loaded correctly", t)), len(set(re.findall(r"plugin (\S+) .*disabled", t)))
     except OSError:
         pass
+    if a.stay and up:
+        print(f"{a.rung} in the simulator: UP AND LEFT RUNNING; body {body}; save loaded "
+              f"{'yes after ' + str(load_s) + ' s' if loaded_save else 'NO'}; pause panel shows {said(panel, PANEL_CHANGED)}; "
+              f"world drawn {said(drawn, WORLD_DRAWN)}; world follows the head {said(follows, HEAD_CHANGED)}. "
+              f"MO2 was on '{profile_before}': put it back after the close.")
+        return 0
     still_there = close_game()                      # last: the polite close also stops the simulator's session
     t2 = time.time()
     while time.time() - t2 < 30 and running("ModOrganizer.exe"):
