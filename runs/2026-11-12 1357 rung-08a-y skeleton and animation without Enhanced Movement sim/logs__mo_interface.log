@@ -1,0 +1,22 @@
+[2026-11-12 11:55:55.283 D] command line: '"C:/Modlists/Begin Again\ModOrganizer.exe" -p "rung-08a-y skeleton and animation without Enhanced Movement sim" "moshortcut://:Begin Again"'
+[2026-11-12 11:55:55.284 I] starting Mod Organizer version 2.5.2-ML1.5 revision 9c130cbf in C:/Modlists/Begin Again, usvfs: 0.5.6.1
+[2026-11-12 11:55:55.284 I] data path: C:/Modlists/Begin Again
+[2026-11-12 11:55:55.284 I] working directory: C:/Modlists/Begin Again
+[2026-11-12 11:55:55.284 D] timing: MOApplication setup() 0 ms
+[2026-11-12 11:55:55.739 I] using game plugin 'TTW' ('TTW', variant Steam, steam id '22380') at C:/Steam/steamapps/common/Fallout New Vegas
+[2026-11-12 11:55:55.945 W] not saving lists during directory update
+[2026-11-12 11:55:56.708 I] [common_log.py:20] [RootBuilder] Generating root mod build data.
+[2026-11-12 11:55:56.782 I] [common_log.py:20] [RootBuilder] Updating cache.
+[2026-11-12 11:55:56.809 I] [common_log.py:20] [RootBuilder] Checking for updates to backup files.
+[2026-11-12 11:55:56.833 I] [common_log.py:20] [RootBuilder] Deploying files for Copy mode.
+[2026-11-12 11:55:56.856 I] [common_log.py:20] [RootBuilder] Deploying files for Link mode.
+[2026-11-12 11:55:56.856 I] [common_log.py:20] [RootBuilder] Saving build data.
+[2026-11-12 11:55:56.857 I] [common_log.py:20] [RootBuilder] Build complete!
+[2026-11-12 11:55:56.859 I] [common_log.py:20] [RootBuilder] Build exists, generating usvfs mappings.
+[2026-11-12 11:55:56.859 I] [common_log.py:20] [RootBuilder] Usvfs mappings generated!
+[2026-11-12 11:57:33.897 I] [common_log.py:20] [RootBuilder] Build exists, updating mod files.
+[2026-11-12 11:57:34.012 I] [common_log.py:20] [RootBuilder] Sync complete!
+[2026-11-12 11:57:34.013 I] [common_log.py:20] [RootBuilder] Clearing deployed files and links.
+[2026-11-12 11:57:34.029 I] [common_log.py:20] [RootBuilder] Restoring files from backup.
+[2026-11-12 11:57:34.062 I] [common_log.py:20] [RootBuilder] Cleaning up remaining files.
+[2026-11-12 11:57:34.063 I] [common_log.py:20] [RootBuilder] Clear complete!

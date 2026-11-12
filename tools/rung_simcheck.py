@@ -220,6 +220,13 @@ def main():
     if body_memory_there() and not os.path.isfile(shim):
         sys.exit("Virtual Desktop's body memory is there (its Streamer is running): with it the VR mod has no body "
                  "on a desk run. Quit the Virtual Desktop Streamer, then start this again.")
+    # 2026-11-12: the pretend hands must be on for FalloutNV.exe, or the pause press and the walk outside silently do
+    # nothing (five runs said "pause panel shows NO" on rungs that answer, after another session switched VR Bench off).
+    # Switched on here every time; it stays on (the docstring's `vrbench.py stop` after the last rung still applies).
+    vb = subprocess.run([sys.executable, os.path.join(a.vrbench, "vrbench.py"), "start", os.path.join(a.game, "FalloutNV.exe")],
+                        capture_output=True, text=True)
+    if vb.returncode != 0:
+        sys.exit("VR Bench could not be switched on for FalloutNV.exe: " + (vb.stdout + vb.stderr).strip())
     sys.path.insert(0, a.vrbench)
     import vb_input as vi
     import vb_settings as vs

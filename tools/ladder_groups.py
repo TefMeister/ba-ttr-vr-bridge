@@ -10,7 +10,8 @@ A mod whose plugin needs a master that is not on yet is left off for that rung a
 by itself at the rung where its masters do). Settings files come from the rung-01 profile.
 
     python ladder_groups.py plan  --mo2 <Begin Again folder>            the groups, the rungs, what would be deferred
-    python ladder_groups.py make  --mo2 <Begin Again folder> [--force]  write the profiles and check each one
+    python ladder_groups.py make  --mo2 <Begin Again folder> [--force] [--only 08a,08b]  write the profiles (all, or the
+                                                                       ones named) and check each one
 """
 import argparse
 import os
@@ -35,7 +36,20 @@ RUNGS = [
     ("05", "interface", ["USER INTERFACE"]),
     ("06", "armor and people", ["ARMOR", "ACTOR APPEARANCE"]),
     ("07", "weapons", ["WEAPONS"]),
-    ("08", "animations and the rest", ["SKELETON & ANIMATION", "LATE LOADERS", "OPTIONAL MODS"]),
+    # 2026-11-12: rung 8 split before it is worn (the board's row): its three groups one at a time, so a fault in the
+    # headset names its group. "rung-08 animations and the rest" (made 2026-11-10) stays as it is: it equals 08c.
+    ("08a", "skeleton and animation", ["SKELETON & ANIMATION"]),
+    ("08b", "late loaders", ["LATE LOADERS"]),
+    ("08c", "optional mods", ["OPTIONAL MODS"]),
+]
+# side rungs: a rung's mods minus some, NOT carried into the rungs after it. 08a without the one mod TTWVR's log complains
+# about on rung 8 (the first-person skeleton): does the complaint go?
+SIDE = [
+    ("08a-x", "skeleton and animation without NVCS weights", "08a", ["NVCS Vanilla Weights"]),
+    # 2026-11-12: the complaint stayed without NVCS; the group's only other first-person skeleton is Enhanced Movement's
+    # skeletonEM.nif (which it swaps in during play)
+    ("08a-y", "skeleton and animation without Enhanced Movement", "08a", ["Enhanced Movement"]),
+    ("08a-z", "skeleton and animation without both skeletons", "08a", ["NVCS Vanilla Weights", "Enhanced Movement"]),
 ]
 
 
@@ -120,6 +134,7 @@ def main():
     ap.add_argument("what", choices=("plan", "make"))
     ap.add_argument("--mo2", required=True)
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--only", default="", help="comma list of rung numbers to make (e.g. 08a,08b,08c,08a-x); the others are only planned")
     a = ap.parse_args()
     groups, base_lines = groups_of(a.mo2)
     base_lo = [l for l in L.read_lines(os.path.join(L.profile_dir(a.mo2, BASE), "loadorder.txt")) if l and not l.startswith("#")]
@@ -132,22 +147,35 @@ def main():
     for l in floor_lines:
         if l.startswith("+") and not l.endswith("_separator") and l[1:] != TTWVR and l[1:] not in so_far:
             so_far.append(l[1:])
+    only = {x.strip() for x in a.only.split(",") if x.strip()}
     problems = 0
+    after = {}   # rung number -> the mods wanted once it is on (for the side rungs)
+
+    def one(num, label, want, what_added):
+        nonlocal problems
+        on, lo, deferred = resolve(a.mo2, want, base_lo)
+        name = f"rung-{num} {label}"
+        print(f"{name}: {what_added}: {len(on)} mods on, {len(lo)} plugins" + (f", {len(deferred)} left off for now" if deferred else ""))
+        for m, miss in deferred:
+            print(f"    left off: {m} (needs {', '.join(miss)})")
+        if a.what == "make" and (not only or num in only):
+            write_profile(a.mo2, name, on, lo, base_lines, True, a.force)
+            write_profile(a.mo2, name + " flat", on, lo, base_lines, False, a.force)
+            problems += L.check_profile(a.mo2, name)
+            problems += L.check_profile(a.mo2, name + " flat")
+
     for num, label, gs in RUNGS:
         for g in gs:
             if g not in groups:
                 print(f"  (no group named {g!r} in the list)")
             so_far += groups.get(g, [])
-        on, lo, deferred = resolve(a.mo2, so_far, base_lo)
-        name = f"rung-{num} {label}"
-        print(f"{name}: + {', '.join(gs)}: {len(on)} mods on, {len(lo)} plugins" + (f", {len(deferred)} left off for now" if deferred else ""))
-        for m, miss in deferred:
-            print(f"    left off: {m} (needs {', '.join(miss)})")
-        if a.what == "make":
-            write_profile(a.mo2, name, on, lo, base_lines, True, a.force)
-            write_profile(a.mo2, name + " flat", on, lo, base_lines, False, a.force)
-            problems += L.check_profile(a.mo2, name)
-            problems += L.check_profile(a.mo2, name + " flat")
+        after[num] = list(so_far)
+        one(num, label, so_far, "+ " + ", ".join(gs))
+    for num, label, of, minus in SIDE:
+        missing = [m for m in minus if m not in after.get(of, [])]
+        if missing:
+            print(f"  (side rung {num}: not on in rung {of}: {', '.join(missing)})")
+        one(num, label, [m for m in after.get(of, []) if m not in minus], f"rung {of} minus {', '.join(minus)}")
     return 1 if problems else 0
 
 
