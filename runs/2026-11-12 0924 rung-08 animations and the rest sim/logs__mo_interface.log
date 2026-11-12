@@ -1,0 +1,22 @@
+[2026-11-12 07:22:33.092 D] command line: '"C:/Modlists/Begin Again\ModOrganizer.exe" -p "rung-08 animations and the rest sim" "moshortcut://:Begin Again"'
+[2026-11-12 07:22:33.093 I] starting Mod Organizer version 2.5.2-ML1.5 revision 9c130cbf in C:/Modlists/Begin Again, usvfs: 0.5.6.1
+[2026-11-12 07:22:33.093 I] data path: C:/Modlists/Begin Again
+[2026-11-12 07:22:33.093 I] working directory: C:/Modlists/Begin Again
+[2026-11-12 07:22:33.093 D] timing: MOApplication setup() 0 ms
+[2026-11-12 07:22:33.523 I] using game plugin 'TTW' ('TTW', variant Steam, steam id '22380') at C:/Steam/steamapps/common/Fallout New Vegas
+[2026-11-12 07:22:33.731 W] not saving lists during directory update
+[2026-11-12 07:22:34.585 I] [common_log.py:20] [RootBuilder] Generating root mod build data.
+[2026-11-12 07:22:34.651 I] [common_log.py:20] [RootBuilder] Updating cache.
+[2026-11-12 07:22:34.673 I] [common_log.py:20] [RootBuilder] Checking for updates to backup files.
+[2026-11-12 07:22:34.696 I] [common_log.py:20] [RootBuilder] Deploying files for Copy mode.
+[2026-11-12 07:22:34.717 I] [common_log.py:20] [RootBuilder] Deploying files for Link mode.
+[2026-11-12 07:22:34.717 I] [common_log.py:20] [RootBuilder] Saving build data.
+[2026-11-12 07:22:34.718 I] [common_log.py:20] [RootBuilder] Build complete!
+[2026-11-12 07:22:34.720 I] [common_log.py:20] [RootBuilder] Build exists, generating usvfs mappings.
+[2026-11-12 07:22:34.720 I] [common_log.py:20] [RootBuilder] Usvfs mappings generated!
+[2026-11-12 07:24:08.230 I] [common_log.py:20] [RootBuilder] Build exists, updating mod files.
+[2026-11-12 07:24:08.333 I] [common_log.py:20] [RootBuilder] Sync complete!
+[2026-11-12 07:24:08.333 I] [common_log.py:20] [RootBuilder] Clearing deployed files and links.
+[2026-11-12 07:24:08.348 I] [common_log.py:20] [RootBuilder] Restoring files from backup.
+[2026-11-12 07:24:08.370 I] [common_log.py:20] [RootBuilder] Cleaning up remaining files.
+[2026-11-12 07:24:08.371 I] [common_log.py:20] [RootBuilder] Clear complete!

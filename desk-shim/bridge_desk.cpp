@@ -26,7 +26,7 @@ volatile LONG g_answered = 0;
 
 }  // namespace
 
-void start_d3d11_probe(HMODULE vr_mod);  // d3d11_probe.cpp; only when BRIDGE_DESK_D3D11_PROBE=1 is in the environment
+void start_d3d11_probe(HMODULE vr_mod, bool watch);  // d3d11_probe.cpp; watch = BRIDGE_DESK_D3D11_PROBE=1
 
 void log_line(const char* fmt, ...) {
     char path[MAX_PATH];
@@ -92,7 +92,7 @@ DWORD WINAPI wait_and_patch(LPVOID) {
     for (DWORD waited = 0; waited < kWaitForModMs; waited += kPollMs) {
         if (HMODULE mod = GetModuleHandleA(kTargetModule)) {
             bool ok = patch_named_import(mod, kImportName, &hook_OpenFileMappingW, reinterpret_cast<void**>(&g_real));
-            if (g_probe) start_d3d11_probe(mod);
+            start_d3d11_probe(mod, g_probe);
             log_line(ok ? "%s found after %lu ms: its question about Virtual Desktop's body memory is now answered here"
                         : "%s found after %lu ms but it has no import named OpenFileMappingW: NOTHING CHANGED",
                      kTargetModule, waited);

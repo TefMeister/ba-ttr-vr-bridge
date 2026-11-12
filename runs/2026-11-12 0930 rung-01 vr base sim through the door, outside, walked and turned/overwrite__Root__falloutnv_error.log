@@ -1,0 +1,48 @@
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+Loading a user created or misnamed BSA
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackright.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackright_a.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackright_b.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mmpistol\_1stperson\1hpattackrightis.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mm_uniq\_1stperson\1hpattackright.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mm_uniq\_1stperson\1hpattackright_additive.kf'.
+MODEL ERROR: Could not find file 'animgroupoverride\dri_10mm_uniq\_1stperson\1hpattackrightis.kf'.
+MENUS: Action link defined outside of any trait.
+MODELS: Could not get file for texture textures\characters\bodymods\taleoftwowastelands.esm\00000007modbodymale.dds.
+MODELS: Could not get file for texture textures\characters\facemods\taleoftwowastelands.esm\00000007_0.dds.
+ANIMATION: (AttackLoop) too many blend values in "Characters\_1stPerson\2hlattackloop.kf". Blend 1, BlendIn 1, BlendOut 0
+ANIMATION: Animation group note problem. See ~\Documents\My Games\FalloutNV\Warnings.txt file.
+ANIMATION: (SpecialIdle) End frame is less than or equal to Start frame in "Meshes\Creatures\Dog\IdleAnims\MTSpecialIdle_LookLeft.kf".
+ANIMATION: Animation group note problem. See ~\Documents\My Games\FalloutNV\Warnings.txt file.
+MODELS: LoadFile retrieved model Characters\Hair\HairRaiderF04.NIF with a zero ref count
+MODELS: LoadFile retrieved model Characters\Hair\HairRaiderF02.NIF with a zero ref count
+LoadedFile Meshes\Characters\Hair\HairRaiderF04NoHat.egm was loaded at 222169312 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Hair\HairRaiderF04Hat.egm was loaded at 222184224 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\HeadFemale.egm was loaded at 222173952 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\HeadFemale.tri was loaded at 222185376 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\MouthHuman.egm was loaded at 222182080 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\TeethLowerHuman.egm was loaded at 222191504 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\TeethUpperHuman.egm was loaded at 222171008 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\TongueHuman.egm was loaded at 222171072 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\EyeLeftHumanFemale.egm was loaded at 222170752 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\EyeLeftHumanFemale.tri was loaded at 222195072 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\EyeRightHumanFemale.egm was loaded at 222190688 and added to the map, but is being thrown away without being used
+LoadedFile Meshes\Characters\Head\EyeRightHumanFemale.tri was loaded at 222184320 and added to the map, but is b

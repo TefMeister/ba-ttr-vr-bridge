@@ -164,3 +164,24 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
   Missing is only the refresh on ordinary frames (the mod's deferred eye copy is the suspect). A desk run can already
   take head-tracked stills on demand. Everything in `modding-notes/2026-11-11-why-no-3d-world-in-the-simulator.md`.
 
+## 2026-11-12
+
+**Morning (Developer PC, Fable, nobody in the headset, the Virtual Desktop Streamer running): a LIVE picture in the simulator.**
+
+- The Streamer could not be quit from a session (admin rights). Our own desk add-on `desk-shim/bridge_desk.dll`
+  (an xNVSE plugin in our desk-test MO2 mod, never in a played profile) now answers TTWVR's question about Virtual
+  Desktop's body memory with "not there" inside the game: body solved with the Streamer up.
+  `[verified-live 2026-11-12, n=8 starts]`
+- **The frozen eye, found:** with DLSS on, TTWVR's helper program draws each finished eye straight into the
+  headset's own picture, through an old-style shared handle. The simulator's pictures are plain, the handle call
+  fails, and the mod silently copies the previous headset picture forward, every frame, with every counter healthy
+  and no log line. Found with a Direct3D 11 probe of our own (`desk-shim/d3d11_probe.cpp`) and the reader's reading
+  of the DLL. `[verified-live]` + `[inferred-static]`
+- **Worked around from our side:** the add-on has the simulator's swapchain pictures made with the old sharing flag.
+  The eye is live, head-tracked and upscaled at Tefa's own settings (165%, DLSS Performance).
+  `[verified-live 2026-11-12, n=3 starts]`
+- Ruled out live: the simulator's preview window, the game's window in front, the 4096 cap, a stalled Direct3D
+  queue, the headset's draw flag.
+- `tools/rung_simcheck.py` judges a live eye now (no pause trick) and no longer needs the Streamer quit.
+- Full note: `modding-notes/2026-11-12-live-picture-in-the-simulator.md`.
+

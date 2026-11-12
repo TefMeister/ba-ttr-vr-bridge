@@ -13,6 +13,7 @@
 
 void log_line(const char* fmt, ...);
 bool patch_named_import(HMODULE mod, const char* name, void* hook, void** real);
+void shareable_on_device(ID3D11Device* dev);  // shareable.cpp
 
 namespace {
 // Positions of the calls in the context's method table (fixed by the Direct3D 11 headers).
@@ -197,6 +198,7 @@ typedef HRESULT(WINAPI* Create_t)(IDXGIAdapter*, D3D_DRIVER_TYPE, HMODULE, UINT,
                                   ID3D11Device**, D3D_FEATURE_LEVEL*, ID3D11DeviceContext**);
 Create_t g_realCreate = nullptr;
 bool g_hooked = false;
+bool g_watch = false;
 
 void* slot_code(void* iface, int slot) { return (*reinterpret_cast<void***>(iface))[slot]; }
 
@@ -206,7 +208,8 @@ HRESULT WINAPI hook_create(IDXGIAdapter* adapter, D3D_DRIVER_TYPE type, HMODULE 
     HRESULT hr = g_realCreate(adapter, type, sw, flags, levels, nLevels, sdk, dev, got, ctx);
     log_line("[d3d11] D3D11CreateDevice by the VR mod: flags 0x%X -> 0x%08lX, device %p, context %p", flags, hr,
              dev ? *dev : nullptr, ctx ? *ctx : nullptr);
-    if (SUCCEEDED(hr) && ctx && *ctx && !g_hooked) {
+    if (SUCCEEDED(hr) && dev && *dev) shareable_on_device(*dev);
+    if (g_watch && SUCCEEDED(hr) && ctx && *ctx && !g_hooked) {
         g_hooked = true;
         ID3D11DeviceContext4* c4 = nullptr;
         (*ctx)->QueryInterface(__uuidof(ID3D11DeviceContext4), reinterpret_cast<void**>(&c4));
@@ -233,9 +236,44 @@ HRESULT WINAPI hook_create(IDXGIAdapter* adapter, D3D_DRIVER_TYPE type, HMODULE 
     return hr;
 }
 
+// TTWVR 1.0.0 build 6AF014A8 only: the four rows of six pictures the upscaler bridge keeps on the headset's device
+// (found by reading the DLL on disk). Says how big each really is, which is what the mod's last copy checks.
+const DWORD kKnownBuild = 0x6AF014A8;
+const DWORD kPictureRowsRva = 0x1366280;
+const int kPictureSlots = 24;
+HMODULE g_vrMod = nullptr;
+
+bool describe_guarded(void* candidate, int slot) {
+    __try {
+        void* device = nullptr;
+        UINT w, h, fmt, usage, bind, misc;
+        describe(static_cast<ID3D11Resource*>(candidate), &device, &w, &h, &fmt, &usage, &bind, &misc);
+        log_line("[d3d11] bridge picture slot %d (row %d): %p is %ux%u fmt %u usage %u bind 0x%X misc 0x%X device %p", slot,
+                 slot / 6, candidate, w, h, fmt, usage, bind, misc, device);
+        return true;
+    } __except (EXCEPTION_EXECUTE_HANDLER) {
+        log_line("[d3d11] bridge picture slot %d: %p is not a Direct3D 11 picture", slot, candidate);
+        return false;
+    }
+}
+
+void dump_bridge_pictures() {
+    if (!g_vrMod) return;
+    BYTE* base = reinterpret_cast<BYTE*>(g_vrMod);
+    auto nt = reinterpret_cast<IMAGE_NT_HEADERS*>(base + reinterpret_cast<IMAGE_DOS_HEADER*>(base)->e_lfanew);
+    if (nt->FileHeader.TimeDateStamp != kKnownBuild) {
+        log_line("[d3d11] another build of the VR mod: its picture rows are not known, not read");
+        return;
+    }
+    void** rows = reinterpret_cast<void**>(base + kPictureRowsRva);
+    for (int i = 0; i < kPictureSlots; ++i)
+        if (rows[i]) describe_guarded(rows[i], i);
+}
+
 DWORD WINAPI probe_thread(LPVOID) {
     for (int s = 0; s < kSummaries; ++s) {
         Sleep(kSummaryEveryMs);
+        if (s == 5 || s == 9) dump_bridge_pictures();
         char line[1800];
         int at = 0;
         EnterCriticalSection(&g_lock);
@@ -254,9 +292,16 @@ DWORD WINAPI probe_thread(LPVOID) {
 }
 }  // namespace
 
-void start_d3d11_probe(HMODULE vr_mod) {
+void* desk_detour(void* fn, void* hook, const char* what, void** real) { return detour(fn, hook, what, real); }
+
+// Always: watch the VR mod's device creation (shareable.cpp needs the device). watch = also log copies and waits.
+void start_d3d11_probe(HMODULE vr_mod, bool watch) {
+    g_vrMod = vr_mod;
+    g_watch = watch;
     InitializeCriticalSection(&g_lock);
     bool ok = patch_named_import(vr_mod, "D3D11CreateDevice", &hook_create, reinterpret_cast<void**>(&g_realCreate));
-    log_line("[d3d11] probe: the VR mod's device creation is %s", ok ? "watched" : "NOT watched (no such import)");
+    log_line("[d3d11] the VR mod's device creation is %s%s", ok ? "watched" : "NOT watched (no such import)",
+             watch ? "; the copy probe is on" : "");
+    if (!watch) return;
     if (HANDLE t = CreateThread(nullptr, 0, probe_thread, nullptr, 0, nullptr)) CloseHandle(t);
 }

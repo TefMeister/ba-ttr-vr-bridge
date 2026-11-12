@@ -10,19 +10,20 @@ loads the newest save from the start menu and keeps the game from pausing when i
 through MO2 with XR_RUNTIME_JSON pointing at the simulator for that one start, waits for the save to load, and then
 looks at the picture the VR mod hands to the headset (the simulator's own screenshot, never the desktop):
 
-  1. presses the pause button with the pretend hand: the mod's pause panel must show;
-  2. un-pauses: the world must be in the eye picture (anything brighter than nothing);
-  3. turns the pretend head, pauses and un-pauses again: the eye picture must be a different one.
+  1. the world must be in the eye picture (anything brighter than nothing), with no button pressed;
+  2. turns the pretend head: the eye picture must be a different one, again with nothing pressed (a LIVE picture);
+  3. presses the pause button with the pretend hand: the mod's pause panel must show; un-pauses.
 
-Why the pause changes: in the simulator TTWVR 1.0.0 writes ONE fresh, correct eye picture at every pause change and
-never refreshes it on ordinary frames (found 2026-11-11, cause open; modding-notes/2026-11-11-why-no-3d-world-...).
-So a still after a pause change is what a desk run can judge, and it is enough for "does this rung draw the world".
+Why this works since 2026-11-12: TTWVR 1.0.0's upscaler helper draws each finished eye straight into the headset's
+own picture, through the old kind of shared handle. The simulator's pictures are plain, so the eye stayed frozen
+(one fresh still per pause change). Our desk mod's bridge_desk.dll (desk-shim/shareable.cpp) has those pictures made
+shareable; with it the eye is live. Without it this check says "follows the head NO".
 
 Then it closes the game politely (never by force) and keeps the logs and the two stills in the run's folder.
 
 It refuses to start while Virtual Desktop's body memory exists (its Streamer is running): with it there and nobody
 in the headset the VR mod has no body at all, and the run says nothing. Since 2026-11-12 our desk mod carries
-bridge_desk.dll (desk-shim/), which answers the VR mod's question about that memory with "not there" inside the game;
+bridge_desk.dll (desk-shim/), which also answers the VR mod's question about that memory with "not there" inside the game;
 with it in place the Streamer may stay up. Without it: quit the Streamer first.
 
 --stay leaves the game running after the checks (no close, no log collection), for a session that wants to look.
@@ -42,6 +43,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import time
 import uuid
 
@@ -57,6 +59,12 @@ PANEL_CHANGED = 1.0     # mean grey-level change of the eye picture that counts 
 WORLD_DRAWN = 0.5       # mean grey level of the eye picture that counts as "the world is in it" (empty is exactly 0)
 HEAD_CHANGED = 1.0      # mean change between the two stills that counts as "another view"
 HEAD_YAW_DEG = 60
+DOOR_YAW_DEG = 90       # rung 1's save stands beside the school's double door: it is on the left
+DOOR_HOLD_S = 1.0       # the activate button (A) has to be HELD about a second; a tap only shows the prompt
+AIM_FIRST_S = 2.0       # the hand points at the door this long before the button goes down
+DOOR_LOAD_S = 15        # the way outside loads
+THROUGH_DOOR = 20.0     # mean change of the eye picture that counts as "somewhere else now"
+WALKED = 5.0            # mean change after 3 s of the walk stick that counts as "moved"
 BODY_MEMORY = "VirtualDesktop.BodyState"
 SIM_DATA = os.path.join(os.environ.get("LOCALAPPDATA", ""), "OpenXR-Simulator")
 
@@ -174,12 +182,37 @@ def close_game():
     return running("FalloutNV.exe")
 
 
+def put_saves_back(saves, copy, rung):
+    """After a run that went through a door: whatever the game saved on the way is moved aside (never deleted) and
+    every file is put back as it was, dates included, so 'Continue' loads the same save next time."""
+    aside = os.path.join(os.path.dirname(saves), "Saves.desk-made", dt.datetime.now().strftime("%Y-%m-%d %H%M ") + rung)
+    moved = 0
+    for name in sorted(os.listdir(saves)):
+        now, was = os.path.join(saves, name), os.path.join(copy, name)
+        if not os.path.isfile(now):
+            continue
+        same = (os.path.isfile(was) and os.path.getsize(was) == os.path.getsize(now)
+                and abs(os.path.getmtime(was) - os.path.getmtime(now)) < 2)
+        if same:
+            continue
+        os.makedirs(aside, exist_ok=True)
+        shutil.move(now, os.path.join(aside, name))
+        moved += 1
+        if os.path.isfile(was):
+            shutil.copy2(was, now)
+    shutil.rmtree(os.path.dirname(copy), ignore_errors=True)       # our own temporary copy
+    return f"saves put back ({moved} file(s) the game wrote kept aside)" if moved else "saves untouched"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     for k in ("--mo2", "--game", "--rung", "--sim", "--vrbench"):
         ap.add_argument(k, required=True)
     ap.add_argument("--wait", type=float, default=240.0)
     ap.add_argument("--stay", action="store_true", help="leave the game running after the checks")
+    ap.add_argument("--outside", action="store_true",
+                    help="also go through the door beside the save's spot and walk a few steps outside; the save "
+                         "folder is put back exactly afterwards (what the game saved on the way is kept aside)")
     a = ap.parse_args()
     if running("FalloutNV.exe") or running("ModOrganizer.exe"):
         sys.exit("the game or Mod Organizer is already running: close it first")
@@ -205,6 +238,42 @@ def main():
         hands()
         time.sleep(AFTER_PRESS_S)
 
+    def point_and_hold(yaw_deg, secs, **right):
+        """Aim both hands that way FIRST, then hold the button: a press that arrives with the hand's move is aimed at
+        nothing (all eight rungs failed the door that way on 2026-11-12)."""
+        import math
+        rad = math.radians(yaw_deg)
+        fx, fz = -math.sin(rad), -math.cos(rad)     # yaw 0 looks along -z; a positive yaw turns left
+
+        def put(buttons):
+            inp = vi.Input().mode(poses="set", buttons="set")
+            for h, kw, side in ((vs.HAND_LEFT, None, -0.15), (vs.HAND_RIGHT, buttons, 0.15)):
+                pose = vi.pose_from_ypr((fx * 0.45 + fz * side, 1.35, fz * 0.45 + fx * side), yaw_deg, 0)
+                inp.hand(h, grip=pose, aim=pose, **(kw or {}))
+            vi.write(inp)
+
+        put(None)
+        time.sleep(AIM_FIRST_S)
+        put(right)
+        time.sleep(secs)
+        put(None)
+        time.sleep(0.5)
+        hands()
+
+    def walk_stick(secs):
+        inp = vi.Input().mode(poses="set", buttons="set")
+        for h, kw, x in ((vs.HAND_LEFT, {"stick": (0.0, 1.0)}, -0.2), (vs.HAND_RIGHT, None, 0.2)):
+            pose = vi.pose_from_ypr((x, 1.2, -0.3), 0, 0)
+            inp.hand(h, grip=pose, aim=pose, **(kw or {}))
+        vi.write(inp)
+        time.sleep(secs)
+        hands()
+
+    saves = os.path.join(os.path.expanduser("~"), "Documents", "My Games", "FalloutNV", "Saves")
+    saves_copy = None
+    if a.outside and not a.stay:
+        saves_copy = os.path.join(tempfile.mkdtemp(prefix="rung_simcheck_saves_"), "Saves")
+        shutil.copytree(saves, saves_copy)          # copy2 underneath: dates kept, "newest save" stays the same one
     profile_before = mo2_profile(a.mo2)
     sim_rung = make_profile(a.mo2, a.rung)
     since = dt.datetime.now()
@@ -235,23 +304,35 @@ def main():
             break
         time.sleep(3)
     load_s = round(time.time() - t0)
-    panel = drawn = follows = None
-    still_a = still_b = None
+    panel = drawn = follows = through = walked = None
+    still_a = still_b = still_out = still_walk = None
     if loaded_save and running("FalloutNV.exe"):
         time.sleep(SETTLE_S)
-        first = sim_picture()                       # before any pause change: empty in the simulator, by what is known
-        tap(left={"y": True})                       # pause: the mod's panel
-        panel = diff(first, sim_picture())
-        tap(right={"b": True})                      # un-pause: one fresh still
-        still_a = sim_picture()
+        still_a = sim_picture()                     # no pause change first: the eye must be live by itself
         drawn = level(still_a)
         vb_sim.head(0, 1.7, 0, HEAD_YAW_DEG, 0)
         time.sleep(2.5)
-        tap(left={"y": True})
-        tap(right={"b": True})                      # the second still, from the turned head
-        still_b = sim_picture()
+        still_b = sim_picture()                     # the turned head, again with no pause change
         follows = diff(still_a, still_b)
         vb_sim.head(0, 1.7, 0, 0, 0)
+        time.sleep(2.5)
+        back = sim_picture()
+        tap(left={"y": True})                       # pause: the mod's panel
+        panel = diff(back, sim_picture())
+        tap(right={"b": True})                      # un-pause
+        if a.outside:
+            vb_sim.head(0, 1.7, 0, DOOR_YAW_DEG, 0)
+            time.sleep(2.5)
+            inside = sim_picture()
+            point_and_hold(DOOR_YAW_DEG, DOOR_HOLD_S, a=True)
+            time.sleep(DOOR_LOAD_S)
+            still_out = sim_picture()
+            through = diff(inside, still_out)
+            walk_stick(3.0)
+            time.sleep(1.0)
+            still_walk = sim_picture()
+            walked = diff(still_out, still_walk)
+            vb_sim.head(0, 1.7, 0, 0, 0)
     up = running("FalloutNV.exe")
     text = ""
     try:
@@ -285,11 +366,15 @@ def main():
     if not running("ModOrganizer.exe"):
         mo2_profile(a.mo2, profile_before)
     new_crashes = sorted(set(glob.glob(os.path.join(crash_dir, "*.log"))) - before)
+    saves_note = ""
+    if saves_copy and not still_there:
+        saves_note = "; " + put_saves_back(saves, saves_copy, a.rung)
     print(f"{a.rung} in the simulator: {'UP' if up else 'GONE'}; VR system {backend} ({runtime}); body {body}; save loaded "
           f"{'yes after ' + str(load_s) + ' s' if loaded_save else 'NO'}; pause panel shows {said(panel, PANEL_CHANGED)}; "
           f"world drawn {said(drawn, WORLD_DRAWN)}; world follows the head {said(follows, HEAD_CHANGED)}; "
+          + (f"through the door {said(through, THROUGH_DOOR)}; walks outside {said(walked, WALKED)}; " if a.outside else "") +
           f"add-ons loaded {ok_plugins}, disabled {off_plugins}; new crash logs {len(new_crashes)}; hang warnings {hangs}; "
-          f"closed {'NO - THE GAME IS STILL RUNNING, close it by hand' if still_there else 'politely'}")
+          f"closed {'NO - THE GAME IS STILL RUNNING, close it by hand' if still_there else 'politely'}{saves_note}")
     for w in warns[:8]:
         print("    mod log:", w)
     kept = subprocess.run([sys.executable, os.path.join(HERE, "collect_run.py"), "--mo2", a.mo2, "--game", a.game,
@@ -297,7 +382,8 @@ def main():
                           capture_output=True, text=True).stdout
     m = re.search(r"log\(s\) kept in (.+?); Windows errors", kept)
     if m and os.path.isdir(m.group(1)):
-        for name, im in (("still head straight.jpg", still_a), (f"still head turned {HEAD_YAW_DEG}.jpg", still_b)):
+        for name, im in (("eye head straight.jpg", still_a), (f"eye head turned {HEAD_YAW_DEG}.jpg", still_b),
+                         ("eye outside.jpg", still_out), ("eye outside after walking.jpg", still_walk)):
             if im is not None:
                 im.thumbnail((640, 640))
                 im.save(os.path.join(m.group(1), name), quality=80)

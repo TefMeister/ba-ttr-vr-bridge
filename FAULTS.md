@@ -22,4 +22,10 @@ people's support channels with our own problems).
 
 ## Questions for mod authors
 
-(none yet; added here the moment one is needed, with who to ask and where)
+Not questions, two things worth telling KUPOkinz (TTWVR 1.0.0) if Tefa wants to; neither blocks us (our desk add-on
+steps around both, `modding-notes/2026-11-12-live-picture-in-the-simulator.md`):
+
+1. With the Virtual Desktop Streamer running and nobody in the headset, the empty `VirtualDesktop.BodyState` memory is
+   trusted over the mod's own body solver: no body at all.
+2. On a headset runtime whose pictures give no old-style shared handle, DLSS mode shows a frozen eye with no log line
+   (the previous picture is copied forward).
