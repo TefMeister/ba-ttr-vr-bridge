@@ -11,30 +11,31 @@ expect this to fail miserably today, but maybe not in a few months". Parked unti
 *"strictly we will only be the middlemen for making Begin Again work in the VR mod and we have to make it sustainable
 somehow. we'll figure it out or fail spectacularily"*
 
-- We never edit Begin Again's or TTWVR's own files. Everything we change lives in our own MO2 mods (patches, mesh
-  fixes, load-order notes), placed after both.
-- Every step is written as a recipe a script can repeat, so a new Begin Again or TTWVR version is re-patched, not
-  redone by hand.
-- A conflict report (which files TTWVR and the list both supply, and who wins) is regenerated after every update of
-  either.
+**Changed 2026-11-12 (Tefa's decision):** the bridge is built for one pair of versions and stays on it:
+**TTWVR 1.0.0** (the DLL of 2026-11-08) and **Begin Again V6.1.0**. No newer TTWVR is taken in. Under KUPOkinz's
+permission (below), TTWVR may now be changed by us where that is what makes Begin Again work in VR. What a new Begin
+Again release means for the bridge is decided when one comes.
+
+- Begin Again's own files are never edited.
+- Whatever we change, in the list or in TTWVR, lives in our own MO2 mods placed on top; the originals stay in place,
+  so every change can be seen and taken out again.
+- Every step is written as a recipe a script can repeat.
+- A conflict report (which files TTWVR and the list both supply, and who wins) is kept current.
+- We do not take our modding questions or faults to KUPOkinz or to the list's author.
 - Credit: TTWVR is KUPOkinz's work; Begin Again is Spring Heel John's; TTW is the TTW team's. Their support channels are not
   ours to fill with our problems.
 
 ## Where it is going, and what we may do (Tefa 2026-11-11)
 
 - **The goal: Begin Again in VR, 1:1.** The whole list as its author built it, playable in TTWVR.
-- **Maybe, on the way, some of our own:** hand poses, how guns are held, and the like. Only as add-ons beside the VR
-  mod, never as a changed copy of it.
+- **Maybe, on the way, some of our own:** hand poses, how guns are held, and the like. Since 2026-11-12 these may
+  also be changes to TTWVR itself (see above), always as our own mod on top of the untouched original.
 - **KUPOkinz's permission** `[reported]` (Tefa, from KUPOkinz's public Discord thread; the message itself is not yet
   saved here): anyone may do anything with the mod as long as nobody posts it as their own work. So: every file,
   page and note that builds on TTWVR says it is KUPOkinz's work, first and plainly.
-- **It has to survive updates from both sides:** KUPOkinz keeps updating TTWVR and Spring Heel John keeps updating
-  Begin Again. That is why the middlemen rule above stays even with the permission: nothing of ours lives inside
-  their files, every step is a recipe, and after each update the conflict report and the ladder are run again.
-  Anything of ours that reaches into TTWVR (a pose, a grip) checks the mod's version first and switches itself off
-  on one it does not know, rather than breaking the game.
-- **Nothing goes to KUPOkinz** (Tefa 2026-11-11: he is busy getting multiplayer to work): no bug reports, no
-  questions, no requests. What we find in the VR mod we work around on our side and write down here.
+- **Versions (2026-11-12):** TTWVR is fixed at 1.0.0; Begin Again at V6.1.0 until its author releases a new one,
+  and then it is decided afresh. (Before this date the plan was to follow both as they updated.)
+
 
 ## Where it stands (2026-11-09)
 

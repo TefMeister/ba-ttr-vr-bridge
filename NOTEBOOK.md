@@ -184,4 +184,6 @@ Claim tags: `[verified-live]` seen in the running game, `[measured]` read from f
   queue, the headset's draw flag.
 - `tools/rung_simcheck.py` judges a live eye now (no pause trick) and no longer needs the Streamer quit.
 - Full note: `modding-notes/2026-11-12-live-picture-in-the-simulator.md`.
-
+- **Decided (Tefa, the same morning):** no further TTWVR updates are taken in (pinned at 1.0.0, build 6AF014A8); the
+  bridge only has to work with the current Begin Again (V6.1.0); TTWVR may be changed by us where needed, as our own
+  MO2 mod on top; nothing about the modding goes to its author (Tefa alone keeps him posted on progress).
