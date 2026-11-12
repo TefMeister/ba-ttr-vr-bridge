@@ -42,6 +42,10 @@ RUNGS = [
     ("08b", "late loaders", ["LATE LOADERS"]),
     ("08c", "optional mods", ["OPTIONAL MODS"]),
 ]
+# mods brought down from a later group, on from this rung up (Tefa 2026-11-12: "switch the pack on from rung 3"):
+# Begin Again's own baked far view (the dense horizon). Each is a 1 KB plugin, master FalloutNV.esm only, that loads its
+# same-named archives; they sit in OPTIONAL MODS, which kept the horizon off until rung 8b.
+EARLY = {"03": ["Begin Again Object LOD", "Begin Again Terrain LOD"]}
 # side rungs: a rung's mods minus some, NOT carried into the rungs after it. 08a without the one mod TTWVR's log complains
 # about on rung 8 (the first-person skeleton): does the complaint go?
 SIDE = [
@@ -168,7 +172,8 @@ def main():
         for g in gs:
             if g not in groups:
                 print(f"  (no group named {g!r} in the list)")
-            so_far += groups.get(g, [])
+            so_far += [m for m in groups.get(g, []) if m not in so_far]
+        so_far += [m for m in EARLY.get(num, []) if m not in so_far]
         after[num] = list(so_far)
         one(num, label, so_far, "+ " + ", ".join(gs))
     for num, label, of, minus in SIDE:

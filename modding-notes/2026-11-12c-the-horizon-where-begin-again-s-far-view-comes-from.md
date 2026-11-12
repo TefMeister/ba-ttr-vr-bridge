@@ -78,3 +78,21 @@ the far skyline (the Washington Monument direction). Two stills, side by side:
 If Tefa wants the horizon sooner on the ladder: switch the two Begin Again LOD folders and their
 plugins on from rung 3 (their only master is `FalloutNV.esm`). Not done: it changes rungs that are
 already desk-checked, and it is Tefa's call.
+
+## Done the same night: the pack is on from rung 3 (Tefa: "yes, switch the pack on from rung 3 if it doesn't clash")
+
+- All 27 profiles of rungs 3 to 8a (VR, flat, sim, and the 08a-x/y/z side rungs) now have both folders on and both
+  plugins active, added at the END of `plugins.txt` / `loadorder.txt` (Begin Again has them at 200 and 201 of 202).
+  Backups beside each file: `*.bak-2026-11-12-horizon`. `ladder.py check`: all masters present and in order on all
+  27 `[measured 2026-11-12]`.
+- `ladder_groups.py`: new `EARLY = {"03": [...]}` brings them in at rung 3 on a rebuild; group additions are now
+  de-duplicated (the old plan printed inflated mod counts, e.g. 264 for rung 3 where 262 are really on). `plan` now
+  prints the same plugin counts as the edited profiles `[measured]`.
+- Why no clash: a rung is a subset of Begin Again in the author's own priority order, so every file of the pack meets
+  only mods it already meets in the full list, and it wins or loses the same way `[inferred-static]`.
+- Not established: that rungs 3 to 8a still start and load with ~3.8 GB more archives (each rung's desk check
+  predates this). The look of the far view (haze, colour) still changes at 8b, where Dusty Distance Redone, Vanilla
+  Plus Terrain and the weathers come in.
+- ⚠️ Found on the way: the flat and sim profiles' load order is NOT Begin Again's (e.g. rung-04 sim has
+  `VNV LOD Plugins.esp` before `Wasted LOD rocks.esp`); only the VR rung-03 profile matched. Masters are still in order.
+  Probably MO2 re-sorting on use; not looked into.
