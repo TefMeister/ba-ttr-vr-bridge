@@ -1,0 +1,34 @@
+---- 11/13/2026 20:38:03 Windows Error Reporting 1001
+Fault bucket 1996587208992854858, type 5
+Event Name: BEX
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: FalloutNV.exe
+P2: 1.4.0.525
+P3: 4e0d50ed
+P4: ucrtbase.dll
+P5: 10.0.26100.9711
+P6: aac02881
+P7: 0008ad52
+P8: c0000409
+P9: 00000005
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.e307d22a-a075-4b42-9cae-0ce43ad73ac1.tmp.dmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a1bd0b43-3224-407b-80f8-23b789618ab7.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.648811ca-27cd-4090-9601-931a8d1a5cb5.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7294d961-e1c4-408f-96f1-d4480bff2f0f.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.8e8692dd-e399-41d4-9729-a3d86b0f738b.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_FalloutNV.exe_85e2827741e88f4b41f20a64997c1c836316a2d_aac2e720_67ee005c-f095-4e44-b8ba-e26dc414a355
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 284b2033-1df7-46b1-9dee-276df8cce132
+Report Status: 268435456
+Hashed bucket: 6a795815bd9230638bb54d7cfb1b934a
+Cab Guid: 0

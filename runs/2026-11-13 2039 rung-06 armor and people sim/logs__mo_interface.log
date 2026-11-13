@@ -1,0 +1,22 @@
+[2026-11-13 18:38:08.001 D] command line: '"C:\Modlists\Begin Again\ModOrganizer.exe" -p "rung-06 armor and people sim" "moshortcut://:Begin Again"'
+[2026-11-13 18:38:08.001 I] starting Mod Organizer version 2.5.2-ML1.5 revision 9c130cbf in C:/Modlists/Begin Again, usvfs: 0.5.6.1
+[2026-11-13 18:38:08.001 I] data path: C:/Modlists/Begin Again
+[2026-11-13 18:38:08.001 I] working directory: C:/Modlists/Begin Again
+[2026-11-13 18:38:08.001 D] timing: MOApplication setup() 0 ms
+[2026-11-13 18:38:08.467 I] using game plugin 'TTW' ('TTW', variant Steam, steam id '22380') at C:/Steam/steamapps/common/Fallout New Vegas
+[2026-11-13 18:38:08.677 W] not saving lists during directory update
+[2026-11-13 18:38:09.342 I] [common_log.py:20] [RootBuilder] Generating root mod build data.
+[2026-11-13 18:38:09.421 I] [common_log.py:20] [RootBuilder] Updating cache.
+[2026-11-13 18:38:09.458 I] [common_log.py:20] [RootBuilder] Checking for updates to backup files.
+[2026-11-13 18:38:09.505 I] [common_log.py:20] [RootBuilder] Deploying files for Copy mode.
+[2026-11-13 18:38:09.532 I] [common_log.py:20] [RootBuilder] Deploying files for Link mode.
+[2026-11-13 18:38:09.532 I] [common_log.py:20] [RootBuilder] Saving build data.
+[2026-11-13 18:38:09.533 I] [common_log.py:20] [RootBuilder] Build complete!
+[2026-11-13 18:38:09.535 I] [common_log.py:20] [RootBuilder] Build exists, generating usvfs mappings.
+[2026-11-13 18:38:09.535 I] [common_log.py:20] [RootBuilder] Usvfs mappings generated!
+[2026-11-13 18:39:52.119 I] [common_log.py:20] [RootBuilder] Build exists, updating mod files.
+[2026-11-13 18:39:52.281 I] [common_log.py:20] [RootBuilder] Sync complete!
+[2026-11-13 18:39:52.281 I] [common_log.py:20] [RootBuilder] Clearing deployed files and links.
+[2026-11-13 18:39:52.303 I] [common_log.py:20] [RootBuilder] Restoring files from backup.
+[2026-11-13 18:39:52.344 I] [common_log.py:20] [RootBuilder] Cleaning up remaining files.
+[2026-11-13 18:39:52.344 I] [common_log.py:20] [RootBuilder] Clear complete!
