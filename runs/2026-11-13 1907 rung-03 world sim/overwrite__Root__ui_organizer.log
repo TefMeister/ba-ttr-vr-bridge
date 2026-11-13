@@ -1,0 +1,409 @@
+UI Organizer v2.30
+Runtime version = 040020D0
+NVSE version = 06040070
+
+--------------------------------
+*** Checking supported files ***
+--------------------------------
+
+[ ] DarNified UI
+[ ] Vanilla UI Plus (VUI+)
+[ ] One HUD (oHUD)
+
+>>>>> Processing file 'supported.txt'
+	> Checking 'advreconhud.xml'
+		! File not found > Skipping.
+	> Checking 'arwen\fatigue_hud.xml'
+		! File not found > Skipping.
+	> Checking 'arwen\strain_hud.xml'
+		! File not found > Skipping.
+	> Checking 'cyberiandawn\cyberiandawnhud.xml'
+		! File not found > Skipping.
+	> Checking 'directorschair\directorschair.xml'
+		! File not found > Skipping.
+	> Checking 'fairypack\fairypack_hud.xml'
+		! File not found > Skipping.
+	> Checking 'filmgraineffect.xml'
+		! File not found > Skipping.
+	> Checking 'flashlight_battery.xml'
+		! File not found > Skipping.
+	> Checking 'fww\weaponwheel.xml'
+		! File not found > Skipping.
+	> Checking 'grenadehotkeyhud.xml'
+		! File not found > Skipping.
+	> Checking 'hude\hud_e.xml'
+		! File not found > Skipping.
+	> Checking 'imcnnv\imp.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\ccchud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\firingmodehud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\ftahud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\heatmeterhud.xml'
+		! File not found > Skipping.
+	> Checking 'jetpack\b3jetpack_hud.xml'
+		! File not found > Skipping.
+	> Checking 'jetpack\b3jetpack_hud(darn).xml'
+		! File not found > Skipping.
+	> Checking 'meleehotkey\meleehotkey.xml'
+		! File not found > Skipping.
+	> Checking 'neotropic\neotropic_hud.xml'
+		! File not found > Skipping.
+	> Checking 'neotropic\neotropicweapondisplay_hud.xml'
+		! File not found > Skipping.
+	> Checking 'pelinor\quicktrade.xml'
+		! File not found > Skipping.
+	> Checking 'pelinor\selectivefire.xml'
+		! File not found > Skipping.
+	> Checking 'pnx\pnxeohud.xml'
+		! File not found > Skipping.
+	> Checking 'pnx\pnxhud.xml'
+		! File not found > Skipping.
+	> Checking 'ppa\ppa_hud.xml'
+		! File not found > Skipping.
+	> Checking 'primaryneedshud.xml'
+		! File not found > Skipping.
+	> Checking 'radar\radarhud.xml'
+		! File not found > Skipping.
+	> Checking 'rangefinder.xml'
+		! File not found > Skipping.
+	> Checking 'sc\sc_hud.xml'
+		! File not found > Skipping.
+	> Checking 'vera\vera.xml'
+		! File not found > Skipping.
+	> Checking 'wmm\wmmtrigger.xml'
+		! File not found > Skipping.
+	> Checking 'wmm\wmm.xml'
+		! File not found > Skipping.
+	> Checking 'mcm\mcm.xml'
+		+ Adding to 'Options\start_menu.xml' @ startmenu
+	> Checking 'pnx\pnximplants.xml'
+		! File not found > Skipping.
+
+>>>>> Processing file 'public\MCMExtender.txt'
+	> Checking 'MCMExtender\HUDMainMenu.xml'
+		+ Adding to 'Main\hud_main_menu.xml' @ HUDMainMenu
+	> Checking 'MCMExtender\StartMenu.xml'
+		+ Adding to 'Options\start_menu.xml' @ StartMenu
+	> Checking 'MCMExtender\ListRect\ListRect.xml'
+		+ Adding to 'Prefabs\MCM\ListRect.xml' @ EoF
+	> Checking 'MCMExtender\ListRect\text.xml'
+		+ Adding to 'Prefabs\MCM\ListRect.xml' @ text
+	> Checking 'MCMExtender\ListRect\highlight.xml'
+		+ Adding to 'Prefabs\MCM\ListRect.xml' @ highlight
+	> Checking 'MCMExtender\MCM\MCM.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM
+	> Checking 'MCMExtender\MCM\MCM_Back.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Back
+	> Checking 'MCMExtender\MCM\MCM_Version.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Version
+	> Checking 'MCMExtender\MCM\MCM_Defaults.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Defaults
+	> Checking 'MCMExtender\MCM\InputY.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ InputY
+	> Checking 'MCMExtender\MCM\MCM_Highlight.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Highlight
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Info
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h1
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h2
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h3
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h4
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h5
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_h6
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v1
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v2
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v3
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v4
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v5
+	> Checking 'MCMExtender\MCM\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ bracket_v6
+	> Checking 'MCMExtender\MCM\MCM_Bracket_Bottom.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Bracket_Bottom
+	> Checking 'MCMExtender\MCM\MCM_Trigger.xml'
+		+ Adding to 'Prefabs\MCM\MCM.xml' @ MCM_Trigger
+	> Checking 'MCMExtender\MCM\MCM_TriggerText.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'MCMExtender\ModTitleRect\ModTitleRect.xml'
+		+ Adding to 'Prefabs\MCM\ModTitleRect.xml' @ EoF
+	> Checking 'MCMExtender\ModList\MCM_ModList.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ MCM_ModList
+	> Checking 'MCMExtender\ModList\ArrowDown.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ ArrowDown
+	> Checking 'MCMExtender\ModList\ArrowUp.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ ArrowUp
+	> Checking 'MCMExtender\ModList\Scrollbar.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ MCM_ModList
+	> Checking 'MCMExtender\ModListRect\ModListRect.xml'
+		+ Adding to 'Prefabs\MCM\ModListRect.xml' @ EoF
+	> Checking 'MCMExtender\ModListRect\highlight.xml'
+		+ Adding to 'Prefabs\MCM\ModListRect.xml' @ highlight
+	> Checking 'MCMExtender\ModListRect\text.xml'
+		+ Adding to 'Prefabs\MCM\ModListRect.xml' @ text
+	> Checking 'MCMExtender\Options\ArrowDown.xml'
+		+ Adding to 'Prefabs\MCM\Options.xml' @ ArrowDown
+	> Checking 'MCMExtender\Options\ArrowUp.xml'
+		+ Adding to 'Prefabs\MCM\Options.xml' @ ArrowUp
+	> Checking 'MCMExtender\Options\Scrollbar.xml'
+		+ Adding to 'Prefabs\MCM\Options.xml' @ MCM_Options
+	> Checking 'MCMExtender\OptionRect\OptionRect.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ EoF
+	> Checking 'MCMExtender\OptionRect\title.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ title
+	> Checking 'MCMExtender\OptionRect\value_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ text
+	> Checking 'MCMExtender\OptionRect\value_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ prefix
+	> Checking 'MCMExtender\OptionRect\value_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ suffix
+	> Checking 'MCMExtender\OptionRect\toggle.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ toggle
+	> Checking 'MCMExtender\OptionRect\toggle_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ toggle_off
+	> Checking 'MCMExtender\OptionRect\toggle_text.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ toggle_on
+	> Checking 'MCMExtender\OptionRect\toggle_check.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ toggle_check
+	> Checking 'MCMExtender\OptionRect\RGB.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ RGB
+	> Checking 'MCMExtender\OptionRect\RGBDarn.xml'
+		! Conditions evaluated as FALSE > Skipping.
+	> Checking 'MCMExtender\Scale\Scale_RGB.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_RGB
+	> Checking 'MCMExtender\Scale\MCM_Scale.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ MCM_Scale
+	> Checking 'MCMExtender\Scale\Scale_Title.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Title
+	> Checking 'MCMExtender\Scale\Meter1_Bar.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_Bar
+	> Checking 'MCMExtender\Scale\Meter2_Bar.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_Bar
+	> Checking 'MCMExtender\Scale\Meter3_Bar.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_Bar
+	> Checking 'MCMExtender\Scale\Scale_Accept.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Accept
+	> Checking 'MCMExtender\Scale\Scale_Cancel.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Cancel
+	> Checking 'MCMExtender\Scale\Scale_Default.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Default
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR2
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_Drag
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_Drag
+	> Checking 'MCMExtender\Scale\Meter_Arrow.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_Drag
+	> Checking 'MCMExtender\Scale\Meter_Image.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_Image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowL2_image2
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter1_ArrowR2_image2
+	> Checking 'MCMExtender\Scale\Meter_Image.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_Image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowL2_image2
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter2_ArrowR2_image2
+	> Checking 'MCMExtender\Scale\Meter_Image.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_Image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowL2_image2
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR2_image
+	> Checking 'MCMExtender\Scale\ColorFix.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Meter3_ArrowR2_image2
+	> Checking 'MCMExtender\Scale\Prompt_Clone.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Accept
+	> Checking 'MCMExtender\Scale\Prompt_Clone.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Cancel
+	> Checking 'MCMExtender\Scale\Prompt_Clone.xml'
+		+ Adding to 'Prefabs\MCM\Scale.xml' @ Scale_Default
+	> Checking 'MCMExtender\VUI+\mouseover.xml'
+		+ Adding to 'Prefabs\MCM\ModList.xml' @ ModList_Scroll
+	> Checking 'MCMExtender\VUI+\mouseover.xml'
+		+ Adding to 'Prefabs\MCM\Options.xml' @ Options_Scroll
+	> Checking 'MCMExtender\VUI+\systemcolor.xml'
+		+ Adding to 'Prefabs\MCM\OptionRect.xml' @ image
+
+---------------------------
+*** Patching menu files ***
+---------------------------
+
+>>>>> Processing file 'Prefabs\MCM\ListRect.xml'
+	+ Injecting 'MCMExtender\ListRect\highlight.xml' @ highlight
+	+ Injecting 'MCMExtender\ListRect\text.xml' @ text
+	+ Injecting 'MCMExtender\ListRect\ListRect.xml' @ EoF
+
+>>>>> Processing file 'Prefabs\MCM\ModListRect.xml'
+	+ Injecting 'MCMExtender\ModListRect\highlight.xml' @ highlight
+	+ Injecting 'MCMExtender\ModListRect\text.xml' @ text
+	+ Injecting 'MCMExtender\ModListRect\ModListRect.xml' @ EoF
+
+>>>>> Processing file 'Prefabs\MCM\ModList.xml'
+	+ Injecting 'MCMExtender\ModList\ArrowUp.xml' @ ArrowUp
+	+ Injecting 'MCMExtender\ModList\ArrowDown.xml' @ ArrowDown
+	+ Injecting 'MCMExtender\VUI+\mouseover.xml' @ ModList_Scroll
+	+ Injecting 'MCMExtender\ModList\Scrollbar.xml' @ MCM_ModList
+	+ Injecting 'MCMExtender\ModList\MCM_ModList.xml' @ MCM_ModList
+
+>>>>> Processing file 'Prefabs\MCM\Options.xml'
+	+ Injecting 'MCMExtender\Options\ArrowUp.xml' @ ArrowUp
+	+ Injecting 'MCMExtender\Options\ArrowDown.xml' @ ArrowDown
+	+ Injecting 'MCMExtender\VUI+\mouseover.xml' @ Options_Scroll
+	+ Injecting 'MCMExtender\Options\Scrollbar.xml' @ MCM_Options
+
+>>>>> Processing file 'Prefabs\MCM\MCM.xml'
+	+ Injecting 'MCMExtender\MCM\MCM_Trigger.xml' @ MCM_Trigger
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v1
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h1
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h2
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h3
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h4
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v2
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v3
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v4
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v5
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_v6
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h5
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ bracket_h6
+	+ Injecting 'MCMExtender\MCM\MCM_Bracket_Bottom.xml' @ MCM_Bracket_Bottom
+	+ Injecting 'MCMExtender\MCM\ColorFix.xml' @ MCM_Info
+	+ Injecting 'MCMExtender\MCM\MCM_Back.xml' @ MCM_Back
+	+ Injecting 'MCMExtender\MCM\MCM_Defaults.xml' @ MCM_Defaults
+	+ Injecting 'MCMExtender\MCM\MCM_Highlight.xml' @ MCM_Highlight
+	+ Injecting 'MCMExtender\MCM\InputY.xml' @ InputY
+	+ Injecting 'MCMExtender\MCM\MCM_Version.xml' @ MCM_Version
+	+ Injecting 'MCMExtender\MCM\MCM.xml' @ MCM
+
+>>>>> Processing file 'Prefabs\MCM\ModTitleRect.xml'
+	+ Injecting 'MCMExtender\ModTitleRect\ModTitleRect.xml' @ EoF
+
+>>>>> Processing file 'Options\start_menu.xml'
+	- Removing duplicate reference 'includes_StartMenu.xml'
+	+ Injecting 'mcm\mcm.xml' @ StartMenu
+	+ Injecting 'MCMExtender\StartMenu.xml' @ StartMenu
+
+>>>>> Processing file 'Main\hud_main_menu.xml'
+	+ Injecting 'MCMExtender\HUDMainMenu.xml' @ HUDMainMenu
+
+>>>>> Processing file 'Prefabs\MCM\OptionRect.xml'
+	+ Injecting 'MCMExtender\OptionRect\title.xml' @ title
+	+ Injecting 'MCMExtender\VUI+\systemcolor.xml' @ image
+	+ Injecting 'MCMExtender\OptionRect\value_text.xml' @ text
+	+ Injecting 'MCMExtender\OptionRect\value_text.xml' @ prefix
+	+ Injecting 'MCMExtender\OptionRect\value_text.xml' @ suffix
+	+ Injecting 'MCMExtender\OptionRect\toggle_text.xml' @ toggle_off
+	+ Injecting 'MCMExtender\OptionRect\toggle_text.xml' @ toggle_on
+	+ Injecting 'MCMExtender\OptionRect\toggle.xml' @ toggle
+	+ Injecting 'MCMExtender\OptionRect\toggle_check.xml' @ toggle_check
+	+ Injecting 'MCMExtender\OptionRect\RGB.xml' @ RGB
+	+ Injecting 'MCMExtender\OptionRect\OptionRect.xml' @ EoF
+
+>>>>> Processing file 'Prefabs\MCM\Scale.xml'
+	+ Injecting 'MCMExtender\Scale\Scale_Title.xml' @ Scale_Title
+	+ Injecting 'MCMExtender\Scale\Scale_RGB.xml' @ Scale_RGB
+	+ Injecting 'MCMExtender\Scale\Prompt_Clone.xml' @ Scale_Accept
+	+ Injecting 'MCMExtender\Scale\Scale_Accept.xml' @ Scale_Accept
+	+ Injecting 'MCMExtender\Scale\Prompt_Clone.xml' @ Scale_Cancel
+	+ Injecting 'MCMExtender\Scale\Scale_Cancel.xml' @ Scale_Cancel
+	+ Injecting 'MCMExtender\Scale\Prompt_Clone.xml' @ Scale_Default
+	+ Injecting 'MCMExtender\Scale\Scale_Default.xml' @ Scale_Default
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_Drag
+	+ Injecting 'MCMExtender\Scale\Meter_Image.xml' @ Meter1_Image
+	+ Injecting 'MCMExtender\Scale\Meter1_Bar.xml' @ Meter1_Bar
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowL_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_ArrowL
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowL2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowL2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_ArrowL2
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowR_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_ArrowR
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowR2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter1_ArrowR2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter1_ArrowR2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_Drag
+	+ Injecting 'MCMExtender\Scale\Meter_Image.xml' @ Meter2_Image
+	+ Injecting 'MCMExtender\Scale\Meter2_Bar.xml' @ Meter2_Bar
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowL_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_ArrowL
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowL2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowL2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_ArrowL2
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowR_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_ArrowR
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowR2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter2_ArrowR2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter2_ArrowR2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_Drag
+	+ Injecting 'MCMExtender\Scale\Meter_Image.xml' @ Meter3_Image
+	+ Injecting 'MCMExtender\Scale\Meter3_Bar.xml' @ Meter3_Bar
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowL_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_ArrowL
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowL2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowL2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_ArrowL2
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowR_image
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_ArrowR
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowR2_image
+	+ Injecting 'MCMExtender\Scale\ColorFix.xml' @ Meter3_ArrowR2_image2
+	+ Injecting 'MCMExtender\Scale\Meter_Arrow.xml' @ Meter3_ArrowR2
+	+ Injecting 'MCMExtender\Scale\MCM_Scale.xml' @ MCM_Scale
