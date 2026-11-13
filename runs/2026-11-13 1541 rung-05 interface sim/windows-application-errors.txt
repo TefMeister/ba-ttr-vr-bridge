@@ -1,0 +1,46 @@
+---- 11/13/2026 15:41:16 Windows Error Reporting 1001
+Fault bucket 1996587208992854858, type 5
+Event Name: BEX
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: FalloutNV.exe
+P2: 1.4.0.525
+P3: 4e0d50ed
+P4: ucrtbase.dll
+P5: 10.0.26100.9711
+P6: aac02881
+P7: 0008ad52
+P8: c0000409
+P9: 00000005
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.199d9f76-b12b-4c72-8d91-6cbea8a7dafe.tmp.dmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1552a714-f22d-4d70-bf63-ce571f1aa56c.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.21cc7cde-c25d-4614-97f5-054ce63c2336.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4fd679b7-8317-4b09-af5a-0f810856da6f.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.02c8ffc5-7a40-4061-a217-d1fde5151289.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_FalloutNV.exe_85e2827741e88f4b41f20a64997c1c836316a2d_aac2e720_5262c0b6-d8cb-4c4f-b9ca-5d6cad75a629
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 660e4077-5d9c-45e1-8f52-a5e1e0a5e4ca
+Report Status: 268435456
+Hashed bucket: 6a795815bd9230638bb54d7cfb1b934a
+Cab Guid: 0
+---- 11/13/2026 15:41:12 Application Error 1000
+Faulting application name: FalloutNV.exe, version: 1.4.0.525, time stamp: 0x4e0d50ed
+Faulting module name: ucrtbase.dll, version: 10.0.26100.9711, time stamp: 0xaac02881
+Exception code: 0xc0000409
+Fault offset: 0x0008ad52
+Faulting process id: 0x88B0
+Faulting application start time: 0x1DD73749E36899E
+Faulting application path: C:\Steam\steamapps\common\Fallout New Vegas\FalloutNV.exe
+Faulting module path: C:\WINDOWS\System32\ucrtbase.dll
+Report Id: 660e4077-5d9c-45e1-8f52-a5e1e0a5e4ca
+Faulting package full name: 
+Faulting package-relative application ID: 

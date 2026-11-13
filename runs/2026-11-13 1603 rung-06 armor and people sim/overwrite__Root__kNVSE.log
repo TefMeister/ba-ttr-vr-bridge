@@ -1,0 +1,26 @@
+query
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+SetAnimTextKeys: animation not found
+Script  FF002E64 from mod In-game console has called SetActorAnimationPath
+	on form PlayerRef 14
+Loading file anims
+
+Reading from JSON file Data\Meshes\AnimGroupOverride\meleenpcsprint.json
+
+Reading from JSON file Data\Meshes\AnimGroupOverride\meleenpcsprint_tnw.json
+
+Reading from JSON file Data\Meshes\AnimGroupOverride\smim_anims.json
+JSON: Loading animations for global override in path smim_ProtectronUnconsciousDeath
+JSON: Loading animations for global override in path smim_MisterGutsyUnconsciousDeath
+JSON: Loading animations for global override in path smim_SentrybotUnconsciousDeath
+JSON: Loading animations for global override in path smim_CombatDroidUnconsciousDeath
+JSON: Loading animations for global override in path smim_MaintenanceRobotUnconsciousDeath
+JSON: Loading animations for global override in path MeleeNPCSprint_M
+JSON: Loading animations for global override in path MeleeNPCSprint_F
+JSON: Loading animations for global override in path MeleeNPCSprint_TNW
+Loaded AnimGroupOverride in 8 ms

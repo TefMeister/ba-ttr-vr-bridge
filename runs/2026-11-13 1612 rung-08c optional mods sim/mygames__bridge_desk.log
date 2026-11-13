@@ -1,0 +1,1045 @@
+09:26:14 bridge_desk loaded
+09:26:15 [d3d11] the VR mod's device creation is watched
+09:26:15 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:26:20 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 84C380BC, context 84C4C120
+09:26:20 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:26:26 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:26:26 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:26:26 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:26:26 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:26:26 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8B1ABAE4, context 8B1AD7B0
+09:26:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:26:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:26:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:26:28 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:26:28 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:26:28 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:26:28 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:26:28 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:26:28 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:27:30 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:27:30 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:27:30 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:29:25 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:31:12 bridge_desk loaded
+09:31:12 [d3d11] the VR mod's device creation is watched
+09:31:12 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:31:17 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8547B0B4, context 8547BF90
+09:31:17 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:31:23 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:31:29 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:31:29 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:31:29 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:31:29 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8B969B2C, context 8B96AA08
+09:31:30 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:31:30 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:31:30 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:31:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:31:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:31:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:31:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:31:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:31:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:32:06 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:32:06 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:32:06 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:32:32 bridge_desk loaded
+09:32:33 [d3d11] the VR mod's device creation is watched
+09:32:33 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:32:38 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 85127B34, context 84F2CC18
+09:32:38 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:32:40 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:32:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:32:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:32:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:32:40 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8B7694CC, context 8B780738
+09:32:42 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:32:42 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:32:42 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:32:42 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:32:42 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:32:42 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:32:42 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:32:42 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:32:42 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:33:17 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:33:17 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:33:17 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:33:41 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:34:26 bridge_desk loaded
+09:34:26 [d3d11] the VR mod's device creation is watched
+09:34:26 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:34:32 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 853B0C9C, context 852FCBD8
+09:34:32 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:34:33 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:34:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:34:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:34:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:34:34 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 86DE2324, context 86DFA218
+09:34:36 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:34:36 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:34:36 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:34:37 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:34:37 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:34:37 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:34:37 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:34:37 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:34:37 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:35:14 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:35:14 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:35:14 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:35:37 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:36:22 bridge_desk loaded
+09:36:22 [d3d11] the VR mod's device creation is watched
+09:36:22 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:36:28 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 853641DC, context 863F00E0
+09:36:28 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:36:29 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:36:30 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:36:30 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:36:30 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:36:30 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 86DEB514, context 86E647B8
+09:36:33 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:36:33 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:36:33 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:36:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:36:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:36:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:36:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:36:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:36:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:37:09 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:37:09 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:37:09 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:37:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:38:17 bridge_desk loaded
+09:38:18 [d3d11] the VR mod's device creation is watched
+09:38:18 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:38:26 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 87D83734, context 87E17A20
+09:38:26 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:38:27 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:38:28 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 87AD1B34, context 884D7E08
+09:38:29 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:38:29 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:38:29 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:38:29 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:38:29 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:38:29 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:38:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:38:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:38:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:38:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:38:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:38:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:38:39 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:38:39 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:38:39 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:39:07 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:40:16 bridge_desk loaded
+09:40:16 [d3d11] the VR mod's device creation is watched
+09:40:16 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:40:25 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 87C1EFA4, context 87D19B28
+09:40:25 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:40:26 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:40:27 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8831C374, context 8831F260
+09:40:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:40:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:40:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:40:27 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:40:27 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:40:27 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:40:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:40:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:40:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:40:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:40:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:40:31 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:40:38 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:40:38 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:40:38 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:41:08 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:42:17 bridge_desk loaded
+09:42:18 [d3d11] the VR mod's device creation is watched
+09:42:18 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:42:26 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 87E9127C, context 87EA2068
+09:42:26 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:42:28 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:42:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:42:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:42:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:42:28 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8881D134, context 8885BF78
+09:42:28 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:42:28 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:42:28 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:42:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:42:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:42:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:42:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:42:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:42:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:42:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:42:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:42:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:43:10 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:44:18 bridge_desk loaded
+09:44:19 [d3d11] the VR mod's device creation is watched
+09:44:19 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:44:28 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 88152FC4, context 881723B0
+09:44:28 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:44:29 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:44:30 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:44:30 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:44:30 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:44:30 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 9176889C, context 9177FA88
+09:44:30 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:44:30 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:44:30 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:44:34 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:44:34 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:44:34 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:44:34 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:44:34 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:44:34 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:44:41 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:44:41 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:44:41 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:45:11 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:46:39 bridge_desk loaded
+09:46:39 [d3d11] the VR mod's device creation is watched
+09:46:40 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:46:44 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 83CE520C, context 853BA878
+09:46:44 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:46:52 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:46:57 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:46:57 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:46:57 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:46:57 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 83CE6514, context 8B978650
+09:46:59 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:46:59 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:46:59 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:46:59 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:46:59 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:46:59 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:46:59 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:46:59 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:46:59 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:47:37 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:47:37 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:47:37 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:48:12 bridge_desk loaded
+09:48:12 [d3d11] the VR mod's device creation is watched
+09:48:12 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:48:18 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 855872EC, context 853D3C08
+09:48:18 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:48:25 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:48:31 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:48:31 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:48:31 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:48:31 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8BBB28CC, context 8BC42940
+09:48:32 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:48:32 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:48:32 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:48:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:48:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:48:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:48:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:48:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:48:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:49:10 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:49:10 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:49:10 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:49:39 bridge_desk loaded
+09:49:39 [d3d11] the VR mod's device creation is watched
+09:49:39 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:49:45 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 85E11E64, context 86F900E0
+09:49:45 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:49:46 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:49:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:49:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:49:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:49:47 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 878AA434, context 87943828
+09:49:49 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:49:49 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:49:49 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:49:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:49:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:49:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:49:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:49:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:49:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:50:26 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:50:26 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:50:26 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:50:52 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:51:37 bridge_desk loaded
+09:51:38 [d3d11] the VR mod's device creation is watched
+09:51:38 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:51:44 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 6F6B6474, context 87174F38
+09:51:44 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:51:45 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:51:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:51:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:51:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:51:46 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 6F6B3E64, context 87A6DF40
+09:51:48 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:51:48 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:51:48 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:51:49 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:51:49 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:51:49 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:51:49 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:51:49 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:51:49 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:52:25 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:52:25 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:52:25 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:52:51 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:53:36 bridge_desk loaded
+09:53:36 [d3d11] the VR mod's device creation is watched
+09:53:36 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:53:45 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8890B854, context 88941C98
+09:53:45 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:53:46 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:53:46 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 85EC952C, context 88F3E260
+09:53:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:53:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:53:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:53:47 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:53:47 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:53:47 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:53:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:53:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:53:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:53:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:53:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:53:50 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:53:58 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:53:58 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:53:58 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:54:26 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:55:37 bridge_desk loaded
+09:55:37 [d3d11] the VR mod's device creation is watched
+09:55:37 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:55:45 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8989E4B4, context 898C6738
+09:55:45 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:55:46 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:55:46 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 89E04B44, context 89E05A20
+09:55:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:55:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:55:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:55:48 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:55:48 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:55:48 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:55:51 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:55:51 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:55:51 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:55:51 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:55:51 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:55:51 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:55:59 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:55:59 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:55:59 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:56:26 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:57:38 bridge_desk loaded
+09:57:38 [d3d11] the VR mod's device creation is watched
+09:57:38 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:57:47 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 6F246074, context 88AF3D80
+09:57:47 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:57:49 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:57:50 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:57:50 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:57:50 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:57:50 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 6F243A64, context 89353CF8
+09:57:50 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:57:50 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:57:50 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:57:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:57:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:57:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:57:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:57:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:57:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:58:01 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:58:01 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:58:01 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:58:30 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+09:59:42 bridge_desk loaded
+09:59:43 [d3d11] the VR mod's device creation is watched
+09:59:43 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+09:59:52 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 88D7292C, context 88DAF680
+09:59:52 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+09:59:53 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+09:59:54 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 85F25714, context 8937E390
+09:59:54 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:59:54 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:59:54 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+09:59:54 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:59:54 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:59:54 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+09:59:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:59:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:59:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:59:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:59:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+09:59:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+10:00:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+10:00:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+10:00:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+10:00:35 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+13:51:24 bridge_desk loaded
+13:51:26 [d3d11] the VR mod's device creation is watched
+13:51:26 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+13:51:41 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A2CF6BC, context 8A3EF348
+13:51:41 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+13:51:43 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+13:51:44 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A14EA4C, context 8AA8C590
+13:51:45 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:51:45 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:51:45 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:51:45 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:51:45 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:51:45 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:51:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:51:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:51:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:51:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:51:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:51:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:52:01 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:52:01 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:52:01 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:52:56 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:54:04 bridge_desk loaded
+13:54:04 [d3d11] the VR mod's device creation is watched
+13:54:04 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+13:54:14 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A52C154, context 8A52D838
+13:54:14 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+13:54:19 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+13:54:19 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A3B44C4, context 8AAF50A0
+13:54:20 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:54:20 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:54:20 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:54:20 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:54:20 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:54:20 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:54:25 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:54:25 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:54:25 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:54:25 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:54:25 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:54:25 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:54:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:54:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:54:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:55:58 bridge_desk loaded
+13:55:58 [d3d11] the VR mod's device creation is watched
+13:55:58 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+13:56:08 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A1726FC, context 8A1735D8
+13:56:08 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+13:56:12 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+13:56:13 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 87245834, context 8A68B260
+13:56:13 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:56:13 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:56:13 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:56:13 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:56:13 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:56:13 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:56:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:56:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:56:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:56:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:56:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:56:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:56:26 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:56:26 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:56:26 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:56:54 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:57:49 bridge_desk loaded
+13:57:49 [d3d11] the VR mod's device creation is watched
+13:57:49 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+13:57:59 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A135014, context 8A167180
+13:57:59 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+13:58:02 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+13:58:03 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 872DCEDC, context 8A611578
+13:58:04 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:58:04 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:58:04 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:58:04 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:58:04 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:58:04 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:58:09 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:58:45 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+13:59:43 bridge_desk loaded
+13:59:43 [d3d11] the VR mod's device creation is watched
+13:59:43 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+13:59:53 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 89E3F0F4, context 89EBC3C0
+13:59:53 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+13:59:56 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+13:59:57 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A35998C, context 8A42A218
+13:59:58 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:59:58 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:59:58 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+13:59:58 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:59:58 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+13:59:58 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:00:02 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:00:02 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:00:02 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:00:02 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:00:02 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:00:02 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:00:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:00:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:00:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:00:39 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:01:57 bridge_desk loaded
+14:01:58 [d3d11] the VR mod's device creation is watched
+14:01:58 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:02:07 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A2A3BFC, context 8A2B4110
+14:02:07 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:02:14 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:02:15 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:02:15 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:02:15 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:02:15 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8AB1785C, context 8AB18738
+14:02:19 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:02:19 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:02:19 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:02:19 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:02:19 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:02:19 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:02:19 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:02:19 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:02:19 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:02:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:02:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:02:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:02:57 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:03:47 bridge_desk loaded
+14:03:47 [d3d11] the VR mod's device creation is watched
+14:03:47 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:03:58 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A5DCE8C, context 8A5EF878
+14:03:58 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:04:01 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:04:02 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 87613C94, context 8AAE97B8
+14:04:03 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:04:03 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:04:03 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:04:03 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:04:03 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:04:03 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:04:07 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:04:07 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:04:07 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:04:07 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:04:07 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:04:07 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:04:15 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:04:15 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:04:15 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:04:42 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+14:05:12 bridge_desk loaded
+14:05:12 [d3d11] the VR mod's device creation is watched
+14:05:13 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:05:23 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A10CB94, context 8A188198
+14:05:23 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:05:26 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:05:27 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 871EC86C, context 8A70ECB8
+14:05:28 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:05:28 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:05:28 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:05:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:05:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:05:28 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:05:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:05:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:05:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:05:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:05:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:05:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:05:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:05:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:05:40 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:06:08 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+14:06:37 bridge_desk loaded
+14:06:38 [d3d11] the VR mod's device creation is watched
+14:06:38 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:06:48 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A533244, context 8A58E820
+14:06:48 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:06:51 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:06:52 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 875FB2C4, context 8AAFC678
+14:06:53 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:06:53 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:06:53 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:06:53 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:06:53 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:06:53 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:06:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:06:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:06:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:06:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:06:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:06:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:07:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:07:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:07:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:07:33 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+14:08:55 bridge_desk loaded
+14:08:55 [d3d11] the VR mod's device creation is watched
+14:08:56 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:09:01 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 84EC2A34, context 84FD2A50
+14:09:01 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:09:07 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:09:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:08 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8B570924, context 8B571800
+14:09:10 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:09:10 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:09:10 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:09:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:09:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:10:58 bridge_desk loaded
+14:10:58 [d3d11] the VR mod's device creation is watched
+14:10:58 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:11:04 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 6F270404, context 853DFF70
+14:11:04 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:11:10 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:11:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:11:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:11:10 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:11:11 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8BA0E6BC, context 8BA2CF80
+14:11:12 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:11:12 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:11:12 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:11:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:11:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:11:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:11:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:11:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:11:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:12:23 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:12:23 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:12:23 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:12:23 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:14:23 bridge_desk loaded
+14:14:24 [d3d11] the VR mod's device creation is watched
+14:14:24 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:14:29 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 85F371C4, context 86089CC8
+14:14:29 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:14:36 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:14:36 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:14:36 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:14:36 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:14:36 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8C58C77C, context 8C5BBCD0
+14:14:38 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:14:38 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:14:38 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:14:38 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:14:38 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:14:38 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:14:38 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:14:38 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:14:38 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:16:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:16:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:16:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:16:13 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:24:10 bridge_desk loaded
+14:24:11 [d3d11] the VR mod's device creation is watched
+14:24:11 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:24:16 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 83B5CBFC, context 83C91100
+14:24:16 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:24:17 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:24:18 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:24:18 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:24:18 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:24:18 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8A1CAC8C, context 8A1E0F60
+14:24:20 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:24:20 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:24:20 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:24:20 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:24:20 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:24:20 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:24:20 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:24:20 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:24:20 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:27:02 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:27:02 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:27:02 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:32:43 bridge_desk loaded
+14:32:43 [d3d11] the VR mod's device creation is watched
+14:32:43 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+14:32:49 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 85F1E084, context 86010590
+14:32:49 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+14:32:55 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+14:32:56 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:32:56 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:32:56 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:32:56 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8C5647C4, context 8C5656A0
+14:32:57 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:32:57 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:32:57 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+14:32:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:32:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:32:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:32:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:32:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:32:58 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+14:36:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:36:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+14:36:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:17:23 bridge_desk loaded
+15:17:25 [d3d11] the VR mod's device creation is watched
+15:17:25 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:17:39 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 860779EC, context 863BF0A0
+15:17:39 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:17:42 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:17:49 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:17:49 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:17:49 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:17:49 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 86BC28CC, context 86C0D180
+15:17:49 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:17:49 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:17:49 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:18:00 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:19:06 bridge_desk loaded
+15:19:06 [d3d11] the VR mod's device creation is watched
+15:19:06 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:19:18 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8639347C, context 8644A0A0
+15:19:18 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:19:22 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:19:22 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 862DAB74, context 869FA418
+15:19:24 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:19:24 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:19:24 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:19:24 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:19:24 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:19:24 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:19:33 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:20:39 bridge_desk loaded
+15:20:39 [d3d11] the VR mod's device creation is watched
+15:20:39 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:20:50 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8698EBEC, context 8698FAC8
+15:20:50 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:20:54 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:20:54 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 86EB47E4, context 86EB56C0
+15:20:55 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:20:55 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:20:55 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:20:55 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:20:55 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:20:55 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:21:05 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:22:08 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:22:52 bridge_desk loaded
+15:22:52 [d3d11] the VR mod's device creation is watched
+15:22:52 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:23:03 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 865FB17C, context 8660D148
+15:23:03 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:23:06 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:23:07 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 86A8BFC4, context 86B29A20
+15:23:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:23:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:23:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:23:08 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:23:08 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:23:08 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:23:18 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:24:20 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:25:05 bridge_desk loaded
+15:25:05 [d3d11] the VR mod's device creation is watched
+15:25:05 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:25:15 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 867BCBDC, context 867C82B0
+15:25:15 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:25:19 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:25:20 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 863D913C, context 86D5E7B8
+15:25:21 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:25:21 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:25:21 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:25:21 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:25:21 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:25:21 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:25:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:26:34 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:27:18 bridge_desk loaded
+15:27:18 [d3d11] the VR mod's device creation is watched
+15:27:18 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:27:29 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 867FDBE4, context 86807388
+15:27:29 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:27:33 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:27:33 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8609A0CC, context 86E014C8
+15:27:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:27:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:27:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:27:34 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:27:34 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:27:34 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:27:44 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:28:46 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:29:31 bridge_desk loaded
+15:29:31 [d3d11] the VR mod's device creation is watched
+15:29:31 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:29:41 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8683D224, context 8683E100
+15:29:41 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:29:45 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:29:46 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 84F7E4D4, context 86D36000
+15:29:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:29:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:29:46 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:29:47 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:29:47 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:29:47 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:29:57 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:31:20 bridge_desk loaded
+15:31:20 [d3d11] the VR mod's device creation is watched
+15:31:20 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:31:26 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 7EE20404, context 7EE31270
+15:31:26 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:31:32 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:31:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:31:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:31:33 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:31:33 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 891B123C, context 89261CB8
+15:35:22 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:35:22 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:35:22 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:36:57 bridge_desk loaded
+15:36:57 [d3d11] the VR mod's device creation is watched
+15:36:57 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:37:04 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 7112ABDC, context 7ED7D038
+15:37:04 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:37:05 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:37:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:37:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:37:05 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:37:05 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 711285CC, context 8914A6C8
+15:37:07 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:37:07 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:37:07 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:37:08 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:37:08 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:37:08 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:37:08 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:37:08 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:37:08 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:37:46 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+15:37:46 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+15:37:46 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+15:38:12 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:38:57 bridge_desk loaded
+15:38:58 [d3d11] the VR mod's device creation is watched
+15:38:58 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:39:06 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8430F22C, context 843290A8
+15:39:06 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:39:07 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+15:39:08 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:39:08 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:39:08 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+15:39:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:39:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:39:08 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:39:08 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 84B1007C, context 84B26990
+15:39:14 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:39:14 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:39:14 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:39:14 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:39:14 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:39:14 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+15:39:49 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+15:39:49 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+15:39:49 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+15:40:15 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+15:41:00 bridge_desk loaded
+15:41:00 [d3d11] the VR mod's device creation is watched
+15:41:00 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+15:41:11 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8556B18C, context 8556C068
+15:41:11 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+15:41:12 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+16:01:58 bridge_desk loaded
+16:01:59 [d3d11] the VR mod's device creation is watched
+16:01:59 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+16:02:10 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 854F74B4, context 8550AE60
+16:02:10 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+16:02:10 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+16:02:11 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 7F20AFE4, context 85A15A68
+16:02:12 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:02:12 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:02:12 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:02:12 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:02:12 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:02:12 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:02:17 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:02:17 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:02:17 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:02:17 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:02:17 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:02:17 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:02:24 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:02:24 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:02:24 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:02:52 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+16:04:04 bridge_desk loaded
+16:04:04 [d3d11] the VR mod's device creation is watched
+16:04:04 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+16:04:16 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 856BB754, context 856BC630
+16:04:16 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+16:04:17 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+16:04:18 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 71277774, context 85BDA0F0
+16:04:19 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:04:19 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:04:19 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:04:19 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:04:19 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:04:19 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:04:24 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:04:24 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:04:24 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:04:24 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:04:24 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:04:24 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:04:32 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:04:32 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:04:32 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:05:00 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+16:06:12 bridge_desk loaded
+16:06:13 [d3d11] the VR mod's device creation is watched
+16:06:13 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+16:06:25 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 858F0ADC, context 859F7BE0
+16:06:25 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+16:06:25 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+16:06:26 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8519971C, context 85E5F810
+16:06:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:06:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:06:27 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:06:27 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:06:27 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:06:27 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:06:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:06:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:06:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:06:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:06:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:06:32 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:06:39 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:06:39 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:06:39 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:07:08 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+16:08:21 bridge_desk loaded
+16:08:21 [d3d11] the VR mod's device creation is watched
+16:08:21 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+16:08:32 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 858D75A4, context 858D8480
+16:08:32 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+16:08:33 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+16:08:33 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 8510AABC, context 85DFE6F0
+16:08:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:08:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:08:34 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:08:34 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:08:34 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:08:34 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:08:40 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:08:40 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:08:40 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:08:40 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:08:40 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:08:40 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:08:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:08:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:08:47 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:09:17 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)
+16:10:29 bridge_desk loaded
+16:10:29 [d3d11] the VR mod's device creation is watched
+16:10:29 TTWVR.dll found after 0 ms: its question about Virtual Desktop's body memory is now answered here
+16:10:40 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 858B2B3C, context 858B3A18
+16:10:40 [shareable] the simulator's eye pictures will be made shareable (flags 0x2): on
+16:10:41 first ask for VirtualDesktop.BodyState answered 'not there' (desk run)
+16:10:42 [d3d11] D3D11CreateDevice by the VR mod: flags 0x20 -> 0x00000000, device 85031B74, context 85E35598
+16:10:43 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:10:43 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:10:43 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:10:43 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:10:43 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:10:43 [shareable] the simulator's 512x384 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 4096x3648 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:10:48 [shareable] the simulator's 2944x2208 picture (format 90) made shareable (flags 0x2)
+16:11:25 [shareable] the simulator's 420x347 picture (format 90) made shareable (flags 0x2)

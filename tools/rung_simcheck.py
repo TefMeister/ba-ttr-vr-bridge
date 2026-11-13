@@ -66,6 +66,8 @@ DOOR_LOAD_S = 15        # the way outside loads
 THROUGH_DOOR = 20.0     # mean change of the eye picture that counts as "somewhere else now"
 WALKED = 5.0            # mean change after 3 s of the walk stick that counts as "moved"
 BODY_MEMORY = "VirtualDesktop.BodyState"
+DESK_SAVE = "Springvale Elementary School"   # the rung-1 test save (beside the school's double door); see --save
+CAMERA_COMPLAINT = "Camera1st's parents are not"
 SIM_DATA = os.path.join(os.environ.get("LOCALAPPDATA", ""), "OpenXR-Simulator")
 
 
@@ -213,6 +215,10 @@ def main():
     ap.add_argument("--outside", action="store_true",
                     help="also go through the door beside the save's spot and walk a few steps outside; the save "
                          "folder is put back exactly afterwards (what the game saved on the way is kept aside)")
+    ap.add_argument("--save", default=DESK_SAVE,
+                    help="part of the name of the save to load (made newest for the run, its date put back after); "
+                         "default: the rung-1 school save. 2026-11-13: without this the auto-load took Tefa's own newer "
+                         "autosave, so rungs 4-8 were judged from another spot and rung 1 stopped at 'content no longer present'")
     a = ap.parse_args()
     if running("FalloutNV.exe") or running("ModOrganizer.exe"):
         sys.exit("the game or Mod Organizer is already running: close it first")
@@ -278,9 +284,16 @@ def main():
 
     saves = os.path.join(os.path.expanduser("~"), "Documents", "My Games", "FalloutNV", "Saves")
     saves_copy = None
-    if a.outside and not a.stay:
+    if not a.stay:
         saves_copy = os.path.join(tempfile.mkdtemp(prefix="rung_simcheck_saves_"), "Saves")
         shutil.copytree(saves, saves_copy)          # copy2 underneath: dates kept, "newest save" stays the same one
+    picked = sorted((f for f in glob.glob(os.path.join(saves, "*.fos")) if a.save.lower() in os.path.basename(f).lower()),
+                    key=os.path.getmtime)
+    if not picked:
+        sys.exit(f"no save whose name contains '{a.save}'")
+    bumped = [(f, os.path.getmtime(f)) for f in (picked[-1], picked[-1][:-4] + ".nvse") if os.path.isfile(f)]
+    for f, _ in bumped:
+        os.utime(f, None)                               # newest for the auto-load; the old date goes back after
     profile_before = mo2_profile(a.mo2)
     sim_rung = make_profile(a.mo2, a.rung)
     since = dt.datetime.now()
@@ -296,6 +309,8 @@ def main():
     while time.time() - t0 < 150 and not running("FalloutNV.exe"):
         time.sleep(2)
     if not running("FalloutNV.exe"):
+        for f, t in bumped:
+            os.utime(f, (t, t))
         print(f"{a.rung}: THE GAME NEVER STARTED (150 s)")
         mo2_profile(a.mo2, profile_before)
         return 2
@@ -312,7 +327,7 @@ def main():
         time.sleep(3)
     load_s = round(time.time() - t0)
     panel = drawn = follows = through = walked = None
-    still_a = still_b = still_out = still_walk = None
+    still_a = still_b = still_out = still_walk = still_pause = None
     if loaded_save and running("FalloutNV.exe"):
         time.sleep(SETTLE_S)
         still_a = sim_picture()                     # no pause change first: the eye must be live by itself
@@ -325,7 +340,8 @@ def main():
         time.sleep(2.5)
         back = sim_picture()
         tap(left={"y": True})                       # pause: the mod's panel
-        panel = diff(back, sim_picture())
+        still_pause = sim_picture()
+        panel = diff(back, still_pause)
         tap(right={"b": True})                      # un-pause
         if a.outside:
             vb_sim.head(0, 1.7, 0, DOOR_YAW_DEG, 0)
@@ -352,7 +368,7 @@ def main():
     body = "solved" if "the body is solved from the headset" in text else "NOT SOLVED"
     hangs = len(re.findall(r"\[hang\] the game's main loop has not turned", text))
     warns = sorted(set(m[:110] for m in re.findall(r"(?:WARN|ERROR)\s+(.*)", text)
-                       if "[hang]" not in m and "64-bit" not in m and "body memory is not there" not in m))
+                       if "[hang]" not in m and CAMERA_COMPLAINT not in m and "64-bit" not in m and "body memory is not there" not in m))
     ok_plugins = off_plugins = 0
     try:
         with open(nvse, encoding="latin-1") as f:
@@ -374,6 +390,10 @@ def main():
         mo2_profile(a.mo2, profile_before)
     new_crashes = sorted(set(glob.glob(os.path.join(crash_dir, "*.log"))) - before)
     saves_note = ""
+    if not still_there:
+        for f, t in bumped:
+            if os.path.isfile(f):
+                os.utime(f, (t, t))
     if saves_copy and not still_there:
         saves_note = "; " + put_saves_back(saves, saves_copy, a.rung)
     print(f"{a.rung} in the simulator: {'UP' if up else 'GONE'}; VR system {backend} ({runtime}); body {body}; save loaded "
@@ -381,6 +401,7 @@ def main():
           f"world drawn {said(drawn, WORLD_DRAWN)}; world follows the head {said(follows, HEAD_CHANGED)}; "
           + (f"through the door {said(through, THROUGH_DOOR)}; walks outside {said(walked, WALKED)}; " if a.outside else "") +
           f"add-ons loaded {ok_plugins}, disabled {off_plugins}; new crash logs {len(new_crashes)}; hang warnings {hangs}; "
+          f"camera complaint {'YES' if CAMERA_COMPLAINT in text else 'no'}; "
           f"closed {'NO - THE GAME IS STILL RUNNING, close it by hand' if still_there else 'politely'}{saves_note}")
     for w in warns[:8]:
         print("    mod log:", w)
@@ -390,6 +411,7 @@ def main():
     m = re.search(r"log\(s\) kept in (.+?); Windows errors", kept)
     if m and os.path.isdir(m.group(1)):
         for name, im in (("eye head straight.jpg", still_a), (f"eye head turned {HEAD_YAW_DEG}.jpg", still_b),
+                         ("eye pause panel.jpg", still_pause),
                          ("eye outside.jpg", still_out), ("eye outside after walking.jpg", still_walk)):
             if im is not None:
                 im.thumbnail((640, 640))

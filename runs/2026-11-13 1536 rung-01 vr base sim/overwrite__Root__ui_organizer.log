@@ -1,0 +1,89 @@
+UI Organizer v2.30
+Runtime version = 040020D0
+NVSE version = 06040070
+
+--------------------------------
+*** Checking supported files ***
+--------------------------------
+
+[ ] DarNified UI
+[ ] Vanilla UI Plus (VUI+)
+[ ] One HUD (oHUD)
+
+>>>>> Processing file 'supported.txt'
+	> Checking 'advreconhud.xml'
+		! File not found > Skipping.
+	> Checking 'arwen\fatigue_hud.xml'
+		! File not found > Skipping.
+	> Checking 'arwen\strain_hud.xml'
+		! File not found > Skipping.
+	> Checking 'cyberiandawn\cyberiandawnhud.xml'
+		! File not found > Skipping.
+	> Checking 'directorschair\directorschair.xml'
+		! File not found > Skipping.
+	> Checking 'fairypack\fairypack_hud.xml'
+		! File not found > Skipping.
+	> Checking 'filmgraineffect.xml'
+		! File not found > Skipping.
+	> Checking 'flashlight_battery.xml'
+		! File not found > Skipping.
+	> Checking 'fww\weaponwheel.xml'
+		! File not found > Skipping.
+	> Checking 'grenadehotkeyhud.xml'
+		! File not found > Skipping.
+	> Checking 'hude\hud_e.xml'
+		! File not found > Skipping.
+	> Checking 'imcnnv\imp.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\ccchud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\firingmodehud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\ftahud.xml'
+		! File not found > Skipping.
+	> Checking 'jazzisparis\heatmeterhud.xml'
+		! File not found > Skipping.
+	> Checking 'jetpack\b3jetpack_hud.xml'
+		! File not found > Skipping.
+	> Checking 'jetpack\b3jetpack_hud(darn).xml'
+		! File not found > Skipping.
+	> Checking 'meleehotkey\meleehotkey.xml'
+		! File not found > Skipping.
+	> Checking 'neotropic\neotropic_hud.xml'
+		! File not found > Skipping.
+	> Checking 'neotropic\neotropicweapondisplay_hud.xml'
+		! File not found > Skipping.
+	> Checking 'pelinor\quicktrade.xml'
+		! File not found > Skipping.
+	> Checking 'pelinor\selectivefire.xml'
+		! File not found > Skipping.
+	> Checking 'pnx\pnxeohud.xml'
+		! File not found > Skipping.
+	> Checking 'pnx\pnxhud.xml'
+		! File not found > Skipping.
+	> Checking 'ppa\ppa_hud.xml'
+		! File not found > Skipping.
+	> Checking 'primaryneedshud.xml'
+		! File not found > Skipping.
+	> Checking 'radar\radarhud.xml'
+		! File not found > Skipping.
+	> Checking 'rangefinder.xml'
+		! File not found > Skipping.
+	> Checking 'sc\sc_hud.xml'
+		! File not found > Skipping.
+	> Checking 'vera\vera.xml'
+		! File not found > Skipping.
+	> Checking 'wmm\wmmtrigger.xml'
+		! File not found > Skipping.
+	> Checking 'wmm\wmm.xml'
+		! File not found > Skipping.
+	> Checking 'mcm\mcm.xml'
+		! File not found > Skipping.
+	> Checking 'pnx\pnximplants.xml'
+		! File not found > Skipping.
+
+---------------------------
+*** Patching menu files ***
+---------------------------
+
+No files requiring patching > Aborting.
