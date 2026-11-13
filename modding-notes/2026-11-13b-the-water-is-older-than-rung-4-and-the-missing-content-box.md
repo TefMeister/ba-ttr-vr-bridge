@@ -72,3 +72,28 @@ What TTWVR 1.0.0 has, read from its plugin and Kupo's control text `[inferred-st
   `[hypothesis]`: the far (LOD) water is drawn in a pass whose depth does not hold the near terrain. Next: `MODEL: FABLE`.
 - `console_type.py` now types ":" and "_" (it had no key for them). `rung_flatcheck.py --save` now puts MO2's profile
   back (it had left MO2 on the "desk" copy; put back to `rung-04 gameplay` by hand this time).
+
+## 6. Rungs 5-8c on the desk, and rung 5 worn (late evening)
+
+- Desk `[verified-live 2026-11-13 20:3x-20:5x, simulator, n=1 each]`: rungs 5, 6, 7, 8a, 8b (and 8c earlier) all start, load Save 4
+  in 26-32 s, draw the world, follow the head, open the pause panel, no crash log; 8a / 8b / 8c carry the camera complaint.
+  Rung 5's FIRST start failed again (gone before any add-on loaded, no crash log); the retry passed. Second time today.
+- `save_needs.py`: all seven of Tefa's saves open clean on rung 5, incl. Save 2 "Vault 101 Entrance".
+- **Rung 5 worn by Tefa 21:19-21:26** (started from Begin Again's main menu, fine) `[reported]`:
+  1. **The far view swims**: "the far view buildings and stuff on the horizon moves when i move left and right or move my
+     head, like a fuzzy hologram the faster i move ... the skyline beyond a certain distance just shifts around while the
+     world in front stays put". **Measured** in clip `...212415-0.mp4` (seconds 5-7, 123 frames, phase correlation of two
+     bands): the skyline band slides 2-6 px per frame in runs, back and forth with the head sway, while the middle-distance
+     band in the same frames moves 0 `[measured, n=1 clip]`. The far (LOD) world is drawn with a view that does not match
+     the near one.
+  2. Things still blink in and out.
+  3. **Water very green at some angles**: Tefa's screenshots, one puddle: seen from one side olive and see-through (the bed,
+     the tyre, the stones visible), from a steeper / other angle a flat opaque bright green; one picture has both, a hard
+     diagonal change. `[hypothesis]`: at glancing angles the water shader shows its reflection, and with TTWVR's preset the
+     reflections are off, so it falls back to a flat colour. Test: water reflections on (console or our own preset patch).
+  4. **Hands stuck above the head, buttons worked**: MY fault, not the mod's. `rung_simcheck.py` switched VR Bench on for
+     FalloutNV.exe and left it on (its docstring said "vrbench.py stop after the last rung"; I never ran it). The layer log
+     shows it active for Tefa's start at 21:19:02 with the pretend hands. Switched off 21:3x; `rung_simcheck.py` now switches
+     it off itself at the end of every run (unless `--stay`). FAULTS row FIXED.
+- **One root likely behind 1, the far water drawn over the near land (§5) and perhaps the blinking** `[hypothesis]`: TTWVR's
+  handling of the game's far (LOD) pass in stereo (its own depth switches and its second-eye replay). `MODEL: FABLE`.

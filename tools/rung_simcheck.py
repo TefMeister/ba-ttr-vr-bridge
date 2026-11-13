@@ -31,7 +31,7 @@ with it in place the Streamer may stay up. Without it: quit the Streamer first.
 It says: started or not, the VR system the mod chose, save loaded or not, pause panel shows or not, world drawn or
 not, world follows the head or not, add-ons loaded / disabled, new crash logs, hang warnings. The rung's own profile
 is never touched, and MO2 is left on the profile it was on.
-Before it: `vrbench.py start <FalloutNV.exe>`; after the last rung: `vrbench.py stop`.
+It switches VR Bench on for FalloutNV.exe itself and off again at the end (2026-11-13), unless --stay.
 """
 import argparse
 import ctypes
@@ -256,7 +256,9 @@ def main():
                  "on a desk run. Quit the Virtual Desktop Streamer, then start this again.")
     # 2026-11-12: the pretend hands must be on for FalloutNV.exe, or the pause press and the walk outside silently do
     # nothing (five runs said "pause panel shows NO" on rungs that answer, after another session switched VR Bench off).
-    # Switched on here every time; it stays on (the docstring's `vrbench.py stop` after the last rung still applies).
+    # Switched on here every time and OFF AGAIN when this run ends (2026-11-13: it was left on after the evening's desk
+    # runs and Tefa's next headset run of rung 5 had the pretend hands parked in the air: "my hands were stuck above my
+    # head, buttons still worked but the motion control part didn't"). --stay leaves it on for the session that looks.
     vb = subprocess.run([sys.executable, os.path.join(a.vrbench, "vrbench.py"), "start", os.path.join(a.game, "FalloutNV.exe")],
                         capture_output=True, text=True)
     if vb.returncode != 0:
@@ -464,5 +466,18 @@ def main():
     return 0 if up and loaded_save and not new_crashes and (drawn or 0) > WORLD_DRAWN else 1
 
 
+def vrbench_off():
+    """the pretend hands off again (the whole layer out of the OpenXR list), so a person's next start has real hands"""
+    if "--stay" in sys.argv or "--vrbench" not in sys.argv:
+        return
+    vb_dir = sys.argv[sys.argv.index("--vrbench") + 1]
+    r = subprocess.run([sys.executable, os.path.join(vb_dir, "vrbench.py"), "stop"], capture_output=True, text=True)
+    print("VR Bench: " + ("switched off again" if r.returncode == 0 else "COULD NOT be switched off: " + (r.stdout + r.stderr).strip()), flush=True)
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        rc = main()
+    finally:
+        vrbench_off()
+    sys.exit(rc)
