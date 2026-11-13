@@ -9,7 +9,7 @@ and keep the run's logs with collect_run.py.
 It says: up or gone, how many xNVSE plugins loaded / were disabled, whether a new crash log appeared. It does not
 press anything: what the menu looks like (TTW's own warning boxes) is for the picture.
 """
-import argparse
+import shutil, argparse
 import ctypes
 import datetime as dt
 import glob
@@ -123,17 +123,58 @@ def grab(hwnd, out):
         return False
 
 
+DESK_FLAT_MOD = "Bridge desk test - continue on start (flat)"   # the INI is kept in the repo: desk-flat-mod/
+
+
+def make_desk_profile(mo2, rung):
+    """'<rung> desk': the flat profile with our flat desk mod on top (loads the newest save at the start menu)."""
+    src, dst = os.path.join(mo2, "profiles", rung), os.path.join(mo2, "profiles", rung + " desk")
+    if not os.path.isdir(src):
+        sys.exit(f"no such profile: {rung}")
+    if not os.path.isdir(os.path.join(mo2, "mods", DESK_FLAT_MOD)):
+        sys.exit(f"the mod '{DESK_FLAT_MOD}' is not in the list's mods folder (its INI: desk-flat-mod/ in the repo)")
+    shutil.rmtree(dst, ignore_errors=True)
+    shutil.copytree(src, dst)
+    p = os.path.join(dst, "modlist.txt")
+    lines = open(p, encoding="utf-8").read().splitlines()
+    lines.insert(1, "+" + DESK_FLAT_MOD)
+    with open(p, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    return rung + " desk"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--mo2", required=True); ap.add_argument("--game", required=True); ap.add_argument("--rung", required=True)
     ap.add_argument("--wait", type=float, default=80.0); ap.add_argument("--shot", default=None)
+    ap.add_argument("--save", default=None, help="2026-11-13: load the save whose name contains this (through the flat desk mod "
+                    "'Bridge desk test - continue on start (flat)', in a '<rung> desk' copy of the profile), answer the "
+                    "'content no longer present' box, wait for the load and take the picture IN PLAY; the saves are put back after")
     a = ap.parse_args()
     if running("FalloutNV.exe") or running("ModOrganizer.exe"):
         sys.exit("the game or Mod Organizer is already running: close it first")
     since = dt.datetime.now()
     crash_dir = os.path.join(a.mo2, "overwrite", "Root", "Crash Logs")
     before = set(glob.glob(os.path.join(crash_dir, "*.log")))
-    subprocess.Popen([os.path.join(a.mo2, "ModOrganizer.exe"), "-p", a.rung, "moshortcut://:Begin Again"], cwd=a.mo2)
+    profile = a.rung
+    saves = saves_copy = bumped = None
+    box_expected = False
+    if a.save:
+        import rung_simcheck as R, save_needs
+        saves = os.path.join(os.path.expanduser("~"), "Documents", "My Games", "FalloutNV", "Saves")
+        saves_copy = os.path.join(__import__("tempfile").mkdtemp(prefix="rung_flatcheck_saves_"), "Saves")
+        shutil.copytree(saves, saves_copy)
+        picked = sorted((f for f in glob.glob(os.path.join(saves, "*.fos")) if a.save.lower() in os.path.basename(f).lower()), key=os.path.getmtime)
+        if not picked:
+            sys.exit(f"no save whose name contains '{a.save}'")
+        need = save_needs.missing(save_needs.save_plugins(picked[-1]), save_needs.profile_on(a.mo2, a.rung))
+        box_expected = bool(need)
+        print(f"save {os.path.basename(picked[-1])} on {a.rung}: " + (f"the box WILL come ({len(need)} mod(s) off); Yes is pressed" if need else "opens clean"), flush=True)
+        bumped = [(f, os.path.getmtime(f)) for f in (picked[-1], picked[-1][:-4] + ".nvse") if os.path.isfile(f)]
+        for f, _ in bumped:
+            os.utime(f, None)
+        profile = make_desk_profile(a.mo2, a.rung)
+    subprocess.Popen([os.path.join(a.mo2, "ModOrganizer.exe"), "-p", profile, "moshortcut://:Begin Again"], cwd=a.mo2)
     t0 = time.time()
     while time.time() - t0 < 150 and not running("FalloutNV.exe"):
         time.sleep(2)
@@ -141,8 +182,29 @@ def main():
         print(f"{a.rung}: THE GAME NEVER STARTED (150 s)")
         return 2
     started = time.time()
-    while time.time() - started < a.wait and running("FalloutNV.exe"):
-        time.sleep(3)
+    loaded_save = False
+    if a.save:
+        nvse_g = os.path.join(a.game, "nvse.log")
+        box_presses, box_next = 0, time.time() + 35
+        while time.time() - started < max(a.wait, 240) and running("FalloutNV.exe"):
+            try:
+                if os.path.getmtime(nvse_g) > since.timestamp():
+                    loaded_save = "DoLoadGameHook" in open(nvse_g, encoding="latin-1").read()
+            except OSError:
+                pass
+            if loaded_save:
+                break
+            if box_expected and box_presses < 4 and time.time() >= box_next:
+                if R.press_enter_in_game():
+                    box_presses += 1; print(f"  the box: Enter (Yes) pressed ({box_presses})", flush=True)
+                box_next = time.time() + 12
+            time.sleep(3)
+        print(f"  save loaded: {'yes after %d s' % round(time.time() - started) if loaded_save else 'NO'}", flush=True)
+        if loaded_save:
+            time.sleep(20)   # settle, as the simulator check
+    else:
+        while time.time() - started < a.wait and running("FalloutNV.exe"):
+            time.sleep(3)
     # boxes on the way (an add-on's complaint, TTW's missing-plugin question): read, noted, answered OK / Yes by
     # message so the start goes on, up to 6 of them
     seen_boxes = []
@@ -198,11 +260,16 @@ def main():
     t2 = time.time()
     while time.time() - t2 < 30 and running("ModOrganizer.exe"):
         time.sleep(2)
+    saves_said = ""
+    if a.save:
+        for f, t in bumped:
+            if os.path.isfile(f): os.utime(f, (t, t))
+        saves_said = "; " + R.put_saves_back(saves, saves_copy, a.rung + " flat desk")
     subprocess.run([sys.executable, os.path.join(HERE, "collect_run.py"), "--mo2", a.mo2, "--game", a.game, "--rung", a.rung,
                     "--since", since.strftime("%Y-%m-%d %H:%M:%S")], capture_output=True)
     verdict = "UP after %d s" % a.wait if up else "GONE before %d s (crashed or quit)" % a.wait
     print(f"{a.rung}: {verdict}; xNVSE plugins loaded {loaded}, disabled {disabled}; new crash logs {len(new_crashes)}; "
-          f"{('ended by the system (it ignored its window close)' if forced else 'closed by its window') if closed else 'DID NOT CLOSE'}" + (f"; picture {shot}" if shot else ""))
+          f"{('ended by the system (it ignored its window close)' if forced else 'closed by its window') if closed else 'DID NOT CLOSE'}" + (f"; picture {shot}" if shot else "") + saves_said)
     for b in seen_boxes:
         print("    BOX: " + b)
     return 0 if (up and not new_crashes and disabled == 0 and not seen_boxes) else 1
