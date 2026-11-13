@@ -56,3 +56,19 @@ What TTWVR 1.0.0 has, read from its plugin and Kupo's control text `[inferred-st
   **Likely the cause of Tefa's "the ammo holster spot moved to my right" on rung 4** `[hypothesis]`: a grip held 3 s
   near the pouch drags it.
 - An outside command file `NVVR-cmd.txt` is read by the plugin (its use not worked out).
+
+## 5. Rung 8c at the same spot, and the water pinned down (Tefa: "carry on with opus ... see the wasteland in all it's glory")
+
+- Rung 8c `[verified-live 2026-11-13, simulator + flat, n=1 each]` (`runs/2026-11-13 1945 rung-08c optional mods sim/`,
+  `... flat desk/`): Tefa's save opens clean (32 s VR, 16 s flat); the city skyline and the far buildings are there in VR as
+  in the flat picture (at the stills' resolution). The water is the same green sheet in VR.
+- TTWVR's forced preset, read from its plugin `[inferred-static]`: `bUseWaterReflections` off, `iWaterReflectWidth/Height`
+  low, `bUseWaterDisplacements` off, `bUseWaterDepth` off ("Depth Fog: off - fps144 T2"), `bUseWaterRefractions` on.
+  `SetNumericINISetting "bUseWaterDepth:Water" 1` typed live changed nothing visible (`[measured]`, n=1; may need a load).
+- **The sheet IS water and it is drawn over the land in front of it** `[verified-live, simulator, n=1]`: console `tws`
+  (water off) made it vanish, and under it lies the real lake bed, lower down, where the flat picture has the lake. So in
+  VR the (far) water is not hidden by the nearer ground: a depth / draw-order matter in TTWVR's drawing (it has its own
+  depth switches `bSolidDepth`, `iSolidDepthAt`, `bFirstPersonOwnDepth` in the built-in table, not reachable from the INI).
+  `[hypothesis]`: the far (LOD) water is drawn in a pass whose depth does not hold the near terrain. Next: `MODEL: FABLE`.
+- `console_type.py` now types ":" and "_" (it had no key for them). `rung_flatcheck.py --save` now puts MO2's profile
+  back (it had left MO2 on the "desk" copy; put back to `rung-04 gameplay` by hand this time).

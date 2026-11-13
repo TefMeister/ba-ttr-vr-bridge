@@ -173,6 +173,7 @@ def main():
         bumped = [(f, os.path.getmtime(f)) for f in (picked[-1], picked[-1][:-4] + ".nvse") if os.path.isfile(f)]
         for f, _ in bumped:
             os.utime(f, None)
+        profile_before = R.mo2_profile(a.mo2)   # 2026-11-13: MO2 keeps the last profile started; put back after
         profile = make_desk_profile(a.mo2, a.rung)
     subprocess.Popen([os.path.join(a.mo2, "ModOrganizer.exe"), "-p", profile, "moshortcut://:Begin Again"], cwd=a.mo2)
     t0 = time.time()
@@ -265,6 +266,9 @@ def main():
         for f, t in bumped:
             if os.path.isfile(f): os.utime(f, (t, t))
         saves_said = "; " + R.put_saves_back(saves, saves_copy, a.rung + " flat desk")
+        if not running("ModOrganizer.exe") and profile_before:
+            R.mo2_profile(a.mo2, profile_before)
+            saves_said += f"; MO2 back on '{profile_before}'"
     subprocess.run([sys.executable, os.path.join(HERE, "collect_run.py"), "--mo2", a.mo2, "--game", a.game, "--rung", a.rung,
                     "--since", since.strftime("%Y-%m-%d %H:%M:%S")], capture_output=True)
     verdict = "UP after %d s" % a.wait if up else "GONE before %d s (crashed or quit)" % a.wait

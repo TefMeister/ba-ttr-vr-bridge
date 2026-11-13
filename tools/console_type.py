@@ -43,6 +43,8 @@ def typ(s):
     for ch in s:
         if ch.isupper(): tap(SC[ch.lower()], True)
         elif ch == '"': tap(0x28, True)
+        elif ch == ':': tap(0x27, True)   # 2026-11-13: shift + ; (SetNumericINISetting "bUseWaterDepth:Water" 1)
+        elif ch == '_': tap(0x0C, True)   # shift + -
         else: tap(SC[ch])
 for _ in range(3):
     u.keybd_event(0x12, 0, 0, 0); u.keybd_event(0x12, 0, 2, 0)
