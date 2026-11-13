@@ -78,3 +78,27 @@ or 8c after the box is dealt with; dismiss any box with A first.
 - TTWVR's command file and `[Debug] sDebugLoadSave` (loads a named save) `[inferred-static]`.
 - The DXVK log: written only on errors, beside `TTWVR.log`; `collect_run.py` already keeps it when it appears (no code
   needed).
+
+## 6. Rung 4 worn (Tefa, Quest 3 through Virtual Desktop, 16:35-16:45)
+
+360 Movement was switched off in all 14 VR rung-8 profiles first (Tefa: option a; flat twins keep it; `ladder_groups.py`
+keeps it off on a rebuild; `ladder.py check` clean on 8a / 8b / 8c). Rung 4 started through Virtual Desktop's OpenXR
+runtime at 72 Hz, the VR Bench hands switched off before. Logs kept: `runs/2026-11-13 1652 rung-04 gameplay headset/`.
+
+Tefa `[reported]`:
+1. **The ammo holster spot moved to the right** of Tefa.
+2. **Water is cut in two, two colours:** brown-olive near, dark green farther out, with a hard edge (screenshot).
+3. **The waterline seems to start at the rock Tefa stands on**, while the water is really far lower (seen in the
+   distance): the water surface looks drawn over the ground in front of it.
+4. **Smearing, a bit worse with both eyes open; things blink in and out of existence even standing still** (three
+   Quest clips, `D:\Claude videos to edit\Quest videos\VirtualDesktop.Android-20261113-16{3634,4141,4405}-0.mp4`).
+
+Read from the clips `[measured]`: no repeated frames and no every-other-frame sharp/soft see-saw (1.4-3.4 %), so not
+Virtual Desktop filling in frames; a once-every-5-frames bigger step in the moving clip is the 60 fps recording of a
+72 Hz display, not the game. One-frame shimmer sits at fixed places on thin grass, shrubs and wreck edges, also with
+the head still. The clips are one eye, so "worse with both eyes" (a difference between the eyes) cannot be seen in
+them. `[hypothesis]`: the shimmer is the upscaler (Tefa's VR menu: DLSS Performance at 165 %) on thin foliage; the
+two-eye smear is something different between the eyes.
+
+Not established: whether the water and the holster are rung 4's or were there from rung 1 (rung 4 adds gameplay mods
+only, none touching water or rendering `[inferred-static, reader]`).

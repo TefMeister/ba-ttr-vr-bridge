@@ -1,0 +1,28 @@
+[16:34:55.854] INFO  TTWVR 1.0.0 loading (xNVSE 06040070), build 6AF014A8
+[16:34:55.856] INFO  Settings: built in + the VR menu's choices in C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\TTWVR\TTWVR.ini
+[16:35:02.923] INFO  [input] the game's control read hooked: keys count with the pad connected
+[16:35:03.897] WARN  OpenXR: 32-bit layer 'XR_APILAYER_NOVENDOR_OBSMirror' (~\AppData\Local\OpenXR-OBSMirror\.\XR_APILAYER_NOVENDOR_OBSMirror.292629488385.dll): its library is 64-bit - switched off for this game
+[16:35:03.897] WARN  OpenXR: 32-bit layer 'XR_APILAYER_ELLIOTTTATE_xrfps' (~\AppData\Local\xrFPS\.\XrApiLayer_xrfps.7070ca21200.dll): its library is 64-bit - switched off for this game
+[16:35:03.897] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_hand_freeze' (~\AppData\Local\Programs\HandFreeze\hand_freeze_layer.dll): its library is 64-bit - switched off for this game
+[16:35:03.897] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_window_view' (~\AppData\Local\Programs\WindowView\window_view_layer.dll): its library is 64-bit - switched off for this game
+[16:35:03.998] INFO  OpenXR: runtime 'VirtualDesktopXR' 1.1.0
+[16:35:04.051] INFO  OpenXR: system 'Meta Quest 3' (swapchains up to 16384x16384)
+[16:35:04.053] INFO  OpenXR: DXGI adapter 0: NVIDIA GeForce <pc> 5080 (3072 MB VRAM) = THE HEADSET RUNTIME'S
+[16:35:04.314] INFO  VR backend: OpenXR
+[16:35:10.436] INFO  OpenXR: the runtime displays a frame every 13.89 ms (72 Hz)
+[16:35:10.436] INFO  [camtrack] no body tracking and no Virtual Desktop body: the body is solved from the headset and the controllers (floor from the play space); body follow radius 0.050 m, pouch accept 0.150 m
+[16:35:10.436] INFO  Head tracking active (OpenXR)
+[16:36:03.514] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[16:39:43.254] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[16:39:45.046] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[16:39:45.741] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[16:39:45.908] WARN  [activate] the left hand's press: the game's pick did not follow the hand in 0.25 s, Activate goes on what it has
+[16:39:45.921] WARN  [activate] the left hand's press: the game's pick did not follow the hand in 0.25 s, Activate goes on what it has
+[16:39:45.935] WARN  [activate] the left hand's press: the game's pick did not follow the hand in 0.25 s, Activate goes on what it has
+[16:39:45.949] WARN  [activate] the left hand's press: the game's pick did not follow the hand in 0.25 s, Activate goes on what it has
+[16:39:45.964] WARN  [activate] the left hand's press: the game's pick did not follow the hand in 0.25 s, Activate goes on what it has
+[16:39:45.977] WARN  [activate] the left hand's press: the game's pick did not follow the hand in 0.25 s, Activate goes on what it has
+[16:39:45.991] WARN  [activate] the left hand's press: the game's pick did not follow the hand in 0.25 s, Activate goes on what it has
+[16:39:46.005] WARN  [activate] the left hand's press: the game's pick did not follow the hand in 0.25 s, Activate goes on what it has
+[16:40:30.825] INFO  [activate] a press: key 18: held 1, inserted 1, given to the game 1, real key 0, off by the user 0, off by a script 0
+[16:44:14.993] INFO  The game is exiting: asked to by the player (a log that ends here is no crash)
