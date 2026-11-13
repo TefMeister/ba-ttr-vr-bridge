@@ -102,3 +102,7 @@ two-eye smear is something different between the eyes.
 
 Not established: whether the water and the holster are rung 4's or were there from rung 1 (rung 4 adds gameplay mods
 only, none touching water or rendering `[inferred-static, reader]`).
+
+Afterwards (Tefa): the holster "i think it moved. not sure". On Tefa's ask, the VR menu's upscaler level set from
+Performance to **Quality** in `TTWVR 1.0.0/NVSE/Plugins/TTWVR/TTWVR.ini` (game closed; backup
+`TTWVR.ini.bak-2026-11-13-before-dlss-quality`); the next launch shows whether the shimmer and the smear go down.
