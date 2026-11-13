@@ -172,6 +172,34 @@ def make_profile(mo2, rung):
     return rung + " sim"
 
 
+def press_enter_in_game():
+    """2026-11-13: Enter to the game's window (the 'content no longer present' box has Yes lit). Keyboard, the game's own
+    window only; nothing else is touched."""
+    import ctypes, ctypes.wintypes as w
+    u = ctypes.windll.user32
+    pids = [int(l.split()[1]) for l in subprocess.run(["tasklist"], capture_output=True, text=True).stdout.splitlines()
+            if l.lower().startswith("falloutnv.exe")]
+    found = []
+    @ctypes.WINFUNCTYPE(w.BOOL, w.HWND, w.LPARAM)
+    def cb(h, _):
+        pid = w.DWORD(); u.GetWindowThreadProcessId(h, ctypes.byref(pid))
+        if pid.value in pids and u.IsWindowVisible(h): found.append(h)
+        return True
+    u.EnumWindows(cb, 0)
+    if not found:
+        return False
+    u.keybd_event(0x12, 0, 0, 0); u.SetForegroundWindow(found[0]); u.keybd_event(0x12, 0, 2, 0); time.sleep(0.4)
+    # a scancode key through SendInput: the game reads the keyboard through DirectInput, which a plain virtual-key
+    # event did not reach (2026-11-13: the box stayed)
+    class KI(ctypes.Structure): _fields_ = [("wVk", w.WORD), ("wScan", w.WORD), ("dwFlags", w.DWORD), ("time", w.DWORD), ("dwExtraInfo", ctypes.c_size_t)]
+    class MI(ctypes.Structure): _fields_ = [("dx", w.LONG), ("dy", w.LONG), ("mouseData", w.DWORD), ("dwFlags", w.DWORD), ("time", w.DWORD), ("dwExtraInfo", ctypes.c_size_t)]
+    class U(ctypes.Union): _fields_ = [("ki", KI), ("mi", MI)]
+    class INP(ctypes.Structure): _fields_ = [("type", w.DWORD), ("u", U)]
+    for flags in (0x0008, 0x0008 | 0x0002):     # SCANCODE down, then up
+        i = INP(1, U(ki=KI(0, 0x1C, flags, 0, 0))); u.SendInput(1, ctypes.byref(i), ctypes.sizeof(INP)); time.sleep(0.15)
+    return True
+
+
 def close_game():
     """A polite close, up to three times. Never by force. True when the game is still there afterwards."""
     for _ in range(3):
@@ -291,6 +319,17 @@ def main():
                     key=os.path.getmtime)
     if not picked:
         sys.exit(f"no save whose name contains '{a.save}'")
+    # 2026-11-13 (Tefa, a picture of the box: "is there a way you can check for those"): known before the start
+    box_expected = False
+    try:
+        import save_needs
+        need = save_needs.missing(save_needs.save_plugins(picked[-1]), save_needs.profile_on(a.mo2, a.rung))
+        box_expected = bool(need)
+        print(f"save {os.path.basename(picked[-1])} on {a.rung}: " + (f"the 'content no longer present' box WILL come "
+              f"({len(need)} mod(s) off here: {', '.join(need[:3])}{', ...' if len(need) > 3 else ''}); Yes is pressed for it"
+              if need else "opens clean"), flush=True)
+    except Exception as e:
+        print(f"save check: could not tell ({e})", flush=True)
     bumped = [(f, os.path.getmtime(f)) for f in (picked[-1], picked[-1][:-4] + ".nvse") if os.path.isfile(f)]
     for f, _ in bumped:
         os.utime(f, None)                               # newest for the auto-load; the old date goes back after
@@ -315,7 +354,13 @@ def main():
         mo2_profile(a.mo2, profile_before)
         return 2
     loaded_save = False
+    box_presses, box_next = 0, time.time() + 35   # the box: Yes after the start menu's auto-load has had time
     while time.time() - t0 < a.wait and running("FalloutNV.exe"):
+        if box_expected and box_presses < 4 and time.time() >= box_next:
+            if press_enter_in_game():
+                box_presses += 1
+                print(f"  the box: Enter (Yes) pressed ({box_presses})", flush=True)
+            box_next = time.time() + 12
         try:
             if os.path.getmtime(nvse) > since.timestamp():
                 with open(nvse, encoding="latin-1") as f:
