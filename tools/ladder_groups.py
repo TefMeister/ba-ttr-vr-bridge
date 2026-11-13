@@ -97,7 +97,16 @@ def resolve(mo2, want, base_lo):
         on = [m for m in on if m not in bad]
 
 
+# Off in every VR rung (Tefa 2026-11-13, option a): 360 Movement is a third-person movement mod; with TTWVR's own body
+# skeleton winning over NVCS's it cannot find its "360Corr0" node and puts up a box, many times, which smears the VR view.
+OFF_IN_VR_MODS = {"360 Movement", "3rd Person Animation Fixpack - 360 Movement patch"}
+OFF_IN_VR_PLUGINS = {"360movement.esp", "360movement - diagonal movement patch.esp"}
+
+
 def write_profile(mo2, name, on, lo, base_lines, with_vr, force):
+    if with_vr:
+        on = [m for m in on if m not in OFF_IN_VR_MODS]
+        lo = [x for x in lo if x.lower() not in OFF_IN_VR_PLUGINS]
     dst = L.profile_dir(mo2, name)
     src = L.profile_dir(mo2, FILES_FROM)
     if os.path.exists(dst):
