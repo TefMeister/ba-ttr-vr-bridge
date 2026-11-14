@@ -267,6 +267,10 @@ def main():
     a = ap.parse_args()
     if running("FalloutNV.exe") or running("ModOrganizer.exe"):
         sys.exit("the game or Mod Organizer is already running: close it first")
+    # 2026-11-14: one game at a time on this PC (the Lanes clash guard); given back in __main__ once the game is closed
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import bridge_clash
+    bridge_clash.take_or_exit()
     shim = os.path.join(a.mo2, "mods", DESK_MOD, "NVSE", "Plugins", DESK_SHIM)
     if body_memory_there() and not os.path.isfile(shim):
         sys.exit("Virtual Desktop's body memory is there (its Streamer is running): with it the VR mod has no body "
@@ -492,8 +496,12 @@ def vrbench_off():
 
 
 if __name__ == "__main__":
+    rc = 1
     try:
         rc = main()
     finally:
         vrbench_off()
+        if "--stay" not in sys.argv and not running("FalloutNV.exe"):
+            import bridge_clash
+            bridge_clash.release()
     sys.exit(rc)

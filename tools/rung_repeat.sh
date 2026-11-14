@@ -3,6 +3,10 @@
 # already gone then), so one crash cannot block the next start. Used 2026-11-14 to prove the Stewie fix (18 of 18 up).
 cd ~/github-backups/ba-ttr-vr-bridge
 OUT="${OUT:-$(mktemp -d)}"; echo "results in $OUT"
+# 2026-11-14: hold the one-game lock for the whole series (each start is told so), give it back at the end
+python tools/bridge_clash.py take || exit 1
+export BRIDGE_CLASH_TAKEN=1
+trap 'BRIDGE_CLASH_TAKEN= python tools/bridge_clash.py release' EXIT
 VB="$HOME/github-backups/_lanes-next-wt/plugins/lanes/tools/vrbench"
 for round in 1 2 3; do
   for r in "rung-05 interface" "rung-06 armor and people" "rung-07 weapons" "rung-08a skeleton and animation" "rung-08b late loaders" "rung-08c optional mods"; do
