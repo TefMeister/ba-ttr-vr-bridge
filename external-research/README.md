@@ -1,5 +1,9 @@
 # Where the outside facts come from
 
+This folder is the project's public research, curated only by the `/gr` research session; everyone else reads it
+and hands verdicts or leads over as new files in [`inbox/`](inbox/). The front door is [INDEX.md](INDEX.md), every
+source is in [CREDITS.md](CREDITS.md), write-ups live in [`topics/`](topics/).
+
 We only link to these; the words belong to their authors.
 
 | What | Who | Where |
