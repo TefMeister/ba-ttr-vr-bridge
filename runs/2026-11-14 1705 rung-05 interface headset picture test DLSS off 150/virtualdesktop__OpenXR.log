@@ -1,0 +1,19 @@
+2026-11-14 17:05:19 +0200: VirtualDesktopOpenXR - v1.1.0 (6da20fe478e331c05672243fd82a9a1500cd39f5) (C:\Program Files\Virtual Desktop Streamer\OpenXR)
+2026-11-14 17:05:19 +0200: Application: NVVR (FalloutNV.exe); Engine: Gamebryo
+2026-11-14 17:05:19 +0200: Application requests API version 1.0.49
+2026-11-14 17:05:19 +0200: Requested extension: XR_KHR_D3D11_enable
+2026-11-14 17:05:19 +0200: Requested extension: XR_EXT_local_floor
+2026-11-14 17:05:19 +0200: Requested extension: XR_FB_body_tracking
+2026-11-14 17:05:19 +0200: Requested extension: XR_META_body_tracking_full_body
+2026-11-14 17:05:19 +0200: Requested extension: XR_META_body_tracking_fidelity
+2026-11-14 17:05:19 +0200: Using Virtual Desktop runtime
+2026-11-14 17:05:19 +0200: Streamer: 1.34.25
+2026-11-14 17:05:19 +0200: OVR: 1.64.0
+2026-11-14 17:05:19 +0200: Device is: Meta Quest 3 (23)
+2026-11-14 17:05:19 +0200: Using D3D11 on adapter: NVIDIA GeForce RTX 5080
+2026-11-14 17:05:19 +0200: Application uses stage space
+2026-11-14 17:05:20 +0200: Recommended resolution: 2688x2880 (1.000 supersampling, 1.000 upscaling)
+2026-11-14 17:05:22 +0200: Detected controller: touch_controller (Left)
+2026-11-14 17:05:22 +0200: Using interaction profile: /interaction_profiles/oculus/touch_controller (Left)
+2026-11-14 17:05:22 +0200: Detected controller: touch_controller (Right)
+2026-11-14 17:05:22 +0200: Using interaction profile: /interaction_profiles/oculus/touch_controller (Right)

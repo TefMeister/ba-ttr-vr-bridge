@@ -1,0 +1,2 @@
+[ CubemapRenderer::LoadShaders ] Shaders loaded successfully
+[ CubemapRenderer::RenderCubemap ] Creating world cubemap camera. View distance: 200000.000000
