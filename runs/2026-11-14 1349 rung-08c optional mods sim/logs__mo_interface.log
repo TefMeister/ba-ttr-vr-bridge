@@ -1,0 +1,22 @@
+[2026-11-14 11:48:15.952 D] command line: '"C:\Modlists\Begin Again\ModOrganizer.exe" -p "rung-08c optional mods sim" "moshortcut://:Begin Again"'
+[2026-11-14 11:48:15.953 I] starting Mod Organizer version 2.5.2-ML1.5 revision 9c130cbf in C:/Modlists/Begin Again, usvfs: 0.5.6.1
+[2026-11-14 11:48:15.953 I] data path: C:/Modlists/Begin Again
+[2026-11-14 11:48:15.953 I] working directory: C:/Modlists/Begin Again
+[2026-11-14 11:48:15.953 D] timing: MOApplication setup() 0 ms
+[2026-11-14 11:48:16.393 I] using game plugin 'TTW' ('TTW', variant Steam, steam id '22380') at C:/Steam/steamapps/common/Fallout New Vegas
+[2026-11-14 11:48:16.601 W] not saving lists during directory update
+[2026-11-14 11:48:17.336 I] [common_log.py:20] [RootBuilder] Generating root mod build data.
+[2026-11-14 11:48:17.405 I] [common_log.py:20] [RootBuilder] Updating cache.
+[2026-11-14 11:48:17.428 I] [common_log.py:20] [RootBuilder] Checking for updates to backup files.
+[2026-11-14 11:48:17.450 I] [common_log.py:20] [RootBuilder] Deploying files for Copy mode.
+[2026-11-14 11:48:17.471 I] [common_log.py:20] [RootBuilder] Deploying files for Link mode.
+[2026-11-14 11:48:17.471 I] [common_log.py:20] [RootBuilder] Saving build data.
+[2026-11-14 11:48:17.472 I] [common_log.py:20] [RootBuilder] Build complete!
+[2026-11-14 11:48:17.474 I] [common_log.py:20] [RootBuilder] Build exists, generating usvfs mappings.
+[2026-11-14 11:48:17.474 I] [common_log.py:20] [RootBuilder] Usvfs mappings generated!
+[2026-11-14 11:49:50.811 I] [common_log.py:20] [RootBuilder] Build exists, updating mod files.
+[2026-11-14 11:49:50.928 I] [common_log.py:20] [RootBuilder] Sync complete!
+[2026-11-14 11:49:50.928 I] [common_log.py:20] [RootBuilder] Clearing deployed files and links.
+[2026-11-14 11:49:50.943 I] [common_log.py:20] [RootBuilder] Restoring files from backup.
+[2026-11-14 11:49:50.978 I] [common_log.py:20] [RootBuilder] Cleaning up remaining files.
+[2026-11-14 11:49:50.978 I] [common_log.py:20] [RootBuilder] Clear complete!

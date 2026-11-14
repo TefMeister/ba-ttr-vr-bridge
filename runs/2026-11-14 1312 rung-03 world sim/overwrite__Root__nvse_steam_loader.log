@@ -1,0 +1,42 @@
+nvse loader 06040070 (steam) 01DD7428DB48B697
+GetSystemTimeAsFileTime IAT = 00FDF184
+original GetSystemTimeAsFileTime = 75124EF0
+patched GetSystemTimeAsFileTime = 5A8C2D80
+GetStartupInfoA IAT = 00FDF190
+original GetStartupInfoA = 75174E20
+patched GetStartupInfoA = 5A8C2DA0
+InstallHook: thread = 11528 retaddr = 00EDDBD7
+appPath = C:\Steam\steamapps\common\Fallout New Vegas\FalloutNV.exe
+dwSignature = FEEF04BD
+dwStrucVersion = 00010000
+dwFileVersionMS = 00010004
+dwFileVersionLS = 0000020D
+dwProductVersionMS = 00010004
+dwProductVersionLS = 0000020D
+dwFileFlagsMask = 00000017
+dwFileFlags = 00000000
+dwFileOS = 00000004
+dwFileType = 00000001
+dwFileSubtype = 00000000
+dwFileDateMS = 00000000
+dwFileDateLS = 00000000
+version = 000100040000020D
+steam exe
+dll = C:\Steam\steamapps\common\Fallout New Vegas\nvse_1_4.dll
+old winmain = 0086A850
+fallout root = C:\Steam\steamapps\common\Fallout New Vegas\
+config path = C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\nvse_config.ini
+Overriding Default heap size: 500MB
+Preloading plugins from C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins
+Loading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\CellOffsetGenerator.dll"
+Preloading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\CellOffsetGenerator.dll"
+Loading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\CrashLogger.dll"
+Preloading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\CrashLogger.dll"
+Loading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\mlf.dll"
+Preloading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\mlf.dll"
+Loading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\nvse_stewie_tweaks.dll"
+Preloading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\nvse_stewie_tweaks.dll"
+Loading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\NVTF.dll"
+Preloading "C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\NVTF.dll"
+OnHook: thread = 11528
+calling winmain

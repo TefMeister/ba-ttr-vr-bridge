@@ -1,0 +1,580 @@
+Mod Blamer version 5.17 at 2026-11-14 13:33:26
+If this file is empty, then your game didn't crash or something went so wrong even crash logger was useless! :snig:
+Topmost stack module is NOT ALWAYS the crash reason! Exercise caution when speculating!
+
+When asking for help, please send the whole log file!
+
+
+Exception: EXCEPTION_ACCESS_VIOLATION (C0000005)
+
+Thread: [FNV] Main
+
+Calltrace:
+     ebp    |                   Address                 |                 Function                 |  Source
+ 0x001AEF78 |           nvse_stewie_tweaks (0x1007361E) | IsOverencumberedAddGrabbedWeightHook+0xE | C:\Bethesda Modding\New Vegas\NV-Stewie-Tweaks\code\main.h:4356
+ 0x001AEF9C |                    FalloutNV (0x00954CFC) |                                          | 
+ 0x001AEFB8 |                    FalloutNV (0x008BA351) |                                          | 
+ 0x001AF054 |                    FalloutNV (0x004D0F2E) |                                          | 
+ 0x001AF070 |                    FalloutNV (0x0057728F) |                                          | 
+ 0x001AF084 |                    FalloutNV (0x008A0D0B) |                                          | 
+ 0x001AF09C |                    FalloutNV (0x0066ED9F) |                                          | 
+ 0x001AF0D4 |                    FalloutNV (0x00880534) |                                          | 
+ 0x001AF0E4 |                    FalloutNV (0x00880388) |                                          | 
+ 0x001AF0F8 |                    FalloutNV (0x0093AC4A) |                                          | 
+ 0x001AF114 |                        TTWVR (0x10121132) | NVSEPlugin_Load+0x108A19                 | 
+ 0x00000000 |                        TTWVR (0x10110242) | NVSEPlugin_Load+0xF7B29                  | 
+
+Registry:
+ REG |    Value   | DEREFERENCE INFO
+ ebp | 0x001AEF9C |
+ ebx | 0x188A3D10 | 0x0108AA3C => Class: PlayerCharacter
+					Full Name: None
+					FormID: 00000014 ("PlayerRef")
+					Flags: INITIALIZED | PERSISTENT | TARGETED
+					BaseForm: NPC
+					 Full Name: None
+					 FormID: 00000007 ("Player")
+					 Flags: MASTER | INITIALIZED | ON_LOCAL_MAP
+					 Plugin: "FalloutNV.esm"
+					 Last modified by: "TaleOfTwoWastelands.esm"
+					Model:
+					 Model Path: "Characters\_Male\Skeleton.NIF"
+					Process: High
+ eax | 0x00000000 |
+ edx | 0x0000002E |
+ ecx | 0x00000000 |
+ esi | 0x000000C8 |
+ eip | 0x0861361E |
+ esp | 0x001AEF7C |
+
+Stack:
+  # |    Value   | DEREFERENCE INFO
+ 00 | 0x00954CFC |
+ 01 | 0x009377B6 |
+ 03 | 0x18FC5BA8 |
+ 06 | 0x188A3D10 | 0x0108AA3C => Class: PlayerCharacter
+					Full Name: None
+					FormID: 00000014 ("PlayerRef")
+					Flags: INITIALIZED | PERSISTENT | TARGETED
+					BaseForm: NPC
+					 Full Name: None
+					 FormID: 00000007 ("Player")
+					 Flags: MASTER | INITIALIZED | ON_LOCAL_MAP
+					 Plugin: "FalloutNV.esm"
+					 Last modified by: "TaleOfTwoWastelands.esm"
+					Model:
+					 Model Path: "Characters\_Male\Skeleton.NIF"
+					Process: High
+ 07 | 0x009376F6 |
+ 08 | 0x001AEFB8 |
+ 09 | 0x008BA351 |
+ 0A | 0x51011964 | 0x0104A270 => RTTI: TESNPC
+ 0B | 0x0000002A |
+ 0D | 0x00880680 |
+ 11 | 0x188A3DB4 | 0x0108A974 => RTTI: PlayerCharacter
+ 1D | 0x51011A00 | 0x0104A160 => RTTI: TESNPC
+ 2A | 0x4D005190 | 0x0102A62C => Class: TESObjectARMO
+					Full Name: "Pip-Boy 3000"
+					FormID: 00015038 ("PipBoy")
+					Flags: MASTER | INITIALIZED | ON_LOCAL_MAP | SPECIFIC_TEXTURES
+					Plugin: "FalloutNV.esm"
+					Last modified by: "TaleOfTwoWastelands.esm"
+					Model:
+					 Model Path: "PipBoy3000\PipBoyArm.NIF"
+ 46 | 0x4800EC30 | 0x01067A2C => Class: ActorValueInfo
+
+--------------------------------------------------------------------------------
+
+Device:
+ OS:  "Windows 11 Enterprise - 26200 (25H2)"
+ CPU: "Intel(R) Core(TM) i5-14600K"
+ GPU: "NVIDIA GeForce <pc> 5080"
+ RAM: "32.00 GB"
+
+--------------------------------------------------------------------------------
+
+Process' Memory:
+ Physical Usage: 698.98 MiB /  31.78 GiB (2.15%)
+ Virtual  Usage:   2.07 GiB /   4.00 GiB (51.87%)
+
+Graphics Memory:
+ GPU 0 - NVIDIA GeForce <pc> 5080
+  Local Memory:       1.80 GiB /  14.85 GiB (12.11%)
+  Non-Local Memory:  90.18 MiB /  15.14 GiB (0.58%) 
+ GPU 1 - Intel(R) UHD Graphics 770
+  Local Memory:          0 B /  15.14 GiB (0.00%)   
+ GPU 2 - NVIDIA GeForce <pc> 5080
+  Local Memory:       1.80 GiB /  14.85 GiB (12.11%)
+  Non-Local Memory:  90.18 MiB /  15.14 GiB (0.58%) 
+
+--------------------------------------------------------------------------------
+
+Game's Heaps:
+ Default Heap      90.52 MiB / 500.00 MiB (18.10%)  (18070000 - 37470000)
+ Static Heap      638.88 KiB /   1.51 MiB (41.22%)  (0873D020 - 088C0820)
+ File Heap          7.06 MiB /  64.00 MiB (11.02%)  (088D0000 - 0C8D0000)
+
+Game's Total Memory:
+ Total Heap Memory:    98.20 MiB / 565.51 MiB (17.37%)
+ Total Pool Memory:    81.50 MiB / 132.00 MiB (61.74%)
+ Total Memory:        179.70 MiB / 697.51 MiB (25.76%)
+ Malloc Memory:        16.55 KiB
+
+--------------------------------------------------------------------------------
+
+Playtime: 00:00:12
+
+Player Data:
+ Cell:       None
+ World:      00031E12 ("FFEncounterWorld")
+ Position:   X: 2048.00 Y: 2048.00 Z: 128.00
+ Rotation:   X: 0.00 Y: 0.00 Z: 0.00
+
+Currently running script:
+  None
+
+Loaded assets:
+ Textures:       192
+   <= 128:  45
+   <= 256:  29
+   <= 512:  22
+   <= 1024: 41
+   <= 2048: 42
+   <= 4096: 13
+   <= 8192: 0
+ Models:         65
+ FaceGen Models: 0
+ Animations:     18
+
+Process Lists:
+ High:        0
+ Middle High: 0
+ Middle Low:  0
+ Low:         14109
+Total: 14109
+
+--------------------------------------------------------------------------------
+
+Mods:
+  # |                                        Mod                                       |                            Author                           
+ 00 | FalloutNV.esm                                                                    | ipely                                                       
+ 01 | DeadMoney.esm                                                                    | jfader                                                      
+ 02 | HonestHearts.esm                                                                 | jfader                                                      
+ 03 | OldWorldBlues.esm                                                                | jfader                                                      
+ 04 | LonesomeRoad.esm                                                                 | jfader                                                      
+ 05 | GunRunnersArsenal.esm                                                            | jfader                                                      
+ 06 | Fallout3.esm                                                                     | ipely                                                       
+ 07 | Anchorage.esm                                                                    | jduvall                                                     
+ 08 | ThePitt.esm                                                                      | jduvall                                                     
+ 09 | BrokenSteel.esm                                                                  | bchapin                                                     
+ 0A | PointLookout.esm                                                                 | jburgess                                                    
+ 0B | Zeta.esm                                                                         | ipely                                                       
+ 0C | CaravanPack.esm                                                                  | jfader                                                      
+ 0D | ClassicPack.esm                                                                  | jfader                                                      
+ 0E | MercenaryPack.esm                                                                | jfader                                                      
+ 0F | TribalPack.esm                                                                   | jfader                                                      
+ 10 | TaleOfTwoWastelands.esm                                                          | Tale of Two Wastelands Team                                 
+ 11 | YUPTTW.esm                                                                       | Yukichigai - sandbox6 - miguick - Roy Batty - Kazopert      
+ 12 | NavmeshOverhaul.esm                                                              | Inthegrave                                                  
+ 13 | Strip Lights Region Fix.esm                                                      | Nehred                                                      
+ 14 | PerformanceOfTheTitans.esm                                                       |                                                             
+ 15 | PerformanceOfTheTitans - TTW Patch.esm                                           |                                                             
+ 16 | Landscape Texture Improvements TTW.esm                                           |                                                             
+ 17 | TweaksTTW.esm                                                                    |                                                             
+ 18 | fixy crap ttw.esp                                                                |                                                             
+ 19 | Placement Fixes.esm                                                              |                                                             
+ 1A | Energy and Associates.esm                                                        |                                                             
+ 1B | ExtraGoodies.esp                                                                 |                                                             
+ 1C | Goodies.esp                                                                      |                                                             
+ 1D | ExtraGoodies - TTW.esp                                                           |                                                             
+ 1E | Goodies - TTW.esp                                                                |                                                             
+ 1F | Home and Safehouse Tweaks.esm                                                    | AVeryUncreativeUsername                                     
+ 20 | Main And Pause Menus Overhaul.esm                                                | Nehred                                                      
+ 21 | HiddenValleyOverhauled.esm                                                       |                                                             
+ 22 | Bathroom Doors Overhaul.esm                                                      | Nehred                                                      
+ 23 | Sierra Madre Suite Windows.esp                                                   | PlatinumShad0w                                              
+ 24 | Repeatable Quests Rewards Rebalanced.esm                                         |                                                             
+ 25 | Lived-In Freeside.esm                                                            |                                                             
+ 26 | Gun Runners' Arsenal - Unique Weapons Relocated for TTW.esm                      |                                                             
+ 27 | Gun and Friends.esm                                                              | Xamie :)                                                    
+ 28 | Freeside Facelift.esm                                                            |                                                             
+ 29 | Lived-In Freeside - Freeside Facelift Patch.esm                                  |                                                             
+ 2A | Assigned Living.esm                                                              | Lime                                                        
+ 2B | Simple Open Strip.esm                                                            |                                                             
+ 2C | Better Weapon Restrictions & Fixes.esm                                           | Lime                                                        
+ 2D | The Strip - 2023 Lite.esm                                                        | EmployeesMustWashHands                                      
+ 2E | TTW - Capital Wasteland Adjustments.esm                                          | ScarletArdere                                               
+ 2F | FO3_Optimization.esm                                                             |                                                             
+ 30 | SSTImprovedHighways.esm                                                          | Spifferino                                                  
+ 31 | Wasted Return of LOD.esm                                                         |                                                             
+ 32 | Bad Touch.esm                                                                    |                                                             
+ 33 | Restored Physics Sounds.esm                                                      |                                                             
+ 34 | AfterglowNeonIllumination.esp                                                    | Gosh                                                        
+ 35 | Mojave Scenery Overhaul.esm                                                      | Biggie404                                                   
+ 36 | Mojave Scenery Overhaul - TTW.esm                                                |                                                             
+ 37 | TTW NPC Overhaul.esm                                                             |                                                             
+ 38 | Mojave Scenery Overhaul - TTW Activators.esm                                     |                                                             
+ 39 | Simple Mojave Urbanization.esm                                                   | irishbutcher                                                
+ 3A | urbanoverhaul.esp                                                                |                                                             
+ 3B | Better Factories.esm                                                             | Slick                                                       
+ 3C | Simple Mojave Urbanization + Better Factories.esm                                |                                                             
+ 3D | Simple Mojave Urbanization + Mojave Scenery Overhaul Patch.esm                   |                                                             
+ 3E | SSTScrapyardServiceBuildings.esm                                                 | Spifferino                                                  
+ 3F | FNV_Optimization.esm                                                             |                                                             
+ 40 | McCarranConcourse_opt.esm                                                        |                                                             
+ 41 | ThePlatinumVault.esm                                                             | Lime                                                        
+ 42 | ThePlatinumVault_opt.esm                                                         |                                                             
+ 43 | SUPER Lively New Vegas.esm                                                       | zebumper                                                    
+ 44 | SUPER Lively New Vegas_opt.esm                                                   |                                                             
+ 45 | Lived-In New Vegas.esm                                                           |                                                             
+ 46 | The High Road - Building Density.esm                                             |                                                             
+ 47 | 2023 Strip Lite Trees.esm                                                        |                                                             
+ 48 | Skylines_Exteriors.esm                                                           |                                                             
+ 49 | AguaFria.esm                                                                     |                                                             
+ 4A | Skylines_LightCore.esm                                                           | FireKahuna                                                  
+ 4B | Skylines_LightPollution.esm                                                      | FireKahuna                                                  
+ 4C | Skylines_LightSigns.esm                                                          | FireKahuna                                                  
+ 4D | Skylines_LightMSO.esp                                                            | FireKahuna                                                  
+ 4E | StripCinematicLighting.esp                                                       |                                                             
+ 4F | StripCinematic_2023Lite.esp                                                      |                                                             
+ 50 | Lucky38LightingOverhaul.esp                                                      | Slick                                                       
+ 51 | Lucky38ExtRemasterNew.esm                                                        |                                                             
+ 52 | MojaveMountainRanges.esm                                                         | GeraldMods                                                  
+ 53 | MojaveMountainRanges LOD.esm                                                     | GeraldMods                                                  
+ 54 | SSTMojaveMountains.esm                                                           | Spifferino                                                  
+ 55 | RedOnTheRocks.esm                                                                | Diegonom                                                    
+ 56 | AnimatedMonorail-Luck38ext-SLRF.esm                                              |                                                             
+ 57 | Lived-In Strip Courtyard.esm                                                     |                                                             
+ 58 | Vault 21 Unbadene.esm                                                            |                                                             
+ 59 | Vault21 Goodies.esp                                                              |                                                             
+ 5A | SouthVegasRuins.esm                                                              | GeraldMods                                                  
+ 5B | FNV_Optimization YUPTTW.esm                                                      |                                                             
+ 5C | Functional Post Game Ending Lite.esm                                             | Kazopert and AVeryUncreativeUsername                        
+ 5D | Functional Post Game Ending Lite TTW Patch.esm                                   | AVeryUncreativeUsername                                     
+ 5E | BiRepChecks.esm                                                                  |                                                             
+ 5F | Follower Formula Redone.esp                                                      |                                                             
+ 60 | MFGBetaRestoration.esm                                                           | MrFunnyguy901                                               
+ 61 | Vault 21 Unbadene_opt.esm                                                        |                                                             
+ 62 | TTW FaceGen Fix.esp                                                              |                                                             
+ 63 | 556AmmoBoxTTW.esp                                                                | MrDeeArr                                                    
+ 64 | Auto Activate Invisible Doors.esm                                                | Nehred                                                      
+ 65 | TTTW_SMIM.esp                                                                    |                                                             
+ 66 | The Mod Configuration Menu.esp                                                   | Pelinor                                                     
+ 67 | PFTP - JUST Freeside.esp                                                         | KaptainCnucklz                                              
+ 68 | GasTrapPerformanceFix.esp                                                        |                                                             
+ 69 | Begin Again Worldspace Merge.esp                                                 |                                                             
+ 6A | MadrePass.esp                                                                    |                                                             
+ 6B | McCarranFieldSignScheduleFix.esp                                                 | xanthumn                                                    
+ 6C | Goodies - RootnLoot Patch.esp                                                    |                                                             
+ 6D | Zion landscape enhanced.esp                                                      | Osip                                                        
+ 6E | STDG.esp                                                                         | theicedevil & Manan6619                                     
+ 6F | Misc Windows.esp                                                                 | TheKraken                                                   
+ 70 | The Strip - 2023 Lite - TTW Patch.esp                                            |                                                             
+ 71 | (Patch) SUPER Lively New Vegas - Bathroom Doors Overhaul Patch.esp               | zebumper                                                    
+ 72 | Gomorrah Imposter.esp                                                            | irishbutcher                                                
+ 73 | TTW Trait Menu Change.esp                                                        |                                                             
+ 74 | Strip Wall Billboards.esp                                                        | sandbox6                                                    
+ 75 | ultra luxe expanded fountain.esp                                                 |                                                             
+ 76 | Lucky 38 Lights Redone.esp                                                       | Nehred                                                      
+ 77 | Windows of the Mojave v1.2.1.esp                                                 | Gisli                                                       
+ 78 | Vanilla UI Plus.esp                                                              | Axonis                                                      
+ 79 | Vault21 Windows of the Mojave.esp                                                |                                                             
+ 7A | Vanilla UI Plus - Max Carry Weight Patch.esp                                     |                                                             
+ 7B | Simple Mojave Urbanization + New Vegas Suburban Overhaul.esp                     |                                                             
+ 7C | Simple Mojave Urbanization + Ruins of South Vegas.esp                            |                                                             
+ 7D | Wasted LOD rocks.esp                                                             |                                                             
+ 7E | Enhanced FOV.esp                                                                 |                                                             
+ 7F | Wasted Quarry Rock LOD.esp                                                       |                                                             
+ 80 | TTWLessMapMarkers.esp                                                            |                                                             
+ 81 | TTW Fallout 3 LOD.esp                                                            |                                                             
+ 82 | VNV LOD Plugins.esp                                                              | ModdingLinked                                               
+ 83 | JIP Improved Recipe Menu.esp                                                     | jazzisparis                                                 
+ 84 | DesertOutskirts.esp                                                              |                                                             
+ 85 | TTW No Hardcore Sacrifice.esp                                                    |                                                             
+ 86 | TTWUSMarkerAlt.esp                                                               |                                                             
+ 87 | ImmersivePickupSoundsRemastered.esp                                              | TheKetzku                                                   
+ 88 | Immersive Pickup Sounds Remastered TTW.esp                                       |                                                             
+ 89 | SAS.esp                                                                          |                                                             
+ 8A | AWSOMER.esp                                                                      | Audixas                                                     
+ 8B | PAMS Light.esp                                                                   |                                                             
+ 8C | TTW - Megaton Lighting Overhaul.esp                                              |                                                             
+ 8D | Afterglow_MonorailLights.esp                                                     |                                                             
+ 8E | Longer Weather Transitions.esp                                                   | doodlez                                                     
+ 8F | Mojave Lights Windows fix.esp                                                    |                                                             
+ 90 | ModernISFX.esp                                                                   |                                                             
+ 91 | SFX.esp                                                                          |                                                             
+ 92 | Weathers Revised.esp                                                             | ConfidenceMan and doodlez                                   
+ 93 | BA Weathers.esp                                                                  |                                                             
+ 94 | Interior Rain.esp                                                                |                                                             
+ 95 | Interior Rain - TTW.esp                                                          |                                                             
+ 96 | CC - Rain.esp                                                                    |                                                             
+ 97 | CC - 3D Rain.esp                                                                 |                                                             
+ 98 | Begin Again Terrain LOD.esp                                                      |                                                             
+ 99 | Less Tedious TTW.esp                                                             |                                                             
+ 9A | Begin Again Object LOD.esp                                                       |                                                             
+ 9B | Less Tedious TTW - Armor Balance for Creatures.esp                               |                                                             
+ 9C | Special Ammo for Special Enemies.esp                                             |                                                             
+ 9D | SMAC - Simple Melee Attack Cancel and Parry.esp                                  |                                                             
+ 9E | Blitz.esp                                                                        | Goldbartender                                               
+ 9F | Supplemental Ammo Crafting.esp                                                   | Audixas                                                     
+ A0 | RQRR - TweaksTTW.esp                                                             |                                                             
+ A1 | Enhanced Movement.esp                                                            |                                                             
+ A2 | B42Bash.esp                                                                      |                                                             
+ A3 | JustAssortedMods.esp                                                             | yvileapsis and others                                       
+ A4 | JAM - JLM Hide Fix.esp                                                           |                                                             
+ A5 | WeaponRequirementSystem.esp                                                      | Migck                                                       
+ A6 | RAD.esp                                                                          |                                                             
+ A7 | TTW - Less Super Mutant Overlords.esp                                            | TPFradeN                                                    
+ A8 | TTW Ammo Press Rebalanced.esp                                                    |                                                             
+ A9 | TTW No Mojave Start Option.esp                                                   |                                                             
+ AA | TTW Quick NV Train Start.esp                                                     |                                                             
+ AB | Benny Humbles You and Steals Your Stuff.esp                                      |                                                             
+ AC | QwibHeadBandage.esp                                                              |                                                             
+ AD | CourierPatientClothing.esp                                                       |                                                             
+ AE | A Friend to Animals - Optional Moira Objectives Alternative.esp                  |                                                             
+ AF | NoRandomHellfireSpawns.esp                                                       |                                                             
+ B0 | Root 'n Loot.esp                                                                 | Roy Batty                                                   
+ B1 | VegasPlasticSurgeons.esp                                                         |                                                             
+ B2 | Quick Disarm.esp                                                                 |                                                             
+ B3 | Casino Exchange All.esp                                                          |                                                             
+ B4 | No Naked Caravaneers.esp                                                         |                                                             
+ B5 | Wasteland Stealth Armor TTW.esp                                                  | SpringHeelJon                                               
+ B6 | ArmoredVault101Improved.esp                                                      |                                                             
+ B7 | P6 - Rad Suits.esp                                                               |                                                             
+ B8 | LuckyStarNecklace.esp                                                            | MrDeeArr                                                    
+ B9 | MoHair.esp                                                                       |                                                             
+ BA | (New) Vegas Haircut.esp                                                          | Ding2Ding                                                   
+ BB | AWO LMG - 3rdPerson Sound.esp                                                    |                                                             
+ BC | Rangers Don't Share Gloves.esp                                                   |                                                             
+ BD | UniqueThinkTank.esp                                                              |                                                             
+ BE | Vault34GhoulVaultSuits.esp                                                       |                                                             
+ BF | Veronica Outfit Replacer.esp                                                     |                                                             
+ C0 | AshursT45Helmet.esp                                                              | MrDeeArr                                                    
+ C1 | Begin Again Armor Merge.esp                                                      |                                                             
+ C2 | AWO - Caravan replacer (+Sturdy).esp                                             |                                                             
+ C3 | EVE FNV - ALL DLC.esp                                                            |                                                             
+ C4 | APWReplacer.esp                                                                  |                                                             
+ C5 | Diagonal movement.esp                                                            | Xilandro Axeuora & JazzIsParis                              
+
+Script Runners:
+  # |                                     Filename                                    
+ 00 | gl_B42Inject.txt                                                                
+ 01 | gl_disable_scope_scissoring.txt                                                 
+ 02 | gl_EssentialCaravan.txt                                                         
+ 03 | gl_LargeWastelandTequila.txt                                                    
+ 04 | gl_Nut_Water.txt                                                                
+ 05 | gl_ReputationIcons.txt                                                          
+ 06 | gl_rum&nuka.txt                                                                 
+ 07 | gr_0KEYWORDS.txt                                                                
+ 08 | gr_10mmSMG.txt                                                                  
+ 09 | gr_127pistol.txt                                                                
+ 0A | gr_22silP.txt                                                                   
+ 0B | gr_357mag.txt                                                                   
+ 0C | gr_44mag.txt                                                                    
+ 0D | gr_accman.txt                                                                   
+ 0E | gr_AnimatedMoments.txt                                                          
+ 0F | gr_ARseriesRestored.txt                                                         
+ 10 | gr_AssaultCarbineReplacer.txt                                                   
+ 11 | gr_awoLMG.txt                                                                   
+ 12 | gr_AwoVarmint.txt                                                               
+ 13 | gr_baseballbats.txt                                                             
+ 14 | gr_baseballbats_cursebreaker.txt                                                
+ 15 | gr_baseballbats_excalibat.txt                                                   
+ 16 | gr_baton.txt                                                                    
+ 17 | gr_baton_TTW.txt                                                                
+ 18 | gr_BHYSYSFixes.txt                                                              
+ 19 | gr_BHYSYSStartupLoadedCheck.txt                                                 
+ 1A | gr_brushgun.txt                                                                 
+ 1B | gr_ChinesePistolReplacer.txt                                                    
+ 1C | gr_ClipDistanceSetter.txt                                                       
+ 1D | gr_CondDamFix.txt                                                               
+ 1E | gr_ConsumablesWidget.txt                                                        
+ 1F | gr_CooperHoward.txt                                                             
+ 20 | gr_CPI.txt                                                                      
+ 21 | gr_Detonators.txt                                                               
+ 22 | gr_dialemoman.txt                                                               
+ 23 | gr_disable_scope_scissoring.txt                                                 
+ 24 | gr_DogSneakAnims.txt                                                            
+ 25 | gr_Dri10MMVanillaROF.txt                                                        
+ 26 | gr_DT-bypass.txt                                                                
+ 27 | gr_DustyDistance.txt                                                            
+ 28 | gr_DustyDistanceTTW.txt                                                         
+ 29 | gr_Dynamite.txt                                                                 
+ 2A | gr_EFOV.txt                                                                     
+ 2B | gr_ExtraGoodies.txt                                                             
+ 2C | gr_FastVATSCameras.txt                                                          
+ 2D | gr_GMG.txt                                                                      
+ 2E | gr_GrenadeLauncher.txt                                                          
+ 2F | gr_GrenadeRifle.txt                                                             
+ 30 | gr_GrenadeThrow.txt                                                             
+ 31 | gr_Gun Runners' Arsenal - Unique Weapons Relocated for TTW_Cleansing Flame.txt  
+ 32 | gr_Gun Runners' Arsenal - Unique Weapons Relocated for TTW_Vendors.txt          
+ 33 | gr_HeartbeatFramework.txt                                                       
+ 34 | gr_HitBinoculars.txt                                                            
+ 35 | gr_Holorifle.txt                                                                
+ 36 | gr_HonestHeartsCaveRainFix.txt                                                  
+ 37 | gr_JWHFontY.txt                                                                 
+ 38 | gr_lf1r.txt                                                                     
+ 39 | gr_Lucky38WindowView.txt                                                        
+ 3A | gr_LUMEN-LightMod.txt                                                           
+ 3B | gr_main_and_pause_menus_overhaul.txt                                            
+ 3C | gr_MarksmanCarbineReplacer.txt                                                  
+ 3D | gr_MCMExtender.txt                                                              
+ 3E | gr_menaceofthenewwest.txt                                                       
+ 3F | gr_ModernNightVision.txt                                                        
+ 40 | gr_MotNW_DCReplacer.txt                                                         
+ 41 | gr_NailGunFixer.txt                                                             
+ 42 | gr_Neglected Weapontype Buff.txt                                                
+ 43 | gr_NoStealthBoyPA.txt                                                           
+ 44 | gr_NPCsSprint.txt                                                               
+ 45 | gr_nvaofixpack.txt                                                              
+ 46 | gr_P610mmPAmmo.txt                                                              
+ 47 | gr_P610mmPistols.txt                                                            
+ 48 | gr_P6AmmoCount.txt                                                              
+ 49 | gr_P6BBGun.txt                                                                  
+ 4A | gr_P6BBGunScopeFlag.txt                                                         
+ 4B | gr_P6CAR.txt                                                                    
+ 4C | gr_P6Explosives.txt                                                             
+ 4D | gr_P6FlareGunLF2.txt                                                            
+ 4E | gr_P6GloveFix.txt                                                               
+ 4F | gr_P6HuntingShotgun.txt                                                         
+ 50 | gr_P6LAER.txt                                                                   
+ 51 | gr_P6MeleeWeapons.txt                                                           
+ 52 | gr_P6MiniGunAmmoCount.txt                                                       
+ 53 | gr_P6MiniGuns.txt                                                               
+ 54 | gr_P6MissileLaunchers.txt                                                       
+ 55 | gr_P6MissileLaunchersAmmo.txt                                                   
+ 56 | gr_P6MissileLaunchersAmmo2.txt                                                  
+ 57 | gr_P6MissileLaunchersAmmo3.txt                                                  
+ 58 | gr_P6MissileLaunchersAmmo4.txt                                                  
+ 59 | gr_P6PClassic9mmPistol.txt                                                      
+ 5A | gr_P6PClassic9mmSMG.txt                                                         
+ 5B | gr_P6PlasDef.txt                                                                
+ 5C | gr_P6PowerFists.txt                                                             
+ 5D | gr_P6tnw_titans_1h_1ha.txt                                                      
+ 5E | gr_PBAlienBlaster.txt                                                           
+ 5F | gr_PBAlienBlasterTTW.txt                                                        
+ 60 | gr_PBPlasmaRifleFamily.txt                                                      
+ 61 | gr_peripheral_depth_blur.txt                                                    
+ 62 | gr_pipeweapons.txt                                                              
+ 63 | gr_policepistol.txt                                                             
+ 64 | gr_poolcue.txt                                                                  
+ 65 | gr_protonaxes.txt                                                               
+ 66 | gr_PSRO Time of Day Change.txt                                                  
+ 67 | gr_PTI_Blood.txt                                                                
+ 68 | gr_rcw.txt                                                                      
+ 69 | gr_Recipe Menu ySI.txt                                                          
+ 6A | gr_reloaddelayfix.txt                                                           
+ 6B | gr_Rising Storm 2 M79.txt                                                       
+ 6C | gr_ServiceRifleReplacer.txt                                                     
+ 6D | gr_SFFInit.txt                                                                  
+ 6E | gr_shockbaton.txt                                                               
+ 6F | gr_SILE.txt                                                                     
+ 70 | gr_SingleShotgunReplacer.txt                                                    
+ 71 | gr_SleepWaitHardcoreNeeds.txt                                                   
+ 72 | gr_SMMGReplacer.txt                                                             
+ 73 | gr_SonicEmitter & Pulse Gun.txt                                                 
+ 74 | gr_ThrowingHatchet.txt                                                          
+ 75 | gr_ThrowingKnifeSpeedFix.txt                                                    
+ 76 | gr_TimeBomb.txt                                                                 
+ 77 | gr_TrailCarbine.txt                                                             
+ 78 | gr_TrailCarbineRestored.txt                                                     
+ 79 | gr_TrueVendorSpecializationTTW.txt                                              
+ 7A | gr_TTWBioGasCanister.txt                                                        
+ 7B | gr_TTWLoadScnsDeadMoney.txt                                                     
+ 7C | gr_UII.txt                                                                      
+ 7D | gr_WAP hunting shotgun & riot.txt                                               
+ 7E | gr_wap22smg.txt                                                                 
+ 7F | gr_WAP45Auto.txt                                                                
+ 80 | gr_WAP45AutoSights.txt                                                          
+ 81 | gr_WAPAMR.txt                                                                   
+ 82 | gr_wapCowboyRepeater.txt                                                        
+ 83 | gr_WAPF4NVRecharger.txt                                                         
+ 84 | gr_WAPLeverShotgun.txt                                                          
+ 85 | gr_WAPmNV127mmSMG.txt                                                           
+ 86 | gr_WAPmNV45Pistol.txt                                                           
+ 87 | gr_WAPmNVAMR.txt                                                                
+ 88 | gr_WAPmNVHuntingRevolver.txt                                                    
+ 89 | gr_WAPmNVTrailCarbine.txt                                                       
+ 8A | gr_WAPmTTW44Magnum.txt                                                          
+ 8B | gr_WAPmTTWGauss.txt                                                             
+ 8C | gr_weapon reqs loadscreen.txt                                                   
+ 8D | gr_WeapShotgunCombatTTW.txt                                                     
+ 8E | gr_WJSsSuperSledges.txt                                                         
+ 8F | gr_WJSsSuperSledgesTTW.txt                                                      
+ 90 | gr_worthlesswater.txt                                                           
+ 91 | gr_WWP Hunting Rifle.txt                                                        
+ 92 | gr_wwp-huntingrevolver.txt                                                      
+ 93 | gr_wwp-huntingrevolverscope.txt                                                 
+ 94 | gr_wwp-oliverantimaterielrifle.txt                                              
+ 95 | gr_wwp45smg.txt                                                                 
+ 96 | gr_wwpautorifle.txt                                                             
+ 97 | gr_wwpBattleRifle.txt                                                           
+ 98 | gr_wwpbozar.txt                                                                 
+ 99 | gr_wwpgaussRifle.txt                                                            
+ 9A | gr_wwpthatgun.txt                                                               
+ 9B | gr_x2antenna.txt                                                                
+ 9C | gr_zETJCaravanShotguns.txt                                                      
+ 9D | gr_zpipboypanelmini.txt                                                         
+ 9E | gr_zpipboypanelminiglove.txt                                                    
+ 9F | gr_zzz_SneezePSRO.txt                                                           
+ A0 | gr_zzz_spanner.txt                                                              
+ A1 | gr_zzz_wap_ttw.txt                                                              
+ A2 | gr_zzzEnergyandAssociatesTTWReplacers.txt                                       
+ A3 | gr_ZZZGunandFriendsTTWReplacers.txt                                             
+ A4 | gr_zzzz_P6RadSuit.txt                                                           
+ A5 | gr_zzzz_RockHitter.txt                                                          
+ A6 | gr_zzzz_RockHitterTTW.txt                                                       
+ A7 | gr_zzzzzz_shishkebab.txt                                                        
+ A8 | gx_MCMExtender.txt                                                              
+ A9 | ln_3DGrenadeIndicator.txt                                                       
+ AA | ln_AguaFria.txt                                                                 
+ AB | ln_autumn10mmplacement.txt                                                      
+ AC | ln_B42Core.txt                                                                  
+ AD | ln_B42Inertia.txt                                                               
+ AE | ln_B42Interact.txt                                                              
+ AF | ln_B42Leaning.txt                                                               
+ B0 | ln_B42Loot.txt                                                                  
+ B1 | ln_B42PatternEditor.txt                                                         
+ B2 | ln_B42Recoil.txt                                                                
+ B3 | ln_B42RecVerCheck.txt                                                           
+ B4 | ln_Bad Touch.txt                                                                
+ B5 | ln_BarrelCooker.txt                                                             
+ B6 | ln_BulletBeltFramework.txt                                                      
+ B7 | ln_cHUD.txt                                                                     
+ B8 | ln_ConditionMeterIcons.txt                                                      
+ B9 | ln_DrowningVisuals.txt                                                          
+ BA | ln_EFOV.txt                                                                     
+ BB | ln_ExtraGoodies.txt                                                             
+ BC | ln_faction_armor.txt                                                            
+ BD | ln_FeminineSounds.txt                                                           
+ BE | ln_FollowerFormulaRedone.txt                                                    
+ BF | ln_Goodies.txt                                                                  
+ C0 | ln_HeartbeatFramework.txt                                                       
+ C1 | ln_HPControl.txt                                                                
+ C2 | ln_HUDInertia.txt                                                               
+ C3 | ln_ISControl.txt                                                                
+ C4 | ln_LivedInAIO.txt                                                               
+ C5 | ln_LivedInFreeside.txt                                                          
+ C6 | ln_LocalMapOverhaul.txt                                                         
+ C7 | ln_Lucky38Relit.txt                                                             
+ C8 | ln_Lucky38WindowViewSetEvent.txt                                                
+ C9 | ln_MCMExtender.txt                                                              
+ CA | ln_MDRPipBoyLightIndicator.txt                                                  
+ CB | ln_MDRVATSResistances.txt                                                       
+ CC | ln_ModernNightVision.txt                                                        
+ CD | ln_NotifySmoothly.txt                                                           
+ CE | ln_nvaofixpack.txt                                                              
+ CF | ln_OwnerlessTrash.txt                                                           
+ D0 | ln_PipBoyUITweaks.txt                                                           
+ D1 | ln_reloaddelayfix.txt                                                           
+ D2 | ln_SimpleBottleWater.txt                                                        
+ D3 | ln_SinclairsOutfit.txt                                                          
+ D4 | ln_SneakVignette.txt                                                            
+ D5 | ln_TTW-CWA-V2.txt                                                               
+ D6 | ln_WeaponISFoley.txt                                                            
+ D7 | ln_ySIAssortedFixes.txt                                                         
+ D8 | ln_zpipboypanelmini.txt                                                         
+ D9 | ln_ZZZGunandFriendsTTWAuxVar.txt                                                
+
+--------------------------------------------------------------------------------

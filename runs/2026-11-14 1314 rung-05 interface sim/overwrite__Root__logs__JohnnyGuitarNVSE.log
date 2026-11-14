@@ -1,0 +1,39 @@
+JohnnyGuitarNVSE 525 Loaded succesfully.
+JIP LN detected and verified.
+06070823 ("Fallout3.esm") steals EDID "navmesh06" from 00070823 ("FalloutNV.esm")
+100790AB ("TaleOfTwoWastelands.esm") steals EDID "HotelBedQueenLeft" from 0008B5E2 ("FalloutNV.esm")
+100790AC ("TaleOfTwoWastelands.esm") steals EDID "NovacQueenBedRight" from 000CEECD ("FalloutNV.esm")
+1B17BBF3 ("Goodies.esp") steals EDID "1stPersonNVDLC05RipperSilentMotorTexture" from 1000911D ("TaleOfTwoWastelands.esm")
+1B001C0F ("Goodies.esp") steals EDID "ArmorSecurityHelmet" from 100094B4 ("TaleOfTwoWastelands.esm")
+1B17D3E4 ("Goodies.esp") steals EDID "FireAntEggClutchCont01" from 100094F9 ("TaleOfTwoWastelands.esm")
+1B17D3E5 ("Goodies.esp") steals EDID "FireAntEggClutchCont01a" from 100094FA ("TaleOfTwoWastelands.esm")
+1B17D42A ("Goodies.esp") steals EDID "FireAntEggClutchCont02" from 100094FB ("TaleOfTwoWastelands.esm")
+1B17D42B ("Goodies.esp") steals EDID "FireAntEggClutchCont02a" from 100094FC ("TaleOfTwoWastelands.esm")
+1B004B2C ("Goodies.esp") steals EDID "GoodiesQuestFLST" from 1A004B2C ("ExtraGoodies.esp")
+1B17BBE6 ("Goodies.esp") steals EDID "ModNVServiceRifleReflexSight" from 10009110 ("TaleOfTwoWastelands.esm")
+1B17BBE7 ("Goodies.esp") steals EDID "ModNVMarksmanCarbineExtMags" from 1000910E ("TaleOfTwoWastelands.esm")
+1B17BBE8 ("Goodies.esp") steals EDID "ModNVTrailCarbineLam" from 10009112 ("TaleOfTwoWastelands.esm")
+1B17BBE9 ("Goodies.esp") steals EDID "ModNVTrailCarbineSteel" from 10009111 ("TaleOfTwoWastelands.esm")
+1000910E ("TaleOfTwoWastelands.esm") steals EDID "ModNVMarksmanCarbineExtMags" from 1B17BBE7 ("Goodies.esp")
+200068D0 ("HiddenValleyOverhauled.esm") steals EDID "EnclaveLightKickerCool" from 0608F59B ("Fallout3.esm")
+20003B19 ("HiddenValleyOverhauled.esm") steals EDID "neruoim01" from 060B3634 ("Fallout3.esm")
+3200081A ("AfterglowNeonIllumination.esp") steals EDID "UL" from 24001657 ("Better Weapon Restrictions & Fixes.esm") + changes type from Cell to Light
+33002FE3 ("Mojave Scenery Overhaul.esm") steals EDID "SewerEntranceDoor01MinUse" from 1100651C ("YUPTTW.esm")
+4B0019AD ("StripCinematicLighting.esp") steals EDID "StripLightKeyTops" from 4B0013AE ("StripCinematicLighting.esp")
+50001E31 ("MojaveMountainRanges LOD.esm") steals EDID "AAGMMountain01" from 4F001E31 ("MojaveMountainRanges.esm")
+50001E32 ("MojaveMountainRanges LOD.esm") steals EDID "AAGMMountain02" from 4F001E32 ("MojaveMountainRanges.esm")
+50001E33 ("MojaveMountainRanges LOD.esm") steals EDID "AAGMMountain03" from 4F001E33 ("MojaveMountainRanges.esm")
+50001E34 ("MojaveMountainRanges LOD.esm") steals EDID "AAGMMountain04" from 4F001E34 ("MojaveMountainRanges.esm")
+50002442 ("MojaveMountainRanges LOD.esm") steals EDID "AAGMNVNCliffCanyonL01Frosted" from 4F002442 ("MojaveMountainRanges.esm")
+500015FE ("MojaveMountainRanges LOD.esm") steals EDID "GMMountainRangesRegion" from 4F0015FE ("MojaveMountainRanges.esm")
+9B00080E ("SFX.esp") steals EDID "SFXDirtEnergyImpact" from 9B000809 ("SFX.esp") + changes type from Texture Set to Impact Data
+9B00080F ("SFX.esp") steals EDID "SFXGlassEnergyImpact" from 9B00080A ("SFX.esp") + changes type from Texture Set to Impact Data
+9B000810 ("SFX.esp") steals EDID "SFXMetalEnergyImpact" from 9B00080B ("SFX.esp") + changes type from Texture Set to Impact Data
+9B000811 ("SFX.esp") steals EDID "SFXStoneEnergyImpact" from 9B00080C ("SFX.esp") + changes type from Texture Set to Impact Data
+9B000812 ("SFX.esp") steals EDID "SFXWoodEnergyImpact" from 9B00080D ("SFX.esp") + changes type from Texture Set to Impact Data
+9D02C67E ("Benny Humbles You and Steals Your Stuff.esp") steals EDID "AutoTravelGo" from 9A02C67E ("TTW Quick NV Train Start.esp")
+9D02745A ("Benny Humbles You and Steals Your Stuff.esp") steals EDID "BHYQuickNVStart" from 9A02745A ("TTW Quick NV Train Start.esp")
+9D02C67D ("Benny Humbles You and Steals Your Stuff.esp") steals EDID "BHYQuickNVStartAuto" from 9A02C67D ("TTW Quick NV Train Start.esp")
+9D02745B ("Benny Humbles You and Steals Your Stuff.esp") steals EDID "SwitchToNewVegasREF" from 9A02745B ("TTW Quick NV Train Start.esp")
+FF002E6C ("") steals EDID "nvseRuntimeScript32PipBoyCloseLambdaAtLine15" from FF002E6B ("")
+FF002F05 ("") steals EDID "nvseRuntimeScript155PipBoyCloseLambdaAtLine15" from FF002F04 ("")

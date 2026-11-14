@@ -1,0 +1,5 @@
+JohnnyGuitarNVSE 525 Loaded succesfully.
+JIP LN detected and verified.
+06070823 ("Fallout3.esm") steals EDID "navmesh06" from 00070823 ("FalloutNV.esm")
+100790AB ("TaleOfTwoWastelands.esm") steals EDID "HotelBedQueenLeft" from 0008B5E2 ("FalloutNV.esm")
+100790AC ("TaleOfTwoWastelands.esm") steals EDID "NovacQueenBedRight" from 000CEECD ("FalloutNV.esm")

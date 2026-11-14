@@ -1,0 +1,22 @@
+[13:27:49.782] INFO  TTWVR 1.0.0 loading (xNVSE 06040070), build 6AF014A8
+[13:27:49.784] INFO  Settings: built in + the VR menu's choices in C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\TTWVR\TTWVR.ini
+[13:27:57.302] INFO  [input] the game's control read hooked: keys count with the pad connected
+[13:27:57.999] WARN  OpenXR: 32-bit layer 'XR_APILAYER_NOVENDOR_OBSMirror' (~\AppData\Local\OpenXR-OBSMirror\.\XR_APILAYER_NOVENDOR_OBSMirror.292629488385.dll): its library is 64-bit - switched off for this game
+[13:27:57.999] WARN  OpenXR: 32-bit layer 'XR_APILAYER_ELLIOTTTATE_xrfps' (~\AppData\Local\xrFPS\.\XrApiLayer_xrfps.7070ca21200.dll): its library is 64-bit - switched off for this game
+[13:27:57.999] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_hand_freeze' (~\AppData\Local\Programs\HandFreeze\hand_freeze_layer.dll): its library is 64-bit - switched off for this game
+[13:27:57.999] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_window_view' (~\AppData\Local\Programs\WindowView\window_view_layer.dll): its library is 64-bit - switched off for this game
+[13:27:58.011] INFO  OpenXR: runtime 'OpenXR Simulator Runtime' 1.6.0
+[13:27:58.011] INFO  OpenXR: system 'OpenXR Simulator' (swapchains up to 4096x4096)
+[13:27:58.021] INFO  OpenXR: DXGI adapter 0: NVIDIA GeForce <pc> 5080 (3072 MB VRAM) = THE HEADSET RUNTIME'S
+[13:27:58.257] INFO  VR backend: OpenXR
+[13:27:59.772] INFO  OpenXR: the runtime displays a frame every 11.11 ms (90 Hz)
+[13:27:59.774] WARN  [camtrack] SteamVR: Virtual Desktop's body memory is not there (Virtual Desktop not streaming, or the headset's Forward tracking data to PC is off) - looking again every 2 s
+[13:27:59.774] INFO  [camtrack] no body tracking and no Virtual Desktop body: the body is solved from the headset and the controllers (floor from the play space); body follow radius 0.050 m, pouch accept 0.150 m
+[13:27:59.774] INFO  Head tracking active (OpenXR)
+[13:28:38.355] WARN  [vr] the headset's session is gone - the game is paused (its pause menu); NVVR connects again by itself
+[13:28:41.352] INFO  OpenXR: system 'OpenXR Simulator' (swapchains up to 4096x4096)
+[13:28:41.393] WARN  [camtrack] SteamVR: Virtual Desktop's body memory is not there (Virtual Desktop not streaming, or the headset's Forward tracking data to PC is off) - looking again every 2 s
+[13:28:41.393] INFO  [camtrack] no body tracking and no Virtual Desktop body: the body is solved from the headset and the controllers (floor from the play space); body follow radius 0.050 m, pouch accept 0.150 m
+[13:29:20.212] INFO  [window] the game's window was asked to close (message 0x10)
+[13:29:20.213] INFO  [window] the game's window was asked to go (message 0x2)
+[13:29:20.213] INFO  [window] the game's window was asked to go (message 0x2)

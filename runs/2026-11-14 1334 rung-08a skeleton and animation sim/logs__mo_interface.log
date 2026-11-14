@@ -1,0 +1,70 @@
+[2026-11-14 11:33:21.734 D] command line: '"C:\Modlists\Begin Again\ModOrganizer.exe" -p "rung-08a skeleton and animation sim" "moshortcut://:Begin Again"'
+[2026-11-14 11:33:21.734 I] starting Mod Organizer version 2.5.2-ML1.5 revision 9c130cbf in C:/Modlists/Begin Again, usvfs: 0.5.6.1
+[2026-11-14 11:33:21.734 I] data path: C:/Modlists/Begin Again
+[2026-11-14 11:33:21.734 I] working directory: C:/Modlists/Begin Again
+[2026-11-14 11:33:21.734 D] timing: MOApplication setup() 0 ms
+[2026-11-14 11:33:22.171 I] using game plugin 'TTW' ('TTW', variant Steam, steam id '22380') at C:/Steam/steamapps/common/Fallout New Vegas
+[2026-11-14 11:33:22.374 W] not saving lists during directory update
+[2026-11-14 11:33:23.141 I] [common_log.py:20] [RootBuilder] Generating root mod build data.
+[2026-11-14 11:33:23.210 I] [common_log.py:20] [RootBuilder] Updating cache.
+[2026-11-14 11:33:23.232 I] [common_log.py:20] [RootBuilder] Checking for updates to backup files.
+[2026-11-14 11:33:23.257 I] [common_log.py:20] [RootBuilder] Deploying files for Copy mode.
+[2026-11-14 11:33:24.365 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\AnhNVSE.log
+[2026-11-14 11:33:24.365 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\BaseObjectSwapper.log
+[2026-11-14 11:33:24.366 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\CrashLogger.log
+[2026-11-14 11:33:24.366 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\ClimateControl.log
+[2026-11-14 11:33:24.366 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\CloudUpgrade.log
+[2026-11-14 11:33:24.367 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\falloutnv_error.log
+[2026-11-14 11:33:24.368 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\falloutnv_havok.log
+[2026-11-14 11:33:24.369 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\mcm.log
+[2026-11-14 11:33:24.369 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\kNVSE.log
+[2026-11-14 11:33:24.370 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\jip_ln_nvse.log
+[2026-11-14 11:33:24.371 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\nvse.log
+[2026-11-14 11:33:24.372 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\nvse_steam_loader.log
+[2026-11-14 11:33:24.374 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\ShowOffNVSE.log
+[2026-11-14 11:33:24.375 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\SUPNVSE.log
+[2026-11-14 11:33:24.382 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\ui_organizer.log
+[2026-11-14 11:33:24.382 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\ttw_nvse.log
+[2026-11-14 11:33:24.383 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\DynamicReflections.log
+[2026-11-14 11:33:24.383 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\VanillaPlusSkin.log
+[2026-11-14 11:33:24.383 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\yUI.log
+[2026-11-14 11:33:24.384 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\FART.log
+[2026-11-14 11:33:24.384 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\VanillaPlusAO.log
+[2026-11-14 11:33:24.384 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\ShaderLoader.log
+[2026-11-14 11:33:24.384 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\hNVSE.log
+[2026-11-14 11:33:24.385 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\JohnnyGuitarNVSE.log
+[2026-11-14 11:33:24.385 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\LOD Fixes.log
+[2026-11-14 11:33:24.385 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\VanillaPlusParticles.log
+[2026-11-14 11:33:24.385 W] [common_log.py:24] [RootBuilder] Failed to delete C:\Steam\steamapps\common\Fallout New Vegas\logs\DepthResolve.log
+[2026-11-14 11:33:25.476 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\AnhNVSE.log to C:\Steam\steamapps\common\Fallout New Vegas\AnhNVSE.log
+[2026-11-14 11:33:25.476 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\ClimateControl.log to C:\Steam\steamapps\common\Fallout New Vegas\ClimateControl.log
+[2026-11-14 11:33:25.478 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\BaseObjectSwapper.log to C:\Steam\steamapps\common\Fallout New Vegas\BaseObjectSwapper.log
+[2026-11-14 11:33:25.481 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\CloudUpgrade.log to C:\Steam\steamapps\common\Fallout New Vegas\CloudUpgrade.log
+[2026-11-14 11:33:25.482 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\falloutnv_error.log to C:\Steam\steamapps\common\Fallout New Vegas\falloutnv_error.log
+[2026-11-14 11:33:25.482 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\CrashLogger.log to C:\Steam\steamapps\common\Fallout New Vegas\CrashLogger.log
+[2026-11-14 11:33:25.483 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\nvse.log to C:\Steam\steamapps\common\Fallout New Vegas\nvse.log
+[2026-11-14 11:33:25.484 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\nvse_steam_loader.log to C:\Steam\steamapps\common\Fallout New Vegas\nvse_steam_loader.log
+[2026-11-14 11:33:25.487 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\mcm.log to C:\Steam\steamapps\common\Fallout New Vegas\mcm.log
+[2026-11-14 11:33:25.487 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\jip_ln_nvse.log to C:\Steam\steamapps\common\Fallout New Vegas\jip_ln_nvse.log
+[2026-11-14 11:33:25.488 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\ShowOffNVSE.log to C:\Steam\steamapps\common\Fallout New Vegas\ShowOffNVSE.log
+[2026-11-14 11:33:25.490 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\SUPNVSE.log to C:\Steam\steamapps\common\Fallout New Vegas\SUPNVSE.log
+[2026-11-14 11:33:25.490 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\kNVSE.log to C:\Steam\steamapps\common\Fallout New Vegas\kNVSE.log
+[2026-11-14 11:33:25.491 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\falloutnv_havok.log to C:\Steam\steamapps\common\Fallout New Vegas\falloutnv_havok.log
+[2026-11-14 11:33:25.493 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\ttw_nvse.log to C:\Steam\steamapps\common\Fallout New Vegas\ttw_nvse.log
+[2026-11-14 11:33:25.495 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\yUI.log to C:\Steam\steamapps\common\Fallout New Vegas\yUI.log
+[2026-11-14 11:33:25.496 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\DynamicReflections.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\DynamicReflections.log
+[2026-11-14 11:33:25.496 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\FART.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\FART.log
+[2026-11-14 11:33:25.498 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\hNVSE.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\hNVSE.log
+[2026-11-14 11:33:25.501 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\VanillaPlusParticles.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\VanillaPlusParticles.log
+[2026-11-14 11:33:25.505 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\DepthResolve.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\DepthResolve.log
+[2026-11-14 11:33:25.507 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\VanillaPlusSkin.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\VanillaPlusSkin.log
+[2026-11-14 11:33:25.507 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\ShaderLoader.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\ShaderLoader.log
+[2026-11-14 11:33:25.513 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\LOD Fixes.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\LOD Fixes.log
+[2026-11-14 11:33:25.513 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\VanillaPlusAO.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\VanillaPlusAO.log
+[2026-11-14 11:33:25.514 W] [common_log.py:24] [RootBuilder] Failed to copy file from C:\Modlists\Begin Again\overwrite\Root\logs\JohnnyGuitarNVSE.log to C:\Steam\steamapps\common\Fallout New Vegas\logs\JohnnyGuitarNVSE.log
+[2026-11-14 11:33:25.514 I] [common_log.py:20] [RootBuilder] Deploying files for Link mode.
+[2026-11-14 11:33:25.514 I] [common_log.py:20] [RootBuilder] Previous build data exists, updating.
+[2026-11-14 11:33:25.514 I] [common_log.py:20] [RootBuilder] Saving build data.
+[2026-11-14 11:33:25.515 I] [common_log.py:20] [RootBuilder] Build complete!
+[2026-11-14 11:33:25.516 I] [common_log.py:20] [RootBuilder] Build exists, generating usvfs mappings.
+[2026-11-14 11:33:25.516 I] [common_log.py:20] [RootBuilder] Usvfs mappings generated!

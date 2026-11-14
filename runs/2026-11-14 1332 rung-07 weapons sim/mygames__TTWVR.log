@@ -1,0 +1,15 @@
+[13:32:08.380] INFO  TTWVR 1.0.0 loading (xNVSE 06040070), build 6AF014A8
+[13:32:08.381] INFO  Settings: built in + the VR menu's choices in C:\Steam\steamapps\common\Fallout New Vegas\Data\NVSE\Plugins\TTWVR\TTWVR.ini
+[13:32:17.593] INFO  [input] the game's control read hooked: keys count with the pad connected
+[13:32:18.269] WARN  OpenXR: 32-bit layer 'XR_APILAYER_NOVENDOR_OBSMirror' (~\AppData\Local\OpenXR-OBSMirror\.\XR_APILAYER_NOVENDOR_OBSMirror.292629488385.dll): its library is 64-bit - switched off for this game
+[13:32:18.269] WARN  OpenXR: 32-bit layer 'XR_APILAYER_ELLIOTTTATE_xrfps' (~\AppData\Local\xrFPS\.\XrApiLayer_xrfps.7070ca21200.dll): its library is 64-bit - switched off for this game
+[13:32:18.269] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_hand_freeze' (~\AppData\Local\Programs\HandFreeze\hand_freeze_layer.dll): its library is 64-bit - switched off for this game
+[13:32:18.269] WARN  OpenXR: 32-bit layer 'XR_APILAYER_FLATTOVR_window_view' (~\AppData\Local\Programs\WindowView\window_view_layer.dll): its library is 64-bit - switched off for this game
+[13:32:18.281] INFO  OpenXR: runtime 'OpenXR Simulator Runtime' 1.6.0
+[13:32:18.283] INFO  OpenXR: system 'OpenXR Simulator' (swapchains up to 4096x4096)
+[13:32:18.291] INFO  OpenXR: DXGI adapter 0: NVIDIA GeForce <pc> 5080 (3072 MB VRAM) = THE HEADSET RUNTIME'S
+[13:32:18.511] INFO  VR backend: OpenXR
+[13:32:19.092] INFO  OpenXR: the runtime displays a frame every 11.11 ms (90 Hz)
+[13:32:19.094] WARN  [camtrack] SteamVR: Virtual Desktop's body memory is not there (Virtual Desktop not streaming, or the headset's Forward tracking data to PC is off) - looking again every 2 s
+[13:32:19.094] INFO  [camtrack] no body tracking and no Virtual Desktop body: the body is solved from the headset and the controllers (floor from the play space); body follow radius 0.050 m, pouch accept 0.150 m
+[13:32:19.094] INFO  Head tracking active (OpenXR)
