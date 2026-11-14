@@ -42,3 +42,12 @@ sway, the near grass and shrubs the same, the picture still low resolution.
   quality are set on the headset), or the way TTWVR hands the eye picture over. The cheap decider: does another VR game
   look sharp through Virtual Desktop on the same settings? (asked of Tefa).
 - Frame rate at 150% without DLSS: not yet reported.
+
+## Then: the same rung with the test mod off (17:52, Tefa)
+
+Rung 5 again with TTWVR's own settings (165%, DLSS Quality, Sharpness 65%), logs in
+`runs/2026-11-14 1752 rung-05 interface headset short run/`. Tefa: *"picture was clear now, but the far away thing and
+bushes still smudge"* `[reported, n=1]`. The two runs differ only by the test mod, so DLSS Quality at 165% looks
+clearer than no upscaler at 150% (DLSS also anti-aliases and sharpens) `[inferred]`; it stays. The soft look Tefa
+remembered from rung 3 (2026-11-13) was most likely DLSS Performance, set then `[hypothesis]`. The smudging of far
+things and bushes is there with and without DLSS, so it is not the upscaler `[reported, n=2 runs]`.
