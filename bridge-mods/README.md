@@ -6,4 +6,4 @@ in every rung, VR and flat alike). Begin Again's and TTWVR's own files are never
 
 | mod | what it does | why |
 | --- | --- | --- |
-| `Bridge - Stewie grabbed weight off` | one Stewie's Tweaks setting off through its `Tweaks\INIs` folder: a carried item no longer counts toward your weight | the rung-5 start crash (`modding-notes/2026-11-14-the-rung-5-crash-is-stewie-s-grabbed-weight-hook.md`) |
+| `Bridge - Stewie grabbed weight off` | one Stewie's Tweaks setting off through its `Tweaks\INIs` folder: a world object held with the grab key no longer counts toward your weight (inventory weight unchanged) | the rung-5 start crash (`modding-notes/2026-11-14-the-rung-5-crash-is-stewie-s-grabbed-weight-hook.md`) |

@@ -29,7 +29,7 @@ loaded, world drawn, following the head, pause panel shown. The checker said "ne
 (`main.h:4356`), `eax = ecx = 0`, `ebx` = the player; called from the game's encumbrance code, called from TTWVR's frame
 code (`TTWVR NVSEPlugin_Load+0x108A19`), during the save load. The SAME address as the rung-5 crash of 2026-11-12 09:19
 (one start in seventeen then). `[inferred]`: TTWVR asks "is the player over-encumbered?" while the save is still loading;
-Stewie's hook then adds the weight of the item held by hand, but the grabbed-item data is not there yet and the hook does
+Stewie's hook then adds the weight of the world object held with the grab key, but the grabbed-item data is not there yet and the hook does
 not check. A race: rung 6 and 7 (which also hold Stewie's Tweaks) came up fine the same minute.
 
 Begin Again's `nvse_stewie_tweaks.ini` has `bEncumbranceIncludesGrabbedItems = 1` and `bMultiINISupport = 1` (INIs in
@@ -39,8 +39,8 @@ Begin Again's `nvse_stewie_tweaks.ini` has `bEncumbranceIncludesGrabbedItems = 1
 
 Our own MO2 mod `Bridge - Stewie grabbed weight off` (source `bridge-mods/`): one file,
 `NVSE\Plugins\Tweaks\INIs\zzBridgeFixes.ini`, `[Tweaks] bEncumbranceIncludesGrabbedItems = 0`. On in every rung, VR and
-flat (`ladder_groups.py` `BRIDGE_MODS`, just under TTWVR). Cost: an item carried by hand no longer counts toward the
-weight limit. Begin Again's own files untouched.
+flat (`ladder_groups.py` `BRIDGE_MODS`, just under TTWVR). Cost: a world object picked up and held with the grab key (a box, a body; NOT in the inventory) no longer counts toward
+the weight limit, as in the unmodded game. Inventory items, equipped weapons included, always count `[inferred-static]`. Begin Again's own files untouched.
 
 ## Round 2, before the fix: not rung 5 alone `[measured 2026-11-14]`
 
@@ -60,8 +60,8 @@ pause panel shown, no crash log, no Windows crash report. Stewie's Tweaks does r
 
 ## Still to do
 
-- Tefa in the headset on any rung from 05 up: does it start first time now, and does carrying something by hand feel
-  any different (it no longer counts toward the weight limit).
+- Tefa in the headset on any rung from 05 up: does it start first time now, and check that a grabbed world object
+  (a box held with the grab key) no longer slows you, as in the unmodded game, while inventory weight is unchanged.
 - The crash logger dying while it reports is its own fault (its dated copy is lost); not ours to fix, noted.
 - `rung_simcheck.py` should itself end the hung `x64launcher.exe` and Mod Organizer after a crashed start
   (`rung_repeat.sh` does it from outside).
