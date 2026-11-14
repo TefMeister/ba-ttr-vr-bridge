@@ -234,6 +234,23 @@ def put_saves_back(saves, copy, rung):
     return f"saves put back ({moved} file(s) the game wrote kept aside)" if moved else "saves untouched"
 
 
+def crash_logs(mo2):
+    """every crash log there is now, as (path, modified time): the "Crash Logs" folder, and the crash logger's single
+    overwrite/Root/CrashLogger.log (2026-11-14: the logger this list ships writes THAT file, rewritten at each crash; the
+    check had looked only in the folder and said "new crash logs 0" through every crash). The single file counts only
+    when it holds an exception."""
+    out = set()
+    for f in glob.glob(os.path.join(mo2, "overwrite", "Root", "Crash Logs", "*.log")):
+        out.add((f, os.path.getmtime(f)))
+    one = os.path.join(mo2, "overwrite", "Root", "CrashLogger.log")
+    try:
+        if "Exception:" in open(one, encoding="utf-8", errors="replace").read(4096):
+            out.add((one, os.path.getmtime(one)))
+    except OSError:
+        pass
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     for k in ("--mo2", "--game", "--rung", "--sim", "--vrbench"):
@@ -338,8 +355,7 @@ def main():
     profile_before = mo2_profile(a.mo2)
     sim_rung = make_profile(a.mo2, a.rung)
     since = dt.datetime.now()
-    crash_dir = os.path.join(a.mo2, "overwrite", "Root", "Crash Logs")
-    before = set(glob.glob(os.path.join(crash_dir, "*.log")))
+    before = crash_logs(a.mo2)
     nvse = os.path.join(a.game, "nvse.log")
     vrlog = os.path.join(os.path.expanduser("~"), "Documents", "My Games", "FalloutNV", "TTWVR.log")
     hands()
@@ -435,7 +451,7 @@ def main():
         time.sleep(2)
     if not running("ModOrganizer.exe"):
         mo2_profile(a.mo2, profile_before)
-    new_crashes = sorted(set(glob.glob(os.path.join(crash_dir, "*.log"))) - before)
+    new_crashes = sorted(p for p, _ in crash_logs(a.mo2) - before)
     saves_note = ""
     if not still_there:
         for f, t in bumped:

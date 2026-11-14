@@ -101,6 +101,10 @@ def resolve(mo2, want, base_lo):
 # skeleton winning over NVCS's it cannot find its "360Corr0" node and puts up a box, many times, which smears the VR view.
 OFF_IN_VR_MODS = {"360 Movement", "3rd Person Animation Fixpack - 360 Movement patch"}
 OFF_IN_VR_PLUGINS = {"360movement.esp", "360movement - diagonal movement patch.esp"}
+# On in EVERY rung, VR and flat alike (so the twins still differ only by TTWVR), just under TTWVR: our own bridge mods
+# (source in bridge-mods/). 2026-11-14: the rung-5 start crash is Stewie's Tweaks' grabbed-weight hook reading an empty
+# object during the load; this mod turns that one setting off (modding-notes/2026-11-14-the-rung-5-crash-...).
+BRIDGE_MODS = ["Bridge - Stewie grabbed weight off"]
 
 
 def write_profile(mo2, name, on, lo, base_lines, with_vr, force):
@@ -129,7 +133,7 @@ def write_profile(mo2, name, on, lo, base_lines, with_vr, force):
             shutil.copy2(s, os.path.join(dst, x))
             os.chmod(os.path.join(dst, x), stat.S_IWRITE | stat.S_IREAD)
     want = set(on)
-    new = [("+" if with_vr else "-") + TTWVR]
+    new = [("+" if with_vr else "-") + TTWVR] + ["+" + m for m in BRIDGE_MODS]
     for l in base_lines:
         flag, nm = l[0], l[1:]
         if nm.endswith("_separator") or flag == "*":
